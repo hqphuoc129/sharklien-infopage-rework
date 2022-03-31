@@ -1,0 +1,11 @@
+.quote-title {
+  text-transform: uppercase;
+  font-size: 3.1rem;
+  color: white;
+  font-weight: bold;
+  //position center in the container
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
