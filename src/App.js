@@ -14,15 +14,7 @@ const App = () => {
   return (
     <div>
       <Header img={HeaderQuoteImg} title={'Người truyền cảm hứng'} />
-      <QuoteList
-        data={QUOTE_DATA}
-        style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(3, 1fr)',
-          gridGap: '25px',
-          padding: '25px',
-        }}
-      />
+      <QuoteList data={QUOTE_DATA} />
     </div>
   );
 };
