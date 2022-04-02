@@ -1,7 +1,7 @@
 import React from 'react';
 
-function Media() {
-  return <div>Media</div>;
-}
+const Media = () => {
+  return <></>;
+};
 
 export default Media;

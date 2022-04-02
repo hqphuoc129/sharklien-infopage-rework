@@ -7,7 +7,7 @@ const Header = (props) => {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
-        height: '350px',
+        height: '450px',
         width: '100%',
       }}
     >
