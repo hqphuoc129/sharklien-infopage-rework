@@ -6,7 +6,7 @@ import "./Slider.css"
 
 const LIST_IMG = [BannerImage1,BannerImage2];
 
-const Phuc = () => {
+const Slider = () => {
   return (
       <Carousel autoplay >
         {LIST_IMG.map((item, idx) => (
@@ -15,4 +15,4 @@ const Phuc = () => {
       </Carousel>
   );
 };
-export default Phuc;
+export default Slider;
