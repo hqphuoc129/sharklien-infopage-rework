@@ -1,0 +1,19 @@
+.background {
+    height: 1920.192px;
+    width: 1916.914px;
+    position: relative;
+    background-image: url('background-05.png');
+    background-size: cover;
+}
+.background1 {
+    width:555.701px;
+    height: 703.083px;
+    position: absolute;
+    background-image: url('testyellow.png');
+    background-size: cover;
+}
+.left {
+    position: absolute;
+    left: 500px;
+    width:100px;
+}
