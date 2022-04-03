@@ -1,0 +1,45 @@
+.footer
+{
+    width: 100%;
+
+}
+.footer_logo
+{
+    position: relative;
+    width: 100%;
+    display: block;
+}
+.footer_logo-wrapper
+{
+    width: 128px; 
+    height: 110px; 
+    background-color: #414042; 
+    border-top-left-radius: 18px; 
+    border-top-right-radius: 18px; 
+    overflow: hidden; 
+    display: block;
+    top: 0;
+    float: right;
+    margin-right: 80px;
+}
+.footer_text-wrapper
+{
+    height: 96px; 
+    width: 100%; 
+    background-color: #C69703; 
+    font-size: 36px; 
+    font-weight: 500; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+.footer_text
+{
+    font-family: 'Source Serif Pro', serif; 
+}
+
+// Responsive
+@media (max-width: 1080px)
+{
+    
+}
