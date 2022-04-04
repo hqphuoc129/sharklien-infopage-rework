@@ -15,7 +15,7 @@ const webRoute = {
     path: '/media',
   },
   contributionDetails: {
-    path: '/contribution/details',
+    path: '/details',
   },
 };
 
