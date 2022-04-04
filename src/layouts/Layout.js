@@ -5,6 +5,7 @@ import Contribution from 'views/Contribution';
 import Biography from 'views/Biography';
 import Quotes from 'views/Quotes';
 import Media from 'views/Media';
+import ContributionDetails from 'views/ContributionDetails';
 
 const Layout = () => {
   return (
@@ -13,6 +14,7 @@ const Layout = () => {
         <Route exact path={webRoute.home.path} element={<Home />} />
         <Route exact path={webRoute.biography.path} element={<Biography />} />
         <Route exact path={webRoute.contribution.path} element={<Contribution />} />
+        <Route exact path={webRoute.contributionDetails.path} element={<ContributionDetails />} />
         <Route exact path={webRoute.quotes.path} element={<Quotes />} />
         <Route exact path={webRoute.media.path} element={<Media />} />
       </Routes>

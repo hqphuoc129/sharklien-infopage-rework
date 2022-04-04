@@ -14,22 +14,8 @@ const webRoute = {
   media: {
     path: '/media',
   },
-  contributionChild: {
-    insurance: {
-      path: '/contribution/insurance',
-    },
-    charity: {
-      path: '/contribution/charity',
-    },
-    water: {
-      path: '/contribution/water',
-    },
-    startup: {
-      path: '/contribution/startup',
-    },
-    foreign: {
-      path: '/contribution/foreign',
-    },
+  contributionDetails: {
+    path: '/contribution/details',
   },
 };
 
