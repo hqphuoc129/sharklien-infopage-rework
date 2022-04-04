@@ -10,7 +10,7 @@ const Slider = () => {
   return (
       <Carousel autoplay >
         {LIST_IMG.map((item, idx) => (
-          <div className="outer"><img src={item} key={idx} className="innerImage"/></div>
+          <div className="outer"><img src={item} key={idx} className="inner-image"/></div>
         ))}
       </Carousel>
   );
