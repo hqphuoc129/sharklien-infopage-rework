@@ -1,3 +1,28 @@
+.box-heading {
+  margin-top: 0;
+}
+.box-underheader {
+  background-color: #c69703;
+  height: 38px;
+  width: 238px;
+  margin: auto;
+}
+.content-quote {
+  margin: 145px auto 122px auto;
+  text-align: center;
+  line-height: 43px;
+}
+.quote-heading {
+  text-align: center;
+  font: Source Serif Variable;
+  font-style: bold;
+  font-size: 3rem;
+}
+.box-quotedata {
+  margin: auto;
+  width: 1325px;
+  height: 600px;
+}
 .quote-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -5,11 +30,47 @@
   padding: 25px;
 }
 .quote-image {
-  height: 250px;
+  width: 404px;
+  height: 493px;
   margin-bottom: 15px;
+  align-items: baseline;
+  left: 49px;
+}
+.quote-image-desc {
+  font-size: 14pt;
+  font: Source Serif Variable;
+  font-style: Regular;
+  align-items: center;
+  text-transform: uppercase;
+  word-break: break-word;
+  text-align: center;
 }
 .quote-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.box-footering {
+  text-align: center;
+  display: block;
+  height: 380px;
+  margin-top: 13rem;
+  margin-bottom: 17.2rem;
+  background-color: #f9efd4;
+}
+.quote-footerone {
+  text-align: center;
+  margin: auto;
+  padding-top: 110px;
+  font-size: 5rem;
+  font-family: 'Source Serif Pro', serif;
+  font-weight: bold;
+}
+.quote-footertwo {
+  text-align: center;
+  margin: auto;
+  padding-bottom: 98px;
+  font-size: 5rem;
+  font-family: 'Source Serif Pro', serif;
+  font-weight: bold;
 }
