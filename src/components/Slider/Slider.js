@@ -2,7 +2,6 @@ import "antd/dist/antd.css";
 import { Carousel } from "antd";
 import BannerImage1 from "assets/banner1.png";
 import BannerImage2 from "assets/banner2.png";
-import "./Slider.css"
 
 const LIST_IMG = [BannerImage1,BannerImage2];
 
