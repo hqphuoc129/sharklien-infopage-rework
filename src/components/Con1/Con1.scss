@@ -1,0 +1,29 @@
+@font-face {
+    font-family: sourceserif;
+    src: url(SourceSerifPro-SemiBold.ttf);
+  }
+@font-face {
+    font-family: sourceserifregular;
+    src: url(SourceSerifPro-Regular.ttf);
+  }
+.container {
+    width: 1rem;
+    height: 10rem;
+}
+.inner-image {
+    width: 20rem;
+    height: 16.5rem;
+}
+.title {
+    font-family: sourceserif;
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    padding: 50px;
+}
+.text {
+    font-family: sourceserifregular;
+    text-align: center;
+    font-size: 21pt;
+    width: 29rem;
+}
