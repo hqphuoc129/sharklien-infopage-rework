@@ -1,13 +1,13 @@
 import React from 'react';
 import HeaderQuoteImg from '../Biography/assets/tieusu07.png';
-import Header from 'components/Header/Header';
+import Contribute_Descrpition from '../../components/Contrib Header/index';
 import HeaderDescription from '../../components/Description/Header_Description';
 import Section_Paragraph from '../../components/Description/Section_Paragraph';
 
 const Biography = () => {
   return (
     <>
-      <Header img={HeaderQuoteImg} title={'TIỂU SỬ'} />{' '}
+      <Contribute_Descrpition img={HeaderQuoteImg} title={'TIỂU SỬ'} lightText={false}/>{' '}
       <div style={{ backgroundColor: '#f7f7f7', margin: '0 10% 0 10%', minHeight: '100rem', width: 'auto' }}>
         <HeaderDescription title={'Tôi là Đỗ Thị Kim Liên'} />{' '}
         <div style={{ paddingTop: '2.5%', paddingBottom: '2.5%' }}>

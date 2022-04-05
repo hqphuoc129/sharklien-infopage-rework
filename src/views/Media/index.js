@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from 'components/Header/Header';
+import Contribute_Descrpition from '../../components/Contrib Header/index';
 import HeaderQuoteImg from '../Media/assets/media-07.png';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -9,7 +9,7 @@ const Media = () => {
   return (
     <>
     <div>
-      <Header img={HeaderQuoteImg} title={'MEDIA'} />{' '}
+      <Contribute_Descrpition img={HeaderQuoteImg} title={'MEDIA'} lightText={true}/>{' '}
       <CustomSlider/>
       </div>
     </>
