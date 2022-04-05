@@ -2,16 +2,17 @@ import HeaderImage from 'components/ContributionItem/assets/header-contribution.
 import { Insurance, Water, Charity, Foreign, Startup } from 'components/ContributionContent';
 
 const getContent = (active) => {
+  console.log(active);
   switch (active) {
-    case 1:
+    case 0:
       return <Insurance />;
-    case 2:
+    case 1:
       return <Water />;
-    case 3:
+    case 2:
       return <Charity />;
-    case 4:
+    case 3:
       return <Foreign />;
-    case 5:
+    case 4:
       return <Startup />;
     default:
       return <Insurance />;
@@ -37,15 +38,15 @@ const DATA = {
 const ContributionItem = ({ active, setActive }) => {
   return (
     <div>
-      <img src={HeaderImage} alt='' className='header-contribution-image' />;
-      {DATA.map((item, idx) => {
+      <img src={HeaderImage} alt='' className='header-contribution-image' />
+      {Object.keys(DATA).map((key, idx) => {
         return (
           <h1
             key={idx}
             className={`contribution-item-title ${active === idx ? 'hidden' : ''}`}
             onClick={() => setActive(idx)}
           >
-            {item.title}
+            {DATA[key].title}
           </h1>
         );
       })}
