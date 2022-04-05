@@ -1,0 +1,53 @@
+@import 'styles/mixins';
+.index-group-container {
+    width: 29rem;
+    height: 38.4rem;
+}
+.index-insurance-img {
+    margin: auto;
+    width: 20rem;
+    height: 16.5rem;
+}
+.index-water-img {
+    margin: auto;
+    width: 20rem;
+    height: 16.5rem;
+}
+.index-startup-img {
+    margin: auto;
+    width: 25.1rem;
+    height: 16.5rem;
+}
+.index-diplomacy-img {
+    margin: auto;
+    width: 25.1rem;
+    height: 16.5rem;
+}
+.index-group-title {
+    font-family: 'Source Serif Pro', serif;
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    padding: 30px;
+}
+.index-group-text {
+    font-family: 'Source Serif Pro', serif;
+    text-align: center;
+    font-size: 21pt;
+    width: 100%;
+}
+// CSS cho group cua 4 container insurance, water, startup, diplomacy
+.index-combine-container {
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 3rem;
+}
+
+@include maxWidth(768px){
+    .index-combine-container{
+        display:block;
+    }
+}
