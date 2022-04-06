@@ -1,0 +1,88 @@
+.header-contribution-image {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+}
+.contribution-item-title-0 {
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  &-hidden {
+    text-align: center;
+    margin: 3rem auto;
+  }
+}
+.box-underheading {
+  background-color: #c69703;
+  height: 38px;
+  width: 238px;
+  margin: auto;
+}
+
+.contribution-item-title-1 {
+  position: absolute;
+  top: 40%;
+  left: 28%;
+
+  &-hidden {
+    text-align: center;
+    margin: 3rem auto;
+  }
+}
+.contribution-item-title-2 {
+  position: absolute;
+  top: 40%;
+  right: 25%;
+  &-hidden {
+    text-align: center;
+    margin: 3rem auto;
+  }
+}
+.contribution-item-title-3 {
+  position: absolute;
+  top: 60%;
+  right: 16%;
+  &-hidden {
+    text-align: center;
+    margin: 3rem auto;
+  }
+}
+.contribution-item-title-4 {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  &-hidden {
+    text-align: center;
+    margin: 3rem auto;
+  }
+}
+.insurance-content {
+  margin: auto auto 10rem auto;
+  width: 60%;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+.startup-content {
+  margin: auto auto 10rem auto;
+  width: 60%;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+.foreign-content {
+  margin: auto auto 10rem auto;
+  width: 60%;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+.water-content {
+  margin: auto auto 10rem auto;
+  width: 60%;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+.charity-content {
+  margin: auto auto 10rem auto;
+  width: 60%;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}

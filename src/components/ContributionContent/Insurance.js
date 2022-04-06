@@ -2,7 +2,7 @@ const Insurance = () => {
   return (
     <div className='insurance-content'>
       <p>
-        Bảo hiểm là là nghề nhân văn nhất trong các nghề nhân văn. Tôi chọn bảo hiểm để giúp người dân “An nỗi lo – Quản
+        Bảo hiểm là nghề nhân văn nhất trong các nghề nhân văn. Tôi chọn bảo hiểm để giúp người dân “An nỗi lo – Quản
         rủi ro” cho những bất trắc có thể xảy ra trong cuộc sống.
       </p>
       <p>Tôi đã có gần 30 năm hoạt động trong lĩnh vực bảo hiểm, với các cột mốc đáng nhớ:</p>

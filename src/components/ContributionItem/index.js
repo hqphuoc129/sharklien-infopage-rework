@@ -20,30 +20,31 @@ const getContent = (active) => {
 };
 const DATA = {
   insurance: {
-    title: 'Insurance',
+    title: 'BẢO HIỂM',
   },
   water: {
-    title: 'Water',
+    title: 'NƯỚC SẠCH',
   },
   charity: {
-    title: 'Charity',
+    title: 'THIỆN NGUYỆN',
   },
   foreign: {
-    title: 'Foreign',
+    title: 'NGOẠI GIAO',
   },
   startup: {
-    title: 'Startup',
+    title: '"BÀ ĐỠ" START-UP',
   },
 };
 const ContributionItem = ({ active, setActive }) => {
   return (
     <div>
       <img src={HeaderImage} alt='' className='header-contribution-image' />
+      <h1 className='box-underheading'> </h1>
       {Object.keys(DATA).map((key, idx) => {
         return (
           <h1
             key={idx}
-            className={`contribution-item-title ${active === idx ? 'hidden' : ''}`}
+            className={`contribution-item-title-${idx}${active === idx ? '-hidden' : ''}`}
             onClick={() => setActive(idx)}
           >
             {DATA[key].title}
