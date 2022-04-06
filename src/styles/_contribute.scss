@@ -1,59 +1,174 @@
-.div-descript{
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 56.82vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    background-position: center;
+.div-descript {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 56.82vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-position: center;
 }
 
+.title-contrib {
+  //position center in the container
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
-.title-contrib{
-    //position center in the container
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    //format text
-    text-transform: uppercase;
-    text-align:center;
-    font-size: 3.1rem;
-    font-weight: bold;
+  //format text
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3.1rem;
+  font-weight: bold;
 }
 
-.light-theme{
-    color: rgb(241,242,242)
+.light-theme {
+  color: rgb(241, 242, 242);
 }
 
-.dark-theme{
-    color: rgb(109,110,113)
+.dark-theme {
+  color: rgb(109, 110, 113);
 }
 .dotStyle {
-    width: "50px";
-    height: "50px";
+  width: '50px';
+  height: '50px';
+}
+.lotus-background {
+  //width: 153.03vh;
+  //height: 91.26vh;
+  width: 100vh;
+  height: 59.634vh;
 }
 
-
-@media only screen and (max-width: 1000px){
-    .title-contrib{
-        top: 55%;
-    }
+.lotus-flex {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  justify-content: center;
+  align-items: center;
 }
 
-@media only screen and (max-width: 768px){
-    .title-contrib{
-        top: 60%;
-        font-size: 2.0rem;
-    }
+.lotus-containtext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 120vh;
+  height: 65vh;
 }
 
-@media only screen and (max-width: 375px){
-    .title-contrib{
-        top: 60%;
-        font-size: 1.8rem;
-    }
+.lotus-container {
+  position: relative;
+  width: 100%;
+  height: 65vh;
 }
 
+.leaf-one {
+  position: absolute;
+  top: 43%;
+  left: 0%;
 
+  color: black;
+  text-transform: uppercase;
+  font-size: 19pt;
+  font-weight: bold;
+}
+
+.leaf-two {
+  position: absolute;
+  top: 13%;
+  left: 18%;
+
+  color: black;
+  text-transform: uppercase;
+  font-size: 21pt;
+  font-weight: bold;
+}
+
+.leaf-three {
+  position: absolute;
+  top: 1%;
+  left: 42%;
+
+  color: black;
+  text-transform: uppercase;
+  font-size: 21pt;
+  font-weight: bold;
+}
+
+.leaf-four {
+  position: absolute;
+  top: 13%;
+  right: 15%;
+
+  color: black;
+  text-transform: uppercase;
+  font-size: 21pt;
+  font-weight: bold;
+}
+
+.leaf-five {
+  position: absolute;
+  top: 43%;
+  right: 2%;
+
+  color: black;
+  text-transform: uppercase;
+  font-size: 21pt;
+  font-weight: bold;
+}
+
+.container-bar {
+  position: relative;
+  width: 100%;
+  height: 40vh;
+}
+
+.contrib-bar {
+  width: 30vh;
+  height: 2vh;
+  background-color: #c69703;
+
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.time_desp {
+  height: 16vh;
+  width: 100%;
+  background-color: #f9efd4;
+
+  display: flex;
+  font-size: 1.7rem;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1000px) {
+  .title-contrib {
+    top: 55%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .title-contrib {
+    top: 60%;
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .title-contrib {
+    top: 60%;
+    font-size: 1.8rem;
+  }
+}
