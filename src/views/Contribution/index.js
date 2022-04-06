@@ -21,6 +21,7 @@ const Contribution = () => {
       <div className="container-bar">
         <div className="contrib-bar"></div>
       </div>
+      <h1>Contribution</h1>
     </>
   );
 };
