@@ -1,7 +1,8 @@
 import React from 'react';
-
+import BriefIntro from 'components/BriefIntro/BriefIntro';
 const Home = () => {
-  return <></>;
+  return <>
+  </>;
 };
 
 export default Home;

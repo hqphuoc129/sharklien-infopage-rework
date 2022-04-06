@@ -123,9 +123,8 @@
 {
 
     position: static;
-
-    display: inline-flex;
-    width:13.35rem;
+    white-space: nowrap;
+    display: inline-block;
     background-size:contain;
     padding: 0;
     margin-top: 5rem;
@@ -186,4 +185,9 @@
 {
     opacity: .75;
     color: black;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
