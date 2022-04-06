@@ -1,5 +1,14 @@
+@import 'styles/mixins';
 .box-heading {
   margin-top: 0;
+}
+.quote-container {
+  background-image: url('../views/Quotes/assets/quotes-07.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 450px;
+  width: 100%;
 }
 .box-underheader {
   background-color: #c69703;
@@ -74,3 +83,74 @@
   font-family: 'Source Serif Pro', serif;
   font-weight: bold;
 }
+@include maxWidth(767px) {
+  .quote-container {
+    height: 280px;
+    width: 100%;
+  }
+  .quote-title {
+    top: 40%;
+    font-size: 1.1rem;
+    width: 100%;
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  .box-underheader {
+    height: 0.5rem;
+    width: 5rem;
+    margin: auto auto -26% auto;
+  }
+  .content-quote {
+    margin: 145px auto 50px auto;
+  }
+  .quote-heading {
+    font-size: 1.5rem;
+  }
+  .box-quotedata {
+    margin: auto;
+    width: 80%;
+    margin: auto auto 64rem auto;
+  }
+  .quote-list {
+    display: block;
+  }
+  .quote-image {
+    width: 410px;
+    height: 400px;
+  }
+  .quote-image-desc {
+    margin: -4px -29px 40px -23px;
+    text-align: center;
+    font-size: 0.85rem;
+  }
+  .quote-image-desc:after {
+    content: '';
+    display: block;
+    width: 11%;
+    height: 1%;
+    background-color: #c69703;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 1rem auto;
+  }
+  .box-footering {
+    width: 100%;
+    margin-top: -78px;
+    margin-bottom: 150px;
+    display: block;
+    height: 114px;
+  }
+  .quote-footerone {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: -6rem 1rem 2rem 5rem;
+    position: absolute;
+  }
+  .quote-footertwo {
+    font-size: 2rem;
+    font-weight: bold;
+    position: absolute;
+    margin: 3rem 2rem 2rem 2rem;
+  }
+} ;
