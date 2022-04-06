@@ -1,0 +1,37 @@
+.gallery_container
+{
+    width: 100%;
+    justify-items: center;
+    margin-top: 30px;
+    position: relative;
+}
+.gallery_backround
+{
+    align-self: center;
+    width: 76%;
+    margin: auto;
+}
+.gallery_list
+{
+    position: absolute;
+    width: 62.5%;
+    top: 30%;
+    border-top: 10px solid #fff;
+    padding: 10px 0px;
+    border-bottom: 10px solid #fff;
+    left: 19%;
+}
+.gallery_item
+{
+    display: inline-block;
+    width: 20%;
+    padding: 0px 9px;
+}
+.ant-image-preview-img
+{
+    width: 598px;
+    height: 433px;
+    margin: auto;
+    margin-top: -16%;
+    border-radius: 14px;
+}

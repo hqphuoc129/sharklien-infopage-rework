@@ -7,9 +7,9 @@ const CustomSlider = (props) => {
     const settings = {
         customPaging: function(i) {
           return (
-            <div>
+            <div >
             <a >
-              <img  style={{height: "10.1125rem",width:"auto"}} src={require(`../../views/Media/assets/${i + 1}.png`)} />
+              <img  style={{width: "7.469rem",height:"5.406rem", objectFit: "cover"}} src={require(`../../views/Media/assets/${i + 1}.png`)} />
             </a>
             </div>
           );
