@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { AppBar, Toolbar, Typography, Tabs, Tab, Button } from '@mui/material';
-import 'App.scss';
 import Logo from 'assets/logo.png';
 
 const Navigation = () => {
