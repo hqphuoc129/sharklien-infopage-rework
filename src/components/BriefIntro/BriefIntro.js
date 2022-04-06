@@ -7,7 +7,7 @@ import {Container} from 'react-bootstrap';
 import Section_Paragraph from "../Description/Section_Paragraph";
 import { Player } from 'video-react';
 
-const BriefIntro = (props) => {
+const BriefIntro = () => {
     return (
     <div style={{backgroundImage: `url(${briefIntroBackground})`, backgroundRepeat: "no-repeat", backgroundSize: "contain"}}>
         <Container fluid={"true"}>
