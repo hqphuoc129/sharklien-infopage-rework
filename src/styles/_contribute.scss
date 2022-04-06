@@ -16,6 +16,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
     //format text
     text-transform: uppercase;
     text-align:center;
@@ -80,7 +81,7 @@
 .leaf-two{
     position: absolute;
     top:13%; 
-    left:22%;    
+    left:18%;    
 
     color:black;
     text-transform: uppercase;
@@ -104,7 +105,7 @@
 .leaf-four{
     position: absolute;
     top:13%; 
-    left:60%;    
+    right:15%;    
 
     color:black;
     text-transform: uppercase;
@@ -116,12 +117,29 @@
 .leaf-five{
     position: absolute;
     top:43%; 
-    left:77%;    
+    right:2%;    
 
     color:black;
     text-transform: uppercase;
     font-size: 21pt;
     font-weight: bold; 
+}
+
+.container-bar{
+    position: relative;
+    width: 100%;
+    height: 40vh;
+}
+
+.contrib-bar{
+    width: 30vh; 
+    height: 2vh;
+    background-color: #C69703; 
+
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .time_desp{
