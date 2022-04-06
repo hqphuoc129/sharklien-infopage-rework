@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { AppBar, Toolbar, Typography, Tabs, Tab, Button } from '@mui/material';
+import DehazeIcon from '@mui/icons-material/Dehaze';
 import Logo from 'assets/logo.png';
 
 const Navigation = () => {
@@ -63,6 +64,7 @@ const Navigation = () => {
           </Link>
         </li>
       </ul>
+      <DehazeIcon className="icon-navbar"/>
     </nav>
   );
 };

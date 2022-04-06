@@ -29,6 +29,16 @@ select,
 button {
   outline: none;
 }
+
+.navbar{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  padding: 0px; 
+  flex-direction: row;
+}
 input {
   line-height: normal;
 }
@@ -48,15 +58,16 @@ nav {
   display: inline-flex;
   width: 100%;
   // position: fixed;
-  justify-content: space-between;
-  margin: 1px 0 2px 0;
-  height: 140px;
+  //margin: 1px 0 2px 0;
+  //height: 140px;
   font-family: 'Source Serif Pro', serif;
 }
 nav #logo {
   width: 7%;
-  margin-left: 15%;
+  //margin-left: 15%;
+  margin-left: 10vh;
   border-bottom: none;
+  padding-bottom: 20px;
 }
 nav img {
   top: 0;
@@ -66,21 +77,31 @@ nav img {
 nav ul {
   list-style: none;
   height: 80%;
-  margin-top: 82px;
-  margin-right: 298px;
+  //margin-top: 82px;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  height:7vh;
+  flex-wrap: wrap;
+  margin-right: 10vh;
 }
 nav ul li {
   display: inline-block;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 20px;
-  padding: 0 35px;
+  padding: 0 8px;
+}
+nav .icon-navbar{
+  display: none;
 }
 nav ul li a {
   color: #231f20;
-  padding: 4px 20px;
-  justify-content: baseline;
-  width: 148px;
+  //padding: 4px 20px;
+  
+  justify-content: center;
+  width: 22vh;
 }
 nav ul li a:hover,
 .active {
@@ -96,5 +117,22 @@ nav ul li a:hover,
   to {
     color: #cccaae;
     border-bottom: 3px solid #cccaae;
+  }
+}
+
+@media (max-width: 376px) {
+  nav #logo {
+    width: 6.8vh;
+  }
+}
+
+@media (max-width: 768px) {
+  nav .icon-navbar{
+    display:flex;
+    margin-right: 10vh;
+  }
+
+  nav ul {
+    display: none;
   }
 }
