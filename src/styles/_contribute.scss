@@ -153,6 +153,11 @@
   font-weight: bold;
 }
 
+.para{
+  font-size: 12pt;
+  margin: 0px;
+}
+
 @media only screen and (max-width: 1000px) {
   .title-contrib {
     top: 55%;
@@ -166,9 +171,49 @@
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
+  
+  .div-descript{
+    height: 30vh;
+  }
+  
   .title-contrib {
-    top: 60%;
+    top: 50%;
     font-size: 1.8rem;
   }
-}
+
+  .lotus-containtext {
+    width: 50vh;
+    height: 30vh;
+  }
+
+
+  .lotus-background{
+    width: 40vh;
+    height: 23.85vh;
+  }
+
+  .lotus-container{
+    height: 30vh;
+  }
+
+  .leaf-one {
+    font-size: 10pt;
+  }
+
+  .leaf-two {
+    font-size: 10pt;
+  }
+
+  .leaf-three {
+    font-size: 10pt;
+  }
+
+  .leaf-four {
+    font-size: 10pt;
+  }
+
+  .leaf-five {
+    font-size: 10pt;
+  }
+} 
