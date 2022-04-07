@@ -4,13 +4,12 @@ import HeaderQuoteImg from '../Media/assets/media-07.png';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import CustomSlider from 'components/Media/CustomerSlider';
+// import ImageGallary from 'components/Media/ImageGallary';
 const Media = () => {
-
   return (
     <>
-    <div>
-      <Contribute_Descrpition img={HeaderQuoteImg} title={'MEDIA'} lightText={true}/>{' '}
-      <CustomSlider/>
+      <div>
+        <Contribute_Descrpition img={HeaderQuoteImg} title={'MEDIA'} lightText={true} /> <CustomSlider />
       </div>
     </>
   );
