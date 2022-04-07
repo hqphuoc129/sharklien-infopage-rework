@@ -9,7 +9,8 @@ const Media = () => {
   return (
     <>
       <div>
-        <Contribute_Descrpition img={HeaderQuoteImg} title={'MEDIA'} lightText={true} /> <CustomSlider />
+        <Contribute_Descrpition img={HeaderQuoteImg} title={'MEDIA'} lightText={true} /> 
+        <CustomSlider/>
       </div>
     </>
   );
