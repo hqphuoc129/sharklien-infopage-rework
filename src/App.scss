@@ -12,8 +12,9 @@
 @import 'styles/indexgroup';
 @import 'styles/testimonialsslider';
 @import 'styles/gallery_home';
-@import "~react-image-gallery/styles/scss/image-gallery.scss";
+@import '~react-image-gallery/styles/scss/image-gallery.scss';
 @import 'styles/carouselslider';
+@import 'styles/quotestesthome';
 html {
   box-sizing: border-box;
 }
@@ -33,13 +34,13 @@ button {
   outline: none;
 }
 
-.navbar{
+.navbar {
   position: relative;
   display: flex;
   flex-wrap: wrap;
   /* align-items: center; */
   /* justify-content: space-between; */
-  padding: 0px; 
+  padding: 0px;
   flex-direction: row;
 }
 input {
@@ -85,7 +86,7 @@ nav ul {
   margin: 0px;
   display: flex;
   align-items: center;
-  height:7vh;
+  height: 7vh;
   flex-wrap: wrap;
   margin-right: 10vh;
 }
@@ -96,13 +97,13 @@ nav ul li {
   font-size: 20px;
   padding: 0 8px;
 }
-nav .icon-navbar{
+nav .icon-navbar {
   display: none;
 }
 nav ul li a {
   color: #231f20;
   //padding: 4px 20px;
-  
+
   justify-content: center;
   width: 22vh;
 }
@@ -130,8 +131,8 @@ nav ul li a:hover,
 }
 
 @media (max-width: 768px) {
-  nav .icon-navbar{
-    display:flex;
+  nav .icon-navbar {
+    display: flex;
     margin-right: 10vh;
   }
 
