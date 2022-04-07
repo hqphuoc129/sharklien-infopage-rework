@@ -28,6 +28,12 @@
   height: 16.5rem;
   transform: scale(0.8);
 }
+.index-combine-title {
+  font-family: 'Source Serif Pro', serif;
+  text-align: center;
+  font-size: 24pt;
+  font-weight: bold;
+}
 .index-group-title {
   font-family: 'Source Serif Pro', serif;
   text-align: center;
@@ -39,6 +45,7 @@
   font-family: 'Source Serif Pro', serif;
   text-align: center;
   font-size: 1.6rem;
+  font-weight: normal;
   width: 100%;
 }
 // CSS cho group cua 4 container insurance, water, startup, diplomacy
