@@ -7,12 +7,17 @@ const INDEX_COMBINE = [IndexInsurance, IndexWater, IndexStartup, IndexDiplomacy]
 
 const IndexCombine = () => {
   return (
+  <div className="index-combine-title"> Vì sứ mệnh của tôi là tạo ra giá trị cho cộng đồng.
     <div className='index-combine-container'>
       <IndexInsurance />
       <IndexWater />
       <IndexStartup />
       <IndexDiplomacy />
     </div>
+  </div>
+
+
+
   );
 };
 
