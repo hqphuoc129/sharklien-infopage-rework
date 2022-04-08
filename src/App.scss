@@ -180,3 +180,25 @@ nav ul li a.active {
   }
 
 }
+
+@media (max-width: 920px) and (min-height: 1000px) {
+  nav .icon-navbar{
+    display:flex;
+    margin-left: 40%;
+    margin-right: 10%;
+  }
+
+  nav ul {
+    display: none;
+  } 
+
+  .navbar #hidden {
+    width: 100%;  
+    display: flex;
+    margin: 0px; 
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: fit-content;
+  }
+
+}
