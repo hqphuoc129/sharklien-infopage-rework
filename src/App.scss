@@ -93,7 +93,11 @@ nav ul li {
   text-transform: uppercase;
   font-weight: 400;
   font-size: 20px;
-  padding: 0 8px;
+  display:flex;
+  width: 22vh; 
+  flex-direction: column;
+  align-items: center;
+  padding: 5px 8px;
 }
 nav .icon-navbar{
   display: none;
@@ -101,24 +105,28 @@ nav .icon-navbar{
 nav ul li a {
   color: #231f20;
   //padding: 4px 20px;
-  
   justify-content: center;
-  width: 22vh;
 }
-nav ul li a:hover,
-.active {
+nav ul li a:hover{
   animation: colorTransform ease 0.3s;
   color: #cccaae;
-  border-bottom: 3px solid #cccaae;
+  border-bottom: 2px solid #cccaae;
 }
+nav ul li a.active {
+  animation: colorTransform ease 0.3s;
+  color: #cccaae;
+  border-bottom: 2px solid #cccaae;
+  width: fit-content;
+}
+
 @keyframes colorTransform {
   from {
     color: #231f20;
-    border-bottom: 3px solid white;
+    border-bottom: 2px solid white;
   }
   to {
     color: #cccaae;
-    border-bottom: 3px solid #cccaae;
+    border-bottom: 2px solid #cccaae;
   }
 }
 
@@ -126,15 +134,45 @@ nav ul li a:hover,
   nav #logo {
     width: 6.8vh;
   }
-}
 
-@media (max-width: 768px) {
   nav .icon-navbar{
     display:flex;
-    margin-right: 10vh;
   }
 
   nav ul {
     display: none;
   }
+
+  .navbar #hidden {
+    width: 100%;  
+    display: flex;
+    margin: 0px; 
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: fit-content;
+  }
+
+}
+
+@media (max-width: 768px) and (min-height: 605px){
+  nav .icon-navbar{
+    display:flex;
+    margin-left: 40%;
+    margin-right: 10%;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  
+  .navbar #hidden {
+    width: 100%;  
+    display: flex;
+    margin: 0px; 
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: fit-content;
+  }
+
 }
