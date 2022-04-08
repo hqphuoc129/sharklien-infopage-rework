@@ -1,32 +1,35 @@
 @import 'styles/mixins';
 .index-group-container {
-  width: 30%;
-  height: 38.4rem;
-  margin: 10rem 1.5rem;
+  width: 25%;
+  height: auto;
+  padding: 30px;
+  min-width: 26rem;
+}
+.index-img-holder {
+  display: flex;
+  justify-content: center;
+  height: 50%;
+  margin: auto;
 }
 .index-insurance-img {
+  min-width: 50%;
+  height: auto;
   margin: auto;
-  width: 100%;
-  height: 50%;
-  transform: scale(0.8);
 }
 .index-water-img {
+  min-width: 50%;
+  height: auto;
   margin: auto;
-  width: 100%;
-  height: 50%;
-  transform: scale(0.65);
 }
 .index-startup-img {
+  min-width: 50%;
+  height: auto;
   margin: auto;
-  width: 100%;
-  height: 50%;
-  transform: scale(0.8);
 }
 .index-diplomacy-img {
+  min-width: 50%;
+  height: auto;
   margin: auto;
-  width: 100%;
-  height: 50%;
-  transform: scale(0.8);
 }
 .index-combine-title {
   font-family: 'Source Serif Pro', serif;
@@ -41,11 +44,11 @@
   text-align: center;
   font-size: 1.6rem;
   font-weight: 600;
-  padding: 0.5rem;
+  padding-top: 0.5rem;
 }
 .index-group-text {
   font-family: 'Source Serif Pro', serif;
-  text-align: center;
+  text-align: justify;
   font-size: 1.4rem;
   font-weight: normal;
   width: 100%;
@@ -57,52 +60,55 @@
   height: 100%;
   display: flex;
   justify-content: space-around;
-  padding: 0px 5%;
+  padding: 0px 0px;
+  flex-wrap: wrap;
+  margin-top: 50px;
 }
-
-@include maxWidth(768px) {
-  .index-combine-container {
-    display: block;
+@media only screen and (max-width: 1921px) {
+  .index-group-container {
+    width: 25%;
+    height: auto;
+    padding: 30px;
+    min-width: 27rem;
   }
 }
 
-@media only screen and (max-width: 376px) {
+
+@media only screen and (max-width: 391px) {
   .index-combine-container {
     display: block;
   }
   .index-insurance-img {
+    width: 75%;
+    height: auto;
     margin: auto;
-    width: 86%;
-    height: 35%;
-    transform: scale(0.8);
   }
   .index-water-img {
+    width: 55%;
+    height: auto;
     margin: auto;
-    width: 72%;
-    height: 31%;
-    transform: scale(0.65);
   }
   .index-startup-img {
+    width: 87%;
+    height: auto;
     margin: auto;
-    width: 100%;
-    height: 50%;
-    transform: scale(0.8);
   }
   .index-diplomacy-img {
+    width: 60%;
+    height: auto;
     margin: auto;
-    width: 100%;
-    height: 50%;
-    transform: scale(0.8);
   }
   .index-group-container {
     width: 100%;
     justify-content: center;
-    height: 38.4rem;
+    height: auto;
     margin: auto;
-}
+    margin-bottom: 30px;
+    min-width: 100%;
+  }
   .index-group-text {
     font-family: 'Source Serif Pro', serif;
-    text-align: center;
+    text-align: justify;
     font-size: 12pt;
     font-weight: normal;
     width: 100%;
@@ -114,4 +120,12 @@
     font-weight: bold;
     padding: 0px;
   }
+  .index-combine-title {
+    font-family: "Source Serif Pro", serif;
+    color: #414042;
+    text-align: center;
+    font-size: 14pt;
+    font-weight: bold;
+    padding: 0px 50px 0px 50px;
+}
 }
