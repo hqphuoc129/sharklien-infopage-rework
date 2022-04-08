@@ -8,7 +8,7 @@ const Biography = () => {
   return (
     <>
       <Contribute_Descrpition img={HeaderQuoteImg} title={'TIỂU SỬ'} lightText={false}/>{' '}
-      <div style={{ backgroundColor: '#f7f7f7', margin: '0 10% 0 10%', minHeight: '100rem', width: 'auto' }}>
+      <div className='bio-container'>
         <HeaderDescription title={'Tôi là Đỗ Thị Kim Liên'} />{' '}
         <div style={{ paddingTop: '2.5%', paddingBottom: '2.5%' }}>
           {' '}
