@@ -1,0 +1,69 @@
+@import 'styles/mixins';
+.box-imglien-desktop {
+  position: absolute;
+  right: 0%;
+  width: 40%;
+}
+.box-imglien-mobile {
+  display: none;
+}
+.box-quotestitle {
+  display: block;
+  left: 10%;
+  width: 100%;
+  height: 100%;
+  margin: 20% auto auto -13%;
+}
+.title-one {
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: bold;
+  font-family: 'Source Serif Pro', serif;
+}
+.title-two {
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: bold;
+  font-family: 'Source Serif Pro', serif;
+  color: #c69703;
+}
+.title-three {
+  font-family: Source Serif Variable, serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 17% auto auto 10%;
+}
+.slider_header {
+  font-weight: 36px;
+  font-weight: 700;
+  font-size: 1.5rem;
+  font-family: 'Source Serif Pro', serif;
+}
+@include maxWidth(767px) {
+  .box-imglien-desktop {
+    display: none;
+  }
+  .box-imglien-mobile {
+    display: block;
+    width: 60%;
+    height: 60%;
+    margin: 5rem auto;
+  }
+  .box-quotestitle {
+    margin: -20rem auto;
+  }
+  .title-one {
+    font-size: 1rem;
+    margin: -32rem auto;
+  }
+  .title-two {
+    font-size: 2rem;
+    margin: 32rem auto;
+  }
+  .title-three {
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 49rem auto auto auto;
+    display: block;
+  }
+}

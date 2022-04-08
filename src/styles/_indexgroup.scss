@@ -1,44 +1,53 @@
 @import 'styles/mixins';
 .index-group-container {
-  width: 29rem;
+  width: 30%;
   height: 38.4rem;
   margin: 10rem 1.5rem;
 }
 .index-insurance-img {
   margin: auto;
   width: 100%;
-  height: 16.5rem;
+  height: 50%;
   transform: scale(0.8);
 }
 .index-water-img {
   margin: auto;
-  width: 80%;
-  height: 16.5rem;
-  transform: scale(0.8);
+  width: 100%;
+  height: 50%;
+  transform: scale(0.65);
 }
 .index-startup-img {
   margin: auto;
   width: 100%;
-  height: 16.5rem;
+  height: 50%;
   transform: scale(0.8);
 }
 .index-diplomacy-img {
   margin: auto;
   width: 100%;
-  height: 16.5rem;
+  height: 50%;
   transform: scale(0.8);
 }
-.index-group-title {
+.index-combine-title {
   font-family: 'Source Serif Pro', serif;
+  color: #414042;
   text-align: center;
   font-size: 24pt;
   font-weight: bold;
-  padding: 30px;
+}
+.index-group-title {
+  font-family: 'Source Serif Pro', serif;
+  color: black;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 0.5rem;
 }
 .index-group-text {
   font-family: 'Source Serif Pro', serif;
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
+  font-weight: normal;
   width: 100%;
 }
 // CSS cho group cua 4 container insurance, water, startup, diplomacy
@@ -48,11 +57,61 @@
   height: 100%;
   display: flex;
   justify-content: space-around;
-  padding: 0px 3rem;
+  padding: 0px 5%;
 }
 
 @include maxWidth(768px) {
   .index-combine-container {
     display: block;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .index-combine-container {
+    display: block;
+  }
+  .index-insurance-img {
+    margin: auto;
+    width: 86%;
+    height: 35%;
+    transform: scale(0.8);
+  }
+  .index-water-img {
+    margin: auto;
+    width: 72%;
+    height: 31%;
+    transform: scale(0.65);
+  }
+  .index-startup-img {
+    margin: auto;
+    width: 100%;
+    height: 50%;
+    transform: scale(0.8);
+  }
+  .index-diplomacy-img {
+    margin: auto;
+    width: 100%;
+    height: 50%;
+    transform: scale(0.8);
+  }
+  .index-group-container {
+    width: 100%;
+    justify-content: center;
+    height: 38.4rem;
+    margin: auto;
+}
+  .index-group-text {
+    font-family: 'Source Serif Pro', serif;
+    text-align: center;
+    font-size: 12pt;
+    font-weight: normal;
+    width: 100%;
+  }
+  .index-group-title {
+    font-family: 'Source Serif Pro', serif;
+    text-align: center;
+    font-size: 14pt;
+    font-weight: bold;
+    padding: 0px;
   }
 }

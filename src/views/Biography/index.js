@@ -12,7 +12,7 @@ const Biography = () => {
         <HeaderDescription title={'Tôi là Đỗ Thị Kim Liên'} />{' '}
         <div style={{ paddingTop: '2.5%', paddingBottom: '2.5%' }}>
           {' '}
-          <hr style={{ borderColor: '#c69703', width: '20%', margin: 'auto' }} />
+          <div style={{width: '20vw', height: "0.5vh", backgroundColor:"#C69703", margin: 'auto'}} />
         </div>
         <div>
           <Section_Paragraph
@@ -43,7 +43,7 @@ const Biography = () => {
         </div>{' '}
         <div style={{ paddingTop: '2.5%', paddingBottom: '2.5%' }}>
           {' '}
-          <hr style={{ borderColor: '#c69703', width: '20%', margin: 'auto' }} />
+          <div style={{width: '20vw', height: "0.5vh", backgroundColor:"#C69703", margin: 'auto'}} />
         </div>
       </div>{' '}
     </>
