@@ -1,0 +1,33 @@
+.brief-intro-image {
+    background-image: url("../components/BriefIntro/assets/05.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.brief-intro-row {
+    margin: 5rem 0 0 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .brief-intro-image {
+        background-image: url("../components/BriefIntro/assets/05.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    
+    .brief-intro-row {
+        margin: 0 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .brief-intro-image {
+        background-image: url("../components/BriefIntro/assets/05.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    
+    .brief-intro-row {
+        margin: 0 0 0 0;
+    }
+}

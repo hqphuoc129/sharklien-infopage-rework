@@ -9,7 +9,7 @@ const CustomSlider = (props) => {
           return (
             <div >
             <a >
-              <img  style={{width: "12rem",height:"8rem", objectFit: "cover"}} src={require(`../../views/Media/assets/${i + 1}.png`)} />
+              <img  className="media-center-image" src={require(`../../views/Media/assets/${i + 1}.png`)} />
             </a>
             </div>
           );
@@ -23,25 +23,25 @@ const CustomSlider = (props) => {
       };
 
       return (
-        <div style={{marginTop: "5rem", marginRight: "1.5vw"}}>
+        <div className="media-slider-container">
         <Slider {...settings}>
         <div>
-            <img style={{margin: "auto", width: "auto", height: "40.833333333333332vw"}} src={require("../../views/Media/assets/1.png")} />
+            <img className="media-slider-image" src={require("../../views/Media/assets/1.png")} />
           </div>
           <div>
-            <img style={{margin: "auto", width: "auto", height: "40.833333333333332vw"}} src={require("../../views/Media/assets/2.png")} />
+            <img className="media-slider-image" src={require("../../views/Media/assets/2.png")} />
           </div>
           <div>
-             <img style={{margin: "auto", width: "auto", height: "40.833333333333332vw"}} src={require("../../views/Media/assets/3.png")} />
+             <img className="media-slider-image" src={require("../../views/Media/assets/3.png")} />
           </div>
           <div>
-            <img style={{margin: "auto", width: "auto", height: "40.833333333333332vw"}} src={require("../../views/Media/assets/4.png")} />
+            <img className="media-slider-image" src={require("../../views/Media/assets/4.png")} />
           </div>
           <div>
-            <img style={{margin: "auto", width: "auto", height: "40.833333333333332vw"}} src={require("../../views/Media/assets/5.png")} />
+            <img className="media-slider-image" src={require("../../views/Media/assets/5.png")} />
           </div>
           <div>
-            <img style={{margin: "auto", width: "auto", height: "40.833333333333332vw"}} src={require("../../views/Media/assets/6.png")} />
+            <img className="media-slider-image" src={require("../../views/Media/assets/6.png")} />
           </div>
 
         </Slider>
