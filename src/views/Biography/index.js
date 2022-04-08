@@ -8,11 +8,11 @@ const Biography = () => {
   return (
     <>
       <Contribute_Descrpition img={HeaderQuoteImg} title={'TIỂU SỬ'} lightText={false}/>{' '}
-      <div style={{ backgroundColor: '#f7f7f7', margin: '0 10% 0 10%', minHeight: '100rem', width: 'auto' }}>
+      <div className='bio-container'>
         <HeaderDescription title={'Tôi là Đỗ Thị Kim Liên'} />{' '}
         <div style={{ paddingTop: '2.5%', paddingBottom: '2.5%' }}>
           {' '}
-          <hr style={{ borderColor: '#c69703', width: '20%', margin: 'auto' }} />
+          <div style={{width: '20vw', height: "0.5vh", backgroundColor:"#C69703", margin: 'auto'}} />
         </div>
         <div>
           <Section_Paragraph
@@ -43,7 +43,7 @@ const Biography = () => {
         </div>{' '}
         <div style={{ paddingTop: '2.5%', paddingBottom: '2.5%' }}>
           {' '}
-          <hr style={{ borderColor: '#c69703', width: '20%', margin: 'auto' }} />
+          <div style={{width: '20vw', height: "0.5vh", backgroundColor:"#C69703", margin: 'auto'}} />
         </div>
       </div>{' '}
     </>

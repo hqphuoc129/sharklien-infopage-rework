@@ -12,8 +12,12 @@
 @import 'styles/indexgroup';
 @import 'styles/testimonialsslider';
 @import 'styles/gallery_home';
-@import "~react-image-gallery/styles/scss/image-gallery.scss";
+@import '~react-image-gallery/styles/scss/image-gallery.scss';
 @import 'styles/carouselslider';
+@import 'styles/quotestesthome';
+@import "styles/biography";
+@import "../src/styles/media";
+@import "../src/styles/briefintro";
 html {
   box-sizing: border-box;
 }
@@ -33,13 +37,13 @@ button {
   outline: none;
 }
 
-.navbar{
+.navbar {
   position: relative;
   display: flex;
   flex-wrap: wrap;
   /* align-items: center; */
   /* justify-content: space-between; */
-  padding: 0px; 
+  padding: 0px;
   flex-direction: row;
 }
 input {
@@ -89,15 +93,27 @@ nav ul {
   margin-right: 298px;
   position: absolute;
   right: 0;
+  //margin-top: 82px;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  height: 7vh;
+  flex-wrap: wrap;
+  margin-right: 10vh;
 }
 nav ul li {
   display: inline-block;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 20px;
-  padding: 0 8px;
+  display:flex;
+  width: 22vh; 
+  flex-direction: column;
+  align-items: center;
+  padding: 5px 8px;
 }
-nav .icon-navbar{
+nav .icon-navbar {
   display: none;
 }
 nav ul li a {
@@ -108,20 +124,26 @@ nav ul li a {
   width: 148px;
   justify-content: center;
 }
-nav ul li a:hover,
-.active {
+nav ul li a:hover{
   animation: colorTransform ease 0.3s;
   color: #cccaae;
-  border-bottom: 3px solid #cccaae;
+  border-bottom: 2px solid #cccaae;
 }
+nav ul li a.active {
+  animation: colorTransform ease 0.3s;
+  color: #cccaae;
+  border-bottom: 2px solid #cccaae;
+  width: fit-content;
+}
+
 @keyframes colorTransform {
   from {
     color: #231f20;
-    border-bottom: 3px solid white;
+    border-bottom: 2px solid white;
   }
   to {
     color: #cccaae;
-    border-bottom: 3px solid #cccaae;
+    border-bottom: 2px solid #cccaae;
   }
 }
 
@@ -129,15 +151,45 @@ nav ul li a:hover,
   nav #logo {
     width: 6.8vh;
   }
-}
 
-@media (max-width: 768px) {
   nav .icon-navbar{
     display:flex;
-    margin-right: 10vh;
   }
 
   nav ul {
     display: none;
   }
+
+  .navbar #hidden {
+    width: 100%;  
+    display: flex;
+    margin: 0px; 
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: fit-content;
+  }
+
+}
+
+@media (max-width: 768px) and (min-height: 605px){
+  nav .icon-navbar{
+    display:flex;
+    margin-left: 40%;
+    margin-right: 10%;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  
+  .navbar #hidden {
+    width: 100%;  
+    display: flex;
+    margin: 0px; 
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: fit-content;
+  }
+
 }

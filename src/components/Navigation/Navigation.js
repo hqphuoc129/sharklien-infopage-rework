@@ -6,6 +6,7 @@ import Logo from 'assets/logo.png';
 
 const Navigation = () => {
   const [isActive, setIsActive] = useState();
+  const [showul, setShowul] = useState(false);
   return (
     <nav className='navbar'>
       <Link
@@ -18,7 +19,8 @@ const Navigation = () => {
       >
         <img src={Logo} alt='Logo' />
       </Link>
-      <ul>
+      <DehazeIcon className="icon-navbar" onClick={() =>{ setShowul(!showul)}}/>
+      <ul id={showul ? "hidden": ""}>
         <li>
           <Link
             to='/biography'
@@ -64,7 +66,6 @@ const Navigation = () => {
           </Link>
         </li>
       </ul>
-      <DehazeIcon className="icon-navbar"/>
     </nav>
   );
 };

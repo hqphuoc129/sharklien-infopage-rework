@@ -190,3 +190,34 @@
     display: table;
     clear: both;
 }
+
+@media only screen and (max-width: 375px) {
+    .slick-dots-style
+{
+    position: static;
+    background-color: #fdf7e9;
+
+
+    display: flexbox;
+
+    padding: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+
+    list-style: none;
+
+    text-align: center;
+}
+
+.slick-dots-style li
+{
+
+    position: static;
+    white-space: nowrap;
+    display: inline-block;
+    background-size:contain;
+    padding: 0;
+
+    cursor: pointer;
+}
+}
