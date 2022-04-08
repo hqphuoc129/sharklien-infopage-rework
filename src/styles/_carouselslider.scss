@@ -14,17 +14,13 @@
     transform: translate(-50%, -50%);
 }
 
-.para{ 
-    font-size: 12pt;
-}
-
 @media only screen and (max-width: 767px) {
-    .outer {
+    .carousel-background {
         height: 32.6rem;
         position: relative;
         background-color: #F9F9EA; 
     }
-    .innerImage {
+    .carousel-image {
         margin: 0;
         position: absolute;
         width: 74.1rem;
