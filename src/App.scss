@@ -65,25 +65,34 @@ nav {
   display: inline-flex;
   width: 100%;
   // position: fixed;
-  //margin: 1px 0 2px 0;
-  //height: 140px;
+  justify-content: space-between;
+  height: 140px;
   font-family: 'Source Serif Pro', serif;
+  top: 0;
+  padding-top: 0;
+  position: relative;
 }
 nav #logo {
   width: 7%;
   //margin-left: 15%;
   margin-left: 10vh;
   border-bottom: none;
-  padding-bottom: 20px;
+  top: 0;
+  position: absolute;
+  top: 0;
 }
 nav img {
   top: 0;
   margin: 0px;
-  height: 90%;
+  height: 100%;
 }
 nav ul {
   list-style: none;
   height: 80%;
+  margin-top: 82px;
+  margin-right: 298px;
+  position: absolute;
+  right: 0;
   //margin-top: 82px;
   padding: 0px;
   margin: 0px;
@@ -109,7 +118,10 @@ nav .icon-navbar {
 }
 nav ul li a {
   color: #231f20;
-  //padding: 4px 20px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  justify-content: baseline;
+  width: 148px;
   justify-content: center;
 }
 nav ul li a:hover{
