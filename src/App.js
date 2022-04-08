@@ -6,6 +6,7 @@ import Contribution from 'views/Contribution';
 import Quotes from 'views/Quotes';
 import Media from 'views/Media';
 import IndexCombine from 'components/IndexCombine/IndexCombine';
+import Layout from 'layouts/Layout'
 // import Header from 'components/Header/Header';
 // import HeaderQuoteImg from 'assets/quotes-07.png';
 // import QuoteList from 'components/QuoteList/QuoteList';
@@ -24,7 +25,7 @@ const App = () => {
     <div className='app'>
       <Navigation />
 
-
+      <Layout/>
       <IndexCombine/>
     </div>
   );
