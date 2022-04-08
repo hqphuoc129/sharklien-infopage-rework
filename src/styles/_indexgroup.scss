@@ -12,22 +12,22 @@
   margin: auto;
 }
 .index-insurance-img {
-  min-width: 50%;
+  max-width: 72%;
   height: auto;
   margin: auto;
 }
 .index-water-img {
-  min-width: 50%;
+  max-width: 47%;
   height: auto;
   margin: auto;
 }
 .index-startup-img {
-  min-width: 50%;
+  max-width: 82%;
   height: auto;
   margin: auto;
 }
 .index-diplomacy-img {
-  min-width: 50%;
+  max-width: 57%;
   height: auto;
   margin: auto;
 }
@@ -73,7 +73,22 @@
   }
 }
 
-
+@media only screen and (max-width: 769px) {
+  .index-group-container {
+    width: 25%;
+    height: auto;
+    padding: 28px;
+    min-width: 36rem;
+  }
+  .index-group-title {
+    font-family: "Source Serif Pro", serif;
+    color: black;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding-top: 1.5rem;
+}
+}
 @media only screen and (max-width: 391px) {
   .index-combine-container {
     display: block;
