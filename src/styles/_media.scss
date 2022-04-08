@@ -38,7 +38,7 @@
     .media-center-image {
         width: 8rem;
         height:6rem;
-        object-fit: cover;
+        margin-right: 1px;
     }
     
     .media-slider-image {
@@ -49,6 +49,6 @@
     
     .media-slider-container {
         margin-top: 5rem; 
-        margin-right: 1.5vw;
+        margin-left: 2rem;
     }
 }
