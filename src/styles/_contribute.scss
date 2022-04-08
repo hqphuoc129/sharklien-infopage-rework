@@ -4,6 +4,7 @@
   width: 100%;
   height: 56.82vh;
   display: flex;
+  position: relative;
   flex-direction: column;
   justify-content: flex-end;
   background-position: center;
@@ -12,7 +13,7 @@
 .title-contrib {
   //position center in the container
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
 
@@ -37,8 +38,8 @@
 .lotus-background {
   //width: 153.03vh;
   //height: 91.26vh;
-  width: 100vh;
-  height: 59.634vh;
+  width: 80vh;
+  height: 47.7072vh;
 }
 
 .lotus-flex {
@@ -57,19 +58,19 @@
   left: 50%;
   transform: translate(-50%, -50%);
 
-  width: 120vh;
-  height: 65vh;
+  width: 110vh;
+  height: 60vh;
 }
 
 .lotus-container {
   position: relative;
   width: 100%;
-  height: 65vh;
+  height: 47.7072vh;
 }
 
 .leaf-one {
   position: absolute;
-  top: 43%;
+  top: 39%;
   left: 0%;
 
   color: black;
@@ -81,44 +82,44 @@
 .leaf-two {
   position: absolute;
   top: 13%;
-  left: 18%;
+  left: 24%;
 
   color: black;
   text-transform: uppercase;
-  font-size: 21pt;
+  font-size: 19pt;
   font-weight: bold;
 }
 
 .leaf-three {
   position: absolute;
-  top: 1%;
-  left: 42%;
+  top: 0%;
+  left: 45%;
 
   color: black;
   text-transform: uppercase;
-  font-size: 21pt;
+  font-size: 19pt;
   font-weight: bold;
 }
 
 .leaf-four {
   position: absolute;
   top: 13%;
-  right: 15%;
+  right: 19%;
 
   color: black;
   text-transform: uppercase;
-  font-size: 21pt;
+  font-size: 19pt;
   font-weight: bold;
 }
 
 .leaf-five {
   position: absolute;
-  top: 43%;
-  right: 2%;
+  top: 39%;
+  right: 5%;
 
   color: black;
   text-transform: uppercase;
-  font-size: 21pt;
+  font-size: 19pt;
   font-weight: bold;
 }
 
@@ -153,23 +154,79 @@
   font-weight: bold;
 }
 
-.para{
-  font-size: 12pt;
-  margin: 0px;
-}
 
 @media only screen and (max-width: 1000px) {
   .title-contrib {
     top: 55%;
   }
+
+  .para{
+    font-size: 19pt;
+  }
 }
 
 @media only screen and (max-width: 768px) {
+
+  .time_desp {
+    height: 10vh;
+    width: 100%;
+    background-color: #f9efd4;
+  
+    display: flex;
+    font-size: 1.0rem;
+    justify-content: center;
+    align-items: center;
+  
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .div-descript{
+    height: 30vh;
+  }
+
   .title-contrib {
     top: 60%;
     font-size: 2rem;
   }
+
+  .lotus-containtext {
+    width: 58vh;
+    height: 35vh;
+  }
+
+
+  .lotus-background{
+    width: 50vh;
+    height: 29.812vh;
+  }
+
+  .lotus-container{
+    height: 35vh;
+  }
+
+  .leaf-one {
+    font-size: 10pt;
+  }
+
+  .leaf-two {
+    font-size: 10pt;
+  }
+
+  .leaf-three {
+    font-size: 10pt;
+  }
+
+  .leaf-four {
+    font-size: 10pt;
+  }
+
+  .leaf-five {
+    font-size: 10pt;
+  }
+
 }
+
 
 @media only screen and (max-width: 376px) {
   
@@ -178,7 +235,7 @@
   }
   
   .title-contrib {
-    top: 50%;
+    top: 60%;
     font-size: 1.8rem;
   }
 

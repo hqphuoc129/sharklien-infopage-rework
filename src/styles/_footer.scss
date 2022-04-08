@@ -48,10 +48,30 @@
     margin: 0px;
 }
 
+
 // Responsive
 @media (max-width: 1080px)
 {
+
     
+}
+
+@media (max-width: 768px){
+    .footer_text
+    {
+        font-size: 16pt; 
+    }
+
+    .footer_text-wrapper
+    {
+        height: 8.6vh;
+    }
+
+    .footer_logo-wrapper
+    {
+        height: 8.8vh;
+        width: 8.94vh;
+    }
 }
 
 @media (max-width: 376px) {
