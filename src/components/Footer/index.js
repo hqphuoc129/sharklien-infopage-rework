@@ -5,7 +5,7 @@ function Footer() {
     <div className="footer">
       <div  className="footer_logo">
         <div className ='footer_logo-wrapper'> 
-          <img src = {FooterLogo}/> 
+          <img className="footer-img" src = {FooterLogo}/> 
         </div> 
       </div>
         <div className='footer_text-wrapper'>
