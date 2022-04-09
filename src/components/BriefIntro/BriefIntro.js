@@ -20,12 +20,26 @@ const BriefIntro = () => {
             />
           </Col>
 
+<<<<<<< HEAD
           <Col className='brief-intro-col' lg={true}>
             {/* <ReactPlayer */}
             className='react-player' url='https://www.youtube.com/watch?v=4J-SzFc-p5Q' width='auto' height='42vh' />
           </Col>
         </Row>
       </Container>
+=======
+                <Col className="brief-intro-col" lg={true}>
+                        <ReactPlayer
+                        className='react-player'
+                        url='https://www.youtube.com/watch?v=4TiHEbbVtGs'
+                        width='auto'
+                        height='42vh'
+                        controls={true}
+                        />              
+                </Col>
+            </Row>
+        </Container>
+>>>>>>> 822dfb4ddcd24092ed0b6448ffd7ac5f999b3baf
     </div>
   );
 };
