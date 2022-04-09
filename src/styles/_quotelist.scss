@@ -26,7 +26,7 @@
   margin: auto;
 }
 .content-quote {
-  margin: 5rem auto 10rem auto;
+  margin: 5rem auto -5rem auto;
   text-align: center;
 }
 .quote-heading {
@@ -36,22 +36,23 @@
   font-size: 3rem;
 }
 .box-quotedata {
-  margin: auto;
+  margin: 3rem auto;
   width: 100%;
   height: 100%;
+  display: block;
 }
 .quote-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 25px;
-  padding: 25px;
+  padding: 15rem;
 }
+
 .quote-image {
-  width: 404px;
-  height: 493px;
-  margin-bottom: 15px;
-  align-items: baseline;
-  left: 49px;
+  .quote-image {
+    width: 99%;
+    height: auto;
+
 }
 .quote-image-desc {
   font-size: 1.1rem;
@@ -117,12 +118,86 @@
     font-size: 1.5rem;
   }
   .box-quotedata {
-    margin: auto;
-    width: 60%;
-    margin: auto auto 5rem auto;
+    width: 90%;
+    margin: auto auto;
   }
   .quote-list {
     display: block;
+    padding: 3rem;
+  }
+  .quote-image {
+    width: 410px;
+    height: 400px;
+  }
+  .quote-image-desc {
+    margin: 8px -29px 40px -23px;
+    text-align: center;
+    font-size: 0.85rem;
+  }
+  .quote-image-desc:after {
+    content: '';
+    display: block;
+    width: 11%;
+    height: 1%;
+    background-color: #c69703;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 1rem auto;
+  }
+  .box-footering {
+    width: 100%;
+    display: block;
+    height: 114px;
+  }
+  .quote-footerone {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  .quote-footertwo {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+}
+@include minWidth(767px) {
+  .quote-container {
+    height: 450px;
+    width: 100%;
+  }
+  .box-quotetitle {
+    margin-top: 10%;
+  }
+  .quote-title {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: white;
+    font-style: bold;
+    text-align: center;
+    display: block;
+    padding: 30% 5%;
+  }
+  .box-underheader {
+    height: 0.5rem;
+    width: 5rem;
+    margin: auto auto -26% auto;
+  }
+  .content-quote {
+    margin: 13rem auto 2rem auto;
+    display: block;
+  }
+  .quote-heading {
+    font-size: 2.5rem;
+  }
+  .box-quotedata {
+    margin: auto;
+    width: 80%;
+    margin: auto auto 5rem auto;
+  }
+  .quote-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    padding: 15rem;
   }
   .quote-image {
     width: 410px;
@@ -153,8 +228,4 @@
     font-weight: bold;
     font-size: 1.5rem;
   }
-  .quote-footertwo {
-    font-size: 2rem;
-    font-weight: bold;
-  }
-} ;
+}
