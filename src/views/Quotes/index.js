@@ -25,6 +25,7 @@ const Quotes = () => {
         <QuoteList data={QUOTE_DATA} />
       </h1>
       <div className='box-footering'>
+        <h1 className=''></h1>
         <h1 className='quote-footerone'>"Đã không mơ thì thôi, </h1>
         <h1 className='quote-footertwo'>Mơ thì phải Mơ cho lớn"</h1>
       </div>
