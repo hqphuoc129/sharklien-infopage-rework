@@ -1,7 +1,7 @@
 .div-descript {
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
+  width: auto;
   height: 56.82vh;
   display: flex;
   position: relative;
@@ -392,5 +392,16 @@
 
   .leaf-five {
     font-size: 7pt;
+  }
+  .div-descript {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 10rem;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-position: center;
   }
 } 
