@@ -1,6 +1,15 @@
+import {Link, useNavigate} from 'react-router-dom';
+
 const Contrib_LinkText = (props) => {
+    const data = props.index
+    console.log (data)
+    const navigate = useNavigate()
+    const toDetail = (data) => {
+        navigate ("/details",{state: data});
+    }
     return(
-        <a href={props.link} className={props.position} >{props.text}</a> 
+        <a className={props.position} onClick={()=> {toDetail(data)}}>{props.text}</a> 
+        
     )
 }
 
