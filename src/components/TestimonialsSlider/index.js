@@ -1,21 +1,28 @@
 import Portrait from './assets/marko walde.png';
+import PortraitMobile from './assets/marko walde mobile.png';
 import { Carousel } from 'antd';
-import { CaretRightOutlined } from '@ant-design/icons';
+import { CaretRightOutlined, CaretLeftOutlined } from '@ant-design/icons';
 import 'App.scss';
 
 function TestimonialsSlider() {
   return (
     <div className='slider_container'>
-      <Carousel autoplay>
+      <h1 className='slider_header'>Để đi xa,
+chúng ta luôn cần có những người ủng hộ mình. </h1>
+      <Carousel autoplay arrows={true} nextArrow={<CaretRightOutlined/>} prevArrow={<CaretLeftOutlined/>}>
         <div className='slider_content'>
           <div className='slide_item-container'>
             <div className='slide_item-content'>
-              <img src={Portrait}></img>
+              <img className='portrait' src={Portrait}></img>
+              <div className='portrait-mobile-img'> 
+              <img className='portrait-mobile'src={PortraitMobile}></img>
+              </div>
               <p className='slide_item-text'>
                 Ông Marko Walde, Trưởng Đại diện Phòng Thương mại và Công nghiệp Đức tại Việt Nam (AHK):
               </p>
-              <div className='slide_button'>
-                <CaretRightOutlined />
+              <div className='slide_item-text-mobile'>
+                <h2>Ông Marko Walde</h2>
+                <p>Trưởng Đại diện Phòng Thương mại và Công nghiệp Đức tại Việt Nam (AHK):</p>
               </div>
             </div>
             <p className='slide_item-footer'>
@@ -29,12 +36,16 @@ function TestimonialsSlider() {
         <div className='slider_content'>
           <div className='slide_item-container'>
             <div className='slide_item-content'>
-              <img src={Portrait}></img>
+              <img className='portrait' src={Portrait}></img>
+              <div className='portrait-mobile-img'> 
+              <img className='portrait-mobile'src={PortraitMobile}></img>
+              </div>
               <p className='slide_item-text'>
                 Ông Marko Walde, Trưởng Đại diện Phòng Thương mại và Công nghiệp Đức tại Việt Nam (AHK):
               </p>
-              <div className='slide_button'>
-                <CaretRightOutlined />
+              <div className='slide_item-text-mobile'>
+                <h2>Ông Marko Walde</h2>
+                <p>Trưởng Đại diện Phòng Thương mại và Công nghiệp Đức tại Việt Nam (AHK):</p>
               </div>
             </div>
             <p className='slide_item-footer'>
