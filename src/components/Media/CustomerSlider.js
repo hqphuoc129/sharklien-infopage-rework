@@ -15,7 +15,7 @@ const CustomSlider = (props) => {
           );
         },
         dots: true,
-        dotsClass: "slick-dots-style" ,
+        dotsClass: "slick-dots-style slick-thumb" ,
         infinite: true,
         speed: 500,
         slidesToShow: 1,

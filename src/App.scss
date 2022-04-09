@@ -6,7 +6,7 @@
 @import 'styles/footer';
 @import 'styles/contribute';
 @import 'styles/contributiondetail';
-@import '/src//styles/slick';
+@import '/src/styles/slick';
 @import '~bootstrap/scss/bootstrap';
 @import '~video-react/styles/scss/video-react';
 @import 'styles/indexgroup';
@@ -18,6 +18,8 @@
 @import "styles/biography";
 @import "../src/styles/media";
 @import "../src/styles/briefintro";
+@import "~slick-carousel/slick/slick";
+@import "~slick-carousel/slick/slick-theme";
 html {
   box-sizing: border-box;
 }
@@ -65,35 +67,23 @@ nav {
   display: inline-flex;
   width: 100%;
   // position: fixed;
-  justify-content: space-between;
-  height: 140px;
   font-family: 'Source Serif Pro', serif;
-  top: 0;
-  padding-top: 0;
-  position: relative;
 }
 nav #logo {
   width: 7%;
   //margin-left: 15%;
   margin-left: 10vh;
   border-bottom: none;
-  top: 0;
-  position: absolute;
-  top: 0;
+  padding-bottom: 20px;
 }
 nav img {
   top: 0;
   margin: 0px;
-  height: 100%;
+  height: 90%;
 }
 nav ul {
   list-style: none;
   height: 80%;
-  margin-top: 82px;
-  margin-right: 298px;
-  position: absolute;
-  right: 0;
-  //margin-top: 82px;
   padding: 0px;
   margin: 0px;
   display: flex;
@@ -118,10 +108,10 @@ nav .icon-navbar {
 }
 nav ul li a {
   color: #231f20;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  justify-content: baseline;
-  width: 148px;
+  //padding-top: 4px;
+  //padding-bottom: 4px;
+  //justify-content: baseline;
+  //width: 148px;
   justify-content: center;
 }
 nav ul li a:hover{
@@ -183,6 +173,28 @@ nav ul li a.active {
   }
 
   
+  .navbar #hidden {
+    width: 100%;  
+    display: flex;
+    margin: 0px; 
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: fit-content;
+  }
+
+}
+
+@media (max-width: 920px) and (min-height: 1000px) {
+  nav .icon-navbar{
+    display:flex;
+    margin-left: 40%;
+    margin-right: 10%;
+  }
+
+  nav ul {
+    display: none;
+  } 
+
   .navbar #hidden {
     width: 100%;  
     display: flex;

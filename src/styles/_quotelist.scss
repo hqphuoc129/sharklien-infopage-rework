@@ -10,16 +10,24 @@
   height: 450px;
   width: 100%;
 }
+.quote-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  display: block;
+  padding: 18rem 0;
+  text-transform: uppercase;
+}
 .box-underheader {
   background-color: #c69703;
   height: 38px;
-  width: 238px;
+  width: 240px;
   margin: auto;
 }
 .content-quote {
-  margin: 145px auto 122px auto;
+  margin: 5rem auto 10rem auto;
   text-align: center;
-  line-height: 43px;
 }
 .quote-heading {
   text-align: center;
@@ -29,8 +37,8 @@
 }
 .box-quotedata {
   margin: auto;
-  width: 1325px;
-  height: 600px;
+  width: 100%;
+  height: 100%;
 }
 .quote-list {
   display: grid;
@@ -46,12 +54,11 @@
   left: 49px;
 }
 .quote-image-desc {
-  font-size: 14pt;
+  font-size: 1.1rem;
   font: Source Serif Variable;
   font-style: Regular;
   align-items: center;
   text-transform: uppercase;
-  word-break: break-word;
   text-align: center;
 }
 .quote-image img {
@@ -60,40 +67,42 @@
   object-fit: cover;
 }
 .box-footering {
-  text-align: center;
   display: block;
-  height: 380px;
-  margin-top: 13rem;
+  height: 11rem;
   margin-bottom: 17.2rem;
   background-color: #f9efd4;
 }
 .quote-footerone {
   text-align: center;
-  margin: auto;
-  padding-top: 110px;
-  font-size: 5rem;
+  padding: 2rem;
   font-family: 'Source Serif Pro', serif;
   font-weight: bold;
+  display: block;
 }
 .quote-footertwo {
   text-align: center;
-  margin: auto;
-  padding-bottom: 98px;
-  font-size: 5rem;
+  font-size: 4rem;
   font-family: 'Source Serif Pro', serif;
   font-weight: bold;
+  display: block;
+  margin: -3rem auto;
 }
 @include maxWidth(767px) {
   .quote-container {
     height: 280px;
     width: 100%;
   }
+  .box-quotetitle {
+    margin-top: 10%;
+  }
   .quote-title {
-    top: 40%;
-    font-size: 1.1rem;
-    width: 100%;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: white;
+    font-style: bold;
     text-align: center;
+    display: block;
+    padding: 30% 5%;
   }
   .box-underheader {
     height: 0.5rem;
@@ -101,15 +110,16 @@
     margin: auto auto -26% auto;
   }
   .content-quote {
-    margin: 145px auto 50px auto;
+    margin: 13rem auto 2rem auto;
+    display: block;
   }
   .quote-heading {
     font-size: 1.5rem;
   }
   .box-quotedata {
     margin: auto;
-    width: 80%;
-    margin: auto auto 64rem auto;
+    width: 60%;
+    margin: auto auto 5rem auto;
   }
   .quote-list {
     display: block;
@@ -136,21 +146,15 @@
   }
   .box-footering {
     width: 100%;
-    margin-top: -78px;
-    margin-bottom: 150px;
     display: block;
     height: 114px;
   }
   .quote-footerone {
     font-weight: bold;
     font-size: 1.5rem;
-    margin: -6rem 1rem 2rem 5rem;
-    position: absolute;
   }
   .quote-footertwo {
     font-size: 2rem;
     font-weight: bold;
-    position: absolute;
-    margin: 3rem 2rem 2rem 2rem;
   }
 } ;
