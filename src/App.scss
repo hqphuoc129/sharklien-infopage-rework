@@ -160,6 +160,17 @@ nav ul li a.active {
   }
 
 }
+@media (max-width: 850px) and (min-height: 605px){
+  nav ul {
+    display: none;
+  } 
+  nav .icon-navbar{
+    display:flex;
+    margin-left: 40%;
+    margin-right: 10%;
+  }
+
+}
 
 @media (max-width: 768px) and (min-height: 605px){
   nav .icon-navbar{

@@ -38,20 +38,26 @@ const DATA = {
 const ContributionItem = ({ active, setActive }) => {
   return (
     <div>
-      <img src={HeaderImage} alt='' className='header-contribution-image' />
-      <h1 className='box-underheading'> </h1>
-      {Object.keys(DATA).map((key, idx) => {
+      <div className="div-descript not-change"
+            style= {{
+                backgroundImage: `url(${HeaderImage})`}}>
+      <div className='containerdetail-text'>
+        {Object.keys(DATA).map((key, idx) => {
         return (
-          <h1
-            key={idx}
-            className={`contribution-item-title-${idx}${active === idx ? '-hidden' : ''}`}
-            onClick={() => setActive(idx)}
-          >
-            {DATA[key].title}
-          </h1>
-        );
-      })}
-      {getContent(active)}
+            <h1
+              key={idx}
+              className={`contribution-item-title-${idx}${active === idx ? '-hidden' : ''}`}
+              onClick={() => setActive(idx)}
+            >
+              {DATA[key].title}
+            </h1>
+          );
+        })}
+      </div>
+    </div>
+    <h1 className='box-underheading'> </h1>
+    {Object.keys(DATA).filter((key, idx) => idx === active).map((key, idx) => {return(<h1 className= 'title-details'>{DATA[key].title}</h1>)})}
+    {getContent(active)}
     </div>
   );
 };
