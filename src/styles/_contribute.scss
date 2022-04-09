@@ -70,57 +70,73 @@
 
 .leaf-one {
   position: absolute;
-  top: 39%;
+  top: 34%;
   left: 0%;
 
   color: black;
   text-transform: uppercase;
-  font-size: 19pt;
+  font-size: 17pt;
   font-weight: bold;
+  padding: 1vh;
+  border-radius: 5vh;
+  border : 1px solid #C5982D; 
+
 }
 
 .leaf-two {
   position: absolute;
-  top: 13%;
-  left: 24%;
+  top: 8%;
+  left: 18%;
 
   color: black;
   text-transform: uppercase;
-  font-size: 19pt;
+  font-size: 17pt;
   font-weight: bold;
+  padding: 1vh;
+  border-radius: 5vh;
+  border : 1px solid #C5982D; 
 }
 
 .leaf-three {
   position: absolute;
   top: 0%;
-  left: 45%;
+  left: 43%;
 
   color: black;
   text-transform: uppercase;
-  font-size: 19pt;
+  font-size: 17pt;
   font-weight: bold;
+  padding: 1vh;
+  border-radius: 5vh;
+  border : 1px solid #C5982D; 
 }
 
 .leaf-four {
   position: absolute;
-  top: 13%;
-  right: 19%;
+  top: 8%;
+  right: 18%;
 
   color: black;
   text-transform: uppercase;
-  font-size: 19pt;
+  font-size: 17pt;
   font-weight: bold;
+  padding: 1vh;
+  border-radius: 5vh;
+  border : 1px solid #C5982D; 
 }
 
 .leaf-five {
   position: absolute;
-  top: 39%;
+  top: 34%;
   right: 5%;
 
   color: black;
   text-transform: uppercase;
-  font-size: 19pt;
+  font-size: 17pt;
   font-weight: bold;
+  padding: 1vh;
+  border-radius: 5vh;
+  border : 1px solid #C5982D; 
 }
 
 .container-bar {
@@ -154,8 +170,12 @@
   font-weight: bold;
 }
 
+.leaf-one:hover , .leaf-two:hover , .leaf-three:hover, .leaf-four:hover, .leaf-five:hover {
+  background-color: #C5982D;
+  color: white
+}
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1000px) and (min-height: 600px) {
   .title-contrib {
     top: 55%;
   }
@@ -163,9 +183,52 @@
   .para{
     font-size: 19pt;
   }
+
+  .lotus-containtext {
+    width: 80vh;
+    height: 45vh;
+  }
+
+  .lotus-background{
+    width: 60vh;
+    height: 35.776vh;
+  }
+
+  .lotus-container{
+    height: 45vh;
+  }
+
+  .leaf-one {
+    top: 40%;
+    left:0%;
+    font-size: 10pt;
+  }
+
+  .leaf-two {
+    top: 14%;
+    left: 14%; 
+    font-size: 10pt;
+  }
+
+  .leaf-three {
+    top: 0%;
+    left: 43%;
+    font-size: 10pt;
+  }
+
+  .leaf-four {
+    top: 14%;
+    right: 14%; 
+    font-size: 10pt;
+  }
+
+  .leaf-five {
+    top: 40%;
+    font-size: 10pt;
+  }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (min-height: 600px) {
 
   .time_desp {
     height: 10vh;
@@ -191,8 +254,8 @@
   }
 
   .lotus-containtext {
-    width: 58vh;
-    height: 35vh;
+    width: 68vh;
+    height: 38vh;
   }
 
 
@@ -202,33 +265,90 @@
   }
 
   .lotus-container{
-    height: 35vh;
+    height: 38vh;
   }
 
   .leaf-one {
+    top: 40%;
+    left:0%;
     font-size: 10pt;
   }
 
   .leaf-two {
+    top: 14%;
+    left: 14%; 
     font-size: 10pt;
   }
 
   .leaf-three {
+    top: 0%;
+    left: 43%;
     font-size: 10pt;
   }
 
   .leaf-four {
+    top: 14%;
+    right: 14%; 
     font-size: 10pt;
   }
 
   .leaf-five {
+    top: 40%;
     font-size: 10pt;
   }
 
 }
 
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 581px) and (min-height: 600px) {
+  
+  .lotus-containtext {
+    width: 55vh;
+    height: 33vh;
+  }
+
+
+  .lotus-background{
+    width: 40vh;
+    height: 23.85vh;
+  }
+
+  .lotus-container{
+    height: 33vh;
+  }
+
+  .leaf-one {
+    top: 45%;
+    left:0%;
+    font-size: 10pt;
+  }
+
+  .leaf-two {
+    top: 19%;
+    left: 14%; 
+    font-size: 10pt;
+  }
+
+  .leaf-three {
+    top: 8%;
+    left: 40%;
+    font-size: 10pt;
+  }
+
+  .leaf-four {
+    top: 19%;
+    right: 14%; 
+    font-size: 10pt;
+  }
+
+  .leaf-five {
+    top: 45%;
+    font-size: 10pt;
+  }
+
+}
+
+@media only screen and (max-width: 376px) and (min-height: 600px) {
   
   .div-descript{
     height: 30vh;
@@ -246,8 +366,8 @@
 
 
   .lotus-background{
-    width: 40vh;
-    height: 23.85vh;
+    width: 35vh;
+    height: 20.86vh;
   }
 
   .lotus-container{
@@ -255,23 +375,23 @@
   }
 
   .leaf-one {
-    font-size: 10pt;
+    font-size: 7pt;
   }
 
   .leaf-two {
-    font-size: 10pt;
+    font-size: 7pt;
   }
 
   .leaf-three {
-    font-size: 10pt;
+    font-size: 7pt;
   }
 
   .leaf-four {
-    font-size: 10pt;
+    font-size: 7pt;
   }
 
   .leaf-five {
-    font-size: 10pt;
+    font-size: 7pt;
   }
   .div-descript {
     background-repeat: no-repeat;
