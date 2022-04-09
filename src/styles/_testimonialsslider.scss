@@ -3,9 +3,13 @@ ul.slick-dots.slick-dots-bottom {
 }
 
 .slider_container {
-  width: 100%;
   font-family: 'Source Serif Pro', serif;
   position: relative;
+  background-image: url('../components/TestimonialsSlider/assets/background-05.png') ;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  width: 100%;
 
   .ant-carousel .slick-prev,
   .ant-carousel .slick-next,
@@ -40,6 +44,8 @@ ul.slick-dots.slick-dots-bottom {
   margin: 20px auto;
   font-size: 36px !important;
   line-height: 100%;
+  padding-top: 14%;
+  margin-top: 0px;
 }
 .slider_content img {
   width: 76%;
@@ -112,6 +118,15 @@ button.slick-arrow.slick-prev
 }
 @media (max-width: 1079px) and (min-width: 375px)
 {
+  .slider_container
+  {
+    max-width: 1079px;
+    background-size: 1079px;
+  }
+  .slider_header
+  {
+    padding-top: 2%;
+  }
   .slider_content img {
     display: block;
     width: 100%;
@@ -267,12 +282,12 @@ button.slick-arrow.slick-prev
   .slider_container .ant-carousel .slick-next, 
   .slider_container .ant-carousel .slick-next:hover
   {
-    left: 46%;
+    left: 50%;
   }
   .slider_container .ant-carousel .slick-prev, 
   .slider_container .ant-carousel .slick-prev:hover
   {
-    left: 36%;
+    left: 32%;
   }
   .slide_button span svg {
     width: 40px;
