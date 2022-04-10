@@ -27,6 +27,7 @@ const Navigation = () => {
             className={isActive === 'biography' ? 'nav active' : 'nav'}
             onClick={() => {
               setIsActive('biography');
+              setShowul(!showul)
             }}
           >
             tiểu sử
@@ -38,6 +39,7 @@ const Navigation = () => {
             className={isActive === 'contribution' ? 'nav active' : 'nav'}
             onClick={() => {
               setIsActive('contribution');
+              setShowul(!showul)
             }}
           >
             cống hiến
@@ -49,6 +51,7 @@ const Navigation = () => {
             className={isActive === 'quotes' ? 'nav active' : 'nav'}
             onClick={() => {
               setIsActive('quotes');
+              setShowul(!showul)
             }}
           >
             Quotes
@@ -60,6 +63,7 @@ const Navigation = () => {
             className={isActive === 'media' ? 'nav active' : 'nav'}
             onClick={() => {
               setIsActive('media');
+              setShowul(!showul)
             }}
           >
             Media
