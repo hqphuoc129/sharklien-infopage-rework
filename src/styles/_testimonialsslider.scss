@@ -10,6 +10,7 @@ ul.slick-dots.slick-dots-bottom {
   background-repeat: no-repeat;
   object-fit: contain;
   width: 100%;
+  margin-bottom: 100px !important;
 
   .ant-carousel .slick-prev,
   .ant-carousel .slick-next,
@@ -191,19 +192,21 @@ button.slick-arrow.slick-prev
   .slider_container .ant-carousel .slick-prev:hover, 
   .slider_container .ant-carousel .slick-next:hover
   {
-    top: 105%;
-    width: 80;
-    height: 80;
+    top: 106%;
+    width: 80px;
+    height: 80px;
   }
   .slider_container .ant-carousel .slick-next, 
   .slider_container .ant-carousel .slick-next:hover
   {
-    left: 49%;
+    left: 8%;
+    margin: auto;
   }
   .slider_container .ant-carousel .slick-prev, 
   .slider_container .ant-carousel .slick-prev:hover
   {
-    left: 42%;
+    right: 8%;
+    margin: auto;
   }
   .slide_button span svg {
     width: 40px;
@@ -284,19 +287,10 @@ button.slick-arrow.slick-prev
   .slider_container .ant-carousel .slick-prev:hover, 
   .slider_container .ant-carousel .slick-next:hover
   {
-    top: 116%;
+    top: 108%;
     width: 60px;
     height: 60px;
-  }
-  .slider_container .ant-carousel .slick-next, 
-  .slider_container .ant-carousel .slick-next:hover
-  {
-    left: 50%;
-  }
-  .slider_container .ant-carousel .slick-prev, 
-  .slider_container .ant-carousel .slick-prev:hover
-  {
-    left: 32%;
+    display: none !important;
   }
   .slide_button span svg {
     width: 40px;
