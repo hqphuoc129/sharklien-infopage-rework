@@ -49,14 +49,12 @@
 }
 
 .quote-image {
-  .quote-image {
-    width: 99%;
-    height: auto;
-
+  width: 99%;
+  height: auto;
 }
 .quote-image-desc {
   font-size: 1.1rem;
-  font: Source Serif Variable;
+  font-family: Source Serif Variable;
   font-style: Regular;
   align-items: center;
   text-transform: uppercase;
@@ -128,6 +126,7 @@
   .quote-image {
     width: 410px;
     height: 400px;
+    margin: auto;
   }
   .quote-image-desc {
     margin: 8px -29px 40px -23px;
@@ -148,7 +147,7 @@
   .box-footering {
     width: 100%;
     display: block;
-    height: 114px;
+    height: 140px;
   }
   .quote-footerone {
     font-weight: bold;
@@ -157,75 +156,5 @@
   .quote-footertwo {
     font-size: 2rem;
     font-weight: bold;
-  }
-}
-@include minWidth(767px) {
-  .quote-container {
-    height: 450px;
-    width: 100%;
-  }
-  .box-quotetitle {
-    margin-top: 10%;
-  }
-  .quote-title {
-    font-size: 3rem;
-    text-transform: uppercase;
-    color: white;
-    font-style: bold;
-    text-align: center;
-    display: block;
-    padding: 30% 5%;
-  }
-  .box-underheader {
-    height: 0.5rem;
-    width: 5rem;
-    margin: auto auto -26% auto;
-  }
-  .content-quote {
-    margin: 13rem auto 2rem auto;
-    display: block;
-  }
-  .quote-heading {
-    font-size: 2.5rem;
-  }
-  .box-quotedata {
-    margin: auto;
-    width: 80%;
-    margin: auto auto 5rem auto;
-  }
-  .quote-list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 25px;
-    padding: 15rem;
-  }
-  .quote-image {
-    width: 410px;
-    height: 400px;
-  }
-  .quote-image-desc {
-    margin: -4px -29px 40px -23px;
-    text-align: center;
-    font-size: 0.85rem;
-  }
-  .quote-image-desc:after {
-    content: '';
-    display: block;
-    width: 11%;
-    height: 1%;
-    background-color: #c69703;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 1rem auto;
-  }
-  .box-footering {
-    width: 100%;
-    display: block;
-    height: 114px;
-  }
-  .quote-footerone {
-    font-weight: bold;
-    font-size: 1.5rem;
   }
 }
