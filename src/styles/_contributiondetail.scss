@@ -10,7 +10,7 @@
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 110vh; 
+  width: 115vh; 
   height: 55vh;
 }
 
@@ -18,6 +18,8 @@
   width: 100%;
   padding : 20px;
   font-size: 3.1rem;
+  font-weight: bold;
+  font-family: 'Source Serif Pro',serif;
   text-align: center;
 }
 
@@ -30,6 +32,8 @@
   position: absolute;
   top: 1%;
   left: 43%;
+  font-family: 'Source Serif Pro',serif;
+  font-weight: bold;
   font-size : 1.8rem;
   &-hidden {
     display: none;
@@ -46,6 +50,8 @@
   position: absolute;
   top: 14%;
   left: 10%;
+  font-weight: bold;
+  font-family: 'Source Serif Pro',serif;
   font-size : 1.8rem;
 
   &-hidden {
@@ -57,6 +63,8 @@
   top: 14%;
   right: 10%;
   font-size : 1.8rem;
+  font-weight: bold;
+  font-family: 'Source Serif Pro',serif;
   &-hidden {
     display: none;
   }
@@ -66,6 +74,8 @@
   top: 44%;
   right: 1%;
   font-size : 1.8rem;
+  font-weight: bold;
+  font-family: 'Source Serif Pro',serif;
   &-hidden {
     display: none;
   }
@@ -75,6 +85,8 @@
   top: 44%;
   left: 1%;
   font-size : 1.8rem;
+  font-weight: bold;
+  font-family: 'Source Serif Pro',serif;
   &-hidden {
     display: none;
   }
@@ -83,34 +95,39 @@
   margin: auto auto 10rem auto;
   width: 60%;
   line-height: 1.5;
+  font-family: 'Source Serif Pro',serif;
   font-size: 1.5rem;
 }
 .startup-content {
   margin: auto auto 10rem auto;
   width: 60%;
   line-height: 1.5;
+  font-family: 'Source Serif Pro',serif;
   font-size: 1.5rem;
 }
 .foreign-content {
   margin: auto auto 10rem auto;
   width: 60%;
+  font-family: 'Source Serif Pro',serif;
   line-height: 1.5;
   font-size: 1.5rem;
 }
 .water-content {
   margin: auto auto 10rem auto;
   width: 60%;
+  font-family: 'Source Serif Pro',serif;
   line-height: 1.5;
   font-size: 1.5rem;
 }
 .charity-content {
   margin: auto auto 10rem auto;
   width: 60%;
+  font-family: 'Source Serif Pro',serif;
   line-height: 1.5;
   font-size: 1.5rem;
 }
 
-@include maxWidth(1000px){ 
+@media screen and (max-width: 1000px) and (min-height : 600px){ 
   .not-change{
     width: auto;
     height: 60vh;
@@ -131,14 +148,14 @@
     font-size: 1.4rem;
   }
   .contribution-item-title-3 {
-    font-size: 1.4rem !important;
+    font-size: 1.4rem ;
   }
   .contribution-item-title-4 {
     font-size: 1.4rem;
   }
 }
 
-@include maxWidth(767px) {
+@media screen and (max-width: 769px) and (min-height : 600px){
   .header-contribution-image {
     height: 100%;
   }
@@ -174,7 +191,7 @@
     font-size: 0.8rem;
   }
   .contribution-item-title-3 {
-    font-size: 0.8rem !important;
+    font-size: 0.8rem;
   }
   .contribution-item-title-4 {
     font-size: 0.8rem;
@@ -230,30 +247,34 @@
   .startup-content {
     margin: auto auto 10rem auto;
     width: 70%;
+    text-align: justify;
     line-height: 1.5;
     font-size: 1rem;
   }
   .water-content {
     margin: auto auto 10rem auto;
     width: 70%;
+    text-align: justify;
     line-height: 1.5;
     font-size: 1rem;
   }
   .charity-content {
     margin: auto auto 10rem auto;
     width: 70%;
+    text-align: justify;
     line-height: 1.5;
     font-size: 1rem;
   }
   .foreign-content {
     margin: auto auto 10rem auto;
     width: 70%;
+    text-align: justify;
     line-height: 1.5;
     font-size: 1rem;
   }
 }
 
-@include maxWidth(500px) {
+@media screen and (max-width: 500px) and (min-height : 600px) {
   .not-change{
     width: auto;
     height: 35vh;
@@ -261,6 +282,42 @@
   .containerdetail-text{
     width: 44vh; 
     height : 22vh; 
+  }
+
+  @media screen and (max-width: 420px) and (min-height : 600px){
+    .contribution-item-title-0 {
+      font-size : 7pt;
+    }
+    .contribution-item-title-1 {
+      font-size : 7pt;
+    }
+    .contribution-item-title-2 {
+      font-size : 7pt;
+    }
+    .contribution-item-title-3 {
+      font-size : 7pt;
+    }
+    .contribution-item-title-4 {
+      font-size : 7pt;
+    }
+  }
+
+  @media screen and (max-width: 376px) and (min-height : 600px){
+    .contribution-item-title-0 {
+      font-size : 6pt;
+    }
+    .contribution-item-title-1 {
+      font-size : 6pt;
+    }
+    .contribution-item-title-2 {
+      font-size : 6pt;
+    }
+    .contribution-item-title-3 {
+      font-size : 6pt;
+    }
+    .contribution-item-title-4 {
+      font-size : 6pt;
+    } 
   }
 
 }
