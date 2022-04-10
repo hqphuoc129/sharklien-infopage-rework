@@ -32,6 +32,7 @@
   position: absolute;
   top: 1%;
   left: 43%;
+  cursor: pointer;
   font-family: 'Source Serif Pro',serif;
   font-weight: bold;
   font-size : 1.8rem;
@@ -51,6 +52,7 @@
   top: 14%;
   left: 10%;
   font-weight: bold;
+  cursor: pointer;
   font-family: 'Source Serif Pro',serif;
   font-size : 1.8rem;
 
@@ -62,6 +64,7 @@
   position: absolute;
   top: 14%;
   right: 10%;
+  cursor: pointer;
   font-size : 1.8rem;
   font-weight: bold;
   font-family: 'Source Serif Pro',serif;
@@ -73,6 +76,7 @@
   position: absolute;
   top: 44%;
   right: 1%;
+  cursor: pointer;
   font-size : 1.8rem;
   font-weight: bold;
   font-family: 'Source Serif Pro',serif;
@@ -84,6 +88,7 @@
   position: absolute;
   top: 44%;
   left: 1%;
+  cursor: pointer;
   font-size : 1.8rem;
   font-weight: bold;
   font-family: 'Source Serif Pro',serif;
@@ -95,6 +100,7 @@
   margin: auto auto 10rem auto;
   width: 60%;
   line-height: 1.5;
+  text-align: justify;
   font-family: 'Source Serif Pro',serif;
   font-size: 1.5rem;
 }
@@ -102,6 +108,7 @@
   margin: auto auto 10rem auto;
   width: 60%;
   line-height: 1.5;
+  text-align: justify;
   font-family: 'Source Serif Pro',serif;
   font-size: 1.5rem;
 }
@@ -109,12 +116,14 @@
   margin: auto auto 10rem auto;
   width: 60%;
   font-family: 'Source Serif Pro',serif;
+  text-align: justify;
   line-height: 1.5;
   font-size: 1.5rem;
 }
 .water-content {
   margin: auto auto 10rem auto;
   width: 60%;
+  text-align: justify;
   font-family: 'Source Serif Pro',serif;
   line-height: 1.5;
   font-size: 1.5rem;
@@ -122,6 +131,7 @@
 .charity-content {
   margin: auto auto 10rem auto;
   width: 60%;
+  text-align: justify;
   font-family: 'Source Serif Pro',serif;
   line-height: 1.5;
   font-size: 1.5rem;
