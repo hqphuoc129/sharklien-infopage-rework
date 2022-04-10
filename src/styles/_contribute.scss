@@ -21,6 +21,7 @@
   text-transform: uppercase;
   text-align: center;
   font-size: 3.1rem;
+  font-family: 'Source Serif Pro',serif;
   font-weight: bold;
 }
 
@@ -59,7 +60,7 @@
   transform: translate(-50%, -50%);
 
   width: 110vh;
-  height: 60vh;
+  height: 63vh;
 }
 
 .lotus-container {
@@ -78,6 +79,7 @@
   font-size: 17pt;
   font-weight: bold;
   padding: 1vh;
+  font-family: 'Source Serif Pro',serif;
   border-radius: 5vh;
   border : 1px solid #C5982D; 
 
@@ -91,6 +93,7 @@
   color: black;
   text-transform: uppercase;
   font-size: 17pt;
+  font-family: 'Source Serif Pro',serif;
   font-weight: bold;
   padding: 1vh;
   border-radius: 5vh;
@@ -106,6 +109,7 @@
   text-transform: uppercase;
   font-size: 17pt;
   font-weight: bold;
+  font-family: 'Source Serif Pro',serif;
   padding: 1vh;
   border-radius: 5vh;
   border : 1px solid #C5982D; 
@@ -118,6 +122,7 @@
 
   color: black;
   text-transform: uppercase;
+  font-family: 'Source Serif Pro',serif;
   font-size: 17pt;
   font-weight: bold;
   padding: 1vh;
@@ -135,6 +140,7 @@
   font-size: 17pt;
   font-weight: bold;
   padding: 1vh;
+  font-family: 'Source Serif Pro',serif;
   border-radius: 5vh;
   border : 1px solid #C5982D; 
 }
@@ -167,6 +173,7 @@
   align-items: center;
 
   text-align: center;
+  font-family: 'Source Serif Pro',serif;
   font-weight: bold;
 }
 
@@ -321,35 +328,35 @@
   .leaf-one {
     top: 45%;
     left:0%;
-    font-size: 10pt;
+    font-size: 8pt;
   }
 
   .leaf-two {
     top: 19%;
     left: 14%; 
-    font-size: 10pt;
+    font-size: 8pt;
   }
 
   .leaf-three {
     top: 8%;
-    left: 40%;
-    font-size: 10pt;
+    left: 41%;
+    font-size: 8pt;
   }
 
   .leaf-four {
     top: 19%;
     right: 14%; 
-    font-size: 10pt;
+    font-size: 8pt;
   }
 
   .leaf-five {
     top: 45%;
-    font-size: 10pt;
+    font-size: 8pt;
   }
 
 }
 
-@media only screen and (max-width: 400px) and (min-height: 600px) {
+@media only screen and (max-width: 415px) and (min-height: 600px) {
   .lotus-containtext {
     width: 44vh;
     height: 29vh;
@@ -400,7 +407,7 @@
   }
 
   .lotus-containtext {
-    width: 42vh;
+    width: 49vh;
     height: 25vh;
   }
 
