@@ -307,17 +307,35 @@ button.slick-arrow.slick-prev
   }
 }
 
-@media only screen and (max-width: 391px) {
-  .slider_container {
+@media only screen and (max-width: 376px) {
+  .slider_container
+  {
+    margin-bottom: 40px !important;
+    font-family: 'Source Serif Pro', serif;
+    position: relative;
+    background-image: url('../components/TestimonialsSlider/assets/mobile background.svg') ;
     background-size: 100%;
-}
+    background-repeat: no-repeat;
+    object-fit: contain;
+  }
+  .slider_header
+  {
+    padding-top: 30%;
+  }
+  .slide_item-footer
+  {
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0 10% 10px;
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 1440px) {
   .slider_container {
     background-size: 100%;
 }
 }
-@media only screen and (max-width: 820px)
+@media only screen and (max-width: 820px) and (min-width: 376px)
 {.slider_container .ant-carousel .slick-prev, 
   .slider_container .ant-carousel .slick-next, 
   .slider_container .ant-carousel .slick-prev:hover, 
@@ -325,9 +343,33 @@ button.slick-arrow.slick-prev
   {
     display: none !important;
   }
+  .slide_item-text-mobile
+  {
+    margin: 0;
+    padding: 0 13%;
+    background-color: #f7f7f7;
+    width: 100%;
+    overflow: hidden;
+  }
   .slider_container
   {
     margin-bottom: 40px !important;
+    font-family: 'Source Serif Pro', serif;
+    position: relative;
+    background-image: url('../components/TestimonialsSlider/assets/mobile background.svg') ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    object-fit: contain;
   }
-
+  .slider_header
+  {
+    padding-top: 30%;
+  }
+  .slide_item-footer
+  {
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0 10% 10px;
+    width: 100%;
+  }
 }
