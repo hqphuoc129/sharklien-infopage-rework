@@ -3,31 +3,35 @@
   width: 100%;
   height: 80vh;
   object-fit: cover;
+  position: relative; 
 }
-.div-descript {
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: auto;
-  height: 37rem;
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  justify-content: flex-end;
-  background-position: center;
+.containerdetail-text{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 110vh; 
+  height: 55vh;
 }
+
 .title-details {
-  font-size: 2.5rem;
+  width: 100%;
+  padding : 20px;
+  font-size: 3.1rem;
   text-align: center;
-  margin-top: 1rem;
 }
+
+.not-change{
+  width: auto;
+  height: 80vh;
+}
+
 .contribution-item-title-0 {
   position: absolute;
-  top: 16%;
-  left: 45%;
-  font-size: 2rem;
+  top: 1%;
+  left: 43%;
+  font-size : 1.8rem;
   &-hidden {
-    text-align: center;
-    margin: 3rem auto;
     display: none;
   }
 }
@@ -40,46 +44,38 @@
 
 .contribution-item-title-1 {
   position: absolute;
-  top: 27%;
-  left: 24%;
-  font-size: 2rem;
+  top: 14%;
+  left: 10%;
+  font-size : 1.8rem;
 
   &-hidden {
-    text-align: center;
-    margin: 3rem auto;
     display: none;
   }
 }
 .contribution-item-title-2 {
   position: absolute;
-  top: 27%;
-  right: 21%;
-  font-size: 2rem;
+  top: 14%;
+  right: 10%;
+  font-size : 1.8rem;
   &-hidden {
-    text-align: center;
-    margin: 3rem auto;
     display: none;
   }
 }
 .contribution-item-title-3 {
   position: absolute;
-  top: 51%;
-  right: 14%;
-  font-size: 2rem;
+  top: 44%;
+  right: 1%;
+  font-size : 1.8rem;
   &-hidden {
-    text-align: center;
-    margin: 3rem auto;
     display: none;
   }
 }
 .contribution-item-title-4 {
   position: absolute;
-  top: 51%;
-  left: 8%;
-  font-size: 2rem;
+  top: 44%;
+  left: 1%;
+  font-size : 1.8rem;
   &-hidden {
-    text-align: center;
-    margin: 3rem auto;
     display: none;
   }
 }
@@ -113,6 +109,35 @@
   line-height: 1.5;
   font-size: 1.5rem;
 }
+
+@include maxWidth(1000px){ 
+  .not-change{
+    width: auto;
+    height: 60vh;
+  }
+
+  .containerdetail-text{
+    width: 89vh; 
+    height : 40vh; 
+  } 
+
+  .contribution-item-title-0 {
+    font-size: 1.4rem;
+  }
+  .contribution-item-title-1 {
+    font-size: 1.4rem;
+  }
+  .contribution-item-title-2 {
+    font-size: 1.4rem;
+  }
+  .contribution-item-title-3 {
+    font-size: 1.4rem !important;
+  }
+  .contribution-item-title-4 {
+    font-size: 1.4rem;
+  }
+}
+
 @include maxWidth(767px) {
   .header-contribution-image {
     height: 100%;
@@ -125,33 +150,33 @@
     font-size: 1.5rem;
     text-align: center;
   }
+  .not-change{
+    width: auto;
+    height: 50vh;
+  }
+
+  .containerdetail-text{
+    width: 59vh; 
+    height : 30vh; 
+  }
+
   .box-underheading {
     height: 15px;
     width: 90px;
   }
   .contribution-item-title-0 {
-    top: 15.5%;
-    left: 46%;
     font-size: 0.8rem;
   }
   .contribution-item-title-1 {
-    top: 27%;
-    left: 22%;
     font-size: 0.8rem;
   }
   .contribution-item-title-2 {
-    top: 27%;
-    right: 18%;
     font-size: 0.8rem;
   }
   .contribution-item-title-3 {
-    top: 50%;
-    right: 13%;
     font-size: 0.8rem !important;
   }
   .contribution-item-title-4 {
-    top: 50%;
-    left: 4%;
     font-size: 0.8rem;
   }
   .contribution-item-title-0-hidden {
@@ -226,4 +251,16 @@
     line-height: 1.5;
     font-size: 1rem;
   }
+}
+
+@include maxWidth(500px) {
+  .not-change{
+    width: auto;
+    height: 35vh;
+  }
+  .containerdetail-text{
+    width: 44vh; 
+    height : 22vh; 
+  }
+
 }

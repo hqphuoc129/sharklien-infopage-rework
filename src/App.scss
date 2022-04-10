@@ -141,11 +141,14 @@ nav ul li a.active {
 @media (max-width: 376px) {
   nav #logo {
     width: 10.8vh;
+    margin-left: 5vh;
     height : 9.41833vh;
   }
 
   nav .icon-navbar{
     display:flex;
+    color : #C5982D;
+    margin-left: 20%; 
   }
 
   nav ul {
@@ -168,6 +171,7 @@ nav ul li a.active {
   } 
   nav .icon-navbar{
     display:flex;
+    color : #C5982D;
     margin-left: 40%;
     margin-right: 10%;
   }
@@ -178,6 +182,7 @@ nav ul li a.active {
   nav .icon-navbar{
     display:flex;
     margin-left: 40%;
+    color : #C5982D;
     margin-right: 10%;
   }
 
@@ -200,8 +205,7 @@ nav ul li a.active {
 @media (max-width: 920px) and (min-height: 1000px) {
   nav .icon-navbar{
     display:flex;
-    margin-left: 40%;
-    margin-right: 10%;
+    color : #C5982D;
   }
 
   nav ul {
