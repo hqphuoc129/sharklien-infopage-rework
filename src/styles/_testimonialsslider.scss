@@ -10,6 +10,7 @@ ul.slick-dots.slick-dots-bottom {
   background-repeat: no-repeat;
   object-fit: contain;
   width: 100%;
+  margin-bottom: 100px !important;
 
   .ant-carousel .slick-prev,
   .ant-carousel .slick-next,
@@ -116,7 +117,7 @@ button.slick-arrow.slick-prev
 {
   display: none !important;
 }
-@media (max-width: 1079px) and (min-width: 375px)
+@media (max-width: 1079px) and (min-width: 376px)
 {
   .slide_item-footer {
     width: 88%;
@@ -147,6 +148,8 @@ button.slick-arrow.slick-prev
   .portrait-mobile-img
   {
     display: block;
+    width: 70%;
+    margin: auto;
   }
   .slide_item-text {
     display: none;
@@ -191,19 +194,21 @@ button.slick-arrow.slick-prev
   .slider_container .ant-carousel .slick-prev:hover, 
   .slider_container .ant-carousel .slick-next:hover
   {
-    top: 105%;
-    width: 80;
-    height: 80;
+    top: 106%;
+    width: 80px;
+    height: 80px;
   }
   .slider_container .ant-carousel .slick-next, 
   .slider_container .ant-carousel .slick-next:hover
   {
-    left: 49%;
+    left: 8%;
+    margin: auto;
   }
   .slider_container .ant-carousel .slick-prev, 
   .slider_container .ant-carousel .slick-prev:hover
   {
-    left: 42%;
+    right: 8%;
+    margin: auto;
   }
   .slide_button span svg {
     width: 40px;
@@ -284,19 +289,10 @@ button.slick-arrow.slick-prev
   .slider_container .ant-carousel .slick-prev:hover, 
   .slider_container .ant-carousel .slick-next:hover
   {
-    top: 116%;
+    top: 108%;
     width: 60px;
     height: 60px;
-  }
-  .slider_container .ant-carousel .slick-next, 
-  .slider_container .ant-carousel .slick-next:hover
-  {
-    left: 50%;
-  }
-  .slider_container .ant-carousel .slick-prev, 
-  .slider_container .ant-carousel .slick-prev:hover
-  {
-    left: 32%;
+    display: none !important;
   }
   .slide_button span svg {
     width: 40px;
@@ -320,4 +316,14 @@ button.slick-arrow.slick-prev
   .slider_container {
     background-size: 100%;
 }
+}
+@media only screen and (max-width: 820px)
+{.slider_container .ant-carousel .slick-prev, 
+  .slider_container .ant-carousel .slick-next, 
+  .slider_container .ant-carousel .slick-prev:hover, 
+  .slider_container .ant-carousel .slick-next:hover
+  {
+    display: none !important;
+  }
+
 }

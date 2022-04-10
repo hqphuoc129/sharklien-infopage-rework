@@ -82,12 +82,12 @@
 }
 }
 
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 830px) {
   .index-group-container {
     width: 25%;
     height: auto;
     padding: 28px;
-    min-width: 27rem;
+    min-width: 42rem;
   }
   .index-group-title {
     font-family: "Source Serif Pro", serif;
@@ -96,6 +96,12 @@
     font-size: 1.6rem;
     font-weight: 600;
     padding-top: 1.5rem;
+}
+  .index-img-holder {
+    display: flex;
+    justify-content: center;
+    height: 58%;
+    margin: auto;
 }
 }
 @media only screen and (max-width: 420px) {
@@ -133,7 +139,7 @@
   .index-group-text {
     font-family: 'Source Serif Pro', serif;
     text-align: justify;
-    font-size: 12pt;
+    font-size: 11pt;
     font-weight: normal;
     width: 100%;
   }
