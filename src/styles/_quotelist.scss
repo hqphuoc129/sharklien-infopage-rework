@@ -31,7 +31,7 @@
 }
 .quote-heading {
   text-align: center;
-  font-family: "Source Serif Pro", serif;
+  font-family: 'Source Serif Pro', serif;
   font-weight: bold;
   font-size: 3rem;
 }
@@ -47,15 +47,14 @@
   padding: 25px;
 }
 .quote-image {
-  width: 404px;
-  height: 493px;
+  width: 38rem;
+  height: 45rem;
   margin-bottom: 15px;
   align-items: baseline;
-  left: 49px;
 }
 .quote-image-desc {
   font-size: 1.1rem;
-  font-family: "Source Serif Pro", serif;
+  font-family: 'Source Serif Pro', serif;
   font-style: normal;
   align-items: center;
   text-transform: uppercase;
@@ -69,7 +68,7 @@
 .box-footering {
   display: block;
   height: 11rem;
-  margin-bottom: 17.2rem;
+  margin: 8rem auto;
   background-color: #f9efd4;
 }
 .quote-footerone {
@@ -125,8 +124,8 @@
     display: block;
   }
   .quote-image {
-      width: 100%;
-      height: auto;
+    width: 100%;
+    height: auto;
   }
   .quote-image-desc {
     margin: -4px -29px 40px -23px;
