@@ -117,7 +117,7 @@ button.slick-arrow.slick-prev
 {
   display: none !important;
 }
-@media (max-width: 1079px) and (min-width: 375px)
+@media (max-width: 1079px) and (min-width: 376px)
 {
   .slide_item-footer {
     width: 88%;
@@ -314,4 +314,14 @@ button.slick-arrow.slick-prev
   .slider_container {
     background-size: 100%;
 }
+}
+@media only screen and (max-width: 820px)
+{.slider_container .ant-carousel .slick-prev, 
+  .slider_container .ant-carousel .slick-next, 
+  .slider_container .ant-carousel .slick-prev:hover, 
+  .slider_container .ant-carousel .slick-next:hover
+  {
+    display: none !important;
+  }
+
 }
