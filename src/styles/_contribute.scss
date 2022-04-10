@@ -348,6 +348,45 @@
 
 }
 
+@media only screen and (max-width: 400px) and (min-height: 600px) {
+  .lotus-containtext {
+    width: 44vh;
+    height: 29vh;
+  }
+
+
+  .lotus-background{
+    width: 35vh;
+    height: 20.86vh;
+  }
+
+  .lotus-container{
+    height: 29vh;
+  }
+
+  .leaf-one {
+    font-size: 6pt;
+  }
+
+  .leaf-two {
+    font-size: 6pt;
+  }
+
+  .leaf-three {
+    left: 43%;
+    font-size: 6pt;
+  }
+
+  .leaf-four {
+    font-size: 6pt;
+  }
+
+  .leaf-five {
+    font-size: 6pt;
+  }
+}
+ 
+
 @media only screen and (max-width: 376px) and (min-height: 600px) {
   
   .div-descript{
@@ -375,23 +414,23 @@
   }
 
   .leaf-one {
-    font-size: 7pt;
+    font-size: 6pt;
   }
 
   .leaf-two {
-    font-size: 7pt;
+    font-size: 6pt;
   }
 
   .leaf-three {
-    font-size: 7pt;
+    font-size: 6pt;
   }
 
   .leaf-four {
-    font-size: 7pt;
+    font-size: 6pt;
   }
 
   .leaf-five {
-    font-size: 7pt;
+    font-size: 6pt;
   }
   .div-descript {
     background-repeat: no-repeat;
