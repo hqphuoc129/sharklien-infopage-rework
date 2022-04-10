@@ -3,34 +3,31 @@
   width: 100%;
   height: 80vh;
   object-fit: cover;
-  position: relative;
 }
-.containerdetail-text{
-  position: absolute;
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 89vh; 
-  height: 55vh;
-}
-
-.title-details{
-  width: 100% ;
-  padding: 10px; 
-  text-align: center;
-  font-size : 3.1rem;
-}
-
-.not-change{
+.div-descript {
+  background-repeat: no-repeat;
+  background-size: cover;
   width: auto;
-  height: 80vh;
+  height: 37rem;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-position: center;
 }
-
+.title-details {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 1rem;
+}
 .contribution-item-title-0 {
   position: absolute;
-  top: 4%;
-  left: 40%;
+  top: 16%;
+  left: 45%;
+  font-size: 2rem;
   &-hidden {
+    text-align: center;
+    margin: 3rem auto;
     display: none;
   }
 }
@@ -43,34 +40,46 @@
 
 .contribution-item-title-1 {
   position: absolute;
-  top: 14%;
-  left: 10%;
+  top: 27%;
+  left: 24%;
+  font-size: 2rem;
 
   &-hidden {
+    text-align: center;
+    margin: 3rem auto;
     display: none;
   }
 }
 .contribution-item-title-2 {
   position: absolute;
-  top: 14%;
-  right: 10%;
-  &-hidden {    
+  top: 27%;
+  right: 21%;
+  font-size: 2rem;
+  &-hidden {
+    text-align: center;
+    margin: 3rem auto;
     display: none;
   }
 }
 .contribution-item-title-3 {
   position: absolute;
-  top: 45%;
-  right: 1%;
+  top: 51%;
+  right: 14%;
+  font-size: 2rem;
   &-hidden {
+    text-align: center;
+    margin: 3rem auto;
     display: none;
   }
 }
 .contribution-item-title-4 {
   position: absolute;
-  top: 45%;
-  left: 1%;
+  top: 51%;
+  left: 8%;
+  font-size: 2rem;
   &-hidden {
+    text-align: center;
+    margin: 3rem auto;
     display: none;
   }
 }
@@ -104,92 +113,71 @@
   line-height: 1.5;
   font-size: 1.5rem;
 }
-
-@include maxWidth(1000px){ 
-  .not-change{
-    width: auto;
-    height: 60vh;
-  }
-
-  .containerdetail-text{
-    width: 69vh; 
-    height : 40vh; 
-  }
-
-  .contribution-item-title-0 {
-    font-size: 1.8rem;
-  }
-  .contribution-item-title-1 {
-    font-size: 1.8rem;
-  }
-  .contribution-item-title-2 {
-    font-size: 1.8rem;
-  }
-  .contribution-item-title-3 {
-    font-size: 1.8rem !important;
-  }
-  .contribution-item-title-4 {
-    font-size: 1.8rem;
-  }
-}
-
 @include maxWidth(767px) {
   .header-contribution-image {
     height: 100%;
+  }
+  .title-details {
+    font-size: 1.5rem;
+    text-align: center;
   }
   .box-underheading {
     height: 15px;
     width: 90px;
   }
-  .not-change{
-    width: auto;
-    height: 50vh;
-  }
-
-  .containerdetail-text{
-    width: 59vh; 
-    height : 30vh; 
-  }
-
   .contribution-item-title-0 {
-    left: 43%;
-    font-size: 1.2rem;
+    top: 15.5%;
+    left: 46%;
+    font-size: 0.8rem;
   }
   .contribution-item-title-1 {
-    font-size: 1.2rem;
+    top: 27%;
+    left: 22%;
+    font-size: 0.8rem;
   }
   .contribution-item-title-2 {
-    font-size: 1.2rem;
+    top: 27%;
+    right: 18%;
+    font-size: 0.8rem;
   }
   .contribution-item-title-3 {
-    font-size: 1.2rem !important;
+    top: 50%;
+    right: 13%;
+    font-size: 0.8rem !important;
   }
   .contribution-item-title-4 {
-    font-size: 1.2rem;
+    top: 50%;
+    left: 4%;
+    font-size: 0.8rem;
   }
   .contribution-item-title-0-hidden {
     margin: 1rem auto;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    display: none;
   }
   .contribution-item-title-1-hidden {
     margin: 1rem auto;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    display: none;
   }
   .contribution-item-title-2-hidden {
     margin: 1rem auto;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    display: none;
   }
   .contribution-item-title-3-hidden {
     margin: 1rem auto;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    display: none;
   }
   .contribution-item-title-4-hidden {
     margin: 1rem auto;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    display: none;
   }
   .insurance-content {
-    margin: auto auto 6rem auto;
-    width: 80%;
+    margin: auto auto 10rem auto;
+    width: 70%;
     font-size: 0.8rem;
   }
   .footer_logo-wrapper {
@@ -209,5 +197,29 @@
     width: 100%;
     background-color: #c69703;
     font-size: 16px;
+  }
+  .startup-content {
+    margin: auto auto 10rem auto;
+    width: 70%;
+    line-height: 1.5;
+    font-size: 1rem;
+  }
+  .water-content {
+    margin: auto auto 10rem auto;
+    width: 70%;
+    line-height: 1.5;
+    font-size: 1rem;
+  }
+  .charity-content {
+    margin: auto auto 10rem auto;
+    width: 70%;
+    line-height: 1.5;
+    font-size: 1rem;
+  }
+  .foreign-content {
+    margin: auto auto 10rem auto;
+    width: 70%;
+    line-height: 1.5;
+    font-size: 1rem;
   }
 }
