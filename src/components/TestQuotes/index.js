@@ -1,16 +1,19 @@
 import TestQuoteLien from 'components/TestQuotes/assets/quotes-05.png';
 import QuoteMobileImage from 'components/TestQuotes/assets/quotemobile.jpg';
-const testQuos = (Props) => {
+const TestQuotes = (Props) => {
   return (
-    <>
-      <img className='box-imglien-desktop' src={TestQuoteLien} alt='' />
-      <img className='box-imglien-mobile' src={QuoteMobileImage} alt='' />
+    <div className='testquotes-container'>
       <div className='box-quotestitle'>
-        <h1 className='title-one'>Đã không mơ thì thôi, </h1>
-        <h1 className='title-two'>Mơ thì phải Mơ cho lớn.</h1>
+        <div className='quotetitle-container'>
+          <h1 className='title-one'>Đã không mơ thì thôi, </h1>
+          <h1 className='title-two'>Mơ thì phải Mơ cho lớn.</h1>
+        </div>
       </div>
-      <h1 className='title-three'> Để đi xa, chúng ta luôn cần có những người ủng hộ mình. </h1>
-    </>
+      <div className='testquotes-img-holder'>
+        <img className='box-imglien-desktop' src={TestQuoteLien} alt='' />
+        <img className='box-imglien-mobile' src={QuoteMobileImage} alt='' />
+      </div>
+    </div>
   );
 };
-export default testQuos;
+export default TestQuotes;

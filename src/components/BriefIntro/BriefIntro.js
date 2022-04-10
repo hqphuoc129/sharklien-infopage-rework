@@ -5,7 +5,7 @@ import { Col } from 'react-bootstrap';
 import { Container } from 'react-bootstrap';
 import Section_Paragraph from '../Description/Section_Paragraph';
 import { Player } from 'video-react';
-// import ReactPlayer from 'react-player'
+import ReactPlayer from 'react-player'
 const BriefIntro = () => {
   return (
     <div className='brief-intro-image'>
@@ -21,8 +21,9 @@ const BriefIntro = () => {
           </Col>
 
           <Col className='brief-intro-col' lg={true}>
-            {/* <ReactPlayer */}
-            <h1 className='react-player' url='https://www.youtube.com/watch?v=4J-SzFc-p5Q' width='auto' height='42vh' />
+            <ReactPlayer
+            className='react-player' url='https://www.youtube.com/watch?v=4J-SzFc-p5Q' width='auto' height='42vh' 
+            />
           </Col>
         </Row>
       </Container>

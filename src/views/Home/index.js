@@ -1,18 +1,14 @@
-import React from 'react';
-import BriefIntro from 'components/BriefIntro/BriefIntro';
-import IndexCombine from 'components/IndexCombine/IndexCombine';
 import TestimonialsSlider from '../../components/TestimonialsSlider/index';
 import Gallery from '../../components/Gallery Home/index';
-import TestQuotes from '../../components/TestQuotes/index';
+import CarouselSlider from "components/CarouselSlider/CarouselSlider"
+import Section2 from "components/Section2/Section2"
 const Home = () => {
   return (
     <>
-      <BriefIntro />
-      {/* <IndexCombine /> */}
-      <TestQuotes />
-
-      {/* <TestimonialsSlider /> */}
-      {/* <Gallery /> */}
+    <CarouselSlider/>
+      <Section2 />
+      <TestimonialsSlider />
+      <Gallery />
     </>
   );
 };

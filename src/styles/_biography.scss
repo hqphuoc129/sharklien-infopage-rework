@@ -17,22 +17,25 @@
     margin: 0 10% 0 10%;
     min-height: 10rem;
     width: auto;
+    font-family: 'Source Serif Pro', serif;
 }
 
 @media only screen and (max-width: 767px) {
     .para {
-        text-align: justify;
+        font-size: 11pt;
+        line-height: 1.5;
+        margin-bottom: 3%;
         margin-left: 3%;
         margin-right: 3%;
-        margin-bottom: 3%; 
-        font-size: 16pt;
-        line-height: 1.5;
+        text-align: justify;
     }
     
     .para-header {
-        text-align: center;
+        font-size: 14pt;
         padding-top: 3%;
-        font-size: 28pt;
+        justify-content: center;
+        margin: auto;
+        width: 73%;
     }
 
     .bio-container {

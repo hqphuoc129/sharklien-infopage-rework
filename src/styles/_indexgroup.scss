@@ -64,13 +64,22 @@
   flex-wrap: wrap;
   margin-top: 50px;
 }
-@media only screen and (max-width: 1921px) {
+@media only screen and (min-width: 1440px) {
+  .index-combine-container {
+    margin: auto;
+    width: 98%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 0px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
   .index-group-container {
     width: 25%;
     height: auto;
-    padding: 30px;
-    min-width: 27rem;
-  }
+    min-width: 13rem;
+}
 }
 
 @media only screen and (max-width: 769px) {
@@ -78,7 +87,7 @@
     width: 25%;
     height: auto;
     padding: 28px;
-    min-width: 36rem;
+    min-width: 27rem;
   }
   .index-group-title {
     font-family: "Source Serif Pro", serif;
@@ -89,7 +98,7 @@
     padding-top: 1.5rem;
 }
 }
-@media only screen and (max-width: 391px) {
+@media only screen and (max-width: 420px) {
   .index-combine-container {
     display: block;
   }

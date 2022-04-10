@@ -10,7 +10,6 @@ ul.slick-dots.slick-dots-bottom {
   background-repeat: no-repeat;
   object-fit: contain;
   width: 100%;
-  margin-bottom: 40px;
 
   .ant-carousel .slick-prev,
   .ant-carousel .slick-next,
@@ -119,14 +118,27 @@ button.slick-arrow.slick-prev
 }
 @media (max-width: 1079px) and (min-width: 375px)
 {
+  .slide_item-footer {
+    width: 88%;
+    margin: auto;
+    text-align: justify;
+    font-size: 18px;
+    display: block;
+    margin-top: 25px;
+    font-weight: 400;
+}
+  .slider_header {
+    width: 84%;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 23px !important;
+    line-height: 100%;
+    padding-top: 20%;
+    margin-top: 0px;
+}
   .slider_container
   {
-    max-width: 1079px;
-    background-size: 1079px;
-  }
-  .slider_header
-  {
-    padding-top: 2%;
+    background-size: 100%;
   }
   .slider_content img {
     display: block;
@@ -150,17 +162,13 @@ button.slick-arrow.slick-prev
     h2
     {
      font-weight: 700;
-     font-size: 46px;
+     font-size: 30px;
     }
     p
     {
       font-weight: 400;
-      font-size: 46px;
+      font-size: 17px;
     }
-  }
-  .slide_item-footer
-  {
-    width: 85%;
   }
   .ant-carousel .slick-prev,
   .ant-carousel .slick-next,
@@ -283,20 +291,12 @@ button.slick-arrow.slick-prev
   .slider_container .ant-carousel .slick-next, 
   .slider_container .ant-carousel .slick-next:hover
   {
-    right: 30%;
-    margin: 0;
-    width: 40px;
-    height: 40px;
-    margin-bottom: 20px;
+    left: 50%;
   }
   .slider_container .ant-carousel .slick-prev, 
   .slider_container .ant-carousel .slick-prev:hover
   {
-    left: 30%;
-    margin: 0;
-    width: 40px;
-    height: 40px;
-    bottom: 10px;
+    left: 32%;
   }
   .slide_button span svg {
     width: 40px;
@@ -309,4 +309,15 @@ button.slick-arrow.slick-prev
   {
     display: none !important;
   }
+}
+
+@media only screen and (max-width: 391px) {
+  .slider_container {
+    background-size: 100%;
+}
+}
+@media only screen and (max-width: 1440px) {
+  .slider_container {
+    background-size: 100%;
+}
 }
