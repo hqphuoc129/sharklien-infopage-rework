@@ -138,17 +138,25 @@ nav ul li a.active {
   }
 }
 
+@media (max-width: 321px) {
+  nav ul li a {
+    font-size: 12pt;  
+  }
+}
+
 @media (max-width: 376px) {
   nav #logo {
     width: 10.8vh;
     margin-left: 5vh;
     height : 9.41833vh;
+    max-height: 9.6vh;
   }
 
   nav .icon-navbar{
     display:flex;
     color : #C5982D;
-    margin-left: 20%; 
+    margin-left: 20%;
+    margin-right: 10%;
   }
 
   nav ul {
@@ -165,6 +173,40 @@ nav ul li a.active {
   }
 
 }
+
+@media only screen and (max-width: 670px) and (max-height: 380px) {
+  nav .icon-navbar{
+    display:flex;
+    color : #C5982D;
+    margin-right: 10%;
+  }
+  nav ul {
+    display: none;
+  } 
+  nav ul li {
+    width: 25vh;
+  }
+
+  nav ul li a {
+    font-size: 8pt;  
+  }
+  nav #logo {
+    width: 20.8vh;
+    margin-left: 5vh;
+    height : 19.41833vh;
+    max-height: 19.6vh;
+  }
+
+  .navbar #hidden {
+    width: 100%;  
+    display: flex;
+    margin: 0px; 
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: fit-content;
+  }
+}
+
 @media (max-width: 850px) and (min-height: 605px){
   nav ul {
     display: none;
@@ -174,6 +216,13 @@ nav ul li a.active {
     color : #C5982D;
     margin-left: 40%;
     margin-right: 10%;
+  }
+
+  nav #logo {
+    width: 10.8vh;
+    margin-left: 5vh;
+    height : 9.41833vh;
+    max-height: 9.6vh;
   }
 
 }
@@ -190,6 +239,13 @@ nav ul li a.active {
     display: none;
   }
 
+  nav #logo {
+    width: 10.8vh;
+    margin-left: 5vh;
+    height : 9.41833vh;
+    max-height: 9.6vh;
+  }
+
   
   .navbar #hidden {
     width: 100%;  
@@ -202,15 +258,60 @@ nav ul li a.active {
 
 }
 
+@media (max-width: 940px) and (min-height: 370px){
+  nav ul li a {
+    font-size: 12px;  
+  }
+
+  nav ul {
+    margin-right: 5vh;
+  }
+}
+
 @media (max-width: 920px) and (min-height: 1000px) {
   nav .icon-navbar{
     display:flex;
     color : #C5982D;
+    margin-right: 10%;
   }
 
   nav ul {
     display: none;
   } 
+
+  nav #logo {
+    width: 10.8vh;
+    margin-left: 5vh;
+    height : 9.41833vh;
+    max-height: 9.6vh;
+  }
+
+  .navbar #hidden {
+    width: 100%;  
+    display: flex;
+    margin: 0px; 
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: fit-content;
+  }
+
+}
+
+@media only screen and (max-width: 1025px) and (min-height: 1200px) {
+  nav .icon-navbar{
+    display:flex;
+    color : #C5982D;
+    margin-right: 10%;
+  }
+  nav ul {
+    display: none;
+  } 
+  nav #logo {
+    width: 10.8vh;
+    margin-left: 5vh;
+    height : 9.41833vh;
+    max-height: 9.6vh;
+  }
 
   .navbar #hidden {
     width: 100%;  
