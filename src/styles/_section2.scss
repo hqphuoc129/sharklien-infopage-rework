@@ -5,12 +5,16 @@
 }
 @media only screen and (max-width: 2560px) {
     .section2-background {
-        background-size: 110%;
+        background-size: 122%;
 }
 }
-
-@media only screen and (max-width: 1920px) {
+@media only screen and (max-width: 1921px) {
     .section2-background {
-        background-size: 120%;
+        background-size: 133%;
+    }
+}
+@media only screen and (max-width: 1441px) {
+    .section2-background {
+        background-size: 169%;
     }
 }
