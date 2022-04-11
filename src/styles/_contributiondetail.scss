@@ -167,7 +167,7 @@
 
 }
 
-@media only  screen and (max-width: 1000px) and (min-height : 600px){ 
+@media screen and (max-width: 1000px) and (min-height : 600px){ 
   .not-change{
     width: auto;
     height: 60vh;
@@ -255,7 +255,7 @@
   }
 }
 
-@media only screen and (max-width: 769px) and (min-height : 600px){
+@media screen and (max-width: 769px) and (min-height : 600px){
   .header-contribution-image {
     height: 100%;
   }
@@ -373,6 +373,21 @@
     font-size: 1rem;
   }
 }
+@media screen and (max-width: 376px) {
+.charity-content, .foreign-content, .startup-content, .water-content, .insurance-content {
+    font-size: 11pt;
+    line-height: 1.5;
+    margin: auto auto 10rem;
+    text-align: justify;
+    width: 70%;
+}
+}
+@media screen and (max-width: 376px) {
+.title-details {
+    font-size: 14pt;
+    text-align: center;
+}
+}
 
 
 
@@ -388,7 +403,7 @@
 }
 
 
-@media  only screen and (max-width: 745px) and (min-height : 1100px) {
+@media screen and (max-width: 745px) and (min-height : 1100px) {
   .not-change{
     width: auto;
     height: 40vh;
@@ -400,7 +415,7 @@
   }
 }
 
-@media only  screen and (max-width: 570px) and (max-height : 330px){
+@media screen and (max-width: 570px) and (max-height : 330px){
   .containerdetail-text{
     width: 121vh; 
     height : 55vh; 
@@ -423,7 +438,7 @@
   }
 }
 
-@media only  screen and (max-width: 500px) and (min-height : 550px) {
+@media screen and (max-width: 500px) and (min-height : 600px) {
   .not-change{
     width: auto;
     height: 35vh;
@@ -434,7 +449,7 @@
   }
 }
 
-  @media  only screen and (max-width: 420px) and (min-height : 550px){
+  @media screen and (max-width: 420px) and (min-height : 600px){
     .contribution-item-title-0 {
       font-size : 7pt;
     }
@@ -452,7 +467,7 @@
     }
   }
 
-  @media only  screen and (max-width: 375px){
+  @media screen and (max-width: 375px){
     .contribution-item-title-0 {
       font-size : 6pt;
     }
@@ -470,7 +485,7 @@
     } 
   }
 
-  @media only  screen and (max-width: 321px) and (min-height : 550px) {
+  @media screen and (max-width: 321px) and (min-height : 550px) {
     .not-change{
       width: auto;
       height: 35vh;
