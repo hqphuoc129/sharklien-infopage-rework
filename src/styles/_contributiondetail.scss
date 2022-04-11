@@ -137,6 +137,36 @@
   font-size: 1.5rem;
 }
 
+@media only screen and (max-width: 1025px) and (min-height: 1200px) {
+  .not-change{
+    width: auto;
+    height: 45vh;
+  }
+
+  .containerdetail-text{
+    width: 60vh; 
+    height : 30vh; 
+  } 
+
+  .contribution-item-title-0 {
+    font-size: 1.4rem;
+    left: 44%;
+  }
+  .contribution-item-title-1 {
+    font-size: 1.4rem;
+  }
+  .contribution-item-title-2 {
+    font-size: 1.4rem;
+  }
+  .contribution-item-title-3 {
+    font-size: 1.4rem ;
+  }
+  .contribution-item-title-4 {
+    font-size: 1.4rem;
+  }
+
+}
+
 @media screen and (max-width: 1000px) and (min-height : 600px){ 
   .not-change{
     width: auto;
@@ -162,6 +192,66 @@
   }
   .contribution-item-title-4 {
     font-size: 1.4rem;
+  }
+}
+
+@media only screen and (max-width: 940px) and (max-height: 480px) {
+  .containerdetail-text{
+    width: 158vh; 
+    height : 64vh; 
+  } 
+  .contribution-item-title-0 {
+    font-size: 1.4rem;
+  }
+  .contribution-item-title-1 {
+    font-size: 1.4rem;
+  }
+  .contribution-item-title-2 {
+    font-size: 1.4rem;
+  }
+  .contribution-item-title-3 {
+    font-size: 1.4rem ;
+  }
+  .contribution-item-title-4 {
+    font-size: 1.4rem;
+  }
+}
+@media only screen and (max-width: 835px) and (min-height: 1100px) {
+  .not-change{
+    width: auto;
+    height: 45vh;
+  }
+
+  .containerdetail-text{
+    width: 60vh; 
+    height : 30vh; 
+  } 
+
+  .contribution-item-title-0 {
+    font-size: 1.4rem;
+  }
+  .contribution-item-title-1 {
+    font-size: 1.4rem;
+  }
+  .contribution-item-title-2 {
+    font-size: 1.4rem;
+  }
+  .contribution-item-title-3 {
+    font-size: 1.4rem ;
+  }
+  .contribution-item-title-4 {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (max-width: 811px) and (min-height: 1000px) {
+  .containerdetail-text{
+    width: 59vh; 
+    height : 29vh; 
+  }  
+  .not-change{
+    width: auto;
+    height: 40vh;
   }
 }
 
@@ -284,6 +374,55 @@
   }
 }
 
+
+
+@media only screen and (max-width: 769px) and (min-height: 1000px) {
+  .contribution-item-title-0 {
+    left: 45%;
+  }
+
+  .not-change{
+    width: auto;
+    height: 55vh;
+  }
+}
+
+
+@media screen and (max-width: 745px) and (min-height : 1100px) {
+  .not-change{
+    width: auto;
+    height: 40vh;
+  }
+
+  .containerdetail-text{
+    width: 45vh; 
+    height : 25vh; 
+  }
+}
+
+@media screen and (max-width: 570px) and (max-height : 330px){
+  .containerdetail-text{
+    width: 121vh; 
+    height : 55vh; 
+  }
+  .contribution-item-title-0 {
+    left: 45%; 
+    font-size : 7pt;
+  }
+  .contribution-item-title-1 {
+    font-size : 7pt;
+  }
+  .contribution-item-title-2 {
+    font-size : 7pt;
+  }
+  .contribution-item-title-3 {
+    font-size : 7pt;
+  }
+  .contribution-item-title-4 {
+    font-size : 7pt;
+  }
+}
+
 @media screen and (max-width: 500px) and (min-height : 600px) {
   .not-change{
     width: auto;
@@ -293,6 +432,7 @@
     width: 44vh; 
     height : 22vh; 
   }
+}
 
   @media screen and (max-width: 420px) and (min-height : 600px){
     .contribution-item-title-0 {
@@ -312,7 +452,7 @@
     }
   }
 
-  @media screen and (max-width: 376px) and (min-height : 600px){
+  @media screen and (max-width: 376px) and (min-height : 550px){
     .contribution-item-title-0 {
       font-size : 6pt;
     }
@@ -330,4 +470,30 @@
     } 
   }
 
-}
+  @media screen and (max-width: 321px) and (min-height : 550px) {
+    .not-change{
+      width: auto;
+      height: 35vh;
+    }
+    .containerdetail-text{
+      width: 45vh; 
+      height : 22vh; 
+    }
+
+    .contribution-item-title-0 {
+      font-size : 6pt;
+    }
+    .contribution-item-title-1 {
+      font-size : 6pt;
+    }
+    .contribution-item-title-2 {
+      font-size : 6pt;
+    }
+    .contribution-item-title-3 {
+      font-size : 6pt;
+    }
+    .contribution-item-title-4 {
+      font-size : 6pt;
+    }
+  }
+
