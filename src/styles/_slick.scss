@@ -220,4 +220,18 @@
 
     cursor: pointer;
 }
+
+.div-descript {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 10rem;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-position: center;
+  }
 }
+
+
