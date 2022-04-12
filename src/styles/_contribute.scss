@@ -182,174 +182,6 @@
   color: white
 }
 
-@media only screen and (max-width: 1000px) and (min-height: 550px) {
-  .title-contrib {
-    top: 55%;
-  }
-
-  .para{
-    font-size: 19pt;
-    font-family: 'Source Serif Pro', serif;
-  }
-
-  .lotus-containtext {
-    width: 80vh;
-    height: 45vh;
-  }
-
-  .lotus-background{
-    width: 60vh;
-    height: 35.776vh;
-  }
-
-  .lotus-container{
-    height: 45vh;
-  }
-
-  .leaf-one {
-    top: 40%;
-    left:0%;
-    font-size: 10pt;
-  }
-
-  .leaf-two {
-    top: 14%;
-    left: 14%; 
-    font-size: 10pt;
-  }
-
-  .leaf-three {
-    top: 0%;
-    left: 43%;
-    font-size: 10pt;
-  }
-
-  .leaf-four {
-    top: 14%;
-    right: 14%; 
-    font-size: 10pt;
-  }
-
-  .leaf-five {
-    top: 40%;
-    font-size: 10pt;
-  }
-}
-
-@media only screen and (max-width: 569px) and (max-height: 321px) {
-  .lotus-containtext {
-    width: 130vh;
-    height: 59vh;
-  }
-
-  .lotus-background{
-    width: 60vh;
-    height: 35.776vh;
-  }
-
-  .lotus-container{
-    height: 45vh;
-  }
-    .leaf-one {
-    top: 40%;
-    left:0%;
-    font-size: 10pt;
-  }
-
-  .leaf-two {
-    top: 14%;
-    left: 14%; 
-    font-size: 10pt;
-  }
-
-  .leaf-three {
-    top: 0%;
-    left: 41%;
-    font-size: 10pt;
-  }
-
-  .leaf-four {
-    top: 14%;
-    right: 14%; 
-    font-size: 10pt;
-  }
-
-  .leaf-five {
-    top: 40%;
-    font-size: 10pt;
-  }
-}
-@media only screen and (max-width: 769px) and (min-height: 550px) {
-
-  .time_desp {
-    height: 10vh;
-    width: 100%;
-    background-color: #f9efd4;
-  
-    display: flex;
-    font-size: 1.0rem;
-    justify-content: center;
-    align-items: center;
-  
-    text-align: center;
-    font-weight: bold;
-  }
-
-  .div-descript{
-    height: 30vh;
-  }
-
-  .title-contrib {
-    top: 60%;
-    font-size: 2rem;
-  }
-
-  .lotus-containtext {
-    width: 68vh;
-    height: 38vh;
-  }
-
-
-  .lotus-background{
-    width: 50vh;
-    height: 29.812vh;
-  }
-
-  .lotus-container{
-    height: 38vh;
-  }
-
-  .leaf-one {
-    top: 40%;
-    left:0%;
-    font-size: 10pt;
-  }
-
-  .leaf-two {
-    top: 14%;
-    left: 14%; 
-    font-size: 10pt;
-  }
-
-  .leaf-three {
-    top: 0%;
-    left: 43%;
-    font-size: 10pt;
-  }
-
-  .leaf-four {
-    top: 14%;
-    right: 14%; 
-    font-size: 10pt;
-  }
-
-  .leaf-five {
-    top: 40%;
-    font-size: 10pt;
-  }
-
-}
-
 //===================================================================================================
 //Ipad or tablets
 
@@ -398,7 +230,15 @@
   }
 }
 
-@media only screen and (min-width: 834px) and (max-width: 1022px) and (orientation: portrait) {
+@media only screen and (min-width: 834px) and (max-width: 1023px) and (orientation: portrait) {
+  .title-contrib {
+    top: 55%;
+  }
+
+  .para{
+    font-size: 19pt;
+    font-family: 'Source Serif Pro', serif;
+  }
   .lotus-containtext {
     width: 65vh;
     height: 38vh;
@@ -444,6 +284,14 @@
 }
 
 @media only screen and (min-width: 820px) and (max-width: 833px) and (orientation: portrait) {
+  .title-contrib {
+    top: 55%;
+  }
+
+  .para{
+    font-size: 19pt;
+    font-family: 'Source Serif Pro', serif;
+  }
   .lotus-containtext {
     width: 65vh;
     height: 38vh;
@@ -490,6 +338,14 @@
 
 }
 @media only screen and (min-width: 810px) and (max-width: 819px) and (orientation: portrait) {
+  .title-contrib {
+    top: 55%;
+  }
+
+  .para{
+    font-size: 19pt;
+    font-family: 'Source Serif Pro', serif;
+  }
   .lotus-containtext {
     width: 64vh;
     height: 38vh;
@@ -536,8 +392,12 @@
 }
 
 
-@media only screen and (min-width: 768px) and (max-width: 808px) and (orientation: portrait) {
+@media only screen and (min-width: 768px) and (max-width: 809px) and (orientation: portrait) {
 
+  .para{
+    font-size: 19pt;
+    font-family: 'Source Serif Pro', serif;
+  }
   .time_desp {
     height: 10vh;
     width: 100%;
@@ -608,6 +468,32 @@
 }
 
 @media screen and (min-width: 744px) and (max-width: 767px) and (orientation: portrait) {
+  .para{
+    font-size: 19pt;
+    font-family: 'Source Serif Pro', serif;
+  }
+  .time_desp {
+    height: 10vh;
+    width: 100%;
+    background-color: #f9efd4;
+  
+    display: flex;
+    font-size: 1.0rem;
+    justify-content: center;
+    align-items: center;
+  
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .div-descript{
+    height: 30vh;
+  }
+
+  .title-contrib {
+    top: 60%;
+    font-size: 2rem;
+  }
   .lotus-containtext {
     width: 62vh;
     height: 40vh;
@@ -656,8 +542,11 @@
 
 //Landscape phoneeee
 
-
-@media only screen and (min-width: 568px) and (max-width: 927px) and (orientation: landscape) {
+@media only screen and (min-width: 667px) and (max-width:927px) and (orientation: landscape) {
+  .para{
+    font-size: 19pt;
+    font-family: 'Source Serif Pro', serif;
+  }
   .lotus-containtext {
     width: 110vh;
     height: 49vh;
@@ -701,6 +590,54 @@
   }
 }
 
+@media only screen and (min-width: 568px) and (max-width: 666px) and (orientation: landscape) {
+  .para{
+    font-size: 19pt;
+    font-family: 'Source Serif Pro', serif;
+  }
+  .lotus-containtext {
+    width: 130vh;
+    height: 59vh;
+  }
+
+  .lotus-background{
+    width: 60vh;
+    height: 35.776vh;
+  }
+
+  .lotus-container{
+    height: 45vh;
+  }
+    .leaf-one {
+    top: 40%;
+    left:0%;
+    font-size: 10pt;
+  }
+
+  .leaf-two {
+    top: 14%;
+    left: 14%; 
+    font-size: 10pt;
+  }
+
+  .leaf-three {
+    top: 0%;
+    left: 41%;
+    font-size: 10pt;
+  }
+
+  .leaf-four {
+    top: 14%;
+    right: 14%; 
+    font-size: 10pt;
+  }
+
+  .leaf-five {
+    top: 40%;
+    font-size: 10pt;
+  } 
+}
+
 
 //================================================================================================
 
@@ -709,19 +646,45 @@
 
 
 @media only screen and (min-width: 476px) and (max-width: 500px) and (orientation: portrait) {
+  .para{
+    font-size: 19pt;
+    font-family: 'Source Serif Pro', serif;
+  }
+  .time_desp {
+    height: 10vh;
+    width: 100%;
+    background-color: #f9efd4;
+  
+    display: flex;
+    font-size: 1.0rem;
+    justify-content: center;
+    align-items: center;
+  
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .div-descript{
+    height: 30vh;
+  }
+
+  .title-contrib {
+    top: 60%;
+    font-size: 2rem;
+  }
   .lotus-containtext {
-    width: 50vh;
+    width: 52vh;
     height: 27vh;
   }
 
 
   .lotus-background{
     width: 35vh;
-    height: 20.86vh;
+    height: auto;
   }
 
   .lotus-container{
-    height: 29vh;
+    height: 27vh;
   }
 
   .leaf-one {
@@ -754,19 +717,45 @@
   }
 }
 @media only screen and (min-width: 428px) and (max-width:474px) and (orientation: portrait) {
+  .para{
+    font-size: 19pt;
+    font-family: 'Source Serif Pro', serif;
+  }
+  .time_desp {
+    height: 10vh;
+    width: 100%;
+    background-color: #f9efd4;
+  
+    display: flex;
+    font-size: 1.0rem;
+    justify-content: center;
+    align-items: center;
+  
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .div-descript{
+    height: 30vh;
+  }
+
+  .title-contrib {
+    top: 60%;
+    font-size: 2rem;
+  }
   .lotus-containtext {
     width: 44.5vh;
-    height: 23vh;
+    height: 25vh;
   }
 
 
   .lotus-background{
     width: 35vh;
-    height: 20.86vh;
+    height: auto;
   }
 
   .lotus-container{
-    height: 29vh;
+    height: 25vh;
   }
 
   .leaf-one {
@@ -790,21 +779,46 @@
     font-size: 6pt;
   }
 }
+@media only screen and (min-width: 414px) and (max-width:420px) and (max-height : 925px) and (orientation: portrait) {
+  .para{
+    font-size: 19pt;
+    font-family: 'Source Serif Pro', serif;
+  }
+  .time_desp {
+    height: 10vh;
+    width: 100%;
+    background-color: #f9efd4;
+  
+    display: flex;
+    font-size: 1.0rem;
+    justify-content: center;
+    align-items: center;
+  
+    text-align: center;
+    font-weight: bold;
+  }
 
-@media only screen and (min-width: 414px) and (max-width:420px) and (orientation: portrait) {
+  .div-descript{
+    height: 30vh;
+  }
+
+  .title-contrib {
+    top: 60%;
+    font-size: 2rem;
+  }
   .lotus-containtext {
-    width: 45.5vh;
+    width: 43.5vh;
     height: 25vh;
   }
 
 
   .lotus-background{
     width: 35vh;
-    height: 20.86vh;
+    height: auto;
   }
 
   .lotus-container{
-    height: 29vh;
+    height: 25vh;
   }
 
   .leaf-one {
@@ -816,7 +830,71 @@
   }
 
   .leaf-three {
-    left: 42.5%;
+    left: 43%;
+    font-size: 6pt;
+  }
+
+  .leaf-four {
+    font-size: 6pt;
+  }
+
+  .leaf-five {
+    font-size: 6pt;
+  }
+}
+
+@media only screen and (min-width: 414px) and (max-width:420px) and (max-height : 895px) and (orientation: portrait) {
+  .para{
+    font-size: 19pt;
+    font-family: 'Source Serif Pro', serif;
+  }
+  .time_desp {
+    height: 10vh;
+    width: 100%;
+    background-color: #f9efd4;
+  
+    display: flex;
+    font-size: 1.0rem;
+    justify-content: center;
+    align-items: center;
+  
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .div-descript{
+    height: 30vh;
+  }
+
+  .title-contrib {
+    top: 60%;
+    font-size: 2rem;
+  }
+  .lotus-containtext {
+    width: 47.5vh;
+    height: 26vh;
+  }
+
+
+  .lotus-background{
+    width: 35vh;
+    height: auto;
+  }
+
+  .lotus-container{
+    height: 26vh;
+  }
+
+  .leaf-one {
+    font-size: 6pt;
+  }
+
+  .leaf-two {
+    font-size: 6pt;
+  }
+
+  .leaf-three {
+    left: 42%;
     font-size: 6pt;
   }
 
@@ -830,6 +908,32 @@
 }
 
 @media only screen and (min-width: 390px) and (max-width: 410px) and (orientation: portrait){
+  .para{
+    font-size: 19pt;
+    font-family: 'Source Serif Pro', serif;
+  }
+  .time_desp {
+    height: 10vh;
+    width: 100%;
+    background-color: #f9efd4;
+  
+    display: flex;
+    font-size: 1.0rem;
+    justify-content: center;
+    align-items: center;
+  
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .div-descript{
+    height: 30vh;
+  }
+
+  .title-contrib {
+    top: 60%;
+    font-size: 2rem;
+  }
   .div-descript{
     height: 30vh;
   }
@@ -841,17 +945,85 @@
 
   .lotus-containtext {
     width: 44.5vh;
-    height: 23vh;
+    height: 26vh;
   }
 
 
   .lotus-background{
     width: 35vh;
-    height: 20.86vh;
+    height: auto;
   }
 
   .lotus-container{
+    height: 26vh;
+  }
+
+  .leaf-one {
+    top: 36%;
+    font-size: 5pt;
+  }
+
+  .leaf-two {
+    top: 12%;
+    font-size: 5pt;
+  }
+
+  .leaf-three {
+    left: 43%;
+    font-size: 5pt;
+  }
+
+  .leaf-four {
+    top: 12%;
+    font-size: 5pt;
+  }
+
+  .leaf-five {
+    top: 36%;
+    font-size: 5pt;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 389px) and (max-height: 843px) and(orientation: portrait) {
+  .para{
+    font-size: 19pt;
+    font-family: 'Source Serif Pro', serif;
+  }
+  .time_desp {
+    height: 10vh;
+    width: 100%;
+    background-color: #f9efd4;
+  
+    display: flex;
+    font-size: 1.0rem;
+    justify-content: center;
+    align-items: center;
+  
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .div-descript{
     height: 30vh;
+  }
+  .title-contrib {
+    top: 60%;
+    font-size: 1.8rem;
+  }
+
+  .lotus-containtext {
+    width: 42.5vh;
+    height: 23vh;
+  }
+
+
+  .lotus-background{
+    width: 30vh;
+    height: auto;
+  }
+
+  .lotus-container{
+    height: 23vh;
   }
 
   .leaf-one {
@@ -874,33 +1046,60 @@
   .leaf-five {
     font-size: 5pt;
   }
+  .div-descript {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 10rem;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-position: center;
+  }
 }
 
 
-@media only screen and (min-width: 375px) and (max-width: 389px) and (orientation: portrait) {
+@media only screen and (min-width: 375px) and (max-width: 389px) and  (max-height: 811px) and(orientation: portrait) {
+  .para{
+    font-size: 19pt;
+    font-family: 'Source Serif Pro', serif;
+  }
+  .time_desp {
+    height: 10vh;
+    width: 100%;
+    background-color: #f9efd4;
   
+    display: flex;
+    font-size: 1.0rem;
+    justify-content: center;
+    align-items: center;
+  
+    text-align: center;
+    font-weight: bold;
+  }
+
   .div-descript{
     height: 30vh;
   }
-  
   .title-contrib {
     top: 60%;
     font-size: 1.8rem;
   }
 
   .lotus-containtext {
-    width: 45.5vh;
-    height: 25vh;
+    width: 47.5vh;
+    height: 23vh;
   }
 
 
   .lotus-background{
-    width: 35vh;
-    height: 20.86vh;
+    width: 30vh;
+    height: auto;
   }
 
   .lotus-container{
-    height: 30vh;
+    height: 23vh;
   }
 
   .leaf-one {
@@ -908,6 +1107,7 @@
   }
 
   .leaf-two {
+    top: 12%;
     font-size: 5pt;
   }
 
@@ -917,6 +1117,7 @@
   }
 
   .leaf-four {
+    top: 12%;
     font-size: 5pt;
   }
 
@@ -926,10 +1127,31 @@
 } 
 
 @media only screen and (min-width: 320px) and (max-width: 370px) and (orientation: portrait){
+  .time_desp {
+    height: 10vh;
+    width: 100%;
+    background-color: #f9efd4;
+  
+    display: flex;
+    font-size: 1.0rem;
+    justify-content: center;
+    align-items: center;
+  
+    text-align: center;
+    font-weight: bold;
+  }
 
+  .div-descript{
+    height: 30vh;
+  }
+
+  .title-contrib {
+    top: 60%;
+    font-size: 1.5rem;
+  }
   .lotus-background{
     width: 35vh;
-    height: 20.86vh;
+    height: auto;
   }
 
   .lotus-container{
@@ -937,8 +1159,8 @@
   }
 
   .lotus-containtext {
-    width: 47.5vh;
-    height: 23vh;
+    width: 52.5vh;
+    height: 26vh;
   }
 
   .leaf-one {
@@ -946,6 +1168,7 @@
   }
 
   .leaf-two {
+    top: 12%;
     font-size: 5pt;
   }
 
@@ -955,6 +1178,7 @@
   }
 
   .leaf-four {
+    top: 12%;
     font-size: 5pt;
   }
 
