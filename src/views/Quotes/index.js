@@ -16,20 +16,6 @@ const QUOTE_DATA = [
 ];
 
 const Quotes = () => {
-  const [hidden, setHidden] = useState(-1);
-  const [isModalVisible, setIsModalVisible] = useState(false);
-  const showModal = () => {
-    setIsModalVisible(true);
-  };
-
-  const handleOk = () => {
-    setIsModalVisible(false);
-  };
-
-  const handleCancel = () => {
-    setIsModalVisible(false);
-  };
-  console.log(hidden);
   return (
     <>
       <Header img={HeaderQuoteImg} title={'Người truyền cảm hứng'} />
@@ -39,15 +25,7 @@ const Quotes = () => {
         <h1 className='quote-heading'> truyền cảm hứng của shark Liên</h1>
       </div>
       <div className={`box-quotedata`}>
-        <QuoteList
-          data={QUOTE_DATA}
-          showModal={showModal}
-          setHidden={setHidden}
-          isModalVisible={isModalVisible}
-          handleOk={handleOk}
-          handleCancel={handleCancel}
-          hidden={hidden}
-        />
+        <QuoteList data={QUOTE_DATA} />
       </div>
       <div className={`box-footering`}>
         <h1 className='quote-footerone'>"Đã không mơ thì thôi, </h1>
