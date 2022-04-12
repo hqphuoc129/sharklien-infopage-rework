@@ -30,7 +30,14 @@ const QuoteItem = (props) => {
   return (
     <div className='quote-item-box'>
       <img className='quote-image' src={props.image} alt='' />
-      <Button type='dash' shape='round' onClick={showModal}>
+      <Button
+        type='dash'
+        shape='round'
+        onClick={showModal}
+        style={{
+          maxWidth: '75%',
+        }}
+      >
         {props.title}
       </Button>
       <Modal visible={isModalVisible} onOk={handleOk} onCancel={handleCancel} width={'100rem'}>
