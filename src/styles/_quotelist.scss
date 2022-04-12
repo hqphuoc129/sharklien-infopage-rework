@@ -40,46 +40,17 @@
   width: 100%;
   height: 100%;
 }
-.box-quotedata-hidden {
-  display: none;
-}
 .quote-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 25px;
-  padding: 25px;
+  grid-gap: 1rem;
+  justify-content: center;
 }
-.quote-image {
-  width: 38rem;
-  height: 45rem;
-  margin-bottom: 15px;
-  align-items: baseline;
+.quote-item-box {
+  align-items: center;
+  padding: auto;
 }
-.box-quote-image-desc-web {
-  display: flex;
-  justify-content: space-around;
-  gap: 0%;
-  padding-left: 6%;
-}
-.box-quote-image-desc-mobile {
-  display: none;
-}
-.quote-image-desc {
-  font-size: 1.5rem;
-  font-family: 'Source Serif Pro', serif;
-  font-style: normal;
-  text-transform: uppercase;
-  text-align: center;
-  width: 27%;
-  border: 2px solid #c69703;
-  padding: 5px;
-  border-radius: 5px;
-}
-.quote-image-desc:hover {
-  background-color: #c69703;
-  cursor: pointer;
-  color: white;
-}
+
 .quote-sharktank {
   font-size: 2rem;
   padding: 2rem;
@@ -98,10 +69,14 @@
   font-family: 'Source Serif Pro', serif;
   font-style: bold;
 }
-.quote-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+// .quote-image img {
+//   width: 100%;
+//   height: 100%;
+//   object-fit: cover;
+// }
+.quote-image {
+  width: 80%;
+  margin: auto;
 }
 .box-footering {
   display: block;
@@ -126,6 +101,10 @@
   font-weight: bold;
   display: block;
   margin: -3rem auto;
+}
+.ant-btn.ant-btn-round.ant-btn-dash {
+  @include textClamp(1);
+  margin: 1.5rem auto;
 }
 @include maxWidth(767px) {
   .quote-container {
@@ -163,35 +142,37 @@
     font-size: 1.5rem;
   }
   .box-quotedata {
-    margin: auto;
-    width: 60%;
+    width: 80%;
     margin: auto auto 5rem auto;
   }
   .quote-list {
     display: block;
   }
-  .quote-list-hidden {
-    display: none;
-  }
   .quote-image {
     width: 100%;
     height: auto;
   }
-  .quote-image-desc {
-    margin: -4px -29px 40px -23px;
+  .ant-btn-block {
     text-align: center;
-    font-size: 0.85rem;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-family: 'Source Serif Pro', serif;
   }
-  .quote-image-desc:after {
-    content: '';
+  .ant-btn {
+    font-size: 0.8rem;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    font-family: 'Source Serif Pro', serif;
     display: block;
-    width: 11%;
-    height: 1%;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: auto;
+  }
+  .ant-btn-default {
     background-color: #c69703;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 1rem auto;
+    color: white;
+    border-color: #c69703;
   }
   .box-footering {
     width: 100%;
@@ -206,4 +187,16 @@
     font-size: 2rem;
     font-weight: bold;
   }
-} ;
+  .quote-sharktank {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+  .quote-book {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+  .quote-charity {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+}
