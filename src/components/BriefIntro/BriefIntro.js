@@ -9,7 +9,7 @@ import ReactPlayer from 'react-player'
 const BriefIntro = () => {
   return (
     <div className='brief-intro-image'>
-      <Container fluid={'true'}>
+      <Container fluid={'true'} className="brief-intro-container">
         <HeaderDescription title={'Tôi tri ân tất cả những điều xảy đến trong cuộc đời mình.'} />
         <Row className='brief-intro-row'>
           <Col lg={true}>
@@ -22,7 +22,7 @@ const BriefIntro = () => {
 
           <Col className='brief-intro-col' lg={true}>
             <ReactPlayer
-            className='react-player' url='https://www.youtube.com/watch?v=4J-SzFc-p5Q' width='auto' height='42vh' 
+            className='react-player' url='https://www.youtube.com/watch?v=4J-SzFc-p5Q' width='auto' height='42vh' controls = {"true"}
             />
           </Col>
         </Row>

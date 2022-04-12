@@ -1124,17 +1124,6 @@
   .leaf-five {
     font-size: 5pt;
   }
-  .div-descript {
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: auto;
-    height: 10rem;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    justify-content: flex-end;
-    background-position: center;
-  }
 } 
 
 @media only screen and (min-width: 320px) and (max-width: 370px) and (orientation: portrait){
