@@ -137,125 +137,7 @@
   font-size: 1.5rem;
 }
 
-@media only screen and (max-width: 1025px) and (min-height: 1200px) {
-  .not-change{
-    width: auto;
-    height: 45vh;
-  }
-
-  .containerdetail-text{
-    width: 60vh; 
-    height : 30vh; 
-  } 
-
-  .contribution-item-title-0 {
-    font-size: 1.4rem;
-    left: 44%;
-  }
-  .contribution-item-title-1 {
-    font-size: 1.4rem;
-  }
-  .contribution-item-title-2 {
-    font-size: 1.4rem;
-  }
-  .contribution-item-title-3 {
-    font-size: 1.4rem ;
-  }
-  .contribution-item-title-4 {
-    font-size: 1.4rem;
-  }
-
-}
-
-@media screen and (max-width: 1000px) and (min-height : 600px){ 
-  .not-change{
-    width: auto;
-    height: 60vh;
-  }
-
-  .containerdetail-text{
-    width: 89vh; 
-    height : 40vh; 
-  } 
-
-  .contribution-item-title-0 {
-    font-size: 1.4rem;
-  }
-  .contribution-item-title-1 {
-    font-size: 1.4rem;
-  }
-  .contribution-item-title-2 {
-    font-size: 1.4rem;
-  }
-  .contribution-item-title-3 {
-    font-size: 1.4rem ;
-  }
-  .contribution-item-title-4 {
-    font-size: 1.4rem;
-  }
-}
-
-@media only screen and (max-width: 940px) and (max-height: 480px) {
-  .containerdetail-text{
-    width: 158vh; 
-    height : 64vh; 
-  } 
-  .contribution-item-title-0 {
-    font-size: 1.4rem;
-  }
-  .contribution-item-title-1 {
-    font-size: 1.4rem;
-  }
-  .contribution-item-title-2 {
-    font-size: 1.4rem;
-  }
-  .contribution-item-title-3 {
-    font-size: 1.4rem ;
-  }
-  .contribution-item-title-4 {
-    font-size: 1.4rem;
-  }
-}
-@media only screen and (max-width: 835px) and (min-height: 1100px) {
-  .not-change{
-    width: auto;
-    height: 45vh;
-  }
-
-  .containerdetail-text{
-    width: 60vh; 
-    height : 30vh; 
-  } 
-
-  .contribution-item-title-0 {
-    font-size: 1.4rem;
-  }
-  .contribution-item-title-1 {
-    font-size: 1.4rem;
-  }
-  .contribution-item-title-2 {
-    font-size: 1.4rem;
-  }
-  .contribution-item-title-3 {
-    font-size: 1.4rem ;
-  }
-  .contribution-item-title-4 {
-    font-size: 1.4rem;
-  }
-}
-
-@media only screen and (max-width: 811px) and (min-height: 1000px) {
-  .containerdetail-text{
-    width: 59vh; 
-    height : 29vh; 
-  }  
-  .not-change{
-    width: auto;
-    height: 40vh;
-  }
-}
-
-@media screen and (max-width: 769px) and (min-height : 600px){
+@media screen and (max-width: 769px) {
   .header-contribution-image {
     height: 100%;
   }
@@ -373,119 +255,241 @@
     font-size: 1rem;
   }
 }
-@media screen and (max-width: 376px) {
-.charity-content, .foreign-content, .startup-content, .water-content, .insurance-content {
-    font-size: 11pt;
-    line-height: 1.5;
-    margin: auto auto 10rem;
-    text-align: justify;
-    width: 70%;
-}
-}
-@media screen and (max-width: 376px) {
-.title-details {
-    font-size: 14pt;
-    text-align: center;
-}
-}
 
 
-
-@media only screen and (max-width: 769px) and (min-height: 1000px) {
-  .contribution-item-title-0 {
-    left: 45%;
-  }
-
-  .not-change{
-    width: auto;
-    height: 55vh;
-  }
-}
-
-
-@media screen and (max-width: 745px) and (min-height : 1100px) {
-  .not-change{
-    width: auto;
-    height: 40vh;
-  }
-
-  .containerdetail-text{
-    width: 45vh; 
-    height : 25vh; 
-  }
-}
-
-@media screen and (max-width: 570px) and (max-height : 330px){
-  .containerdetail-text{
-    width: 121vh; 
-    height : 55vh; 
-  }
-  .contribution-item-title-0 {
-    left: 45%; 
-    font-size : 7pt;
-  }
-  .contribution-item-title-1 {
-    font-size : 7pt;
-  }
-  .contribution-item-title-2 {
-    font-size : 7pt;
-  }
-  .contribution-item-title-3 {
-    font-size : 7pt;
-  }
-  .contribution-item-title-4 {
-    font-size : 7pt;
-  }
-}
-
-@media screen and (max-width: 500px) and (min-height : 600px) {
-  .not-change{
-    width: auto;
-    height: 35vh;
-  }
-  .containerdetail-text{
-    width: 44vh; 
-    height : 22vh; 
-  }
-}
-
-  @media screen and (max-width: 420px) and (min-height : 600px){
-    .contribution-item-title-0 {
-      font-size : 7pt;
+  // Ipad - tablet portrait 
+  @media only screen and (min-width: 1024px) and (max-width: 1050px) and (orientation: portrait) {
+    .not-change{
+      width: auto;
+      height: 45vh;
     }
-    .contribution-item-title-1 {
-      font-size : 7pt;
-    }
-    .contribution-item-title-2 {
-      font-size : 7pt;
-    }
-    .contribution-item-title-3 {
-      font-size : 7pt;
-    }
-    .contribution-item-title-4 {
-      font-size : 7pt;
-    }
-  }
-
-  @media screen and (max-width: 375px){
-    .contribution-item-title-0 {
-      font-size : 6pt;
-    }
-    .contribution-item-title-1 {
-      font-size : 6pt;
-    }
-    .contribution-item-title-2 {
-      font-size : 6pt;
-    }
-    .contribution-item-title-3 {
-      font-size : 6pt;
-    }
-    .contribution-item-title-4 {
-      font-size : 6pt;
+  
+    .containerdetail-text{
+      width: 60vh; 
+      height : 30vh; 
     } 
+  
+    .contribution-item-title-0 {
+      font-size: 1.4rem;
+      left: 44%;
+    }
+    .contribution-item-title-1 {
+      font-size: 1.4rem;
+    }
+    .contribution-item-title-2 {
+      font-size: 1.4rem;
+    }
+    .contribution-item-title-3 {
+      font-size: 1.4rem ;
+    }
+    .contribution-item-title-4 {
+      font-size: 1.4rem;
+    }
+  }
+  @media only screen and (min-width: 834px) and (max-width: 1023px) and (orientation: portrait) {
+    .not-change{
+      width: auto;
+      height: 60vh;
+    }
+  
+    .containerdetail-text{
+      width: 89vh; 
+      height : 40vh; 
+    } 
+  
+    .contribution-item-title-0 {
+      font-size: 1.4rem;
+    }
+    .contribution-item-title-1 {
+      font-size: 1.4rem;
+    }
+    .contribution-item-title-2 {
+      font-size: 1.4rem;
+    }
+    .contribution-item-title-3 {
+      font-size: 1.4rem ;
+    }
+    .contribution-item-title-4 {
+      font-size: 1.4rem;
+    }
+  }
+  @media only screen and (min-width: 820px) and (max-width: 833px) and (orientation: portrait) {
+    .not-change{
+      width: auto;
+      height: 45vh;
+    }
+  
+    .containerdetail-text{
+      width: 60vh; 
+      height : 30vh; 
+    } 
+  
+    .contribution-item-title-0 {
+      font-size: 1.4rem;
+    }
+    .contribution-item-title-1 {
+      font-size: 1.4rem;
+    }
+    .contribution-item-title-2 {
+      font-size: 1.4rem;
+    }
+    .contribution-item-title-3 {
+      font-size: 1.4rem ;
+    }
+    .contribution-item-title-4 {
+      font-size: 1.4rem;
+    }
+  }
+  @media only screen and (min-width: 810px) and (max-width: 819px) and (orientation: portrait) {
+    .containerdetail-text{
+      width: 59vh; 
+      height : 29vh; 
+    }  
+    .not-change{
+      width: auto;
+      height: 40vh;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 809px) and (orientation: portrait) {
+    .contribution-item-title-0 {
+      left: 45%;
+    }
+  
+    .not-change{
+      width: auto;
+      height: 55vh;
+    }
+  }
+  @media screen and (min-width: 744px) and (max-width: 767px) and (orientation: portrait) {
+    .not-change{
+      width: auto;
+      height: 40vh;
+    }
+  
+    .containerdetail-text{
+      width: 45vh; 
+      height : 25vh; 
+    }
+  }
+  //Phone - landscape 
+  @media only screen and (min-width: 667px) and (max-width:927px) and (orientation: landscape) {
+    .not-change{
+      width: auto;
+      height: 90vh;
+    }
+    .containerdetail-text{
+      width: 158vh; 
+      height : 64vh; 
+    } 
+    .contribution-item-title-0 {
+      font-size: 1.4rem;
+    }
+    .contribution-item-title-1 {
+      font-size: 1.4rem;
+    }
+    .contribution-item-title-2 {
+      font-size: 1.4rem;
+    }
+    .contribution-item-title-3 {
+      font-size: 1.4rem ;
+    }
+    .contribution-item-title-4 {
+      font-size: 1.4rem;
+    }
+  }
+  @media only screen and (min-width: 568px) and (max-width:666px) and (orientation: landscape) {
+    .not-change{
+      width: auto;
+      height: 70vh;
+    }
+    .containerdetail-text{
+      width: 121vh; 
+      height : 55vh; 
+    }
+    .contribution-item-title-0 {
+      left: 45%; 
+      font-size : 7pt;
+    }
+    .contribution-item-title-1 {
+      font-size : 7pt;
+    }
+    .contribution-item-title-2 {
+      font-size : 7pt;
+    }
+    .contribution-item-title-3 {
+      font-size : 7pt;
+    }
+    .contribution-item-title-4 {
+      font-size : 7pt;
+    }
+  } 
+
+  // Phone - portrait 
+  @media only screen and (min-width: 390px) and (max-width:500px) and (orientation: portrait) {
+    .not-change{
+      width: auto;
+      height: 35vh;
+    }
+    .containerdetail-text{
+      width: 44vh; 
+      height : 22vh; 
+    }
+    .contribution-item-title-0 {
+      font-size : 7pt;
+    }
+    .contribution-item-title-1 {
+      font-size : 7pt;
+    }
+    .contribution-item-title-2 {
+      font-size : 7pt;
+    }
+    .contribution-item-title-3 {
+      font-size : 7pt;
+    }
+    .contribution-item-title-4 {
+      font-size : 7pt;
+    }
   }
 
-  @media screen and (max-width: 321px) and (min-height : 550px) {
+  @media only screen and (min-width: 375px) and (max-width: 389px) and (orientation: portrait) {
+    .not-change{
+      width: auto;
+      height: 35vh;
+    }
+    .containerdetail-text{
+      width: 44vh; 
+      height : 22vh; 
+    }
+    .contribution-item-title-0 {
+      font-size : 6pt;
+    }
+    .contribution-item-title-1 {
+      font-size : 6pt;
+    }
+    .contribution-item-title-2 {
+      font-size : 6pt;
+    }
+    .contribution-item-title-3 {
+      font-size : 6pt;
+    }
+    .contribution-item-title-4 {
+      font-size : 6pt;
+    }
+  }
+
+  @media only screen and (min-width: 320px) and (max-width: 370px) and (orientation: portrait){
+    .title-details {
+      font-size: 14pt;
+      text-align: center;
+  }
+    .charity-content, .foreign-content, .startup-content, .water-content, .insurance-content {
+      font-size: 11pt;
+      line-height: 1.5;
+      margin: auto auto 10rem;
+      text-align: justify;
+      width: 70%;
+  }
+
     .not-change{
       width: auto;
       height: 35vh;
