@@ -141,14 +141,14 @@ nav ul li a.active {
 // - navbar portrait mobile 
 @media only screen and (min-width: 320px) and (max-width: 374px) and (orientation: portrait) {
   nav ul li a {
-    font-size: 12pt;  
+    font-size: 1rem;  
   }
 
   nav #logo {
-    width: 10.8vh;
-    margin-left: 5vh;
-    height : 9.41833vh;
-    max-height: 9.6vh;
+    width: 4.5rem;
+    margin-left: 1.9rem;
+    height : 4.2rem;
+    max-height: 4.6rem;
   }
 
   nav .icon-navbar{
@@ -174,10 +174,10 @@ nav ul li a.active {
 
 @media only screen and (min-width: 375px) and (max-width: 767px) and (orientation: portrait) {
   nav #logo {
-    width: 10.8vh;
-    margin-left: 5vh;
-    height : 9.41833vh;
-    max-height: 9.6vh;
+    width: 4.5rem;
+    margin-left: 1.9rem;
+    height : 4.2rem;
+    max-height: 4.6rem;
   }
 
   nav .icon-navbar{
@@ -212,17 +212,17 @@ nav ul li a.active {
     display: none;
   } 
   nav ul li {
-    width: 25vh;
+    width: 8rem;
   }
 
   nav ul li a {
-    font-size: 8pt;  
+    font-size: 0.8rem;  
   }
   nav #logo {
-    width: 20.8vh;
-    margin-left: 5vh;
-    height : 19.41833vh;
-    max-height: 19.6vh;
+    width: 4.5rem;
+    margin-left: 1.9rem;
+    height : 4.2rem;
+    max-height: 4.6rem;
   }
 
   .navbar #hidden {
@@ -236,11 +236,11 @@ nav ul li a.active {
 }
 @media only screen and (min-width: 667px) and (max-width: 927px) and (orientation: landscape){
   nav ul li a {
-    font-size: 12px;  
+    font-size: 0.8rem;  
   }
 
   nav ul {
-    margin-right: 5vh;
+    margin-right: 1.8rem;
   }
 }
 
@@ -258,10 +258,10 @@ nav ul li a.active {
   } 
 
   nav #logo {
-    width: 10.8vh;
-    margin-left: 5vh;
-    height : 9.41833vh;
-    max-height: 9.6vh;
+    width: 4.5rem;
+    margin-left: 1.9rem;
+    height : 4.2rem;
+    max-height: 4.6rem;
   }
 
   .navbar #hidden {
