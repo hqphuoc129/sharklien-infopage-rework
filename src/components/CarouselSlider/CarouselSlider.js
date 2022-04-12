@@ -1,7 +1,7 @@
 import "antd/dist/antd.css";
 import { Carousel } from "antd";
-import CarouselSliderImg1 from "components/CarouselSlider/assets/CarouselSliderImg1.webp";
-import CarouselSliderImg2 from "components/CarouselSlider/assets/CarouselSliderImg2.webp";
+import CarouselSliderImg1 from "components/CarouselSlider/assets/CarouselSliderImg1.jpg";
+import CarouselSliderImg2 from "components/CarouselSlider/assets/CarouselSliderImg2.jpg";
 
 const LIST_IMG = [CarouselSliderImg1,CarouselSliderImg2];
 
