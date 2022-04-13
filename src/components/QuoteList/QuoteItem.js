@@ -29,7 +29,9 @@ const QuoteItem = (props) => {
   };
   return (
     <div className='quote-item-box'>
-      <img className='quote-image' src={props.image} alt='' />
+      <a href={props.news} target="_blank">
+      <img className='quote-image' src={props.image} alt='' /></a>
+      
       <Button
         type='dash'
         shape='round'
@@ -40,6 +42,7 @@ const QuoteItem = (props) => {
       >
         {props.title}
       </Button>
+      <p className='sub-title'>{props.subtitle}</p>
       <Modal
         visible={isModalVisible}
         onOk={handleOk}
