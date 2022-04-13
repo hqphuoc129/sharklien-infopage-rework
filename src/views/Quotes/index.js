@@ -10,9 +10,9 @@ import { useState } from 'react';
 import { QuoteBook, QuoteSharkTank, QuoteCharity } from 'components/QuoteList/QuoteContent';
 
 const QUOTE_DATA = [
-  { image: QuoteImageOne, title: 'Quote shark Liên trên shark tank việt nam' },
-  { image: QuoteImageTwo, title: 'Quote từ cuốn sách "Liên và dòng chảy nghĩa tình"' },
-  { image: QuoteImageThree, title: 'Quote shark Liên về "gói tình shark Liên - gửi nghĩa đồng bào"' },
+  { image: QuoteImageOne, title: 'Trong chương trình Sharktank Việt Nam' },
+  { image: QuoteImageTwo, title: 'Từ cuốn sách "Liên và dòng chảy nghĩa tình"' },
+  { image: QuoteImageThree, title: 'Trong chương trình "Gói tình Shark Liên - gửi nghĩa đồng bào"' },
 ];
 
 const Quotes = () => {

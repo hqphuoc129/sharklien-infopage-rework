@@ -1,5 +1,5 @@
 import React from 'react';
-import HeaderQuoteImg from '../Biography/assets/tieusu07.png';
+import HeaderQuoteImg from '../Biography/assets/tieusu07.jpg';
 import Contribute_Descrpition from '../../components/Contrib Header/index';
 import HeaderDescription from '../../components/Description/Header_Description';
 import Section_Paragraph from '../../components/Description/Section_Paragraph';

@@ -105,6 +105,10 @@
 .ant-btn.ant-btn-round.ant-btn-dash {
   @include textClamp(1);
   margin: 1.5rem auto;
+  height: auto;
+}
+.ant-btn.ant-btn-round.ant-btn-dash span {
+  @include textClamp(2);
 }
 @include maxWidth(767px) {
   .quote-container {
@@ -152,23 +156,23 @@
     width: 100%;
     height: auto;
   }
-  .ant-btn-block {
+  .ant-btn.ant-btn-round.ant-btn-dash span {
     text-align: center;
     text-transform: uppercase;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     font-family: 'Source Serif Pro', serif;
   }
-  .ant-btn {
-    font-size: 0.8rem;
-    text-overflow: ellipsis;
-    text-transform: uppercase;
-    font-family: 'Source Serif Pro', serif;
-    display: block;
-    text-align: center;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    height: auto;
-  }
+  // .ant-btn {
+  //   font-size: 0.8rem;
+  //   text-overflow: ellipsis;
+  //   text-transform: uppercase;
+  //   font-family: 'Source Serif Pro', serif;
+  //   display: block;
+  //   text-align: center;
+  //   padding-left: 1rem;
+  //   padding-right: 1rem;
+  //   height: auto;
+  // }
   .ant-btn-default {
     background-color: #c69703;
     color: white;

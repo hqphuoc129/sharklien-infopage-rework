@@ -10,10 +10,10 @@ const QuoteItem = (props) => {
   const handleOk = () => {
     setIsModalVisible(false);
   };
-
   const handleCancel = () => {
     setIsModalVisible(false);
   };
+
   const getContent = (idx) => {
     console.log(idx);
     switch (idx) {
@@ -40,7 +40,18 @@ const QuoteItem = (props) => {
       >
         {props.title}
       </Button>
-      <Modal visible={isModalVisible} onOk={handleOk} onCancel={handleCancel} width={'100rem'}>
+      <Modal
+        visible={isModalVisible}
+        onOk={handleOk}
+        maskClosable={true}
+        onCancel={handleCancel}
+        cancelButtonProps={{
+          style: {
+            display: 'none',
+          },
+        }}
+        width={'100rem'}
+      >
         {getContent(props.contentIdx)}
       </Modal>
     </div>
