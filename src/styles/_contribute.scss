@@ -39,8 +39,8 @@
 .lotus-background {
   //width: 153.03vh;
   //height: 91.26vh;
-  width: 80vh;
-  height: 47.7072vh;
+  width: 44rem;
+  height: auto;
 }
 
 .lotus-flex {
@@ -59,14 +59,14 @@
   left: 50%;
   transform: translate(-50%, -50%);
 
-  width: 110vh;
-  height: 63vh;
+  width: 60rem;
+  height: 31rem;
 }
 
 .lotus-container {
   position: relative;
   width: 100%;
-  height: 47.7072vh;
+  height: 31rem;
 }
 
 .leaf-one {
@@ -148,12 +148,12 @@
 .container-bar {
   position: relative;
   width: 100%;
-  height: 40vh;
+  height: 18rem;
 }
 
 .contrib-bar {
-  width: 30vh;
-  height: 2vh;
+  width: 16rem;
+  height: 1rem;
   background-color: #c69703;
 
   position: absolute;
@@ -187,17 +187,17 @@
 
 @media only screen and (min-width: 1024px) and (max-width: 1050px) and (orientation: portrait) {
   .lotus-containtext {
-    width: 65vh;
-    height: 38vh;
+    width: 50rem;
+    height: 31rem;
   }
 
   .lotus-background{
-    width: 55vh;
-    height: 32.7946vh;
+    width: 44rem;
+    height: auto;
   }
 
   .lotus-container{
-    height: 38vh;
+    height: 31rem;
   }
 
   .leaf-one {
@@ -240,17 +240,17 @@
     font-family: 'Source Serif Pro', serif;
   }
   .lotus-containtext {
-    width: 65vh;
-    height: 38vh;
+    width: 44rem;
+    height: 26rem;
   }
 
   .lotus-background{
-    width: 55vh;
-    height: 32.7946vh;
+    width: 36rem;
+    height: auto;
   }
 
   .lotus-container{
-    height: 38vh;
+    height: 26rem;
   }
 
   .leaf-one {
@@ -293,17 +293,17 @@
     font-family: 'Source Serif Pro', serif;
   }
   .lotus-containtext {
-    width: 65vh;
-    height: 38vh;
+    width: 44rem;
+    height: 26rem;
   }
 
   .lotus-background{
-    width: 55vh;
-    height: 32.7946vh;
+    width: 36rem;
+    height: auto;
   }
 
   .lotus-container{
-    height: 38vh;
+    height: 26rem;
   }
 
   .leaf-one {
@@ -347,17 +347,17 @@
     font-family: 'Source Serif Pro', serif;
   }
   .lotus-containtext {
-    width: 64vh;
-    height: 38vh;
+    width: 44rem;
+    height: 26rem;
   }
 
   .lotus-background{
-    width: 55vh;
-    height: 32.7946vh;
+    width: 36rem;
+    height: auto;
   }
 
   .lotus-container{
-    height: 38vh;
+    height: 26rem;
   }
   
   .leaf-one {
@@ -399,7 +399,7 @@
     font-family: 'Source Serif Pro', serif;
   }
   .time_desp {
-    height: 10vh;
+    height: 3rem;
     width: 100%;
     background-color: #f9efd4;
   
@@ -413,7 +413,7 @@
   }
 
   .div-descript{
-    height: 30vh;
+    height: 16rem;
   }
 
   .title-contrib {
@@ -422,18 +422,18 @@
   }
 
   .lotus-containtext {
-    width: 68vh;
-    height: 38vh;
+    width: 40rem;
+    height: 23rem;
   }
 
 
   .lotus-background{
-    width: 50vh;
-    height: 29.812vh;
+    width: 32rem;
+    height: auto;
   }
 
   .lotus-container{
-    height: 38vh;
+    height: 23rem;
   }
 
   .leaf-one {
@@ -473,7 +473,7 @@
     font-family: 'Source Serif Pro', serif;
   }
   .time_desp {
-    height: 10vh;
+    height: 3rem;
     width: 100%;
     background-color: #f9efd4;
   
@@ -487,7 +487,7 @@
   }
 
   .div-descript{
-    height: 30vh;
+    height: 16rem ;
   }
 
   .title-contrib {
@@ -495,17 +495,17 @@
     font-size: 2rem;
   }
   .lotus-containtext {
-    width: 62vh;
-    height: 40vh;
+    width: 40rem;
+    height: 26rem;
   }
 
   .lotus-background{
-    width: 55vh;
-    height: 32.7946vh;
+    width: 36rem;
+    height: auto;
   }
 
   .lotus-container{
-    height: 38vh;
+    height: 26rem;
   }
 
   .leaf-one {
@@ -844,7 +844,7 @@
   }
 }
 
-@media only screen and (min-width: 390px) and (max-width: 410px) and (orientation: portrait){
+@media only screen and (min-width: 390px) and (max-width: 413px) and (orientation: portrait){
   .para{
     font-size: 19pt;
     font-family: 'Source Serif Pro', serif;

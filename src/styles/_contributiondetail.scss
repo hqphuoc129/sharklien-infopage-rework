@@ -10,8 +10,8 @@
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 115vh; 
-  height: 55vh;
+  width: 63rem; 
+  height: 30rem;
 }
 
 .title-details {
@@ -25,13 +25,13 @@
 
 .not-change{
   width: auto;
-  height: 80vh;
+  height: 44rem;
 }
 
 .contribution-item-title-0 {
   position: absolute;
   top: 1%;
-  left: 43%;
+  left: 44%;
   cursor: pointer;
   font-family: 'Source Serif Pro',serif;
   font-weight: bold;
@@ -256,17 +256,17 @@
   }
 }
 
-
+  //===================================================================================================================
   // Ipad - tablet portrait 
   @media only screen and (min-width: 1024px) and (max-width: 1050px) and (orientation: portrait) {
     .not-change{
       width: auto;
-      height: 45vh;
+      height: 34rem;
     }
   
     .containerdetail-text{
-      width: 60vh; 
-      height : 30vh; 
+      width: 47rem; 
+      height : 22rem; 
     } 
   
     .contribution-item-title-0 {
@@ -289,12 +289,12 @@
   @media only screen and (min-width: 834px) and (max-width: 1023px) and (orientation: portrait) {
     .not-change{
       width: auto;
-      height: 60vh;
+      height: 34rem;
     }
   
     .containerdetail-text{
-      width: 89vh; 
-      height : 40vh; 
+      width: 47rem; 
+      height : 22rem; 
     } 
   
     .contribution-item-title-0 {
@@ -316,12 +316,12 @@
   @media only screen and (min-width: 820px) and (max-width: 833px) and (orientation: portrait) {
     .not-change{
       width: auto;
-      height: 45vh;
+      height: 34rem;
     }
   
     .containerdetail-text{
-      width: 60vh; 
-      height : 30vh; 
+      width: 44rem; 
+      height : 22rem; 
     } 
   
     .contribution-item-title-0 {
@@ -342,12 +342,27 @@
   }
   @media only screen and (min-width: 810px) and (max-width: 819px) and (orientation: portrait) {
     .containerdetail-text{
-      width: 59vh; 
-      height : 29vh; 
+      width: 44rem; 
+      height : 22rem; 
     }  
     .not-change{
       width: auto;
-      height: 40vh;
+      height: 30rem;
+    }
+    .contribution-item-title-0 {
+      font-size: 1.4rem;
+    }
+    .contribution-item-title-1 {
+      font-size: 1.4rem;
+    }
+    .contribution-item-title-2 {
+      font-size: 1.4rem;
+    }
+    .contribution-item-title-3 {
+      font-size: 1.4rem ;
+    }
+    .contribution-item-title-4 {
+      font-size: 1.4rem;
     }
   }
   @media only screen and (min-width: 768px) and (max-width: 809px) and (orientation: portrait) {
@@ -357,20 +372,22 @@
   
     .not-change{
       width: auto;
-      height: 55vh;
+      height: 34rem;
     }
   }
   @media screen and (min-width: 744px) and (max-width: 767px) and (orientation: portrait) {
     .not-change{
       width: auto;
-      height: 40vh;
+      height: 34rem;
     }
   
     .containerdetail-text{
-      width: 45vh; 
-      height : 25vh; 
+      width: 36rem; 
+      height : 20rem; 
     }
   }
+
+  //==========================================================================================================
   //Phone - landscape 
   @media only screen and (min-width: 667px) and (max-width:927px) and (orientation: landscape) {
     .not-change{
@@ -423,7 +440,7 @@
       font-size : 7pt;
     }
   } 
-
+  //======================================================================================================
   // Phone - portrait 
   @media only screen and (min-width: 390px) and (max-width:500px) and (orientation: portrait) {
     .not-change{
