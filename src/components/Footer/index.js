@@ -10,7 +10,7 @@ function Footer() {
       </div>
         <div className='footer_text-wrapper'>
         <p className="footer_text">
-        http://sharklien.vn/index.html
+        Đây là website giới thiệu về tôi - Đỗ Liên cùng hệ sinh thái kinh doanh, các hoạt động thiện nguyện và định hướng hỗ trợ cộng đồng của tôi
         </p>
         </div>
     </div>
