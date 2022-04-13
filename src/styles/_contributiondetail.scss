@@ -5,6 +5,16 @@
   object-fit: cover;
   position: relative; 
 }
+
+.link-click{
+  font-weight: bold;
+  font-family: 'Source Serif Pro',serif;
+  color: black;
+}
+.link-click:hover{ 
+  color: #c69703;
+}
+
 .containerdetail-text{
   position: absolute;
   top: 55%;
