@@ -23,6 +23,9 @@ const Foreign = () => {
         Năm 2018, Chính phủ Nam Phi đã gửi Thư khen vì những đóng góp tích cực của tôi và cộng sự trong việc quảng bá,
         xây dựng hình ảnh Nam Phi tại Việt Nam.
       </p>
+      <p>
+        Tìm hiểu thêm các hoạt động ngoại giao của tôi: <a className="link-click" href="https://southafricahc.com" >southafricahc.com</a>
+      </p>
     </div>
   );
 };

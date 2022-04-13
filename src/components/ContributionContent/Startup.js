@@ -15,6 +15,9 @@ const Startup = () => {
         Đầu tư và Phát triển Edu ProMax, Công ty Cổ phần Thương mại - Dịch vụ và Sản xuất ECO LIFE, Công ty TNHH Sen
         Vàng; Dự án Lô Tô, Shecodes, Vua Cua…
       </p>
+      <p>
+        Xem thêm cách tôi đã hỗ trợ start up tại: <a className="link-click" href="https://svv.vn" >svv.vn</a>
+      </p>
     </div>
   );
 };

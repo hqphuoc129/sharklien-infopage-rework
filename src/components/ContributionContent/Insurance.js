@@ -23,6 +23,9 @@ const Insurance = () => {
         - Đầu năm 2022, tôi chọn Insurtech làm sứ mệnh, đẩy nhanh chuyển đổi số trong lĩnh vực bảo hiểm, góp phần đưa
         Việt Nam hội nhập và phát triển cùng thế giới.
       </p>
+      <p>
+        Tham quan dự án bảo hiểm công nghệ của tôi: <a className="link-click" href="https://lian.vn" >lian.vn</a>
+      </p>
     </div>
   );
 };

@@ -122,7 +122,9 @@ const Charity = () => {
         tặng 200 phần quà cho các bệnh nhi ung bướu TP.HCM., tài trợ 1,5 tỷ đồng xây dựng cầu treo Poko tại tỉnh Kon Tum
         thông qua báo Công an TP.HCM.
       </p>
-      <p></p>
+      <p>
+        Cùng tham gia các hoạt động thiện nguyện với tôi: <a className="link-click" href="https://gvf.vn" >gvf.vn</a>
+      </p>
     </div>
   );
 };

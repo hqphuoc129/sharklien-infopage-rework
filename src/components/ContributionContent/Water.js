@@ -26,6 +26,9 @@ const Water = () => {
         Với nguồn nước khan hiếm hiện nay, tôi mong người dân hãy sử dụng nước một cách phù hợp, tránh lãng phí và có ý
         thức hơn trong việc bảo vệ môi trường, tránh làm ô nhiễm nguồn nước.
       </p>
+      <p>
+        Tham quan dự án nước sạch của tôi: <a className="link-click" href="https://aquaone.vn" >aquaone.vn</a>
+      </p>
     </div>
   );
 };
