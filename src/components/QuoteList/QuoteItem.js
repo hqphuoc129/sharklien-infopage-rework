@@ -42,7 +42,7 @@ const QuoteItem = (props) => {
       >
         {props.title}
       </Button>
-      <p className='sub-title'>{props.subtitle}</p>
+      <a href={props.news} target="_blank"><h5 className='sub-title' >{props.subtitle}</h5></a>
       <Modal
         visible={isModalVisible}
         onOk={handleOk}

@@ -3,6 +3,10 @@
     height:8rem;
     object-fit: cover;
 }
+.media-center-image:hover {
+    transform: scale(1.2);
+    transition-duration: 0.6s;
+}
 
 .media-slider-image {
     margin: auto; 
@@ -20,15 +24,20 @@
     height: 100%;
 }
 .sub-title {
+    @include textClamp(2, 70%);
     text-align: center;
-    margin-left: 3.5rem;
-    margin-right: 3.5rem;
-    display: block;
     font-size: 14pt;
     margin-top: -15px;
     margin-bottom: 0.5rem;
     font-family: 'Source Serif Pro',serif;
     font-weight: bold;
+    
+}
+
+.sub-title:hover {
+    color: #C69703;
+    transform: scale(1.2);
+    transition-duration: 0.6s;
 }
 
 @media only screen and (max-width: 767px) {
@@ -54,13 +63,14 @@
         margin: auto;
     }
     .sub-title {
+        @include textClamp(2, 70%);
         text-align: center;
-        display: block;
         font-size: 12pt;
         margin-top: -35px;
         margin-bottom: 1rem;
         font-family: 'Source Serif Pro',serif;
         font-weight: bold;
+        
     }
 }
 
@@ -83,19 +93,20 @@
     }
 
     .media-box-data{
-        width: 80%;
-        height: 80%;
+        width: 40%;
+        height: 40%;
         margin: auto;
     }
 
     .sub-title {
+        @include textClamp(2, 70%);
         text-align: center;
-        display: block;
         font-size: 10pt;
         margin-top: -35px;
         margin-bottom: 1rem;
         font-family: 'Source Serif Pro',serif;
         font-weight: bold;
+        
     }
 
 }

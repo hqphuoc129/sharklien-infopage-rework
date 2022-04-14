@@ -72,6 +72,7 @@
   max-width: $size;
   white-space: pre-wrap;
   word-break: break-word;
+  margin: auto;
 }
 
 @mixin hoverEffect($itemClass, $contentClass, $transform: 'true') {
