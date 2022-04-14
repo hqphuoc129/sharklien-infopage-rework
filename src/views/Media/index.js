@@ -10,9 +10,9 @@ import QuoteImageTwo from 'components/QuoteList/assets/quoteItem-2.png';
 import QuoteImageThree from 'components/QuoteList/assets/quoteItem-3.png';
 const Media = () => {
   const QUOTE_DATA = [
-    { image: QuoteImageOne, subtitle: "Shark Liên: 'Kinh doanh mà chỉ làm ra tiền thôi thì chưa phải là kinh doanh'", news:"https://tuoitre.vn/shark-lien-kinh-doanh-ma-chi-lam-ra-tien-thoi-thi-chua-phai-la-kinh-doanh-20210717144207854.htm"},
-    { image: QuoteImageTwo, subtitle: "Sợi dây nối dài dòng chảy nghĩa tình của Shark Liên", news:"https://thanhnien.vn/soi-day-noi-dai-dong-chay-nghia-tinh-cua-shark-lien-post1416669.html"},
-    { image: QuoteImageThree, subtitle: "Shark Đỗ Liên thực hiện chương trình ‘Gói tình Shark Liên - gửi nghĩa Sài Gòn’", news:"https://thanhnien.vn/shark-do-lien-thuc-hien-chuong-trinh-goi-tinh-shark-lien-gui-nghia-sai-gon-post1091508.html"},
+    { image: QuoteImageOne, hoverImage:true, subtitle: "Shark Liên: 'Kinh doanh mà chỉ làm ra tiền thôi thì chưa phải là kinh doanh'", news:"https://tuoitre.vn/shark-lien-kinh-doanh-ma-chi-lam-ra-tien-thoi-thi-chua-phai-la-kinh-doanh-20210717144207854.htm"},
+    { image: QuoteImageTwo, hoverImage:true, subtitle: "Sợi dây nối dài dòng chảy nghĩa tình của Shark Liên", news:"https://thanhnien.vn/soi-day-noi-dai-dong-chay-nghia-tinh-cua-shark-lien-post1416669.html"},
+    { image: QuoteImageThree, hoverImage:true, subtitle: "Shark Đỗ Liên thực hiện chương trình ‘Gói tình Shark Liên - gửi nghĩa Sài Gòn’", news:"https://thanhnien.vn/shark-do-lien-thuc-hien-chuong-trinh-goi-tinh-shark-lien-gui-nghia-sai-gon-post1091508.html"},
   ];
   return (
     <>

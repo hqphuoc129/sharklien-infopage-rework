@@ -30,7 +30,7 @@ const QuoteItem = (props) => {
   return (
     <div className='quote-item-box'>
       <a href={props.news} target="_blank">
-      <img className='quote-image' src={props.image} alt='' /></a>
+      <img className={'quote-image' + " "+ `${props.hoverImage ? 'media-news-images-enable' : 'media-news-images-disable'}`} src={props.image} alt='' /></a>
       
       <Button
         type='dash'

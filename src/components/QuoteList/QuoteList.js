@@ -6,7 +6,7 @@ const QuoteList = (props) => {
   return (
     <div className={`quote-list`}>
       {data.map((item, idx) => {
-        return <QuoteItem key={idx} image={item.image} title={item.title} news={item.news} subtitle={item.subtitle} contentIdx={idx} />;
+        return <QuoteItem key={idx} image={item.image} title={item.title} news={item.news} subtitle={item.subtitle} hoverImage={item.hoverImage} contentIdx={idx} />;
       })}
     </div>
   );
