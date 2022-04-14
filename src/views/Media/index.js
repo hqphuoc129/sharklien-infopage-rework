@@ -8,6 +8,7 @@ import QuoteList from 'components/QuoteList/QuoteList';
 import QuoteImageOne from 'components/QuoteList/assets/quoteItem-1.png';
 import QuoteImageTwo from 'components/QuoteList/assets/quoteItem-2.png';
 import QuoteImageThree from 'components/QuoteList/assets/quoteItem-3.png';
+import CarouselSliderMedia from 'components/CarouselSliderMedia';
 const Media = () => {
   const QUOTE_DATA = [
     { image: QuoteImageOne, hoverImage:true, subtitle: "Shark Liên: 'Kinh doanh mà chỉ làm ra tiền thôi thì chưa phải là kinh doanh'", news:"https://tuoitre.vn/shark-lien-kinh-doanh-ma-chi-lam-ra-tien-thoi-thi-chua-phai-la-kinh-doanh-20210717144207854.htm"},
@@ -22,6 +23,7 @@ const Media = () => {
         <div className={`media-box-data`}>
           <QuoteList data={QUOTE_DATA} />
         </div>
+        <CarouselSliderMedia/>
       </div>
     </>
   );
