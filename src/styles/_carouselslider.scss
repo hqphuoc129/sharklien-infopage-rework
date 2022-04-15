@@ -3,12 +3,26 @@
     width: 100%;
     margin: auto;
 }
-.ant-carousel .slick-slide img {
-    display: flex;
-    height: auto;
-    justify-content: center;
-    margin: auto;
-    width: 80%;
+// .ant-carousel .slick-slide img {
+//     display: flex;
+//     height: auto;
+//     justify-content: center;
+//     margin: auto;
+//     width: 80%;   
+// }
+.carousel-home {
+    .slick-slide {
+        .carousel-background {
+            img {
+                width: 80% !important;
+                display: flex !important;
+                height: auto !important;
+                justify-content: center !important;
+                margin: auto !important;
+            }
+        }
+    }
+   
 }
 .ant-carousel .slick-dots li {
     display: none !important;

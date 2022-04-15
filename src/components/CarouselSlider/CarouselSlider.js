@@ -7,7 +7,7 @@ const LIST_IMG = [CarouselSliderImg1,CarouselSliderImg2];
 
 const CarouselSlider = () => {
   return (
-      <Carousel autoplay>
+      <Carousel autoplay className="carousel-home">
         {LIST_IMG.map((item, idx) => (
           <div className="carousel-background">
             <img src={item} key={idx}/>
