@@ -37,6 +37,7 @@ const Media = () => {
         <div className={`media-box-data`}>
           <QuoteList data={QUOTE_DATA} />
         </div>
+        <div className="index-combine-title spacecing">Video đầu tư của shark Liên trên chương trình Shark Tank</div>
         <AppContext.Provider value={{state, setState}}>
           <CarouselSliderMedia pause={state.isnotpause}/>
           <ModalVideo
