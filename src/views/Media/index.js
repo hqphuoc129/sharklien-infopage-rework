@@ -46,7 +46,6 @@ const Media = () => {
                           allowFullScreen
                           onClose = {() => (setState({isOpen : false, isnotpause : true}))}
                           /> 
-          {console.log(state.isnotpause)}
           </AppContext.Provider>
       </div>
 
