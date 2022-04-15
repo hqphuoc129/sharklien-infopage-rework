@@ -2,6 +2,8 @@ import React, {useState, useContext} from 'react';
 import "antd/dist/antd.css";
 import ModalVideo from "react-modal-video";
 import "react-modal-video/scss/modal-video.scss";
+
+import {isMobile} from "react-device-detect";
 import { Carousel } from "antd";
 import {AppContext} from "./../../views/Media"; 
 
@@ -70,7 +72,7 @@ const vid = [
         id: "JdY9MQXGMtk"   
     },
     {
-        image : thumbnails13,
+        image : thumbnails13,   
         id: "hvyPOrylF5E"
     },
 ]
@@ -79,6 +81,17 @@ const vid = [
 export default function CarouselSliderMedia (props){
 
     const {state,setState}  = useContext(AppContext);
+    if  (isMobile) {
+        {console.log(isMobile)}
+    return (
+        <Carousel className="carousel-media" autoplay={props.pause} infinite={true} slidesToShow={1} centerMode={true} pauseOnHover={true} pauseOnFocus={true}>
+            {vid.map ((items, inx) => 
+            (<div key={inx} className="carousel-background ">
+                <img src={items.image} onClick = {() => (setState({_id: items.id, isOpen: true, isnotpause: false}))}/> 
+            </div> ))}
+        </Carousel>
+    )
+    }
     return (
         <Carousel className="carousel-media" autoplay={props.pause} infinite={true} slidesToShow={3} centerMode={true} pauseOnHover={true} pauseOnFocus={true}>
             {vid.map ((items, inx) => 
