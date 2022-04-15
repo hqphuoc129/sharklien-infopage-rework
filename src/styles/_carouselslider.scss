@@ -50,9 +50,32 @@
 .ant-carousel .slick-dots li.slick-active {
     display: none !important;
 }
+
+.carousel-mobile {
+    .carousel-mobile-img {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 767px) {
     .carousel-background {
         position: relative;
         background-color: #F9F9EA; 
     }
 }
+
+@media only screen and (max-width: 440px) {
+    .carousel-home {
+        display: none!important;
+    }
+    .carousel-mobile {
+        .carousel-mobile-img {
+        margin: auto;
+        width: 90%;
+        height: 100%;
+        display: flex;
+        padding: 0px 0px;
+        // background-color: red;
+    }
+    }
+}   
