@@ -35,7 +35,8 @@ import img34 from "./assets/34.jpg";
 import img35 from "./assets/35.jpg";
 
 
-const NewsData = [
+const NewsData = {
+  data : [
   {
     "newsId": 1,
     "title": "Madam Đỗ Liên: Phụ nữ hạnh phúc là biết cân bằng",
@@ -239,7 +240,16 @@ const NewsData = [
     "title": "Shark Kim Liên ra mắt cuốn sách “Liên - Người được chọn”",
     "url": "https://doanhnhansaigon.vn/ke-sach/shark-kim-lien-ra-mat-cuon-sach-lien-nguoi-duoc-chon-1102908.html",
 	"thumbnailUrl": img35
-  }
-]
+  },],
+  pagination : {
+    _start: 0, 
+    _end : 6,
+  }, 
+  pagination_mobile : {
+    _start: 0, 
+    _end : 3,
+  }, 
+
+}
 
 export default NewsData;
