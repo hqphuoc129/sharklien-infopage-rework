@@ -1,0 +1,44 @@
+.media-data-img {
+    width: 28rem;
+    height: 15.75rem;
+    margin: auto;
+}
+.media-data-img:hover {
+    transform: scale(1.05);
+    transition-duration: 0.6s;
+}
+.media-data-title {
+    @include textClamp(2);
+    text-align: center;
+    font-family: 'Source Serif Pro',serif;
+    font-weight: bold;
+    white-space: pre-line;
+    font-size: 20pt;
+}
+.media-data-title:hover {
+    color: #C69703;
+}
+@media only screen and (max-width: 767px)   {
+    .media-data-img{
+        width: 24rem;
+        height: 13.5rem;
+        margin: auto;
+    }
+    
+}
+
+@media only screen and (max-width: 375px)   {
+    .media-data-img {
+        width: 16rem;
+        height: 9rem;
+        margin: auto;
+    }
+    .media-data-title {
+        @include textClamp(2);
+        text-align: center;
+        font-family: 'Source Serif Pro',serif;
+        font-weight: bold;
+        white-space: pre-line;
+        font-size: 18pt;
+    }
+}  
