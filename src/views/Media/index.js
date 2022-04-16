@@ -26,6 +26,7 @@ const Media = () => {
         <Contribute_Descrpition img={HeaderQuoteImg} title={'MEDIA'} lightText={true} /> 
         <CustomSlider/>
         <News/>
+        <div className="index-combine-title spacecing">Video đầu tư của shark Liên trên chương trình Shark Tank</div>
         <AppContext.Provider value={{state, setState}}>
           <CarouselSliderMedia pause={state.isnotpause}/>
           <ModalVideo
