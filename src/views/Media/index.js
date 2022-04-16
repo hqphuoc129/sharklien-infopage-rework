@@ -103,9 +103,9 @@ const Media = () => {
       <div>
         <Contribute_Descrpition img={HeaderQuoteImg} title={'MEDIA'} lightText={true} /> 
         <CustomSlider/>
-        <div className="index-combine-title spacecing">Sự kiện báo chí</div>
+        <div className="media-news-title news-spacecing">Sự kiện báo chí</div>
         <News/>
-        <CarouselSlideContainer vidlist={vid} linkClass={"carousel-media"} title={"Video đầu tư của Shark Liên trên chương trình Shark Tank"} totalNum={3}/>
+        <CarouselSlideContainer vidlist={vid} linkClass={"carousel-media"} title={<div className='media-news-title'>"Video đầu tư của Shark Liên trên chương trình Shark Tank"</div>} totalNum={3}/>
       </div>
 
     </>

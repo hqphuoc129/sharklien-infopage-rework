@@ -8,8 +8,13 @@
     transition-duration: 0.6s;
 }
 .spacecing {
-    padding-top: 8rem;
+    padding-top: 4rem;
     padding-bottom: 4rem;
+}
+.news-spacecing {
+    padding-top: 0;
+    padding-bottom: 4rem;
+    margin-top: -50px;
 }
 .media-slider-image {
     margin: auto; 
@@ -35,7 +40,17 @@
     font-family: 'Source Serif Pro',serif;
     font-weight: bold;
 }
-
+.media-news-container {
+    background-color: #fdf7e9;
+}
+.media-news-title {
+    font-family: 'Source Serif Pro', serif;
+    color: #414042;
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 .insurance-content-mobile{
     margin-bottom: 0px;
 }
@@ -118,6 +133,15 @@
         font-family: 'Source Serif Pro',serif;
         font-weight: bold;
         
+    }
+
+    .media-news-title {
+        font-family: 'Source Serif Pro', serif;
+        color: #414042;
+        text-align: center;
+        font-size: 20pt;
+        font-weight: bold;
+        text-transform: uppercase;
     }
 
 }

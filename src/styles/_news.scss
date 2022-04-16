@@ -18,11 +18,13 @@
 .media-data-title:hover {
     color: #C69703;
 }
-.media-data-btn {
+.media-data-btn-container {
     display:flex;
     justify-content:center;
-    align-items:center
+    align-items:center;
+    margin-top: 2rem
 }
+
 @media only screen and (max-width: 767px)   {
     .media-data-img{
         width: 24rem;

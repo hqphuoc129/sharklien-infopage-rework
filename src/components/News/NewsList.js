@@ -1,9 +1,8 @@
-import { Card, Row, Col } from 'antd';
+import { Card, Row, Col} from 'antd';
 import React, {useState, useEffect} from 'react';
-import 'antd/dist/antd.css';
 import NewsData from "./NewsData";
 import {isMobile} from "react-device-detect";
-import Button from 'react-bootstrap/Button'
+import Button from 'react-bootstrap/Button';
 const NewsList = () => {
 
   const [pagination ,setPagination] = useState(
@@ -82,6 +81,7 @@ const NewsList = () => {
 }
   return (
       <>
+      <div className='media-news-container'>
       <Row>
         {NewsData.data.slice(pagination._start, pagination._end).map((post, index) => (
           <Col style={{padding: "2rem"}} xs={24} xl={8} key={index}>
@@ -93,9 +93,10 @@ const NewsList = () => {
           </Col>
         ))}
       </Row>
-      <div className='media-data-btn'>
-      <Button variant="link" disabled={pagination._start === 0 } onClick={ ()=> {desktopHandle(pagination._start - 6,pagination._end - 6)}} >Trang trước</Button>
-      <Button variant="link" disabled={pagination._end === NewsData.data.length } onClick={ ()=> {desktopHandle(pagination._start + 6,pagination._end + 6)}}>Trang sau</Button>
+      </div>
+      <div className='media-data-btn-container'>
+      <Button  variant="outline-warning" style={{marginRight: "1rem"}} disabled={pagination._start === 0 } onClick={ ()=> {desktopHandle(pagination._start - 6,pagination._end - 6)}} >Trang trước</Button>
+      <Button  variant="outline-warning" style={{marginLeft: "1rem"}} disabled={pagination._end === NewsData.data.length } onClick={ ()=> {desktopHandle(pagination._start + 6,pagination._end + 6)}}>Trang sau</Button>
       </div>
       </>
     );
