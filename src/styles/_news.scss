@@ -1,6 +1,6 @@
 .media-data-img {
-    width: 28rem;
-    height: 15.75rem;
+    width: 32rem;
+    height: 18rem;
     margin: auto;
 }
 .media-data-img:hover {
@@ -14,6 +14,10 @@
     font-weight: bold;
     white-space: pre-line;
     font-size: 20pt;
+    display: flex;             
+    min-height: 15vh;
+    align-items: center;
+    justify-content: center;
 }
 .media-data-title:hover {
     color: #C69703;
@@ -31,6 +35,18 @@
         height: 13.5rem;
         margin: auto;
     }
+    .media-data-title {
+        @include textClamp(2);
+        text-align: center;
+        font-family: 'Source Serif Pro',serif;
+        font-weight: bold;
+        white-space: pre-line;
+        font-size: 18pt;
+        display: flex;             
+        min-height: 15vh;
+        align-items: center;
+        justify-content: center;
+    }
     
 }
 
@@ -46,6 +62,10 @@
         font-family: 'Source Serif Pro',serif;
         font-weight: bold;
         white-space: pre-line;
-        font-size: 18pt;
+        font-size: 16pt;
+        display: flex;             
+        min-height: 15vh;
+        align-items: center;
+        justify-content: center;
     }
 }  

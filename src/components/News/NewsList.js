@@ -86,7 +86,7 @@ const NewsList = () => {
         {NewsData.data.slice(pagination._start, pagination._end).map((post, index) => (
           <Col style={{padding: "2rem"}} xs={24} xl={8} key={index}>
               <a href={post.url} target="_blank">
-              <Card title={<div className='media-data-title'>{post.title}</div>} bordered={false}>
+              <Card style={{height: "100%"}} title={<div className='media-data-title'>{post.title}</div>} bordered={false}>
                   <img className='media-data-img' src={post.thumbnailUrl}/>
               </Card>
               </a>
