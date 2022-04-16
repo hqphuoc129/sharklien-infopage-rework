@@ -8,7 +8,8 @@
     transition-duration: 0.6s;
 }
 .spacecing {
-    padding-top: 10rem;
+    padding-top: 8rem;
+    padding-bottom: 4rem;
 }
 .media-slider-image {
     margin: auto; 
@@ -42,6 +43,10 @@
 
 .media-news-images-disable {
 
+}
+
+.insurance-content-mobile{
+    margin-bottom: 0px;
 }
 
 .sub-title:hover {
@@ -79,6 +84,13 @@
         font-family: 'Source Serif Pro',serif;
         font-weight: bold;
         
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .spacecing {
+        padding-top: 4rem;
+        padding-bottom: 2rem;   
     }
 }
 

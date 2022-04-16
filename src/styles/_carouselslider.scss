@@ -3,6 +3,7 @@
     width: 100%;
     margin: auto;
 }
+
 // .ant-carousel .slick-slide img {
 //     display: flex;
 //     height: auto;
@@ -24,9 +25,25 @@
     }
    
 }
+
+.carousel-2items {
+    .slick-slide {
+        .carousel-background {
+            img {
+
+                width: 120% !important;
+                display: flex !important;
+                padding: 0rem 1rem !important;
+                height: auto !important;
+                justify-content: space-between !important;
+                margin: auto !important;
+            }
+        }
+    }
+   
+}
+
 .carousel-media {
-    padding-top: 4rem; 
-    padding-bottom: 10rem;
     .slick-slide {
         .carousel-background {
             img {

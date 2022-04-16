@@ -1,6 +1,34 @@
+import CauouselSliderContainer from 'components/CarouselSliderContainer'; 
+
+import startup1 from './assets/startup1.jpg';
+import startup2 from './assets/startup2.jpg';
+import nothumbnails from './assets/nothumbnails.png';
+
+const vid_startup = [
+  {
+      image : startup1,
+      id : "ibFhn_tHhWw",
+  
+  }, 
+  {
+      image : startup2,
+      id : "PuU8OeyclwE",
+  },
+  {
+      image : nothumbnails,
+      id : "eR4UifvkQUw",
+
+  },
+  {
+    image : nothumbnails,
+    id : "vHAqAPWevTA",
+
+  },]
+
 const Startup = () => {
   return (
-    <div className='startup-content'>
+    <>
+    <div className='startup-content insurance-content-mobile'>
       <p>
         Một thế hệ trẻ vận động không ngừng với những dự án nhân văn và vì cộng đồng sẽ nhận được cái gật đầu từ tôi.
       </p>
@@ -19,6 +47,8 @@ const Startup = () => {
         Xem thêm cách tôi đã hỗ trợ start up tại: <a className="link-click" href="https://svv.vn" >svv.vn</a>
       </p>
     </div>
+    <CauouselSliderContainer vidlist= {vid_startup} linkClass={"carousel-media"} title={"Các video liên quan"} totalNum ={3}/>
+    </>
   );
 };
 
