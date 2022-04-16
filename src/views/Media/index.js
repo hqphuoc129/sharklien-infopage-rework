@@ -14,7 +14,81 @@ import QuoteList from 'components/QuoteList/QuoteList';
 import QuoteImageOne from 'components/QuoteList/assets/quoteItem-1.png';
 import QuoteImageTwo from 'components/QuoteList/assets/quoteItem-2.png';
 import QuoteImageThree from 'components/QuoteList/assets/quoteItem-3.png';
-import CarouselSliderMedia from 'components/CarouselSliderMedia';
+import CarouselSlideContainer from 'components/CarouselSliderContainer';
+
+
+import thumbnails1 from '../../components/CarouselSliderVideo/thumbnails/sharktank1.jpg';
+import thumbnails2 from '../../components/CarouselSliderVideo/thumbnails/sharktank2.jpg';
+import thumbnails3 from '../../components/CarouselSliderVideo/thumbnails/sharktank3.jpg';
+import thumbnails4 from '../../components/CarouselSliderVideo/thumbnails/sharktank4.jpg';
+import thumbnails5 from '../../components/CarouselSliderVideo/thumbnails/sharktank5.jpg';
+import thumbnails6 from '../../components/CarouselSliderVideo/thumbnails/sharktank6.jpg';
+import thumbnails7 from '../../components/CarouselSliderVideo/thumbnails/sharktank7.jpg';
+import thumbnails8 from '../../components/CarouselSliderVideo/thumbnails/sharktank8.jpg';
+import thumbnails9 from '../../components/CarouselSliderVideo/thumbnails/sharktank9.jpg';
+import thumbnails10 from '../../components/CarouselSliderVideo/thumbnails/sharktank10.jpg';
+import thumbnails11 from '../../components/CarouselSliderVideo/thumbnails/sharktank11.jpg';
+import thumbnails12 from '../../components/CarouselSliderVideo/thumbnails/sharktank12.jpg';
+import thumbnails13 from '../../components/CarouselSliderVideo/thumbnails/sharktank13.jpg';
+
+
+const vid = [
+  {
+      image : thumbnails1,
+      id : "snx67d4J42Q",
+  
+  }, 
+  {
+      image : thumbnails2,
+      id : "iW8aGs5uOtw",
+  }, 
+  {
+      image : thumbnails3,
+      id : "ZcSuKkmxX0g",
+  }, 
+  {
+      image : thumbnails4,
+      id : "lgV-ies0FUc",
+  }, 
+  {
+      image : thumbnails5,
+      id : "rkrccP6_cP8",
+  }, 
+  {
+      image : thumbnails6,
+      id : "BaZxR_EUIOM",
+  },
+  {
+      image : thumbnails7,
+      id: "T1rFEsFlveI"
+  },
+  {
+      image : thumbnails8,
+      id: "t9nKmoTdfbw"
+  },
+  {
+      image : thumbnails9,
+      id: "ztHr2JzSoPc"
+  },
+  {
+      image : thumbnails10,
+      id: "jK_CMJSKo8E"
+  },
+  {
+      image : thumbnails11,
+      id: "VWW0OkxXjz4"
+  },
+  {
+      image : thumbnails12,
+      id: "JdY9MQXGMtk"   
+  },
+  {
+      image : thumbnails13,   
+      id: "hvyPOrylF5E"
+  },
+]
+
+
 
 
 export const AppContext = createContext(null); 
@@ -37,17 +111,7 @@ const Media = () => {
         <div className={`media-box-data`}>
           <QuoteList data={QUOTE_DATA} />
         </div>
-        <div className="index-combine-title spacecing">Video đầu tư của shark Liên trên chương trình Shark Tank</div>
-        <AppContext.Provider value={{state, setState}}>
-          <CarouselSliderMedia pause={state.isnotpause}/>
-          <ModalVideo
-                          channel= "youtube"
-                          isOpen = {state.isOpen}
-                          videoId ={state._id}
-                          allowFullScreen
-                          onClose = {() => (setState({isOpen : false, isnotpause : true}))}
-                          /> 
-          </AppContext.Provider>
+        <CarouselSlideContainer vidlist={vid} linkClass={"carousel-media"} title={"Video đầu tư của Shark Liên trên chương trình Shark Tank"} totalNum={3}/>
       </div>
 
     </>

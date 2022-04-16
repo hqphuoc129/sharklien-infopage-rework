@@ -1,6 +1,29 @@
+import CauouselSliderContainer from 'components/CarouselSliderContainer'; 
+
+import ngoaigiao1 from './assets/ngoaigiao1.jpg';
+import ngoaigiao2 from './assets/ngoaigiao2.jpg';
+import ngoaigiao3 from './assets/ngoaigiao3.jpg';
+
+
+const vid_ngoaigiao = [
+  {
+      image : ngoaigiao1,
+      id : "t_abyjfGBTQ",
+  
+  }, 
+  {
+      image : ngoaigiao2,
+      id : "QcNjv8etaws",
+  },
+  {
+      image : ngoaigiao3,
+      id : "0lvPJKkbgaI",
+
+  },]
 const Foreign = () => {
   return (
-    <div className='foreign-content'>
+    <>
+    <div className='foreign-content insurance-content-mobile'>
       <p>
         Trên cương vị là Lãnh sự Danh dự Cộng hòa Nam Phi tại TP.HCM, bằng sự nỗ lực không ngừng nghỉ, tôi đã có hơn 10
         năm hoạt động ngoại giao rất thành công và tạo được những dấu ấn đậm nét trong việc thúc đẩy quan hệ hữu nghị
@@ -27,6 +50,8 @@ const Foreign = () => {
         Tìm hiểu thêm các hoạt động ngoại giao của tôi: <a className="link-click" href="https://southafricahc.com" >southafricahc.com</a>
       </p>
     </div>
+    <CauouselSliderContainer vidlist= {vid_ngoaigiao} linkClass={"carousel-media"} title={"Các video liên quan"} totalNum ={3}/>
+    </>
   );
 };
 export default Foreign;

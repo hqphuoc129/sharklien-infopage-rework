@@ -1,6 +1,67 @@
+import CauouselSliderContainer from 'components/CarouselSliderContainer'; 
+
+import tuthien1 from './assets/tuthien1.jpg';
+import tuthien2 from './assets/tuthien2.jpg';
+import tuthien3 from './assets/tuthien3.jpg';
+import tuthien4 from './assets/tuthien4.jpg';
+import tuthien5 from './assets/tuthien5.jpg';
+import tuthien6 from './assets/tuthien6.jpg';
+import tuthien7 from './assets/tuthien7.jpg';
+import nothumbs from './assets/nothumbnails.png';
+
+
+const vid_tuthien = [
+  {
+      image : tuthien1,
+      id : "rfrIcA381dA",
+  
+  }, 
+  {
+      image : tuthien2,
+      id : "5Qx_BBHvRj0",
+  },
+  {
+      image : tuthien3,
+      id : "SgbQMXN3PBc",
+
+  }, 
+  {
+      image : tuthien4,
+      id : "l0lGK75iJ7w",
+  },
+  {
+      image : tuthien5,
+      id : "zylr8yOeO_8",
+
+  }, 
+  {
+      image : tuthien6,
+      id : "4TiHEbbVtGs",
+  },
+  {
+      image : tuthien7,
+      id : "8fOn2dhbiRQ",
+
+  },
+  {
+    image : nothumbs,
+    id : "5pvvAXnnmV4",
+
+  }, 
+  {
+      image : nothumbs,
+      id : "-v4Au0unNG4",
+  },
+  {
+      image : nothumbs,
+      id : "5pvvAXnnmV4",
+
+  },]
+
 const Charity = () => {
   return (
-    <div className='charity-content'>
+  <>
+    <div className='insurance-content-mobile charity-content'>
       <p>
         Cho đi là Hạnh phúc”. Người càng cho đi nhiều, càng nhận được phúc lành! Tôi muốn được nhớ đến là một người phụ
         nữ tốt bụng, không phải một người giàu có. Nếu giàu thì là giàu tình, giàu nghĩa, không phải giàu tiền.
@@ -126,6 +187,8 @@ const Charity = () => {
         Cùng tham gia các hoạt động thiện nguyện với tôi: <a className="link-click" href="https://gvf.vn" >gvf.vn</a>
       </p>
     </div>
+    <CauouselSliderContainer vidlist= {vid_tuthien} linkClass={"carousel-media"} title={"Các video liên quan"} totalNum ={3}/>
+  </>
   );
 };
 
