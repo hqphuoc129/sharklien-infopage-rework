@@ -3,7 +3,7 @@ import React, {useState, useEffect} from 'react';
 import 'antd/dist/antd.css';
 import NewsData from "./NewsData";
 import {isMobile} from "react-device-detect";
-import { Button } from 'antd';
+import Button from 'react-bootstrap/Button'
 const NewsList = () => {
 
   const [pagination ,setPagination] = useState(
@@ -93,8 +93,10 @@ const NewsList = () => {
           </Col>
         ))}
       </Row>
-      <Button type="link" disabled={pagination._start === 0 } onClick={ ()=> {desktopHandle(pagination._start - 6,pagination._end - 6)}} >Trang trước</Button>
-      <Button type="link" disabled={pagination._end === NewsData.data.length } onClick={ ()=> {desktopHandle(pagination._start + 6,pagination._end + 6)}}>Trang sau</Button>
+      <div className='media-data-btn'>
+      <Button variant="link" disabled={pagination._start === 0 } onClick={ ()=> {desktopHandle(pagination._start - 6,pagination._end - 6)}} >Trang trước</Button>
+      <Button variant="link" disabled={pagination._end === NewsData.data.length } onClick={ ()=> {desktopHandle(pagination._start + 6,pagination._end + 6)}}>Trang sau</Button>
+      </div>
       </>
     );
 };
