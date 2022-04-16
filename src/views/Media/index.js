@@ -25,6 +25,7 @@ const Media = () => {
       <div>
         <Contribute_Descrpition img={HeaderQuoteImg} title={'MEDIA'} lightText={true} /> 
         <CustomSlider/>
+        <div className="index-combine-title spacecing">Sự kiện báo chí</div>
         <News/>
         <div className="index-combine-title spacecing">Video đầu tư của shark Liên trên chương trình Shark Tank</div>
         <AppContext.Provider value={{state, setState}}>

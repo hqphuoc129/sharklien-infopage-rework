@@ -61,12 +61,6 @@ const NewsData = [
 	"thumbnailUrl": img4
   },
   {
-    "newsId": 5,
-    "title": "Shark Liên phối hợp Quân khu 7 trao quà hỗ trợ cho bà con vùng dịch",
-    "url": "https://zingnews.vn/shark-lien-phoi-hop-quan-khu-7-trao-qua-ho-tro-cho-ba-con-vung-dich-post1243062.html",
-	"thumbnailUrl": img5
-  },
-  {
     "newsId": 6,
     "title": "Shark Liên: Tôi đã nợ và đã đến lúc trả cho Sài Gòn-TPHCM món nợ ân tình",
     "url": "https://soha.vn/shark-lien-toi-da-no-va-da-den-luc-tra-cho-sai-gon-tphcm-mon-no-an-tinh-20210722201317762.htm",
