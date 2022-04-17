@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from 'components/Header/Header';
-import HeaderQuoteImg from 'views/Quotes/assets/quotes-07.png';
+import HeaderQuoteImg from 'views/Quotes/assets/quotes-07.jpg';
 import QuoteList from 'components/QuoteList/QuoteList';
 import QuoteImageOne from 'components/QuoteList/assets/quoteItem-1.png';
 import QuoteImageTwo from 'components/QuoteList/assets/quoteItem-2.png';
