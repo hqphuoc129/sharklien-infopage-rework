@@ -5,6 +5,7 @@ import QuoteList from 'components/QuoteList/QuoteList';
 import QuoteImageOne from 'components/QuoteList/assets/quoteItem-1.png';
 import QuoteImageTwo from 'components/QuoteList/assets/quoteItem-2.png';
 import QuoteImageThree from 'components/QuoteList/assets/quoteItem-3.png';
+import Contribute_Descrpition from '../../components/Contrib Header/index';
 import { Modal, Button } from 'antd';
 import { useState } from 'react';
 import { QuoteBook, QuoteSharkTank, QuoteCharity } from 'components/QuoteList/QuoteContent';
@@ -18,7 +19,7 @@ const QUOTE_DATA = [
 const Quotes = () => {
   return (
     <>
-      <Header img={HeaderQuoteImg} title={'Người truyền cảm hứng'} />
+      <Contribute_Descrpition img={HeaderQuoteImg} title={'Người truyền cảm hứng'} lightText={true} /> 
       <h1 className='box-underheader'> </h1>
       <div className='content-quote'>
         <h1 className='quote-heading'>Những câu nói hay</h1>
