@@ -63,6 +63,7 @@ const NewsList = () => {
   {
     return (
     <>
+    <div className='media-news-container'>
     <Row>
       {NewsData.data.slice(paginationMobile._start , paginationMobile._end).map((post, index) => (
         <Col style={{padding: "2rem"}} xs={24} xl={8} key={index}>
@@ -74,8 +75,11 @@ const NewsList = () => {
         </Col>
       ))}
     </Row>
-    <Button type="link" disabled={paginationMobile._start === 0 } onClick={ ()=> {desktopHandle_mobile(paginationMobile._start - 3,paginationMobile._end - 3)}} >Trang trước</Button>
-    <Button type="link" disabled={paginationMobile._end === NewsData.data.length } onClick={ ()=> {desktopHandle_mobile(paginationMobile._start + 3,paginationMobile._end + 3)}}>Trang sau</Button>
+    </div>
+    <div className='media-data-btn-container'>
+    <Button variant="outline-warning" style={{marginRight: "1rem"}} disabled={paginationMobile._start === 0 } onClick={ ()=> {desktopHandle_mobile(paginationMobile._start - 3,paginationMobile._end - 3)}} >Trang trước</Button>
+    <Button variant="outline-warning" style={{marginRight: "1rem"}} disabled={paginationMobile._end === NewsData.data.length } onClick={ ()=> {desktopHandle_mobile(paginationMobile._start + 3,paginationMobile._end + 3)}}>Trang sau</Button>
+    </div>
     </>
   );
 }
