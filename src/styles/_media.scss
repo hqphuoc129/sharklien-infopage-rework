@@ -43,6 +43,7 @@
     font-weight: bold;
     text-transform: uppercase;
 }
+
 .insurance-content-mobile{
     margin-bottom: 0px;
 }
@@ -83,12 +84,29 @@
         font-weight: bold;
         
     }
+    .media-news-title {
+        font-family: 'Source Serif Pro', serif;
+        color: #414042;
+        text-align: center;
+        font-size: 20pt;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
 }
 
 @media only screen and (max-width: 500px) {
     .spacecing {
         padding-top: 4rem;
         padding-bottom: 2rem;   
+    }
+
+    .media-news-title {
+        font-family: 'Source Serif Pro', serif;
+        color: #414042;
+        text-align: center;
+        font-size: 16pt;
+        font-weight: bold;
+        text-transform: uppercase;
     }
 }
 
@@ -131,7 +149,7 @@
         font-family: 'Source Serif Pro', serif;
         color: #414042;
         text-align: center;
-        font-size: 20pt;
+        font-size: 16pt;
         font-weight: bold;
         text-transform: uppercase;
     }

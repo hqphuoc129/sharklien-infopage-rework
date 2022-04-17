@@ -1,11 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState,useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { AppBar, Toolbar, Typography, Tabs, Tab, Button } from '@mui/material';
 import DehazeIcon from '@mui/icons-material/Dehaze';
 import Logo from 'assets/logo.png';
+import {webContext} from '../../App';
 
 const Navigation = () => {
-  const [isActive, setIsActive] = useState();
+  const {isActive, setIsActive} = useContext(webContext)
   const [showul, setShowul] = useState(false);
   return (
     <nav className='navbar'>
