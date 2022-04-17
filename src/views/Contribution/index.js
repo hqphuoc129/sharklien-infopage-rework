@@ -3,7 +3,7 @@ import Contribute_Descrpition from '../../components/Contrib Header';
 import Section_Paragraph from '../../components/Description/Section_Paragraph';
 import LotusComponent from 'components/Lotus Component';
 
-import banner from '../../assets/contribute view/conghien07.png';
+import banner from '../../assets/contribute view/conghien07.jpg';
 import lotus from '../../assets/contribute view/bongsen-07.png';
 const Contribution = () => {
   return (

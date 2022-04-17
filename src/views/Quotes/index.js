@@ -22,7 +22,7 @@ const Quotes = () => {
       <h1 className='box-underheader'> </h1>
       <div className='content-quote'>
         <h1 className='quote-heading'>Những câu nói hay</h1>
-        <h1 className='quote-heading'> truyền cảm hứng của shark Liên</h1>
+        <h1 className='quote-heading'> truyền cảm hứng của Shark Liên</h1>
       </div>
       <div className={`box-quotedata`}>
         <QuoteList data={QUOTE_DATA} />
