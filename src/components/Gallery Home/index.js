@@ -47,7 +47,7 @@ function Gallery() {
                     window.scrollTo(0,0);
                   }}
             >
-                <Button variant="outline-warning" style={{backgroundColor:"white"}}>Xem thêm tại Media</Button>
+                <Button variant="outline-warning" style={{  fontFamily: "'Source Serif Pro',serif",backgroundColor:"white"}}>Xem thêm tại Media</Button>
             </Link>
         </div>
     </div>
