@@ -8,16 +8,17 @@
     transition-duration: 0.6s;
 }
 .media-data-title {
-    @include textClamp(2);
+    
     text-align: center;
     font-family: 'Source Serif Pro',serif;
     font-weight: bold;
     white-space: pre-line;
     font-size: 20pt;
     display: flex;             
-    min-height: 15vh;
+    min-height: 7vh;
     align-items: center;
     justify-content: center;
+    @include textClamp(2);
 }
 .media-data-title:hover {
     color: #C69703;
@@ -36,16 +37,17 @@
         margin: auto;
     }
     .media-data-title {
-        @include textClamp(2);
+
         text-align: center;
         font-family: 'Source Serif Pro',serif;
         font-weight: bold;
         white-space: pre-line;
         font-size: 18pt;
         display: flex;             
-        min-height: 15vh;
+        min-height: 7vh;
         align-items: center;
         justify-content: center;
+        @include textClamp(2);
     }
     
 }
@@ -57,15 +59,15 @@
         margin: auto;
     }
     .media-data-title {
-        @include textClamp(2);
         text-align: center;
         font-family: 'Source Serif Pro',serif;
         font-weight: bold;
         white-space: pre-line;
         font-size: 16pt;
         display: flex;             
-        min-height: 15vh;
+        min-height: 7vh;
         align-items: center;
         justify-content: center;
+        @include textClamp(2);
     }
 }  
