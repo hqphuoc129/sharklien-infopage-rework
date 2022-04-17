@@ -6,7 +6,7 @@ import { Carousel } from "antd";
 
 import News from 'components/News/News';
 import Contribute_Descrpition from '../../components/Contrib Header/index';
-import HeaderQuoteImg from '../Media/assets/media-07.png';
+import HeaderQuoteImg from '../Media/assets/media-07.jpg';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import CustomSlider from 'components/Media/CustomerSlider';

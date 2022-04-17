@@ -22,6 +22,17 @@
     border-bottom: 10px solid #fff;
     left: 19%;
 }
+.gallery_media_button_container
+{
+    position: absolute;
+    top: 80%;
+    width: 100%; 
+    height : 10%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    }
 .gallery_item
 {
     display: inline-block;
@@ -53,6 +64,7 @@
         margin: auto;
         
     }
+
     .gallery_item   
     {
         display: inline-block;
@@ -77,6 +89,16 @@
     .gallery_backround
     {
         display: none;
+    }
+    .gallery_media_button_container{
+        top: 85%;
+        position: absolute;
+        width: 100%; 
+        height : 10%;
+    
+        display:flex;
+        justify-content:center;
+        align-items:center;
     }
     .gallery_list
     {
@@ -118,6 +140,16 @@
     .gallery_backround
     {
         display: none;
+    }
+    .gallery_media_button_container{
+        top: 85%;
+        position: absolute;
+        width: 100%; 
+        height : 10%;
+    
+        display:flex;
+        justify-content:center;
+        align-items:center;
     }
     .gallery_list
     {
