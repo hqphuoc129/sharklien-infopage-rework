@@ -1,4 +1,4 @@
-import React, {useState,  useContext, createContext} from 'react';
+import React, {useState,  useContext, createContext, useEffect} from 'react';
 import "antd/dist/antd.css";
 import ModalVideo from "react-modal-video";
 import "react-modal-video/scss/modal-video.scss";
@@ -15,6 +15,12 @@ import QuoteImageOne from 'components/QuoteList/assets/quoteItem-1.png';
 import QuoteImageTwo from 'components/QuoteList/assets/quoteItem-2.png';
 import QuoteImageThree from 'components/QuoteList/assets/quoteItem-3.png';
 import CarouselSlideContainer from 'components/CarouselSliderContainer';
+
+//Test fetch api 
+import {getData} from '../../actions/index'; 
+import {useDispatch,useSelector}from 'react-redux';
+
+import axios from 'axios'; 
 
 
 import thumbnails1 from '../../components/CarouselSliderVideo/thumbnails/sharktank1.jpg';
@@ -98,6 +104,19 @@ const Media = () => {
       isnotpause: true,
       isOpen: false,
   })
+
+  const dispatch = useDispatch();
+  //Test fetch by redux
+  useEffect( () => {
+    dispatch(getData("http://js-post-api.herokuapp.com/api/posts?_limit=10&_page=1")); 
+     
+        }
+  ,[])
+
+  
+  const data = useSelector(state => state.fetch);
+  //{console.log(data)} 
+
   return (
     <>
       <div>
