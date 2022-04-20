@@ -83,7 +83,7 @@
 }
 }
 
-@media only screen and (max-width: 830px) {
+@media only screen and (max-width: 1024px) {
   .index-group-container {
     width: 25%;
     height: auto;
@@ -113,13 +113,23 @@
     padding-bottom: 6%;
 }
 }
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 550px) {
   .mobile-indexgroup-background {
     background-image: url("../components/IndexCombine/assets/indexgroup-mobile-img.svg");
     background-repeat: no-repeat;
     background-size: 158%;
     padding-bottom: 0%;
 }
+
+@media only screen and (max-width: 550px) {
+.testquotes-container {
+  display: flex;
+  margin: auto;
+  padding-top: 28%;
+  width: 100%;
+}
+}
+
 }
 @media only screen and (max-width: 391px) {
   .mobile-indexgroup-background {
@@ -135,7 +145,7 @@
     background-size: 173%;
 }
 }
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 550px) {
   .index-combine-container {
     display: block;
   }
