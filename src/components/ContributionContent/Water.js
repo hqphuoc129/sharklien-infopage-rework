@@ -34,28 +34,28 @@ const Water = () => {
     <>
     <div className='water-content insurance-content-mobile'>
       <p>
-        <FormattedMessage id="para1" defaultMessage={VietNam['para1']}/>
+        <FormattedMessage id="conghien-page.para1" defaultMessage={VietNam['conghien-page']['para1']}/>
       </p>
       <p>
-      <FormattedMessage id="para2" defaultMessage={VietNam['para2']}/>
+        <FormattedMessage id="conghien-page.para2" defaultMessage={VietNam['para2']}/>
       </p>
       <p>
-      <FormattedMessage id="para3" defaultMessage={VietNam['para3']}/>
+        <FormattedMessage id="conghien-page.para3" defaultMessage={VietNam['para3']}/>
       </p>
       <p>
-      <FormattedMessage id="para4" defaultMessage={VietNam['para4']}/>
+        <FormattedMessage id="conghien-page.para4" defaultMessage={VietNam['para4']}/>
       </p>
       <p>
-      <FormattedMessage id="para5" defaultMessage={VietNam['para5']}/>
+        <FormattedMessage id="conghien-page.para5" defaultMessage={VietNam['para5']}/>
       </p>
       <p>
-      <FormattedMessage id="para6" defaultMessage={VietNam['para6']}/><a className="link-click" href="https://aquaone.vn" >        <FormattedMessage id="web-link" defaultMessage={VietNam['web-link']}/></a>
+        <FormattedMessage id="conghien-page.para6" defaultMessage={VietNam['para6']}/><a className="link-click" href="https://aquaone.vn" ><FormattedMessage id="conghien-page.web-link" defaultMessage={VietNam['web-link']}/></a>
       </p>
       <p>
-      <FormattedMessage id="vid-section-title" defaultMessage={VietNam['vid-section-title']}/></p>
+      <FormattedMessage id="conghien-page.vid-section-title" defaultMessage={VietNam['vid-section-title']}/></p>
     </div>
-    <SelectLang/>
-    <CauouselSliderContainer vidlist= {vid_nuocsach} linkClass={"carousel-media"} title={"Các video liên quan"} totalNum ={3}/>
+      <SelectLang/>
+      <CauouselSliderContainer vidlist= {vid_nuocsach} linkClass={"carousel-media"} title={"Các video liên quan"} totalNum ={3}/>
     </> 
   );
 };

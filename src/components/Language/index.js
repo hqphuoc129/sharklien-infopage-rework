@@ -2,6 +2,7 @@ import React, {createContext,useState} from 'react';
 import {IntlProvider} from 'react-intl';
 import VietNam from '../../lang/vn.json';
 import English from '../../lang/en.json';
+import flatten from 'flat';
 
 const local = navigator.language; 
 let lang;
@@ -35,7 +36,7 @@ const Wrapper = (props) => {
 
     return (
         <Context.Provider value = {{locale, selectLanguage}}>
-            <IntlProvider messages={messages} locale={locale}>
+            <IntlProvider messages={messages && flatten(messages)} locale={locale}>
                 {props.children}
             </IntlProvider>
         </Context.Provider>
