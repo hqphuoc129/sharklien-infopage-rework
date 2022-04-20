@@ -1,11 +1,200 @@
 {
-    "title": "NƯỚC SẠCH",
-    "para1" :"“Ở đâu có nước, ở đó có sự sống”. Với ý nghĩa đó, tôi đã thành lập Tập đoàn AquaOne - chuyên cung cấp và xử lý nước sạch phục vụ cho hoạt động sinh hoạt của người dân. Với các công trình nước sạch dân sinh, AquaOne đảm bảo cân đối các ưu tiên theo thứ tự: Chất lượng nước tuyệt đối an toàn, vệ sinh, sạch và không có nguy cơ gây bệnh trước mắt cũng như lâu dài." ,
-    "para2" : "Về mặt xã hội: AquaOne góp phần nâng cao sức khỏe người dân, đặc biệt là trẻ em, người già và phụ nữ. Dùng nước sạch giúp giảm bệnh tật gây ra từ nguồn nước không hợp vệ sinh. Các Nhà máy của AquaOne cũng tạo thêm công ăn việc làm cho người dân.",
-    "para3" : "Về kinh tế: những dịch vụ của nước không thể lượng giá được nhưng lại có giá trị kinh tế lớn. AquaOne góp phần đa dạng hóa các thành phần kinh tế trong sản xuất và kinh doanh nước sạch, thúc đẩy quá trình đô thị hóa tại các địa phương, đồng thời thu hút các nhà đầu tư.",
-    "para4" : "Hiện tại, Tập đoàn AquaOne là Chủ đầu tư của các dự án lớn: Nhà máy nước mặt Sông Hậu (Tỉnh Hậu Giang), Nhà máy nước mặt Sông Đuống (TP.Hà Nội), Nhà máy nước mặt Xuân Mai - Hòa Bình (Hòa Bình), Nhà máy nước mặt Sông Vàm Cỏ Đông (Long An).",
-    "para5" : "Với nguồn nước khan hiếm hiện nay, tôi mong người dân hãy sử dụng nước một cách phù hợp, tránh lãng phí và có ý thức hơn trong việc bảo vệ môi trường, tránh làm ô nhiễm nguồn nước.",
-    "para6" : "Tham quan dự án nước sạch của tôi:",
-    "web-link" : "aquaone.vn",
-    "vid-section-title": "Các video liên quan"
+    "lang" : "Tiếng Việt",
+    "navbar" : {
+        "title-tieusu" : "Tiểu sử",
+        "title-conghien" : "Cống hiến", 
+        "title-quotes" : "quotes", 
+        "title-media" : "media" 
+    },
+    "nuocsach-page" : {
+        "title": "NƯỚC SẠCH",
+        "para1" :"“Ở đâu có nước, ở đó có sự sống”. Với ý nghĩa đó, tôi đã thành lập Tập đoàn AquaOne - chuyên cung cấp và xử lý nước sạch phục vụ cho hoạt động sinh hoạt của người dân. Với các công trình nước sạch dân sinh, AquaOne đảm bảo cân đối các ưu tiên theo thứ tự: Chất lượng nước tuyệt đối an toàn, vệ sinh, sạch và không có nguy cơ gây bệnh trước mắt cũng như lâu dài." ,
+        "para2" : "Về mặt xã hội: AquaOne góp phần nâng cao sức khỏe người dân, đặc biệt là trẻ em, người già và phụ nữ. Dùng nước sạch giúp giảm bệnh tật gây ra từ nguồn nước không hợp vệ sinh. Các Nhà máy của AquaOne cũng tạo thêm công ăn việc làm cho người dân.",
+        "para3" : "Về kinh tế: những dịch vụ của nước không thể lượng giá được nhưng lại có giá trị kinh tế lớn. AquaOne góp phần đa dạng hóa các thành phần kinh tế trong sản xuất và kinh doanh nước sạch, thúc đẩy quá trình đô thị hóa tại các địa phương, đồng thời thu hút các nhà đầu tư.",
+        "para4" : "Hiện tại, Tập đoàn AquaOne là Chủ đầu tư của các dự án lớn: Nhà máy nước mặt Sông Hậu (Tỉnh Hậu Giang), Nhà máy nước mặt Sông Đuống (TP.Hà Nội), Nhà máy nước mặt Xuân Mai - Hòa Bình (Hòa Bình), Nhà máy nước mặt Sông Vàm Cỏ Đông (Long An).",
+        "para5" : "Với nguồn nước khan hiếm hiện nay, tôi mong người dân hãy sử dụng nước một cách phù hợp, tránh lãng phí và có ý thức hơn trong việc bảo vệ môi trường, tránh làm ô nhiễm nguồn nước.",
+        "para6" : "Tham quan dự án nước sạch của tôi:",
+        "web-link" : "aquaone.vn",
+        "vid-section-title": "Các video liên quan"
+    }, 
+    "bado-page": {
+        "title" : "“BÀ ĐỠ” START-UP",
+        "para1" : "Một thế hệ trẻ vận động không ngừng với những dự án nhân văn và vì cộng đồng sẽ nhận được cái gật đầu từ tôi.", 
+        "para2" : "Sự hỗ trợ của tôi dành cho các start-up không chỉ giới hạn ở việc đầu tư tài chính. Tôi mong muốn trở thành điểm tựa vững chắc cho những nhà khởi nghiệp với hoài bão và sự cống hiến cho xã hội, giúp các bạn trở thành người dẫn đầu kỷ nguyên hiện tại. Và hướng tới xây dựng Việt Nam là một quốc gia khởi nghiệp năng động, tự tin trong khu vực và trên thế giới.",
+        "para3" : "Những công ty đang nhận được sự hỗ trợ từ tôi để nâng cao năng lực cạnh tranh trên thị trường: Công ty Cổ phần Đầu tư và Phát triển Edu ProMax, Công ty Cổ phần Thương mại - Dịch vụ và Sản xuất ECO LIFE, Công ty TNHH Sen Vàng; Dự án Lô Tô, Shecodes, Vua Cua…",
+        "para4" : "Ngoài ra, tôi xây dựng Hệ sinh thái Khởi nghiệp cùng Shark Liên, với các ngành nghề Bảo hiểm, Mỹ phẩm, Thực phẩm hỗ trợ sức khoẻ, Giáo dục… Đây là hệ sinh thái tôi dành cho cộng đồng của mình - những người có mong muốn phát triển bản thân, được trao cơ hội kinh doanh để phát huy hết năng lực, tạo thu nhập tốt, sống thiện và hành thiện."
+    },
+    "thiennguyen-page": {
+        "title" : "THIỆN NGUYỆN", 
+        "para1" : "“Cho đi là Hạnh phúc”. Người càng cho đi nhiều, càng nhận được phúc lành! Tôi muốn được nhớ đến là một người đàn bà tốt bụng, không phải một người giàu có. Nếu giàu thì là giàu tình, giàu nghĩa, không phải giàu tiền.", 
+        "para2" : "Trong suốt 30 năm qua, tôi luôn cố gắng vun trồng “vườn cây phúc đức” của mình nở hoa mỗi ngày. Tôi tâm niệm “Gieo bao nhiêu hạt phú sẽ nhận về bấy nhiêu quả ân”, như một lẽ tự nhiên.", 
+        "para3" : "Tính đến nay, tôi và gia đình đã triển khai gần 500 dự án Thiện nguyện với trị giá hơn 200 tỷ đồng. Tập trung vào các lĩnh vực chính:",
+        "para3-li1":"• Xây trường tăng học sinh tại các khu vực khó khăn;", 
+        "para3-li2":"• Cấp học bổng tặng học sinh nghèo;", 
+        "para3-li3":"• Xây nhà cho mẹ Liệt sĩ, chiến sĩ và người nghèo;", 
+        "para3-li4":"• Trùng tu nghĩa trang và các công trình tưởng niệm;", 
+        "para3-li5":"• Xây cầu dân sinh; cầu treo tặng đồng bào các khu vưc khó khăn;", 
+        "para3-li6":"• Tặng quà và sinh kế cho người nghèo, đặc biệt là phụ nữ;", 
+        "para3-li7":"• Trồng rừng đầu nguồn;", 
+        "para3-li8":"• Tài trợ kinh phí đưa 39 người Việt thiệt mạng ở Anh về nước;", 
+        "para3-li9":"• Đồng hành cùng Chính phủ và Y - bác sĩ tuyến đầu chống dịch Covid -19…" 
+    },
+    "ngoaigiao-page":  {
+        "title" : "NGOẠI GIAO",
+        "para1" : "Trên cương vị là Lãnh sự Danh dự Cộng hòa Nam Phi tại TP.HCM, bằng sự nỗ lực không ngừng nghỉ, tôi đã có hơn 10 năm hoạt động ngoại giao rất thành công và tạo được những dấu ấn đậm nét trong việc thúc đẩy quan hệ hữu nghị giữa hai nước Việt Nam và Nam Phi.",
+        "para2" : "Văn phòng Lãnh sự (VPLS) Nam Phi tại TP.HCM hoạt động từ năm 2009 đến nay, do bà Đỗ Thị Kim Liên thành lập đã tư vấn, hỗ trợ hàng trăm ngàn lượt công dân Việt Nam xin visa đi Nam Phi; công dân Nam Phi đang sinh sống tại Việt Nam thực hiện các thủ tục hành chính, cùng các hoạt động kết nối khác để làm quen, hòa nhập với cuộc sống tại Việt Nam nhanh chóng và hiệu quả nhất.",
+        "para3" : "Bên cạnh đó, VPLS Nam Phi tại TP.HCM đã tổ chức hàng trăm Hội thảo xúc tiến Kinh tế, thương mại và du lịch; đón tiếp hàng chục phái đoàn, doanh nghiệp Nam Phi đến thăm, tìm hiểu thị trường Việt Nam và hỗ trợ các doanh nghiệp Việt Nam tìm hiểu thị trường Nam Phi. Những hoạt động đó đã góp phần đưa tổng kim ngạch thương mại song phương Việt Nam – Nam Phi tăng hơn 5 lần, từ 189 triệu USD cuối năm 2007 lên 1,1 tỷ USD cuối 2018, hướng tới mục tiêu 2 tỷ USD trong 5 năm tới.",
+        "para4" : "Năm 2018, Chính phủ Nam Phi đã gửi Thư khen vì những đóng góp tích cực của tôi và cộng sự trong việc quảng bá, xây dựng hình ảnh Nam Phi tại Việt Nam."
+    },
+    "baohiem-page" : {
+        "title" : "BẢO HIỂM", 
+        "para1" : "Bảo hiểm là là nghề nhân văn nhất trong các nghề nhân văn. Tôi chọn bảo hiểm để giúp người dân “An nỗi lo - Quản rủi ro” cho những bất trắc có thể xảy ra trong cuộc sống.",
+        "para2" : "Tôi đã có gần 30 năm hoạt động trong lĩnh vực bảo hiểm, với các cột mốc đáng nhớ:",
+        "para2-li1": "- Năm 1996, tôi bắt đầu làm việc tại Tổng Công ty Bảo hiểm Bảo Minh và gắn bó trong 8 năm.",
+        "para2-li2": "- Đến năm 2005, tôi sáng lập thương hiệu Bảo hiểm AAA, đảm nhiệm vị trí Chủ tịch Hội đồng Quản trị kiêm Tổng giám đốc, đưa Bảo hiểm AAA lọt vào Top 50 thương hiệu nổi tiếng tại Việt Nam.",
+        "para2-li3": "- Năm 2013, tôi tạm rút lui khỏi ngành Bảo hiểm để trải nghiệm những lĩnh vực mới.",
+        "para2-li4": "- Năm 2018, khi quay lại lĩnh vực Bảo hiểm, tôi chính thức ra mắt Ứng dụng Bảo hiểm Công nghệ LIAN, trở thành nhà sáng lập tiên phong sử dụng công nghệ kỹ thuật số tích hợp các nghiệp vụ bảo hiểm bao gồm: đồng bộ hóa với hệ thống kế toán, thẩm định bồi thường, thiết kế sản phẩm, quản lý đại lý, quản lý hoa hồng… Với hơn 2 năm liên tục hoàn thiện và phát triển, LIAN đã có hơn 1 triệu người dùng (users), hơn 600.000 hợp đồng, 40.000 cộng tác viên trên toàn quốc",
+        "para2-li5": "- Đầu năm 2022, tôi chọn Insurtech làm sứ mệnh, đẩy nhanh chuyển đổi số trong lĩnh vực bảo hiểm, góp phần đưa Việt Nam hội nhập và phát triển cùng thế giới."
+    },  
+    "home-page" : {
+        "header-1" : "Tôi là Shark Liên, nhà đầu tư các dự án nhân văn",
+        "header-2" : "Ai cũng có thể thành công nếu theo đuổi đam mê.", 
+        "title-section-intro": "Tôi tri ân tất cả những điều xảy đến trong cuộc đời mình.",
+        "intro-para" : "Tôi là Đỗ Thị Kim Liên, sinh ra tại Mê Linh, Vĩnh Phúc. Xuất thân trong một gia đình có truyền thống làm giáo dục, tôi được định hướng trở thành một cô giáo ngay khi còn nhỏ. Sau khi tốt nghiệp Khoa Ngữ văn của Trường Đại học Sư phạm Hà Nội II, tôi đứng lớp giảng dạy 3 năm, rồi quyết tâm chia tay nghề để vào Nam lập nghiệp. Với hơn 30 năm kinh nghiệm trong lĩnh vực tài chính, điều hành và hoạt động vì cộng đồng, tôi luôn mong muốn được làm việc với những nhà sáng lập và khởi nghiệp trẻ với tư cách vừa là nhà đầu tư chiến lược, vừa là người cố vấn.",
+        "title-section-contribu" : "Vì sứ mệnh của tôi là tạo ra giá trị cho cộng đồng.", 
+        "baohiem": "Bảo hiểm là là nghề nhân văn nhất trong các nghề nhân văn. Tôi chọn bảo hiểm để giúp người dân “An nỗi lo - Quản rủi ro” cho những bất trắc có thể xảy ra trong cuộc sống. Insurtech là sứ mệnh kế tiếp của tôi.",
+        "ncsach" : "Tại Việt Nam, nguồn nước sạch ngày càng khan hiếm. Để đảm bảo sức khỏe và nâng cao chất lượng cuộc sống của cộng đồng, đây là nguồn tài nguyên mà tôi chú trọng, đầu tư sản xuất và cam kết mang lại giá trị tốt nhất cho người dân của mình.",
+        "bado" : "Tôi mong muốn trở thành điểm tựa vững chắc cho những nhà khởi nghiệp với hoài bão và sự cống hiến cho xã hội, giúp các bạn trở thành người dẫn đầu kỷ nguyên hiện tại. Và hướng tới xây dựng Việt Nam là một quốc gia khởi nghiệp năng động, tự tin trong khu vực và trên thế giới.", 
+        "thiennguyen-ngoaigiao": "“Cho đi là Hạnh phúc”. Người càng cho đi nhiều, càng nhận được phúc lành! Tôi muốn được nhớ đến là một người đàn bà tốt bụng, không phải một người giàu có. Và trên cương vị là Lãnh sự Danh dự Cộng hòa Nam Phi tại TP.HCM, bằng sự nỗ lực không ngừng nghỉ trong suốt 10 năm qua, tôi đã̃ tạo được những dấu ấn đậm nét trong việc thúc đẩy quan hệ hữu nghị giữa hai nước Việt Nam và Nam Phi.",
+        "quotes" : "Đã không mơ thì thôi, mơ thì phải mơ cho lớn",
+        "title-testimonial" : "Để đi xa, chúng ta luôn cần có những người ủng hộ mình.",
+        "testimonial" : [
+            {
+                "name": "Ông Nguyễn Bá Ngọc - Giám đốc Công ty Mực nhảy Biển Đông", 
+                "words": "Shark Liên là một nữ Doanh nhân tuyệt vời từ tâm và tài! Tôi đã chọn Cô là người để bản thân học hỏi và noi theo! Tôi tin rằng với tấm lòng nhân hậu và những việc làm đầy nhân văn của Cô sẽ làm thay đổi được nhiều điều tốt đẹp hơn cho đất nước!"
+            },
+            {
+                "name": "Bà Ngọc An Nhiên - Giám đốc Công ty TNHH Auto Đức Trí", 
+                "words": "Lần đầu tiên tôi gặp Shark Liên qua zoom và được nghe Cô chia sẻ. Trong lòng tôi chợt thấy mình thật bé nhỏ trước người phụ nữ này. Tôi cảm nhận Cô Liên như một người mẹ có tình thương bao la, có tấm lòng Bồ tát. Gần gũi ấm áp. Không phải riêng tôi mà ai gặp Cô cũng muốn được ôm Cô để cảm nhận được sự ấm áp từ Cô tỏa ra, từ một người mẹ lan tỏa tình yêu thương cho các con của mình nguồn năng lượng an lành."
+            },
+            {
+                "name": "Cao Khánh Linh (Fan Club)", 
+                "words": "Ngoại Liên rất ấm áp, trái tim Ngoại bao la rộng lớn, luôn dang rộng vòng tay ôm lấy chúng tôi vào lòng. Mỗi cái ôm Ngoại trao là tình yêu thương đong đầy. Những câu chuyện Ngoại kể luôn dí dỏm, đời thường nhưng lại chân thực, thấu cảm, dễ hiểu, đọng lại những dư âm cho người đối diện. Mỗi phút bên Ngoại, tôi được tự do, được sống và cống hiến. Tất cả có ở LinhLinh là nguồn cảm hứng của sự sáng tạo nhận được từ Ngoại. Biết ơn Ngoại Liên đã mang đến cho con một người bạn tri kỷ là SÁCH LIÊN, để mỗi giây con được chuyển mình bước sang trang và lan tỏa mạnh mẽ đến cộng đồng yêu sách."
+            },
+            {
+                "name": "Đại tá - Nhà báo Trần Thế Tuyển (Nguyên Tổng Biên tập báo Sài Gòn Giải Phóng)", 
+                "words": "Thành đạt, nổi tiếng trên thương trường, Đỗ Liên còn nổi tiếng bởi những việc làm nghĩa tình, sẻ chia với cộng đồng; đặc biệt với gia đình có công với nước, gia đình liệt sĩ, thương binh."
+            },
+            {
+                "name": "Ngô Mỹ Loan (Fan club)", 
+                "words": "Nói về Madam Liên, tôi chỉ có từ “YÊU và NGƯỠNG MỘ” dành cho Ngoại. Xoay quanh những ngày tháng tôi đã tiếp xúc với Ngoại và tham gia những hoạt động của Ngoại, mỗi điều Ngoại làm đều đặt chữ TÂM lên hàng đầu và phải chỉnh chu từ những thứ nhỏ nhặt nhất. Tôi ngưỡng mộ Ngoại qua nhân cách, lối sống đơn giản, bình dị và cách đối nhân xử thế với mọi người. Và tôi cũng nhận lại từ Ngoại những bài học về tình người, nghĩa đồng bào trong cơn hoạn nạn, để trân quý cuộc sống mình đang có mặt."
+            },
+            {
+                "name": "Tiến sĩ Josefine Wallat, Tổng Lãnh sự Cộng hòa Liên bang Đức tại TP.HCM", 
+                "words": "Khi cầm tấm bảng này trong tay, tôi muốn nói lòng biết ơn của người Đức tới gia đình Bà. Bà và gia đình đã có một hành động rất đẹp, thể hiện sự quan tâm tới người dân nước Đức, những con người đã và đang tiếp tục chống chọi với đại dịch và khủng hoảng. Tôi nghĩ việc này đã thể hiện được thông điệp của từ “tình bạn”. Mối quan hệ của chúng ta không chỉ diễn ra ở tầm quốc gia mà còn giữa những người dân. Chỉ trong những lúc khủng hoảng như thế này, bạn mới có thể nhận ra được một mối quan hệ thật sự là như thế nào!"
+            },
+            {
+                "name": "Ông Marko Walde, Trưởng Đại diện Phòng Thương mại và Công nghiệp Đức tại Việt Nam (AHK)", 
+                "words": "“Tôi đã làm việc ở Việt Nam rất lâu và từng gặp gỡ làm việc với bà Liên và gia đình bà nhiều lần. Thời gian qua bà đã làm rất nhiều dự án tuyệt vời, bao gồm việc đầu tư qua Đức. Điều này chứng minh cho mối quan hệ song phương bền chặt của chúng ta, không chỉ người Đức đầu tư vào Việt Nam mà người Việt Nam cũng có thể tìm kiếm cơ hội đầu tư và làm điều gì đó cho nước Đức. Chính điều đó mới thực sự ý nghĩa”."
+            },
+            {
+                "name": "Ngài Ratubasi Super Moloi - Đại sứ đặc mệnh toàn quyền Cộng hòa Nam Phi tại Việt Nam nhiệm kỳ 2009-2013", 
+                "words": "“Madam Liên là người dám nghĩ dám làm, cầu toàn và là một người phụ nữ cuốn hút. Madam có khả năng thuyết phục bất cứ ai khi tiếp xúc và đem lòng yêu đất nước Nam Phi. Tôi thật sự ấn tượng với phương pháp điều hành các công việc kinh doanh cũng như rất nhiều giải thưởng danh giá mà Bà được trao tặng. Chính phủ Nam Phi sẽ mãi cảm kích và biết ơn khi có được một Lãnh sự danh dự như Bà. Cá nhân tôi thực sự muốn chúc mừng và mong bà biết rằng chúng tôi luôn rất tự hào về Bà”."
+            },
+            {
+                "name": "Bà Kgomotso Ruth Magau - Cựu Đại sứ đặc mệnh toàn quyền Nam Phi tại Việt Nam (nhiệm kỳ 2013-2017)", 
+                "words": "“Tôi muốn nhấn mạnh sự đóng góp to lớn của Madam Liên trong việc tăng cường mối quan hệ song phương giữa Nam Phi và Việt Nam. Bà luôn sẵn lòng hỗ trợ các công việc của Đại sứ quán tại Hà Nội thông qua việc đảm bảo Đại sứ quán luôn được thông báo kịp thời các sự vụ cần được đặc biệt quan tâm, đồng thời thường xuyên hỗ trợ đội ngũ của Đại sứ quán trong quá trình giải quyết những sự vụ đó”."
+            },
+            {
+                "name": "Ngài Mpetjane Kgaogelo Lekgoro - Đương kim Đại sứ đặc mệnh toàn quyền Cộng hòa Nam Phi tại Việt Nam", 
+                "words": "“Với những đóng góp trong việc thúc đẩy mối quan hệ hợp tác giữa Cộng hòa Nam Phi và Việt Nam thông qua việc khởi xướng và tổ chức nhiều chương trình giao lưu, các hoạt động hỗ trợ, kết nối và xúc tiến thương mại giữa hai nước suốt 10 năm qua, Madam Đỗ Thị Kim Liên là Đại sứ hình ảnh của đất nước Nam Phi tại Việt Nam và Việt Nam tại Nam Phi”."
+            }
+        ],
+        "btn-text-media" : "Xem thêm tại Media"
+    },
+    
+    "tieusu-page" : {
+        "title" : "TIỂU SỬ", 
+        "para1" : "Tôi là Đỗ Thị Kim Liên, sinh ra tại Mê Linh, Vĩnh Phúc. Xuất thân trong một gia đình có truyền thống làm giáo dục, tôi được định hướng trở thành một cô giáo ngay khi còn nhỏ. Sau khi tốt nghiệp Khoa Ngữ văn của Trường Đại học Sư phạm Hà Nội II, tôi đứng lớp giảng dạy 3 năm, rồi quyết tâm chia tay nghề để vào Nam lập nghiệp.",
+        "para2" : "Với hơn 30 năm kinh nghiệm trong lĩnh vực tài chính, điều hành và hoạt động vì cộng đồng, tôi luôn mong muốn được làm việc với những nhà sáng lập và khởi nghiệp trẻ với tư cách vừa là nhà đầu tư chiến lược, vừa là người cố vấn.", 
+        "para3" : "Một số vị trí mà tôi đã, đang đảm nhiệm: Nhà sáng lập Ứng dụng bảo hiểm công nghệ LIAN (từ năm 2018 đến nay); Chủ tịch Quỹ Hỗ trợ xây dựng Môi trường Xanh Việt Nam (từ năm 2016 đến nay); Hiệu trưởng Trường Đào tạo Quản lý Doanh nghiệp – CBAM (từ năm 2016 đến nay); Chủ tịch Hội đồng quản trị Tập đoàn AquaOne (từ năm 2015 đến nay); Chủ tịch Hội đồng quản trị Công ty Cổ phần Nước mặt Sông Đuống (từ năm 2015 đến nay).",
+        "para4" : "Ngoài ra, trên cương vị Lãnh sự Danh dự Cộng hòa Nam Phi tại TP.HCM suốt hơn 10 năm, tôi đã có những đóng góp không ngừng nghỉ thúc đẩy quan hệ hữu nghị giữa hai nước Việt Nam – Nam Phi; Xây những “chiếc cầu nối doanh nghiệp” góp phần phát triển nền kinh tế của hai quốc gia.", 
+        "para5" : "Từ năm 2019, tôi tham gia Shark Tank Việt Nam trên cương vị Nhà đầu tư chính với mục tiêu làm “bà đỡ” cho thế hệ trẻ."
+    },
+    "conghien-page" : {
+        "title" : "CỐNG HIẾN", 
+        "para1" : "Là một người phụ nữ, người bà, người mẹ, người vợ, một giáo viên dạy Văn, ở tôi hội tụ những tính chất của nước: Mềm dẻo khi muốn và cứng rắn khi cần. Trên thương trường, tôi quyết liệt, sáng suốt, gây dựng sự nghiệp từ chính đôi tay của mình. Trong hoạt động xã hội, tôi là người phụ nữ giàu tình cảm và mang trái tim biết yêu thương. Trong gia đình, tôi là người vợ, người mẹ hết lòng yêu thương chồng con. Với suy nghĩ lạc quan, hành động tích cực, tâm nguyện kinh doanh vì cộng đồng, tôi mong muốn là người truyền cảm hứng mạnh mẽ cho thế hệ trẻ: Nghĩ Đẹp - Sống Trách nhiệm - Làm việc Có ích",
+        "para1-li-title": "Một số giải thưởng tiêu biểu trong sự nghiệp của tôi:",
+        "para1-li1": "• Thư khen từ Chính phủ Nam Phi vì những cống hiến không ngừng trong việc hỗ trợ và quảng bá hình ảnh đất nước Nam Phi tại Việt Nam năm 2018.",
+        "para1-li2" : "• Huân chương Lao động hạng III do Chủ tịch nước trao tặng năm 2012.", 
+        "para1-li3" : "• Bằng khen của Thủ tướng Chính phủ trao tặng vì “Đã có thành tích xuất sắc trong công tác quản lý, điều hành hoạt động sản xuất, kinh doanh” và đạt danh hiệu “Doanh nhân Việt Nam tiêu biểu năm 2007”, góp phần vào sự nghiệp xây dựng Chủ nghĩa xã hội và bảo vệ Tổ quốc.", 
+        "para1-li4" : "• Bằng khen của Chủ tịch UBND các TP.HCM, tỉnh Long An, Kon Tum, trao tặng bà Đỗ Thị Kim Liên vì các hoạt động kinh doanh và thiện nguyện"
+    },
+    "quotes-page" : {
+        "title" : "Người truyền cảm hứng",
+        "title-quotes" : "Những câu nói hay truyền cảm hứng của Shark Liên", 
+        "btn-sharktank": "Trong chương trình Sharktank Việt Nam",
+        "btn-goitinh": "Từ cuốn sách \\\"Liên và dòng chảy nghĩa tình\\\"", 
+        "text-quotes": "\\\"Đã không mơ thì thôi,Mơ thì phải Mơ cho lớn\\\"",
+        "btn-sach": "Trong chương trình \\\"Gói tình Shark Liên - gửi nghĩa đồng bào\\\"",
+        "quotes-sharktank-modal": {
+            "quotes-1": "- Mình phải tự hào mình là người Việt Nam trước cái đã.", 
+            "quotes-2":"- Đã không mơ thì thôi, đã mơ thì phải mơ lớn.",
+            "quotes-3":"- Thành công không nhất thiết phải học đại học. Hãy cùng vượt qua lối mòn định kiến suy nghĩ về học vấn, bằng cấp để tôn trọng năng lực và ước mơ của thế hệ trẻ.",
+            "quotes-4":"- Tôi không xác định mình bao nhiêu tuổi, quan trọng là mình có lý tưởng sống hay không, mình có quyết tâm để đạt được lý tưởng của mình hay không.",
+            "quotes-5":"- Thể chất không có thì khó có tư duy.",
+            "quotes-6":"- Mình chỉ có một cuộc đời, cho nên tốt nhất là sống thật, mở lòng với anh em, minh bạch với mọi người",
+            "quotes-7":"- Kiếm được tiền rõ ràng rất vui rồi, nhưng kiếm tiền còn phải đi kèm hạnh phúc.",
+            "quotes-8":"- Thuật quản trị của tôi là xây dựng niềm tin bằng cách nói thật, sống thật.",
+            "quotes-9":"- Các bạn phải biết lan tỏa cho thế hệ trẻ bảo vệ môi trường, gìn giữ nơi sống của bản thân mình."
+        },
+        "quotes-goitinh-modal": {
+            "quotes-1" : "- Tôi viết văn không phải để kiếm tiền mà là viết lại cuộc đời, kinh nghiệm, câu chuyện, để thế hệ sau không phải “trả giá\\\" những gì thế hệ trước trải qua.",
+            "quotes-2" : "- “Liên & Dòng chảy nghĩa tình\\\" lưu dấu một giai đoạn lịch sử bi tráng về tinh thần tương thân tương ái và kiên cường của dân tộc trong cơn dịch bệnh.",
+            "quotes-3" : "- Khi Sài Gòn phong thành, giữa hiểm nguy Covid-19, chúng tôi là “người được chọn\\\".",
+            "quotes-4" : "- Các tình nguyện viên chính là những Kim Đồng thời hiện đại. Nếu anh hùng ngày xưa phải đối mặt với bom rơi, đạn lạc thì ngày nay, các bạn phải đối mặt với kẻ thù Covid-19 không rõ nhân dạng với tinh thần không lùi bước.",
+            "quotes-5" : "- Tôi đã khóc rất nhiều khi Việt Nam oằn mình trong cơn đại dịch. Tôi muốn cùng các con làm một điều gì đó. Thực sự, làm từ thiện gian nan không thua gì kinh doanh.",
+            "quotes-6" : "- Tôi muốn “Liên & Dòng chảy nghĩa tình” tiếp tục khơi mạch, lan tỏa và không có điểm dừng.",
+            "quotes-7" : "- Trước nỗi đau của đồng bào, tôi không thể đứng yên được. Nó thôi thúc tôi phải làm điều gì đó ngay lập tức. ",
+            "quotes-8" : "- Tôi chỉ góp vào những dòng tự sự. Còn lại là những chia sẻ nghĩa tình và tinh thần của tất cả mọi người, được gói trọn trong cuốn sách.",
+            "quotes-9" : "- Những cây bút trẻ trong “Liên & Dòng chảy nghĩa tình” là những Kim Đồng thời hiện đại. Họ đã đi vào tâm bão dịch bệnh để giúp người và ghi lại những câu chuyện thuộc về lịch sử.",
+            "quotes-10" : "- Chưa đầy 1 tuần, chương trình “Gởi tình Shark Liên - Gởi nghĩa đồng bào\\\" đã được triển khai thần tốc. Nhờ vậy, nhiều bà con được cứu giúp."
+        },
+        "quotes-sach-modal": {
+            "quote-1" : "- Khi đã đem lòng thương một ai đó, thấy họ đau một, bản thân ta lại đau gấp bội. Với tôi, Sài Gòn là máu thịt liền tâm.",
+            "quote-2" : "- Từ trong trái tim tôi, một mạch nước từ tách đất cuộn trào. Và tựa như sức nước mãnh liệt không thể cản được, tôi sẽ bằng mọi tâm lực, trí lực, sức lực gửi nghĩa Sài Gòn, gửi nghĩa đồng bào.",
+            "quote-3" : "- Đằng sau những cái tên, có rất nhiều chữ “nguyên”: Nguyên phó Chủ tịch Hội Cựu chiến binh phường, nguyên cán bộ Hội Chữ thập đỏ,... Chữ “nguyên” bởi họ không còn trên cõi đời này.",
+            "quote-4" : "- Bằng cách nào đó tôi tin rằng, khi chân mình còn đứng trên đất nước mình, thì như cái cây còn cắm rễ vào đất, tôi không chết được.",
+            "quote-5" : "- Ở Sài Gòn, cái gì cũng tốn tiền mua. Riêng có nghĩa tình là miễn phí.",
+            "quote-6" : "- Thành phố mang những con người xa lạ đến gặp nhau, thương nhau. Rồi vì mưu sinh, mỗi người lại rời đi đến những vùng đất mới.",
+            "quote-7" : "- Giống như hạt bồ công anh, tôi rơi xuống giữa lòng Sài Gòn nơi căn trọ nhỏ bên con kênh và được hai người xa lạ thương tình tưới nước. Cứ thế, tôi bén rễ thật sâu ở mảnh đất này, viết nên lịch sử cuộc đời mình ở nhiều chương tiếp theo.",
+            "quote-8" : "- Đến bây giờ, khi ăn một bát cháo đắt tiền trong nhà hàng sang trọng, tôi vẫn nhớ bát cháo trắng tía tô đặt trên cái ghế đẩu được hai vợ chồng bác chủ trọ bưng qua ngày tôi liệt giường vì bệnh.",
+            "quote-9" : "- Trong những ngày khó khăn nhất, tôi đã có hai bác chủ trọ cứu vớt. Còn bây giờ, cả xóm trọ công nhân, thợ xây, thợ đụng... đều mất việc, cạn tiền. Cả xóm đều đói. Ai sẽ cứu vớt ai?",
+            "quote-10" : "- Trước đây, ngay cả những lúc tôi bị nhấn chìm trong điều tiếng thị phi bịa đặt, những ngày công việc kinh doanh thua lỗ, hay khi chứng khoán đỏ sàn, tôi đều có thể bình tâm kê cao gối. Vậy mà lần này, những tấm ảnh chụp nhà năm người cần gạo gửi về inbox, giấc mơ lạ lùng đêm nọ, bức ảnh cụ già co ro dưới gầm cầu Điện Biên Phủ... đã khiến trán tôi ướt đẫm dù nhiệt độ phòng là 22 độ C. ",
+            "quote-11" : "- Biết đâu trong chuyến cứu trợ ngày mai, sẽ có một ân nhân cũ của tôi nhận “gói nghĩa tình” do tôi chuẩn bị... An nỗi lo cho họ, cũng chính là tôi an nỗi lo cho chính mình.",
+            "quote-12" : "- Cơ thể người có cơ chế “tự chữa lành” kỳ diệu. Khi một bộ phận bị thương, những tế bào khỏe mạnh còn lại sẽ bắt được tín hiệu, tăng cường đẩy dưỡng chất nuôi các tế bào thương tổn bằng mạng lưới mao mạch kết nối chặt chẽ. Những ngày Sài Gòn trọng thương, một cơ chế tương tự đã được kích hoạt.",
+            "quote-13" : "- Có lẽ chưa bao giờ người Sài Gòn nghĩ ba từ “nhận cứu trợ” lại dành cho mảnh đất này.",
+            "quote-14" : "- Người lớn tuổi là đối tượng dễ bị nhiễm Covid-19. Chẳng may nhiễm là đánh cược mạng sống với tử thần. Vậy mà trong hàng ngàn cán bộ tổ dân phố, ấp, khu phố trên khắp Sài Gòn, đa phần là người lớn tuổi.",
+            "quote-15" : "- Anh Vũ nhỏ về. Anh kể, lúc xe vào thì thấy bên dịch tễ khiêng cái quan tài đi ra. Anh không ngờ cuộc gọi cuối cùng đến máy anh trong sáng nay lại là số của một người đã khuất.",
+            "quote-16" : "- Công việc nào cũng đòi hỏi năng lực. Riêng công việc tình nguyện viên, có lẽ, năng lực lớn nhất chính là dòng huyết tâm - thứ sức mạnh giúp các bạn vượt qua nỗi sợ để tiến vào tâm dịch.",
+            "quote-17" : "- Covid-19 đang tàn phá các con theo những hình thức khác. Nó lấy đi tuổi thơ được rong chơi chạy nhảy, giật khỏi tay các con cái ôm của ba mẹ - và thay vào đó những hũ tro cốt lạnh ngắt vô hồn.",
+            "quote-18" : "- Đi bán được, đi làm được, chúng tôi chỉ mong có thể kiếm tiền bằng sức lao động của mình. Chỉ là ước muốn thường tình, sao lại khó thực hiện như vậy.",
+            "quote-19" : "- Con nít không được học hành. Người bệnh không được khám chữa. Người trẻ không được đi làm. Người già không có cái ăn. Dịch bệnh ăn mòn không chừa một ai. Nam phụ lão ấu, chỉ còn biết nương nhau trong những tháng mắc kẹt giữa Sài Gòn",
+            "quote-20" : "- Đến lúc này rồi, một tờ giấy chứng minh bản thân là ai không quan trọng bằng có tiền gửi cho người thân, có tiền mua cái gì bỏ bụng.",
+            "quote-21" : "- Lúc còn sống, mẹ có dạy con, cách trả hiếu thiết thực cho mẹ là con ráng học hành, sau này lớn lên làm người tốt, sống tốt. Nay mẹ con mất rồi, chưa kịp nhìn thấy con khôn lớn nên người. Nhưng con nghĩ mẹ sẽ vui nếu ở trên trời, mẹ biết con nhường suất hỗ trợ này cho người khác. Vậy nên, cô thương con, thì chấp thuận tâm ý của con nha cô.",
+            "quote-22" : "- Tôi đã phải bất lực cúi đầu trước cảnh đồng bào oằn mình trong nỗi đau tử biệt. Nhưng tôi không dám nghĩ. Cũng có lúc. Tôi phải chứng kiến điều đó từ đồng đội của tôi. Các bạn trẻ ngày đêm xoa dịu vết thương của bà con, nay trên người cũng cắt sâu thương tổn.",
+            "quote-23" : "- Sài Gòn 312 “pháo đài” phường xã, là có hàng ngàn đến hàng vạn những bác tổ trưởng, cô tổ phó, chú ấp trưởng... lặng lẽ bám vị trí tuyến đầu."
+        }
+    },
+    "media" : {
+        "title": "Media",
+        "title-baochi" : "SỰ KIỆN BÁO CHÍ",
+        "title-vid": "\\\"VIDEO ĐẦU TƯ CỦA SHARK LIÊN TRÊN CHƯƠNG TRÌNH SHARK TANK\\\"", 
+        "btn-trc": "Trang trước",
+        "btn-sau": "Trang sau"
+    }, 
+    "footer": {
+        "sentences" : "Đây là website giới thiệu về tôi - Đỗ Liên cùng hệ sinh thái kinh doanh, các hoạt động thiện nguyện và định hướng hỗ trợ cộng đồng của tôi", 
+        "contact" : "Liên hệ công việc:"
+    }
 }
