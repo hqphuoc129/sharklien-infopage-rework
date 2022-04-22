@@ -10,6 +10,7 @@ const BriefIntro = () => {
   return (
     <div className='brief-intro-image'>
       <Container fluid={'true'} className="brief-intro-container">
+        <h2 className="para-header">Tôi tri ân tất cả những điều xảy đến trong cuộc đời mình.</h2>
         <HeaderDescription title={'Tôi tri ân tất cả những điều xảy đến trong cuộc đời mình.'} />
         <Row className='brief-intro-row'>
           <Col lg={true}>

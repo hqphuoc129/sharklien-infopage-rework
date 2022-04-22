@@ -1,5 +1,6 @@
 {
-    "lang" : "Tiếng Việt",
+    "lang-vie" : "Tiếng Việt",
+    "lang-en" : "Tiếng Anh",
     "navbar" : {
         "title-tieusu" : "Tiểu sử",
         "title-conghien" : "Cống hiến", 

@@ -36,7 +36,7 @@ const Wrapper = (props) => {
 
     return (
         <Context.Provider value = {{locale, selectLanguage}}>
-            <IntlProvider messages={messages && flatten(messages)} locale={locale}>
+            <IntlProvider  messages={messages && flatten(messages)} locale={locale}>
                 {props.children}
             </IntlProvider>
         </Context.Provider>

@@ -3,7 +3,10 @@ import { Link } from 'react-router-dom';
 import { AppBar, Toolbar, Typography, Tabs, Tab, Button } from '@mui/material';
 import DehazeIcon from '@mui/icons-material/Dehaze';
 import Logo from 'assets/logo.png';
+import SelectLang from 'components/Language/selectLang';
 import {webContext} from '../../App';
+import {FormattedMessage, FormattedDate} from 'react-intl';
+import VietNam from '../../lang/vn.json';
 
 const Navigation = () => {
   const {isActive, setIsActive} = useContext(webContext)
@@ -31,7 +34,7 @@ const Navigation = () => {
               setShowul(!showul)
             }}
           >
-            tiểu sử
+        <FormattedMessage id="navbar.title-tieusu" defaultMessage={VietNam['navbar']['title-tieusu']}/>
           </Link>
         </li>
         <li>
@@ -43,7 +46,7 @@ const Navigation = () => {
               setShowul(!showul)
             }}
           >
-            cống hiến
+        <FormattedMessage id="navbar.title-conghien" defaultMessage={VietNam['navbar']['title-conghien']}/>
           </Link>
         </li>
         <li>
@@ -55,7 +58,7 @@ const Navigation = () => {
               setShowul(!showul)
             }}
           >
-            Quotes
+          <FormattedMessage id="navbar.title-quotes" defaultMessage={VietNam['navbar']['title-quotes']}/>
           </Link>
         </li>
         <li>
@@ -67,8 +70,11 @@ const Navigation = () => {
               setShowul(!showul)
             }}
           >
-            Media
+          <FormattedMessage id="navbar.title-media" defaultMessage={VietNam['navbar']['title-media']}/>
           </Link>
+        </li>
+        <li>
+          <SelectLang/>
         </li>
       </ul>
     </nav>

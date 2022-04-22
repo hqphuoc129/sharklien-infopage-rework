@@ -1,5 +1,6 @@
 {
-    "lang" : "EN",
+    "lang-vie" : "Vietnamese",
+    "lang-en" : "English",
     "navbar" : {
         "title-tieusu" : "Biography",
         "title-conghien" : "Contributions", 

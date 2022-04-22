@@ -54,8 +54,7 @@ const Water = () => {
       <p>
       <FormattedMessage id="conghien-page.vid-section-title" defaultMessage={VietNam['vid-section-title']}/></p>
     </div>
-      <SelectLang/>
-      <CauouselSliderContainer vidlist= {vid_nuocsach} linkClass={"carousel-media"} title={"Các video liên quan"} totalNum ={3}/>
+    <CauouselSliderContainer vidlist= {vid_nuocsach} linkClass={"carousel-media"} title={"Các video liên quan"} totalNum ={3}/>
     </> 
   );
 };
