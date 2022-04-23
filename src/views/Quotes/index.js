@@ -9,21 +9,23 @@ import Contribute_Descrpition from '../../components/Contrib Header/index';
 import { Modal, Button } from 'antd';
 import { useState } from 'react';
 import { QuoteBook, QuoteSharkTank, QuoteCharity } from 'components/QuoteList/QuoteContent';
+import {FormattedMessage, FormattedDate} from 'react-intl';
+import VietNam from '../../lang/vn.json';
 
 const QUOTE_DATA = [
-  { image: QuoteImageOne, title: 'Trong chương trình Sharktank Việt Nam'},
-  { image: QuoteImageTwo, title: 'Từ cuốn sách "Liên và dòng chảy nghĩa tình"'},
-  { image: QuoteImageThree, title: 'Trong chương trình "Gói tình Shark Liên - gửi nghĩa đồng bào"'},
+  { image: QuoteImageOne, title: <FormattedMessage id="quotes-page.btn-sharktank" defaultMessage={VietNam['quotes-page']['btn-sharktank']}/>},
+  { image: QuoteImageTwo, title: <FormattedMessage id="quotes-page.btn-sach" defaultMessage={VietNam['quotes-page']['btn-sach']}/>},
+  { image: QuoteImageThree, title: <FormattedMessage id="quotes-page.btn-goitinh" defaultMessage={VietNam['quotes-page']['btn-goitinh']}/>},
 ];
 
 const Quotes = () => {
   return (
     <>
-      <Contribute_Descrpition img={HeaderQuoteImg} title={'Người truyền cảm hứng'} lightText={true} /> 
+      <Contribute_Descrpition img={HeaderQuoteImg} title={<FormattedMessage id="quotes-page.title" defaultMessage={VietNam['quotes-page']['title']}/>} lightText={true} /> 
       <h1 className='box-underheader'> </h1>
       <div className='content-quote'>
-        <h1 className='quote-heading'>Những câu nói hay</h1>
-        <h1 className='quote-heading'> truyền cảm hứng của Shark Liên</h1>
+        <h1 className='quote-heading'><FormattedMessage id="quotes-page.title-quotes1" defaultMessage={VietNam['quotes-page']['title-quotes1']}/></h1>
+        <h1 className='quote-heading'><FormattedMessage id="quotes-page.title-quotes2" defaultMessage={VietNam['quotes-page']['title-quotes2']}/></h1>
       </div>
       <div className={`box-quotedata`}>
         <QuoteList data={QUOTE_DATA} />

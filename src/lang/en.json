@@ -12,7 +12,11 @@
         "para1" :"“Where there is water, there is life”. Bearing that in mind, I established AquaOne Group - specializing in providing and treating clean water for people's daily activities.",
         "para2" : "Social: AquaOne contributes to improving people's health, especially children, the elderly and women. Using clean water helps reduce diseases caused by unsanitary water sources. AquaOne's factories also create more jobs for people.",
         "para3" : "Economic: water services cannot be quantified but have great economic value. AquaOne contributes to diversifying economic sectors in clean water production and trading, promotes urbanization in localities, and at the same time attracts investors.",
-        "para4" : "Currently, AquaOne Group is the Investor of major projects: Hau river surface water treatment plant (Hau Giang province), Duong river surface water treatment plant (Ha Noi city), Xuan Mai - Hoa Binh surface water treatment plant (Hoa Binh province), Vam Co Dong river surface water treatment (Long An province).",
+        "para4" : "Currently, AquaOne Group is the Investor of major projects:",
+        "para4-li1": "Hau river surface water treatment plant (Hau Giang province)",
+        "para4-li2": "Duong river surface water treatment plant (Ha Noi city)",
+        "para4-li3": "Xuan Mai - Hoa Binh surface water treatment plant (Hoa Binh province)",
+        "para4-li4": "Vam Co Dong river surface water treatment (Long An province)",
         "para5" : "With the current scarce water source, I hope people use water appropriately, avoid waste and be more conscious in protecting the environment, avoiding polluting water sources.",
         "para6" : "Explore more:",
         "web-link" : "aquaone.vn",
@@ -24,6 +28,7 @@
         "para2" : "My support for start-ups is not limited to financial investments. I wish to become a solid fulcrum for entrepreneurs with ambition and dedication to society, helping you become the leader of the current era. And towards building Vietnam as a dynamic and confident start-up country in the region and in the world.",
         "para3" : "Companies that are receiving support from me to improve their competitiveness in the market: Edu ProMax Investment and Development Joint Stock Company, ECO LIFE Trading - Service and Production Joint Stock Company; Project LoTo, Shecodes, Vua Cua…",
         "para4" : "In addition, I established a Startup Ecosystem with Shark Lien, with the professions of Insurance, Cosmetics, Health food, Education... This is the ecosystem I dedicate to my community - people have the desire to develop themselves, will be given business opportunities to develop their full potential, generate good income, live a good life and do good deeds.",
+        "vid-section-title": "RELATED VIDEOS",
         "para5" : "Explore more:"
     },
     "thiennguyen-page": {
@@ -32,15 +37,16 @@
         "para2" : "For the past 30 years, I've always tried to cultivate my “garden of blessings” that blooms every day. I think “Sowing many seeds of abundance, you will receive as many gifts of love”, as a natural thing.", 
         "para3" : "Up to now, my family and I have implemented nearly 500 charity projects worth more than 200 billion VND. Focus on key areas:",
         "para4" : "Explore more:",
-        "para3-li1":"• Building schools for disadvantaged students in rural areas;", 
-        "para3-li2":"• Granting scholarships to poor students;", 
-        "para3-li3":"• Building houses for martyrs' mothers, soldiers and the poor;", 
-        "para3-li4":"• Restorating of cemeteries and memorials;", 
-        "para3-li5":"• Building bridges for people's livelihood; suspension bridge in disadvantaged areas;", 
-        "para3-li6":"• Giving gifts and livelihoods to the poor, especially women;", 
-        "para3-li7":"• Planting watershed forests;", 
-        "para3-li8":"• Funding to bring back 39 Vietnamese who died in the UK back home;", 
-        "para3-li9":"• Accompanying the Government and Medical - the frontline doctor against the Covid-19 pandemic..." 
+        "para3-li1":"Building schools for disadvantaged students in rural areas;", 
+        "para3-li2":"Granting scholarships to poor students;", 
+        "para3-li3":"Building houses for martyrs' mothers, soldiers and the poor;", 
+        "para3-li4":"Restorating of cemeteries and memorials;", 
+        "para3-li5":"Building bridges for people's livelihood; suspension bridge in disadvantaged areas;", 
+        "para3-li6":"Giving gifts and livelihoods to the poor, especially women;", 
+        "para3-li7":"Planting watershed forests;", 
+        "para3-li8":"Funding to bring back 39 Vietnamese who died in the UK back home;", 
+        "para3-li9":"Accompanying the Government and Medical - the frontline doctor against the Covid-19 pandemic..." ,
+        "vid-section-title": "RELATED VIDEOS"
     },
     "ngoaigiao-page":  {
         "title" : "DIPLOMACY",
@@ -48,7 +54,8 @@
         "para2" : "The South African Consular Office (SACO) in Ho Chi Minh City has been operating since 2009 until now, established by Mrs. Do Thi Kim Lien, has advised and supported hundreds of thousands of turns of Vietnamese citizens to apply for a visa to South Africa; South African citizens living in Vietnam carry out administrative procedures and other connection activities to get acquainted and integrate into life in Vietnam quickly and effectively.",
         "para3" : "Besides, the SACO in Ho Chi Minh City has organized hundreds of seminars to promote economy, trade and tourism; welcomed dozens of South African delegations and businesses to visit and learn about the Vietnamese market and support Vietnamese businesses to explore the South African market. These activities have contributed to bringing the total bilateral trade turnover between Vietnam and South Africa more than 5 times, from 189 million USD at the end of 2007 to 1.1 billion USD at the end of 2018, towards the target of 2 billion USD in the next 5 years.",
         "para4" : "In 2018, the South African Government sent a Letter of Commendation for the positive contributions of me and my associates in promoting and building the image of South Africa in Vietnam.",
-        "para5" : "Explore more: "
+        "para5" : "Explore more: ",
+        "vid-section-title": "RELATED VIDEOS"
     },
     "baohiem-page" : {
         "title" : "INSURANCE", 
@@ -58,7 +65,9 @@
         "para2-li1": "- In 1996, I started working at Bao Minh Insurance Corporation and worked for 8 years.",
         "para2-li2": "- In 2005, I founded the AAA Insurance brand, held the position of Chairman of the Board of Directors and General Director, bringing AAA Insurance into the Top 50 famous brands in Vietnam.",
         "para2-li3": "- In 2013, I temporarily retired from the insurance industry to experience new fields.",
-        "para2-li5": "- At the beginning of 2022, I chose Insurtech as my mission, to accelerate digital transformation in the insurance field and to contribute to Vietnam's integration and development with the world."
+        "para2-li4": "- In 2018, when I returned to the Insurance field, I officially launched the LIAN Technology Insurance Application, becoming the pioneer founder of using digital technology to integrate insurance services including: synchronized with the accounting system, reimbursement appraisal, product design, agency management, commission management… With more than 2 years of continuous improvement and development, LIAN has more than 1 million users (users), more than 600,000 contracts, 40,000 collaborators nationwide.",
+        "para2-li5": "- At the beginning of 2022, I chose Insurtech as my mission, to accelerate digital transformation in the insurance field and to contribute to Vietnam's integration and development with the world.",
+        "vid-section-title": "RELATED VIDEOS"
     },  
     "home-page" : {
         "header-1" : "I'm Shark Lien, an investor in humanitarian projects",
@@ -125,7 +134,7 @@
     "tieusu-page" : {
         "title" : "BIOGRAPHY", 
         "para1" : "My name is Do Thi Kim Lien",
-        "para1-con":"Born in Me Linh, Vinh Phuc. Coming from a family with a tradition in education, I was oriented to become a teacher from an early age. After graduating from the Faculty of Literature of Hanoi Pedagogical University II, I had taught for 3 years, then decided to leave this career behind and reside to the South to begin my new journey.",
+        "para1-con":"My name is Do Thi Kim Lien, born in Me Linh, Vinh Phuc. Coming from a family with a tradition in education, I was oriented to become a teacher from an early age. After graduating from the Faculty of Literature of Hanoi Pedagogical University II, I had taught for 3 years, then decided to leave this career behind and reside to the South to begin my new journey.",
         "para2" : "With more than 30 years of experience in finance, operations and community activities, I always look forward to working with young founders and startups as both a strategic investor and an entrepreneur mentor.", 
         "para3" : "Some positions that I have been holding: Founder of LIAN Insurance Application (from 2018 to present); Chairman of Green Vietnam Fund (from 2016 to present); President of the College of Business Administration and Management  - CBAM (from 2016 to present); Chairman of the Board of Directors of AquaOne Group (from 2015 to present); Chairman of the Board of Directors of Duong River Surface Water Plant Joint Stock Company (from 2015 to present).",
         "para4" : "In addition, as an Honorary Consul of the Republic of South Africa in Ho Chi Minh City for more than 10 years, I have made unremitting contributions to promoting the friendship between the two countries Vietnam - South Africa; Building “business bridges” contributing to the economic development of the two countries.", 
@@ -135,18 +144,19 @@
         "title" : "CONTRIBUTIONS", 
         "para1" : "As a woman grandmother, mother, wife, and a teacher of Literature, I converge on the properties of water: Flexible when I want and tough when needed. In the marketplace, I am fierce, wise, building a career from my own hands. In social activities, I am a woman who is full of emotions and has a loving heart. In my family, I am the wife and mother who wholeheartedly loves my husband and children. With optimistic thoughts, positive actions, business aspirations for the community, I aspire to be a strong inspiration to the young generation: Think Beautiful - Live Responsible - Work Usefully",
         "para1-li-title": "Some typical awards in my career:",
-        "para1-li1": "• Letter of commendation from the Government of South Africa for continuous dedication in supporting and promoting the image of South Africa in Vietnam in 2018.",
-        "para1-li2" : "• 3rd Class Labor Medal awarded by President of Vietnam in 2012.", 
-        "para1-li3" : "• Certificate of Merit from the Prime Minister award for “Excellent achievements in management and administration of production and business activities” and won the title of “Typical Vietnamese Entrepreneur 2007”, contributing to the cause of building socialism and defending the country", 
-        "para1-li4" : "• Certificate of Merit from Chairpersons of People's Committees of Ho Chi Minh City, Long An and Kon Tum provinces, awarded to Mrs. Do Thi Kim Lien for her business and charity activities"
+        "para1-li1": "Letter of commendation from the Government of South Africa for continuous dedication in supporting and promoting the image of South Africa in Vietnam in 2018.",
+        "para1-li2" : "3rd Class Labor Medal awarded by President of Vietnam in 2012.", 
+        "para1-li3" : "Certificate of Merit from the Prime Minister award for “Excellent achievements in management and administration of production and business activities” and won the title of “Typical Vietnamese Entrepreneur 2007”, contributing to the cause of building socialism and defending the country", 
+        "para1-li4" : "Certificate of Merit from Chairpersons of People's Committees of Ho Chi Minh City, Long An and Kon Tum provinces, awarded to Mrs. Do Thi Kim Lien for her business and charity activities"
     },
     "quotes-page" : {
         "title" : "Inspirational person",
-        "title-quotes" : "Shark Lien's inspirational quotes", 
-        "btn-sharktank": "From Shark Tank Vietnam",
-        "btn-goitinh": "From \\\"Lien and dong chay nghia tinh\\\"", 
-        "text-quotes": "\\\"If you dare to dream, then dream it big\\\"",
-        "btn-sach": "About \\\"Goi tinh Shark Lien - Gui nghia dong bao\\\"",
+        "title-quotes1" : "Shark Lien's good sayings,", 
+        "title-quotes2" : "inspirational quotes", 
+        "btn-sharktank": "Quotes on Shark Tank Vietnam",
+        "btn-goitinh": "Quotes from \"Lien and dong chay nghia tinh\"", 
+        "text-quotes": "\"If you dare to dream, then dream it big\"",
+        "btn-sach": "Quotes about \"Goi tinh Shark Lien - Gui nghia dong bao\"",
         "quotes-sharktank-modal": {
             "quotes-1": "- We have to be proud to be Vietnamese first.", 
             "quotes-2":"- If you dare to dream, then dream it big.",
@@ -199,7 +209,7 @@
     "media" : {
         "title": "Media",
         "title-baochi" : "NEWS EVENTS",
-        "title-vid": "\\\"SHARK LIEN VIDEOS ON SHARK TANK\\\"", 
+        "title-vid": "SHARK LIEN VIDEOS ON SHARK TANK", 
         "btn-trc": "Prev Page",
         "btn-sau": "Next Page"
     }, 

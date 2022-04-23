@@ -19,7 +19,7 @@ const Biography = () => {
         <div>
           <Section_Paragraph
             content={
-              <FormattedMessage id="tieusu-page.para1" defaultMessage={VietNam['tieusu-page']['para1']}/>
+              <FormattedMessage id="tieusu-page.para1-con" defaultMessage={VietNam['tieusu-page']['para1-con']}/>
             }
           />{' '}
           <Section_Paragraph
@@ -42,7 +42,7 @@ const Biography = () => {
               <FormattedMessage id="tieusu-page.para5" defaultMessage={VietNam['tieusu-page']['para5']}/>
             }
           />{' '}
-          <div className='para-bold'>
+          {/* <div className='para-bold'>
             <Section_Paragraph content={"Một số giải thưởng tiêu biểu trong sự nghiệp của tôi:"}/>
           </div>
           <ul>
@@ -68,7 +68,7 @@ const Biography = () => {
             <Section_Paragraph_Item content={"Giải thưởng “Bông hồng vàng” 5 năm liền (2006 – 2010) do Hội Liên hiệp Phụ nữ Việt Nam và Phòng Thương Mại & Công nghiệp Việt Nam (VCCI) trao tặng bà Đỗ Thị Kim Liên."} />
             <Section_Paragraph_Item content={"Bằng khen của Phòng Thương mại & Công nghiệp Việt Nam (VCCI) trao tặng bà Đỗ Thị Kim Liên năm 2006."} />
 
-          </ul>
+          </ul> */}
          
         </div>{' '}
         <div style={{ paddingTop: '2.5%', paddingBottom: '2.5%' }}>
