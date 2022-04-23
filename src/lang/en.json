@@ -86,62 +86,36 @@
         "quotes-1" : "If you dare to dream, ",
         "quotes-2" : "then dream it big",
         "title-testimonial" : "To go far, we always need people to support us.",
-        "name": "Mr. Nguyen Ba Ngoc",
-        "position": "Director of Muc Nhay Bien Dong Company", 
-        "words": "“Shark Lien is a great businesswoman with a heart and talent! She ismy model to learn and follow! I believe that with her kind heart and humane deeds, many things will be changed for the better for the country due to her efforts.”",
-
-        "testimonial" : [
-            {
-                "name": "Mr. Nguyen Ba Ngoc",
-                "position": "Director of Muc Nhay Bien Dong Company", 
-                "words": "“Shark Lien is a great businesswoman with a heart and talent! She ismy model to learn and follow! I believe that with her kind heart and humane deeds, many things will be changed for the better for the country due to her efforts.”"
-            },
-            {
-                "name": "Ms. Ngoc An Nhien", 
-                "position": "Director of Auto Duc Tri Co., Ltd",
-                "words": "“I first met Shark Lien via Zoom application and heard her share. Then suddenly I felt so small in front of this woman. I perceive Mrs. Lien as a mother with immense love and a bodhisattva heart. Warm closeness. Not only me, but everyone who meets her also wants to hug her to feel the warmth she radiates, it's like from a mother who spreads her love for her children, a source of peaceful energy.”"
-            },
-            {
-                "name": "Cao Khanh Linh", 
-                "position": "Fan Club",
-                "words": "“Ngoai Lien (Grandma Lien) is very warm, her heart is vast and wide, always there spreading her arms to hug us. Every hug she gives is filled with love. The stories she tells are always witty, ordinary, but true, empathetic, easy to understand, and leave a lasting impression on the person she commutes. Every minute with Grandma Lien, it feels like I am free, alive and dedicated. All in LinhLinh is the inspiration of creativity received from Grandma Lien. I am grateful to Grandma Lien for giving me a best friend, LIEN BOOK, so that every page that I turn, every second I spread strongly to the book-loving community.”"
-            },
-            {
-                "name": "Colonel - Journalist Tran The Tuyen", 
-                "position": "Former Editor-in-Chief of Saigon Giai Phong newspaper",
-                "words": "“Successful and famous in the commerce market, Do Lien is also famous for her charitable deeds and sharing with the community; especially for families with meritorious services to the country, families of martyrs and veterans."
-            },
-            {
-                "name": "Ngo My Loan", 
-                "position": "Fan club",
-                "words": "“Talking about Madam Lien, I only have the words “LOVE and ADMIRATION” for Grandma Lien. From the days when I had contact with Grandma Lien and participated in her activities, every thing she did was to put the word “WHOLE-HEART” on top, even from the smallest things. I admire her through her personality, simple and idyllic lifestyle. And lessons that I learned from her about humanity, the compatriotism in tribulation, to cherish the life we have.”"
-            },
-            {
-                "name": "Dr. Josefine Wallat", 
-                "position": "Consul General of the Federal Republic of Germany in Ho Chi Minh City",
-                "words": "“When I hold this placard in my hand, I want to express the gratitude of the Germans to her family. She and her family did a very nice act, showing concern for the people of Germany, who have been and continue to fight the pandemic and crisis. I think this conveys the message of the word “friendship”. Our relationships take place not only at the national level, but also among people. Only in times of crisis like this can you realize what a real relationship is like!”"
-            },
-            {
-                "name": "Mr. Marko Walde", 
-                "position": "Chief Representative of the German Chamber of Commerce and Industry in Vietnam (AHK)",
-                "words": "“I have worked in Vietnam for a long time and have met and worked with Mrs. Lien and her family many times. Throughout these years, she has worked on many great projects, including investing in Germany. This proves our strong bilateral relationship, not only Germans invest in Vietnam but Vietnamese people can also seek investment opportunities and do something for Germany. That's what make it meaningful.”"
-            },
-            {
-                "name": "Mr. Ratubasi Super Moloi ", 
-                "position": "Ambassador Extraordinary and Plenipotentiary of the Republic of South Africa in Vietnam during 2009-2013",
-                "words": "“Madam Lien is an enterprising person, a perfectionist and an attractive woman. Madam has the ability to convince anyone who comes into contact with and falls in love with South Africa. I am really impressed with the method of running the businesses as well as the many prestigious awards for her. The South African government will forever appreciate and be grateful to have an Honorary Consul like her. Personally, I really want to congratulate her and let her know that we are always so proud of her.”"
-            },
-            {
-                "name": "Madam Kgomotso Ruth Magau", 
-                "position": "Former Ambassador Extraordinary and Plenipotentiary of South Africa to Vietnam (2013 - 2017)",
-                "words": "“I would like to emphasize Madam Lien's great contribution in strengthening the bilateral relationship between South Africa and Vietnam. She is always willing to support the work of the Embassy in Hanoi by ensuring that the Embassy is always promptly informed of cases that require special attention, and regularly supports the Embassy's team in the process of handling those cases.”"
-            },
-            {
-                "name": "Mr. Mpetjane Kgaogelo Lekgoro", 
-                "position": "Current Ambassador Extraordinary and Plenipotentiary and Plenipotentiary of the Republic of South Africa in Vietnam",
-                "words": "“For her contribution in promoting the cooperative relationship between the Republic of South Africa and Vietnam through the initiation and organization of Organizing many exchange programs, supporting activities, connecting and promoting trade between the two countries over the past 10 years, Madam Do Thi Kim Lien is the Ambassador of South Africa in Vietnam and Vietnam in South Africa.”"
-            }
-        ],
+        "name1": "Mr. Nguyen Ba Ngoc",
+        "position1": "Director of Muc Nhay Bien Dong Company", 
+        "words1": "“Shark Lien is a great businesswoman with a heart and talent! She ismy model to learn and follow! I believe that with her kind heart and humane deeds, many things will be changed for the better for the country due to her efforts.”",
+        "name2": "Ms. Ngoc An Nhien", 
+        "position2": "Director of Auto Duc Tri Co., Ltd",
+        "words2": "“I first met Shark Lien via Zoom application and heard her share. Then suddenly I felt so small in front of this woman. I perceive Mrs. Lien as a mother with immense love and a bodhisattva heart. Warm closeness. Not only me, but everyone who meets her also wants to hug her to feel the warmth she radiates, it's like from a mother who spreads her love for her children, a source of peaceful energy.”",
+        "name3": "Cao Khanh Linh", 
+        "position3": "Fan Club",
+        "words3": "“Ngoai Lien (Grandma Lien) is very warm, her heart is vast and wide, always there spreading her arms to hug us. Every hug she gives is filled with love. The stories she tells are always witty, ordinary, but true, empathetic, easy to understand, and leave a lasting impression on the person she commutes. Every minute with Grandma Lien, it feels like I am free, alive and dedicated. All in LinhLinh is the inspiration of creativity received from Grandma Lien. I am grateful to Grandma Lien for giving me a best friend, LIEN BOOK, so that every page that I turn, every second I spread strongly to the book-loving community.”",
+        "name4": "Colonel - Journalist Tran The Tuyen", 
+        "position4": "Former Editor-in-Chief of Saigon Giai Phong newspaper",
+        "words4": "“Successful and famous in the commerce market, Do Lien is also famous for her charitable deeds and sharing with the community; especially for families with meritorious services to the country, families of martyrs and veterans.",
+        "name5": "Ngo My Loan", 
+        "position5": "Fan club",
+        "words5": "“Talking about Madam Lien, I only have the words “LOVE and ADMIRATION” for Grandma Lien. From the days when I had contact with Grandma Lien and participated in her activities, every thing she did was to put the word “WHOLE-HEART” on top, even from the smallest things. I admire her through her personality, simple and idyllic lifestyle. And lessons that I learned from her about humanity, the compatriotism in tribulation, to cherish the life we have.”",
+        "name6": "Dr. Josefine Wallat", 
+        "position6": "Consul General of the Federal Republic of Germany in Ho Chi Minh City",
+        "words6": "“When I hold this placard in my hand, I want to express the gratitude of the Germans to her family. She and her family did a very nice act, showing concern for the people of Germany, who have been and continue to fight the pandemic and crisis. I think this conveys the message of the word “friendship”. Our relationships take place not only at the national level, but also among people. Only in times of crisis like this can you realize what a real relationship is like!”",
+        "name7": "Mr. Marko Walde", 
+        "position7": "Chief Representative of the German Chamber of Commerce and Industry in Vietnam (AHK)",
+        "words7": "“I have worked in Vietnam for a long time and have met and worked with Mrs. Lien and her family many times. Throughout these years, she has worked on many great projects, including investing in Germany. This proves our strong bilateral relationship, not only Germans invest in Vietnam but Vietnamese people can also seek investment opportunities and do something for Germany. That's what make it meaningful.”",
+        "name8": "Mr. Ratubasi Super Moloi ", 
+        "position8": "Ambassador Extraordinary and Plenipotentiary of the Republic of South Africa in Vietnam during 2009-2013",
+        "words8": "“Madam Lien is an enterprising person, a perfectionist and an attractive woman. Madam has the ability to convince anyone who comes into contact with and falls in love with South Africa. I am really impressed with the method of running the businesses as well as the many prestigious awards for her. The South African government will forever appreciate and be grateful to have an Honorary Consul like her. Personally, I really want to congratulate her and let her know that we are always so proud of her.”",
+        "name9": "Madam Kgomotso Ruth Magau", 
+        "position9": "Former Ambassador Extraordinary and Plenipotentiary of South Africa to Vietnam (2013 - 2017)",
+        "words9": "“I would like to emphasize Madam Lien's great contribution in strengthening the bilateral relationship between South Africa and Vietnam. She is always willing to support the work of the Embassy in Hanoi by ensuring that the Embassy is always promptly informed of cases that require special attention, and regularly supports the Embassy's team in the process of handling those cases.”",
+        "name10": "Mr. Mpetjane Kgaogelo Lekgoro", 
+        "position10": "Current Ambassador Extraordinary and Plenipotentiary and Plenipotentiary of the Republic of South Africa in Vietnam",
+        "words10": "“For her contribution in promoting the cooperative relationship between the Republic of South Africa and Vietnam through the initiation and organization of Organizing many exchange programs, supporting activities, connecting and promoting trade between the two countries over the past 10 years, Madam Do Thi Kim Lien is the Ambassador of South Africa in Vietnam and Vietnam in South Africa.”",
         "btn-text-media" : "Read more at Media"
     },
     
