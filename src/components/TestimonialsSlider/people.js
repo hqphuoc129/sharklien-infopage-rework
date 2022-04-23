@@ -11,13 +11,16 @@ import Avt10 from './assets/Mpetjane KgaogeloLekgoro.png';
 import {FormattedMessage, FormattedDate} from 'react-intl';
 import VietNam from '../../lang/vn.json';
 
+
+
+ 
 export const people = [
   {
     id: 1,
     avatar: Avt1,
-    name: <FormattedMessage id="home-page.testimonial[0].name" defaultMessage={VietNam['home-page']['testimonial'][0]["name"]}/>,
-    position: <FormattedMessage id="home-page.testimonial[0].position" defaultMessage={VietNam['home-page']['testimonial'][0]["position"]}/>,
-    text: <FormattedMessage id="home-page.testimonial[0].words" defaultMessage={VietNam['home-page']['testimonial'][0]["words"]}/>,
+    name: <FormattedMessage id="home-page.name" defaultMessage={VietNam['home-page']["name"]}/>,
+    position: <FormattedMessage id="home-page.position" defaultMessage={VietNam['home-page']["position"]}/>,
+    text: <FormattedMessage id="home-page.words" defaultMessage={VietNam['home-page']["words"]}/>,
   },
   {
     id: 2,
