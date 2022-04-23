@@ -2,6 +2,8 @@ import CauouselSliderContainer from 'components/CarouselSliderContainer'
 import baohiem1 from './assets/baohiem1.jpg';
 import baohiem2 from './assets/baohiem2.jpg';
 import {isMobile} from "react-device-detect";
+import {FormattedMessage, FormattedDate} from 'react-intl';
+import VietNam from '../../lang/vn.json';
 const vid_baohiem = [
   {
       image : baohiem1,
@@ -18,29 +20,22 @@ const Insurance = () => {
       <>
       <div className='insurance-content-mobile insurance-content'>
         <p>
-          Bảo hiểm là nghề nhân văn nhất trong các nghề nhân văn. Tôi chọn bảo hiểm để giúp người dân “An nỗi lo – Quản
-          rủi ro” cho những bất trắc có thể xảy ra trong cuộc sống.
+          <FormattedMessage id="baohiem-page.para1" defaultMessage={VietNam['baohiem-page']['para1']}/>
         </p>
-        <p>Tôi đã có gần 30 năm hoạt động trong lĩnh vực bảo hiểm, với các cột mốc đáng nhớ:</p>
-        <p>- Năm 1996, tôi bắt đầu làm việc tại Tổng Công ty Bảo hiểm Bảo Minh và gắn bó trong 8 năm</p>
+        <p><FormattedMessage id="baohiem-page.para2" defaultMessage={VietNam['baohiem-page']['para2']}/></p>
+        <p><FormattedMessage id="baohiem-page.para2-li1" defaultMessage={VietNam['baohiem-page']['para2-li1']}/></p>
         <p>
-          - Đến năm 2005, tôi sáng lập thương hiệu Bảo hiểm AAA, đảm nhiệm vị trí Chủ tịch Hội đồng Quản trị kiêm Tổng
-          giám đốc, đưa Bảo hiểm AAA lọt vào Top 50 thương hiệu nổi tiếng tại Việt Nam.
+          <FormattedMessage id="baohiem-page.para2-li2" defaultMessage={VietNam['baohiem-page']['para2-li2']}/>
         </p>
-        <p>- Năm 2013, tôi tạm rút lui khỏi ngành Bảo hiểm để trải nghiệm những lĩnh vực mới.</p>
+        <p><FormattedMessage id="baohiem-page.para2-li3" defaultMessage={VietNam['baohiem-page']['para2-li3']}/></p>
         <p>
-          - Năm 2018, khi quay lại lĩnh vực Bảo hiểm, tôi chính thức ra mắt Ứng dụng Bảo hiểm Công nghệ LIAN, trở thành
-          nhà sáng lập tiên phong sử dụng công nghệ kỹ thuật số tích hợp các nghiệp vụ bảo hiểm bao gồm: đồng bộ hóa với
-          hệ thống kế toán, thẩm định bồi thường, thiết kế sản phẩm, quản lý đại lý, quản lý hoa hồng… Với hơn 2 năm liên
-          tục hoàn thiện và phát triển, LIAN đã có hơn 1 triệu người dùng (users), hơn 600.000 hợp đồng, 40.000 cộng tác
-          viên trên toàn quốc.
+          <FormattedMessage id="baohiem-page.para2-li4" defaultMessage={VietNam['baohiem-page']['para2-li4']}/>
         </p>
         <p>
-          - Đầu năm 2022, tôi chọn Insurtech làm sứ mệnh, đẩy nhanh chuyển đổi số trong lĩnh vực bảo hiểm, góp phần đưa
-          Việt Nam hội nhập và phát triển cùng thế giới.
+          <FormattedMessage id="baohiem-page.para2-li5" defaultMessage={VietNam['baohiem-page']['para2-li5']}/>
         </p>
         <p>
-          Tham quan dự án bảo hiểm công nghệ của tôi: <a className="link-click" href="https://lian.vn" >lian.vn</a>
+        <FormattedMessage id="baohiem-page.para3" defaultMessage={VietNam['baohiem-page']['para3']}/> <a className="link-click" href="https://lian.vn" >lian.vn</a>
         </p>
       </div>
       <CauouselSliderContainer vidlist= {vid_baohiem} linkClass={"carousel-2items"} title={"Các video liên quan"} totalNum ={1}/> 
@@ -50,26 +45,19 @@ const Insurance = () => {
   return (
     <div className='insurance-content'>
       <p>
-        Bảo hiểm là nghề nhân văn nhất trong các nghề nhân văn. Tôi chọn bảo hiểm để giúp người dân “An nỗi lo – Quản
-        rủi ro” cho những bất trắc có thể xảy ra trong cuộc sống.
+        <FormattedMessage id="baohiem-page.para1" defaultMessage={VietNam['baohiem-page']['para1']}/>
       </p>
-      <p>Tôi đã có gần 30 năm hoạt động trong lĩnh vực bảo hiểm, với các cột mốc đáng nhớ:</p>
-      <p>- Năm 1996, tôi bắt đầu làm việc tại Tổng Công ty Bảo hiểm Bảo Minh và gắn bó trong 8 năm</p>
+      <p><FormattedMessage id="baohiem-page.para2" defaultMessage={VietNam['baohiem-page']['para2']}/></p>
+      <p><FormattedMessage id="baohiem-page.para2-li1" defaultMessage={VietNam['baohiem-page']['para2-li1']}/></p>
       <p>
-        - Đến năm 2005, tôi sáng lập thương hiệu Bảo hiểm AAA, đảm nhiệm vị trí Chủ tịch Hội đồng Quản trị kiêm Tổng
-        giám đốc, đưa Bảo hiểm AAA lọt vào Top 50 thương hiệu nổi tiếng tại Việt Nam.
+        <FormattedMessage id="baohiem-page.para2-li2" defaultMessage={VietNam['baohiem-page']['para2-li2']}/>
       </p>
-      <p>- Năm 2013, tôi tạm rút lui khỏi ngành Bảo hiểm để trải nghiệm những lĩnh vực mới.</p>
+      <p><FormattedMessage id="baohiem-page.para2-li3" defaultMessage={VietNam['baohiem-page']['para2-li3']}/></p>
       <p>
-        - Năm 2018, khi quay lại lĩnh vực Bảo hiểm, tôi chính thức ra mắt Ứng dụng Bảo hiểm Công nghệ LIAN, trở thành
-        nhà sáng lập tiên phong sử dụng công nghệ kỹ thuật số tích hợp các nghiệp vụ bảo hiểm bao gồm: đồng bộ hóa với
-        hệ thống kế toán, thẩm định bồi thường, thiết kế sản phẩm, quản lý đại lý, quản lý hoa hồng… Với hơn 2 năm liên
-        tục hoàn thiện và phát triển, LIAN đã có hơn 1 triệu người dùng (users), hơn 600.000 hợp đồng, 40.000 cộng tác
-        viên trên toàn quốc.
+      <FormattedMessage id="baohiem-page.para2-li4" defaultMessage={VietNam['baohiem-page']['para2-li4']}/>
       </p>
       <p>
-        - Đầu năm 2022, tôi chọn Insurtech làm sứ mệnh, đẩy nhanh chuyển đổi số trong lĩnh vực bảo hiểm, góp phần đưa
-        Việt Nam hội nhập và phát triển cùng thế giới.
+      <FormattedMessage id="baohiem-page.para2-li5" defaultMessage={VietNam['baohiem-page']['para2-li5']}/>
       </p>
       <p>
         Tham quan dự án bảo hiểm công nghệ của tôi: <a className="link-click" href="https://lian.vn" >lian.vn</a>
