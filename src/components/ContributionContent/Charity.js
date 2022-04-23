@@ -9,7 +9,8 @@ import tuthien6 from './assets/tuthien6.jpg';
 import tuthien7 from './assets/tuthien7.jpg';
 import nothumbs from './assets/nothumbnails.png';
 
-
+import {FormattedMessage, FormattedDate} from 'react-intl';
+import VietNam from '../../lang/vn.json';
 const vid_tuthien = [
   {
       image : tuthien1,
@@ -61,21 +62,16 @@ const vid_tuthien = [
 const Charity = () => {
   return (
   <>
+    
     <div className='insurance-content-mobile charity-content'>
       <p>
-        Cho đi là Hạnh phúc”. Người càng cho đi nhiều, càng nhận được phúc lành! Tôi muốn được nhớ đến là một người phụ
-        nữ tốt bụng, không phải một người giàu có. Nếu giàu thì là giàu tình, giàu nghĩa, không phải giàu tiền.
+        <FormattedMessage id="thiennguyen-page.para1" defaultMessage={VietNam['thiennguyen-page']['para1']}/>
       </p>
       <p>
-        Trong suốt 30 năm qua, tôi luôn cố gắng vun trồng “vườn cây phúc đức” của mình nở hoa mỗi ngày. Tôi tâm niệm
-        “Gieo bao nhiêu hạt phú sẽ nhận về bấy nhiêu quả ân”, như một lẽ tự nhiên.
+        <FormattedMessage id="thiennguyen-page.para2" defaultMessage={VietNam['thiennguyen-page']['para2']}/>
       </p>
       <p>
-        Tính đến nay, tôi và gia đình đã triển khai gần 500 dự án Thiện nguyện với trị giá hơn 200 tỷ đồng. Tập trung
-        vào các lĩnh vực chính: Xây trường cho học sinh khó khăn; Cấp học bổng cho học sinh nghèo; Xây nhà cho mẹ Liệt
-        sĩ, chiến sĩ và người nghèo; Trùng tu nghĩa trang và các công trình tưởng niệm; Xây cầu dân sinh; cầu treo Tây
-        nguyên; Trồng rừng đầu nguồn; Tài trợ kinh phí đưa 39 người Việt thiệt mạng ở Anh về nước; Đồng hành cùng Chính
-        phủ và Y - bác sĩ tuyến đầu chống dịch Covid -19…
+        <FormattedMessage id="thiennguyen-page.para3" defaultMessage={VietNam['thiennguyen-page']['para2']}/>
       </p>
       <p>Chương trình thiện nguyện tiêu biểu:</p>
       <p>
