@@ -35,7 +35,7 @@ const Insurance = () => {
           <FormattedMessage id="baohiem-page.para2-li5" defaultMessage={VietNam['baohiem-page']['para2-li5']}/>
         </p>
         <p>
-          Tham quan dự án bảo hiểm công nghệ của tôi: <a className="link-click" href="https://lian.vn" >lian.vn</a>
+        <FormattedMessage id="baohiem-page.para3" defaultMessage={VietNam['baohiem-page']['para3']}/> <a className="link-click" href="https://lian.vn" >lian.vn</a>
         </p>
       </div>
       <CauouselSliderContainer vidlist= {vid_baohiem} linkClass={"carousel-2items"} title={"Các video liên quan"} totalNum ={1}/> 

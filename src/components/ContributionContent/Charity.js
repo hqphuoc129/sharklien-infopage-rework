@@ -180,7 +180,7 @@ const Charity = () => {
         thông qua báo Công an TP.HCM.
       </p>
       <p>
-        Cùng tham gia các hoạt động thiện nguyện với tôi: <a className="link-click" href="https://gvf.vn" >gvf.vn</a>
+      <FormattedMessage id="thiennguyen-page.para4" defaultMessage={VietNam['thiennguyen-page']['para4']}/> <a className="link-click" href="https://gvf.vn" >gvf.vn</a>
       </p>
     </div>
     <CauouselSliderContainer vidlist= {vid_tuthien} linkClass={"carousel-media"} title={"Các video liên quan"} totalNum ={3}/>

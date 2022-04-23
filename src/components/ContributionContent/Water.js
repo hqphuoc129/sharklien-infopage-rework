@@ -34,27 +34,25 @@ const Water = () => {
     <>
     <div className='water-content insurance-content-mobile'>
       <p>
-        <FormattedMessage id="conghien-page.para1" defaultMessage={VietNam['conghien-page']['para1']}/>
+        <FormattedMessage id="nuocsach-page.para1" defaultMessage={VietNam['nuocsach-page']['para1']}/>
       </p>
       <p>
-        <FormattedMessage id="conghien-page.para2" defaultMessage={VietNam['para2']}/>
+        <FormattedMessage id="nuocsach-page.para2" defaultMessage={VietNam['nuocsach-page']['para2']}/>
       </p>
       <p>
-        <FormattedMessage id="conghien-page.para3" defaultMessage={VietNam['para3']}/>
+        <FormattedMessage id="nuocsach-page.para3" defaultMessage={VietNam['nuocsach-page']['para3']}/>
       </p>
       <p>
-        <FormattedMessage id="conghien-page.para4" defaultMessage={VietNam['para4']}/>
+        <FormattedMessage id="nuocsach-page.para4" defaultMessage={VietNam['nuocsach-page']['para4']}/>
       </p>
       <p>
-        <FormattedMessage id="conghien-page.para5" defaultMessage={VietNam['para5']}/>
+        <FormattedMessage id="nuocsach-page.para5" defaultMessage={VietNam['nuocsach-page']['para5']}/>
       </p>
       <p>
-        <FormattedMessage id="conghien-page.para6" defaultMessage={VietNam['para6']}/><a className="link-click" href="https://aquaone.vn" ><FormattedMessage id="conghien-page.web-link" defaultMessage={VietNam['web-link']}/></a>
+        <FormattedMessage id="nuocsach-page.para6" defaultMessage={VietNam['nuocsach-page']['para6']}/><a className="link-click" href="https://aquaone.vn" > aquaone.vn</a>
       </p>
-      <p>
-      <FormattedMessage id="conghien-page.vid-section-title" defaultMessage={VietNam['vid-section-title']}/></p>
     </div>
-    <CauouselSliderContainer vidlist= {vid_nuocsach} linkClass={"carousel-media"} title={"Các video liên quan"} totalNum ={3}/>
+    <CauouselSliderContainer vidlist= {vid_nuocsach} linkClass={"carousel-media"} title={<FormattedMessage id="nuocsach-page.vid-section-title" defaultMessage={VietNam['nuocsach-page']['vid-section-title']}/>} totalNum ={3}/>
     </> 
   );
 };
