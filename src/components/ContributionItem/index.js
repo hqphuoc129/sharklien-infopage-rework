@@ -1,6 +1,7 @@
 import HeaderImage from 'components/ContributionItem/assets/header-contribution.png';
 import { Insurance, Water, Charity, Foreign, Startup } from 'components/ContributionContent';
-
+import {FormattedMessage, FormattedDate} from 'react-intl';
+import VietNam from '../../lang/vn.json';
 const getContent = (active) => {
   console.log(active);
   switch (active) {
@@ -20,19 +21,19 @@ const getContent = (active) => {
 };
 const DATA = {
   insurance: {
-    title: 'BẢO HIỂM',
+    title: <FormattedMessage id="lotus.insurance" defaultMessage={VietNam['lotus']['insurance']}/>,
   },
   water: {
-    title: 'NƯỚC SẠCH',
+    title: <FormattedMessage id="lotus.water" defaultMessage={VietNam['lotus']['water']}/>,
   },
   charity: {
-    title: 'THIỆN NGUYỆN',
+    title: <FormattedMessage id="lotus.charity" defaultMessage={VietNam['lotus']['charity']}/>,
   },
   foreign: {
-    title: 'NGOẠI GIAO',
+    title: <FormattedMessage id="lotus.diplomacy" defaultMessage={VietNam['lotus']['diplomacy']}/>,
   },
   startup: {
-    title: '"BÀ ĐỠ" START-UP',
+    title: <FormattedMessage id="lotus.startup" defaultMessage={VietNam['lotus']['startup']}/>,
   },
 };
 const ContributionItem = ({ active, setActive }) => {
