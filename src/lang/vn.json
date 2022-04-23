@@ -12,7 +12,11 @@
         "para1" :"“Ở đâu có nước, ở đó có sự sống”. Với ý nghĩa đó, tôi đã thành lập Tập đoàn AquaOne - chuyên cung cấp và xử lý nước sạch phục vụ cho hoạt động sinh hoạt của người dân. Với các công trình nước sạch dân sinh, AquaOne đảm bảo cân đối các ưu tiên theo thứ tự: Chất lượng nước tuyệt đối an toàn, vệ sinh, sạch và không có nguy cơ gây bệnh trước mắt cũng như lâu dài." ,
         "para2" : "Về mặt xã hội: AquaOne góp phần nâng cao sức khỏe người dân, đặc biệt là trẻ em, người già và phụ nữ. Dùng nước sạch giúp giảm bệnh tật gây ra từ nguồn nước không hợp vệ sinh. Các Nhà máy của AquaOne cũng tạo thêm công ăn việc làm cho người dân.",
         "para3" : "Về kinh tế: những dịch vụ của nước không thể lượng giá được nhưng lại có giá trị kinh tế lớn. AquaOne góp phần đa dạng hóa các thành phần kinh tế trong sản xuất và kinh doanh nước sạch, thúc đẩy quá trình đô thị hóa tại các địa phương, đồng thời thu hút các nhà đầu tư.",
-        "para4" : "Hiện tại, Tập đoàn AquaOne là Chủ đầu tư của các dự án lớn: Nhà máy nước mặt Sông Hậu (Tỉnh Hậu Giang), Nhà máy nước mặt Sông Đuống (TP.Hà Nội), Nhà máy nước mặt Xuân Mai - Hòa Bình (Hòa Bình), Nhà máy nước mặt Sông Vàm Cỏ Đông (Long An).",
+        "para4" : "Hiện tại, Tập đoàn AquaOne là Chủ đầu tư của các dự án lớn:",
+        "para4-li1": "Nhà máy nước mặt Sông Hậu (Tỉnh Hậu Giang)",
+        "para4-li2": "Nhà máy nước mặt Sông Đuống (TP.Hà Nội)",
+        "para4-li3": "Nhà máy nước mặt Xuân Mai - Hòa Bình (Hòa Bình)",
+        "para4-li4": "Nhà máy nước mặt Sông Vàm Cỏ Đông (Long An)",
         "para5" : "Với nguồn nước khan hiếm hiện nay, tôi mong người dân hãy sử dụng nước một cách phù hợp, tránh lãng phí và có ý thức hơn trong việc bảo vệ môi trường, tránh làm ô nhiễm nguồn nước.",
         "para6" : "Tham quan dự án nước sạch của tôi:",
         "web-link" : "aquaone.vn",
@@ -24,7 +28,8 @@
         "para2" : "Sự hỗ trợ của tôi dành cho các start-up không chỉ giới hạn ở việc đầu tư tài chính. Tôi mong muốn trở thành điểm tựa vững chắc cho những nhà khởi nghiệp với hoài bão và sự cống hiến cho xã hội, giúp các bạn trở thành người dẫn đầu kỷ nguyên hiện tại. Và hướng tới xây dựng Việt Nam là một quốc gia khởi nghiệp năng động, tự tin trong khu vực và trên thế giới.",
         "para3" : "Những công ty đang nhận được sự hỗ trợ từ tôi để nâng cao năng lực cạnh tranh trên thị trường: Công ty Cổ phần Đầu tư và Phát triển Edu ProMax, Công ty Cổ phần Thương mại - Dịch vụ và Sản xuất ECO LIFE, Công ty TNHH Sen Vàng; Dự án Lô Tô, Shecodes, Vua Cua…",
         "para4" : "Ngoài ra, tôi xây dựng Hệ sinh thái Khởi nghiệp cùng Shark Liên, với các ngành nghề Bảo hiểm, Mỹ phẩm, Thực phẩm hỗ trợ sức khoẻ, Giáo dục… Đây là hệ sinh thái tôi dành cho cộng đồng của mình - những người có mong muốn phát triển bản thân, được trao cơ hội kinh doanh để phát huy hết năng lực, tạo thu nhập tốt, sống thiện và hành thiện.",
-        "para5" : "Xem thêm cách tôi đã hỗ trợ start up tại:"
+        "para5" : "Xem thêm cách tôi đã hỗ trợ start up tại:",
+        "vid-section-title": "CÁC VIDEO LIÊN QUAN"
     },
     "thiennguyen-page": {
         "title" : "THIỆN NGUYỆN", 
@@ -32,15 +37,16 @@
         "para2" : "Trong suốt 30 năm qua, tôi luôn cố gắng vun trồng “vườn cây phúc đức” của mình nở hoa mỗi ngày. Tôi tâm niệm “Gieo bao nhiêu hạt phú sẽ nhận về bấy nhiêu quả ân”, như một lẽ tự nhiên.", 
         "para3" : "Tính đến nay, tôi và gia đình đã triển khai gần 500 dự án Thiện nguyện với trị giá hơn 200 tỷ đồng. Tập trung vào các lĩnh vực chính:",
         "para4" : "Cùng tham gia các hoạt động thiện nguyện với tôi:",
-        "para3-li1":"• Xây trường tăng học sinh tại các khu vực khó khăn;", 
-        "para3-li2":"• Cấp học bổng tặng học sinh nghèo;", 
-        "para3-li3":"• Xây nhà cho mẹ Liệt sĩ, chiến sĩ và người nghèo;", 
-        "para3-li4":"• Trùng tu nghĩa trang và các công trình tưởng niệm;", 
-        "para3-li5":"• Xây cầu dân sinh; cầu treo tặng đồng bào các khu vưc khó khăn;", 
-        "para3-li6":"• Tặng quà và sinh kế cho người nghèo, đặc biệt là phụ nữ;", 
-        "para3-li7":"• Trồng rừng đầu nguồn;", 
-        "para3-li8":"• Tài trợ kinh phí đưa 39 người Việt thiệt mạng ở Anh về nước;", 
-        "para3-li9":"• Đồng hành cùng Chính phủ và Y - bác sĩ tuyến đầu chống dịch Covid -19…" 
+        "para3-li1":"Xây trường tăng học sinh tại các khu vực khó khăn;", 
+        "para3-li2":"Cấp học bổng tặng học sinh nghèo;", 
+        "para3-li3":"Xây nhà cho mẹ Liệt sĩ, chiến sĩ và người nghèo;", 
+        "para3-li4":"Trùng tu nghĩa trang và các công trình tưởng niệm;", 
+        "para3-li5":"Xây cầu dân sinh; cầu treo tặng đồng bào các khu vưc khó khăn;", 
+        "para3-li6":"Tặng quà và sinh kế cho người nghèo, đặc biệt là phụ nữ;", 
+        "para3-li7":"Trồng rừng đầu nguồn;", 
+        "para3-li8":"Tài trợ kinh phí đưa 39 người Việt thiệt mạng ở Anh về nước;", 
+        "para3-li9":"Đồng hành cùng Chính phủ và Y - bác sĩ tuyến đầu chống dịch Covid -19…",
+        "vid-section-title": "CÁC VIDEO LIÊN QUAN"
     },
     "ngoaigiao-page":  {
         "title" : "NGOẠI GIAO",
@@ -48,7 +54,8 @@
         "para2" : "Văn phòng Lãnh sự (VPLS) Nam Phi tại TP.HCM hoạt động từ năm 2009 đến nay, do bà Đỗ Thị Kim Liên thành lập đã tư vấn, hỗ trợ hàng trăm ngàn lượt công dân Việt Nam xin visa đi Nam Phi; công dân Nam Phi đang sinh sống tại Việt Nam thực hiện các thủ tục hành chính, cùng các hoạt động kết nối khác để làm quen, hòa nhập với cuộc sống tại Việt Nam nhanh chóng và hiệu quả nhất.",
         "para3" : "Bên cạnh đó, VPLS Nam Phi tại TP.HCM đã tổ chức hàng trăm Hội thảo xúc tiến Kinh tế, thương mại và du lịch; đón tiếp hàng chục phái đoàn, doanh nghiệp Nam Phi đến thăm, tìm hiểu thị trường Việt Nam và hỗ trợ các doanh nghiệp Việt Nam tìm hiểu thị trường Nam Phi. Những hoạt động đó đã góp phần đưa tổng kim ngạch thương mại song phương Việt Nam – Nam Phi tăng hơn 5 lần, từ 189 triệu USD cuối năm 2007 lên 1,1 tỷ USD cuối 2018, hướng tới mục tiêu 2 tỷ USD trong 5 năm tới.",
         "para4" : "Năm 2018, Chính phủ Nam Phi đã gửi Thư khen vì những đóng góp tích cực của tôi và cộng sự trong việc quảng bá, xây dựng hình ảnh Nam Phi tại Việt Nam.",
-        "para5" : "Tìm hiểu thêm các hoạt động ngoại giao của tôi:"
+        "para5" : "Tìm hiểu thêm các hoạt động ngoại giao của tôi:",
+        "vid-section-title": "CÁC VIDEO LIÊN QUAN"
     },
     "baohiem-page" : {
         "title" : "BẢO HIỂM", 
@@ -59,7 +66,8 @@
         "para2-li2": "- Đến năm 2005, tôi sáng lập thương hiệu Bảo hiểm AAA, đảm nhiệm vị trí Chủ tịch Hội đồng Quản trị kiêm Tổng giám đốc, đưa Bảo hiểm AAA lọt vào Top 50 thương hiệu nổi tiếng tại Việt Nam.",
         "para2-li3": "- Năm 2013, tôi tạm rút lui khỏi ngành Bảo hiểm để trải nghiệm những lĩnh vực mới.",
         "para2-li4": "- Năm 2018, khi quay lại lĩnh vực Bảo hiểm, tôi chính thức ra mắt Ứng dụng Bảo hiểm Công nghệ LIAN, trở thành nhà sáng lập tiên phong sử dụng công nghệ kỹ thuật số tích hợp các nghiệp vụ bảo hiểm bao gồm: đồng bộ hóa với hệ thống kế toán, thẩm định bồi thường, thiết kế sản phẩm, quản lý đại lý, quản lý hoa hồng… Với hơn 2 năm liên tục hoàn thiện và phát triển, LIAN đã có hơn 1 triệu người dùng (users), hơn 600.000 hợp đồng, 40.000 cộng tác viên trên toàn quốc",
-        "para2-li5": "- Đầu năm 2022, tôi chọn Insurtech làm sứ mệnh, đẩy nhanh chuyển đổi số trong lĩnh vực bảo hiểm, góp phần đưa Việt Nam hội nhập và phát triển cùng thế giới."
+        "para2-li5": "- Đầu năm 2022, tôi chọn Insurtech làm sứ mệnh, đẩy nhanh chuyển đổi số trong lĩnh vực bảo hiểm, góp phần đưa Việt Nam hội nhập và phát triển cùng thế giới.",
+        "vid-section-title": "CÁC VIDEO LIÊN QUAN"
     },  
     "home-page" : {
         "header-1" : "Tôi là Shark Liên, nhà đầu tư các dự án nhân văn",
@@ -126,7 +134,7 @@
     "tieusu-page" : {
         "title" : "TIỂU SỬ", 
         "para1" : "Tôi là Đỗ Thị Kim Liên",
-        "para1-con": "Sinh ra tại Mê Linh, Vĩnh Phúc. Xuất thân trong một gia đình có truyền thống làm giáo dục, tôi được định hướng trở thành một cô giáo ngay khi còn nhỏ. Sau khi tốt nghiệp Khoa Ngữ văn của Trường Đại học Sư phạm Hà Nội II, tôi đứng lớp giảng dạy 3 năm, rồi quyết tâm chia tay nghề để vào Nam lập nghiệp.",
+        "para1-con": "Tôi là Đỗ Thị Kim Liên, sinh ra tại Mê Linh, Vĩnh Phúc. Xuất thân trong một gia đình có truyền thống làm giáo dục, tôi được định hướng trở thành một cô giáo ngay khi còn nhỏ. Sau khi tốt nghiệp Khoa Ngữ văn của Trường Đại học Sư phạm Hà Nội II, tôi đứng lớp giảng dạy 3 năm, rồi quyết tâm chia tay nghề để vào Nam lập nghiệp.",
         "para2" : "Với hơn 30 năm kinh nghiệm trong lĩnh vực tài chính, điều hành và hoạt động vì cộng đồng, tôi luôn mong muốn được làm việc với những nhà sáng lập và khởi nghiệp trẻ với tư cách vừa là nhà đầu tư chiến lược, vừa là người cố vấn.", 
         "para3" : "Một số vị trí mà tôi đã, đang đảm nhiệm: Nhà sáng lập Ứng dụng bảo hiểm công nghệ LIAN (từ năm 2018 đến nay); Chủ tịch Quỹ Hỗ trợ xây dựng Môi trường Xanh Việt Nam (từ năm 2016 đến nay); Hiệu trưởng Trường Đào tạo Quản lý Doanh nghiệp – CBAM (từ năm 2016 đến nay); Chủ tịch Hội đồng quản trị Tập đoàn AquaOne (từ năm 2015 đến nay); Chủ tịch Hội đồng quản trị Công ty Cổ phần Nước mặt Sông Đuống (từ năm 2015 đến nay).",
         "para4" : "Ngoài ra, trên cương vị Lãnh sự Danh dự Cộng hòa Nam Phi tại TP.HCM suốt hơn 10 năm, tôi đã có những đóng góp không ngừng nghỉ thúc đẩy quan hệ hữu nghị giữa hai nước Việt Nam – Nam Phi; Xây những “chiếc cầu nối doanh nghiệp” góp phần phát triển nền kinh tế của hai quốc gia.", 
@@ -136,18 +144,19 @@
         "title" : "CỐNG HIẾN", 
         "para1" : "Là một người phụ nữ, người bà, người mẹ, người vợ, một giáo viên dạy Văn, ở tôi hội tụ những tính chất của nước: Mềm dẻo khi muốn và cứng rắn khi cần. Trên thương trường, tôi quyết liệt, sáng suốt, gây dựng sự nghiệp từ chính đôi tay của mình. Trong hoạt động xã hội, tôi là người phụ nữ giàu tình cảm và mang trái tim biết yêu thương. Trong gia đình, tôi là người vợ, người mẹ hết lòng yêu thương chồng con. Với suy nghĩ lạc quan, hành động tích cực, tâm nguyện kinh doanh vì cộng đồng, tôi mong muốn là người truyền cảm hứng mạnh mẽ cho thế hệ trẻ: Nghĩ Đẹp - Sống Trách nhiệm - Làm việc Có ích",
         "para1-li-title": "Một số giải thưởng tiêu biểu trong sự nghiệp của tôi:",
-        "para1-li1": "• Thư khen từ Chính phủ Nam Phi vì những cống hiến không ngừng trong việc hỗ trợ và quảng bá hình ảnh đất nước Nam Phi tại Việt Nam năm 2018.",
-        "para1-li2" : "• Huân chương Lao động hạng III do Chủ tịch nước trao tặng năm 2012.", 
-        "para1-li3" : "• Bằng khen của Thủ tướng Chính phủ trao tặng vì “Đã có thành tích xuất sắc trong công tác quản lý, điều hành hoạt động sản xuất, kinh doanh” và đạt danh hiệu “Doanh nhân Việt Nam tiêu biểu năm 2007”, góp phần vào sự nghiệp xây dựng Chủ nghĩa xã hội và bảo vệ Tổ quốc.", 
-        "para1-li4" : "• Bằng khen của Chủ tịch UBND các TP.HCM, tỉnh Long An, Kon Tum, trao tặng bà Đỗ Thị Kim Liên vì các hoạt động kinh doanh và thiện nguyện"
+        "para1-li1": "Thư khen từ Chính phủ Nam Phi vì những cống hiến không ngừng trong việc hỗ trợ và quảng bá hình ảnh đất nước Nam Phi tại Việt Nam năm 2018.",
+        "para1-li2" : "Huân chương Lao động hạng III do Chủ tịch nước trao tặng năm 2012.", 
+        "para1-li3" : "Bằng khen của Thủ tướng Chính phủ trao tặng vì “Đã có thành tích xuất sắc trong công tác quản lý, điều hành hoạt động sản xuất, kinh doanh” và đạt danh hiệu “Doanh nhân Việt Nam tiêu biểu năm 2007”, góp phần vào sự nghiệp xây dựng Chủ nghĩa xã hội và bảo vệ Tổ quốc.", 
+        "para1-li4" : "Bằng khen của Chủ tịch UBND các TP.HCM, tỉnh Long An, Kon Tum, trao tặng bà Đỗ Thị Kim Liên vì các hoạt động kinh doanh và thiện nguyện"
     },
     "quotes-page" : {
         "title" : "Người truyền cảm hứng",
-        "title-quotes" : "Những câu nói hay truyền cảm hứng của Shark Liên", 
-        "btn-sharktank": "Trong chương trình Sharktank Việt Nam",
-        "btn-goitinh": "Từ cuốn sách \\\"Liên và dòng chảy nghĩa tình\\\"", 
-        "text-quotes": "\\\"Đã không mơ thì thôi,Mơ thì phải Mơ cho lớn\\\"",
-        "btn-sach": "Trong chương trình \\\"Gói tình Shark Liên - gửi nghĩa đồng bào\\\"",
+        "title-quotes1" : "Những câu nói hay,", 
+        "title-quotes2" : "truyền cảm hứng của Shark Liên", 
+        "btn-sharktank": "Trong chương trình Shark Tank Việt Nam",
+        "btn-goitinh": "Từ cuốn sách \"Liên và dòng chảy nghĩa tình\"", 
+        "text-quotes": "\"Đã không mơ thì thôi,Mơ thì phải Mơ cho lớn\"",
+        "btn-sach": "Trong chương trình \"Gói tình Shark Liên - gửi nghĩa đồng bào\"",
         "quotes-sharktank-modal": {
             "quotes-1": "- Mình phải tự hào mình là người Việt Nam trước cái đã.", 
             "quotes-2":"- Đã không mơ thì thôi, đã mơ thì phải mơ lớn.",
@@ -200,7 +209,7 @@
     "media" : {
         "title": "Media",
         "title-baochi" : "SỰ KIỆN BÁO CHÍ",
-        "title-vid": "\\\"VIDEO ĐẦU TƯ CỦA SHARK LIÊN TRÊN CHƯƠNG TRÌNH SHARK TANK\\\"", 
+        "title-vid": "VIDEO ĐẦU TƯ CỦA SHARK LIÊN TRÊN CHƯƠNG TRÌNH SHARK TANK", 
         "btn-trc": "Trang trước",
         "btn-sau": "Trang sau"
     }, 

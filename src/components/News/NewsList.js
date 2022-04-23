@@ -3,6 +3,8 @@ import React, {useState, useEffect} from 'react';
 import NewsData from "./NewsData";
 import {isMobile} from "react-device-detect";
 import Button from 'react-bootstrap/Button';
+import {FormattedMessage, FormattedDate} from 'react-intl';
+import VietNam from '../../lang/vn.json';
 const NewsList = () => {
 
   const [pagination ,setPagination] = useState(
@@ -77,8 +79,8 @@ const NewsList = () => {
     </Row>
     </div>
     <div className='media-data-btn-container'>
-    <Button variant="outline-warning" style={{marginRight: "1rem"}} disabled={paginationMobile._start === 0 } onClick={ ()=> {desktopHandle_mobile(paginationMobile._start - 3,paginationMobile._end - 3)}} >Trang trước</Button>
-    <Button variant="outline-warning" style={{marginRight: "1rem"}} disabled={paginationMobile._end === NewsData.data.length } onClick={ ()=> {desktopHandle_mobile(paginationMobile._start + 3,paginationMobile._end + 3)}}>Trang sau</Button>
+    <Button variant="outline-warning" style={{marginRight: "1rem"}} disabled={paginationMobile._start === 0 } onClick={ ()=> {desktopHandle_mobile(paginationMobile._start - 3,paginationMobile._end - 3)}} ><FormattedMessage id="media.btn-trc" defaultMessage={VietNam['media']['btn-trc']}/></Button>
+    <Button variant="outline-warning" style={{marginRight: "1rem"}} disabled={paginationMobile._end === NewsData.data.length } onClick={ ()=> {desktopHandle_mobile(paginationMobile._start + 3,paginationMobile._end + 3)}}><FormattedMessage id="media.btn-sau" defaultMessage={VietNam['media']['btn-sau']}/></Button>
     </div>
     </>
   );
@@ -99,8 +101,8 @@ const NewsList = () => {
       </Row>
       </div>
       <div className='media-data-btn-container'>
-      <Button  variant="outline-warning" style={{marginRight: "1rem"}} disabled={pagination._start === 0 } onClick={ ()=> {desktopHandle(pagination._start - 6,pagination._end - 6)}} >Trang trước</Button>
-      <Button  variant="outline-warning" style={{marginLeft: "1rem"}} disabled={pagination._end === NewsData.data.length } onClick={ ()=> {desktopHandle(pagination._start + 6,pagination._end + 6)}}>Trang sau</Button>
+      <Button  variant="outline-warning" style={{marginRight: "1rem"}} disabled={pagination._start === 0 } onClick={ ()=> {desktopHandle(pagination._start - 6,pagination._end - 6)}} ><FormattedMessage id="media.btn-trc" defaultMessage={VietNam['media']['btn-trc']}/></Button>
+      <Button  variant="outline-warning" style={{marginLeft: "1rem"}} disabled={pagination._end === NewsData.data.length } onClick={ ()=> {desktopHandle(pagination._start + 6,pagination._end + 6)}}><FormattedMessage id="media.btn-sau" defaultMessage={VietNam['media']['btn-sau']}/></Button>
       </div>
       </>
     );

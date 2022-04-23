@@ -46,7 +46,7 @@ const Startup = () => {
       <FormattedMessage id="bado-page.para5" defaultMessage={VietNam['bado-page']['para5']}/> <a className="link-click" href="https://svv.vn" >svv.vn</a>
       </p>
     </div>
-    <CauouselSliderContainer vidlist= {vid_startup} linkClass={"carousel-media"} title={"Các video liên quan"} totalNum ={3}/>
+    <CauouselSliderContainer vidlist= {vid_startup} linkClass={"carousel-media"} title={<FormattedMessage id="bado-page.vid-section-title" defaultMessage={VietNam['bado-page']['vid-section-title']}/>} totalNum ={3}/>
     </>
   );
 };

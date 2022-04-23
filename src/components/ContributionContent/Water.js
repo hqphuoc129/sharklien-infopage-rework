@@ -45,6 +45,12 @@ const Water = () => {
       <p>
         <FormattedMessage id="nuocsach-page.para4" defaultMessage={VietNam['nuocsach-page']['para4']}/>
       </p>
+      <ul>
+            <li><FormattedMessage id="nuocsach-page.para4-li1" defaultMessage={VietNam['nuocsach-page']['para4-li1']}/></li>
+            <li><FormattedMessage id="nuocsach-page.para4-li2" defaultMessage={VietNam['nuocsach-page']['para4-li2']}/></li>
+            <li><FormattedMessage id="nuocsach-page.para4-li3" defaultMessage={VietNam['nuocsach-page']['para4-li3']}/></li>
+            <li><FormattedMessage id="nuocsach-page.para4-li4" defaultMessage={VietNam['nuocsach-page']['para4-li4']}/></li>
+      </ul>
       <p>
         <FormattedMessage id="nuocsach-page.para5" defaultMessage={VietNam['nuocsach-page']['para5']}/>
       </p>

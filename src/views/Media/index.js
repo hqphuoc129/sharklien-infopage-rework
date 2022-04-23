@@ -36,7 +36,8 @@ import thumbnails10 from '../../components/CarouselSliderVideo/thumbnails/sharkt
 import thumbnails11 from '../../components/CarouselSliderVideo/thumbnails/sharktank11.jpg';
 import thumbnails12 from '../../components/CarouselSliderVideo/thumbnails/sharktank12.jpg';
 import thumbnails13 from '../../components/CarouselSliderVideo/thumbnails/sharktank13.jpg';
-
+import {FormattedMessage, FormattedDate} from 'react-intl';
+import VietNam from '../../lang/vn.json';
 
 const vid = [
   {
@@ -122,9 +123,9 @@ const Media = () => {
       <div>
         <Contribute_Descrpition img={HeaderQuoteImg} title={'MEDIA'} lightText={true} /> 
         <CustomSlider/>
-        <div className="media-news-title news-spacecing">Sự kiện báo chí</div>
+        <div className="media-news-title news-spacecing"><FormattedMessage id="media.title-baochi" defaultMessage={VietNam['media']['title-baochi']}/></div>
         <News/>
-        <CarouselSlideContainer vidlist={vid} linkClass={"carousel-media"} title={<div className='media-news-title'>"Video đầu tư của Shark Liên trên chương trình Shark Tank"</div>} totalNum={3}/>
+        <CarouselSlideContainer vidlist={vid} linkClass={"carousel-media"} title={<div className='media-news-title'><FormattedMessage id="media.title-vid" defaultMessage={VietNam['media']['title-vid']}/></div>} totalNum={3}/>
       </div>
 
     </>
