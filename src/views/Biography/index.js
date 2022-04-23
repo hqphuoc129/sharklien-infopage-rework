@@ -4,15 +4,8 @@ import Contribute_Descrpition from '../../components/Contrib Header/index';
 import HeaderDescription from '../../components/Description/Header_Description';
 import Section_Paragraph from '../../components/Description/Section_Paragraph';
 import Section_Paragraph_Item from 'components/Description/Section_Paragraph_Item';
-<<<<<<< HEAD
-
-import VietNam from '../../lang/vn.json';
-import {FormattedMessage, FormattedDate} from 'react-intl';
-
-=======
 import {FormattedMessage, FormattedDate} from 'react-intl';
 import VietNam from '../../lang/vn.json';
->>>>>>> 9c6fa31f67fdb58198d8abea7cbc4cb90aef5b4a
 const Biography = () => {
   return (
     <>
