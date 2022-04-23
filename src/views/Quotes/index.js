@@ -14,8 +14,8 @@ import VietNam from '../../lang/vn.json';
 
 const QUOTE_DATA = [
   { image: QuoteImageOne, title: <FormattedMessage id="quotes-page.btn-sharktank" defaultMessage={VietNam['quotes-page']['btn-sharktank']}/>},
-  { image: QuoteImageTwo, title: <FormattedMessage id="quotes-page.btn-sach" defaultMessage={VietNam['quotes-page']['btn-sach']}/>},
-  { image: QuoteImageThree, title: <FormattedMessage id="quotes-page.btn-goitinh" defaultMessage={VietNam['quotes-page']['btn-goitinh']}/>},
+  { image: QuoteImageTwo, title: <FormattedMessage id="quotes-page.btn-goitinh" defaultMessage={VietNam['quotes-page']['btn-goitinh']}/>},
+  { image: QuoteImageThree, title: <FormattedMessage id="quotes-page.btn-sach" defaultMessage={VietNam['quotes-page']['btn-sach']}/>},
 ];
 
 const Quotes = () => {
@@ -31,8 +31,8 @@ const Quotes = () => {
         <QuoteList data={QUOTE_DATA} />
       </div>
       <div className={`box-footering`}>
-        <h1 className='quote-footerone'>"Đã không mơ thì thôi, </h1>
-        <h1 className='quote-footertwo'>Mơ thì phải Mơ cho lớn"</h1>
+        <h1 className='quote-footerone'><FormattedMessage id="quotes-page.text-quotes1" defaultMessage={VietNam['quotes-page']['text-quotes1']}/></h1>
+        <h1 className='quote-footertwo'><FormattedMessage id="quotes-page.text-quotes2" defaultMessage={VietNam['quotes-page']['text-quotes2']}/></h1>
       </div>
     </>
   );

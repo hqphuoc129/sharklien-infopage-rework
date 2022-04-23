@@ -88,44 +88,54 @@
         "title-testimonial" : "To go far, we always need people to support us.",
         "testimonial" : [
             {
-                "name": "Mr. Nguyen Ba Ngoc - Director of Muc Nhay Bien Dong Company", 
+                "name": "Mr. Nguyen Ba Ngoc",
+                "position": "Director of Muc Nhay Bien Dong Company", 
                 "words": "“Shark Lien is a great businesswoman with a heart and talent! She ismy model to learn and follow! I believe that with her kind heart and humane deeds, many things will be changed for the better for the country due to her efforts.”"
             },
             {
-                "name": "Ms. Ngoc An Nhien - Director of Auto Duc Tri Co., Ltd", 
+                "name": "Ms. Ngoc An Nhien", 
+                "position": "Director of Auto Duc Tri Co., Ltd",
                 "words": "“I first met Shark Lien via Zoom application and heard her share. Then suddenly I felt so small in front of this woman. I perceive Mrs. Lien as a mother with immense love and a bodhisattva heart. Warm closeness. Not only me, but everyone who meets her also wants to hug her to feel the warmth she radiates, it's like from a mother who spreads her love for her children, a source of peaceful energy.”"
             },
             {
-                "name": "Cao Khanh Linh (Fan Club)", 
+                "name": "Cao Khanh Linh", 
+                "position": "Fan Club",
                 "words": "“Ngoai Lien (Grandma Lien) is very warm, her heart is vast and wide, always there spreading her arms to hug us. Every hug she gives is filled with love. The stories she tells are always witty, ordinary, but true, empathetic, easy to understand, and leave a lasting impression on the person she commutes. Every minute with Grandma Lien, it feels like I am free, alive and dedicated. All in LinhLinh is the inspiration of creativity received from Grandma Lien. I am grateful to Grandma Lien for giving me a best friend, LIEN BOOK, so that every page that I turn, every second I spread strongly to the book-loving community.”"
             },
             {
-                "name": "Colonel - Journalist Tran The Tuyen (Former Editor-in-Chief of Saigon Giai Phong newspaper)", 
+                "name": "Colonel - Journalist Tran The Tuyen", 
+                "position": "Former Editor-in-Chief of Saigon Giai Phong newspaper",
                 "words": "“Successful and famous in the commerce market, Do Lien is also famous for her charitable deeds and sharing with the community; especially for families with meritorious services to the country, families of martyrs and veterans."
             },
             {
-                "name": "Ngo My Loan (Fan club)", 
+                "name": "Ngo My Loan", 
+                "position": "Fan club",
                 "words": "“Talking about Madam Lien, I only have the words “LOVE and ADMIRATION” for Grandma Lien. From the days when I had contact with Grandma Lien and participated in her activities, every thing she did was to put the word “WHOLE-HEART” on top, even from the smallest things. I admire her through her personality, simple and idyllic lifestyle. And lessons that I learned from her about humanity, the compatriotism in tribulation, to cherish the life we have.”"
             },
             {
-                "name": "Dr. Josefine Wallat, Consul General of the Federal Republic of Germany in Ho Chi Minh City", 
+                "name": "Dr. Josefine Wallat", 
+                "position": "Consul General of the Federal Republic of Germany in Ho Chi Minh City",
                 "words": "“When I hold this placard in my hand, I want to express the gratitude of the Germans to her family. She and her family did a very nice act, showing concern for the people of Germany, who have been and continue to fight the pandemic and crisis. I think this conveys the message of the word “friendship”. Our relationships take place not only at the national level, but also among people. Only in times of crisis like this can you realize what a real relationship is like!”"
             },
             {
-                "name": "Mr. Marko Walde, Chief Representative of the German Chamber of Commerce and Industry in Vietnam (AHK)", 
+                "name": "Mr. Marko Walde", 
+                "position": "Chief Representative of the German Chamber of Commerce and Industry in Vietnam (AHK)",
                 "words": "“I have worked in Vietnam for a long time and have met and worked with Mrs. Lien and her family many times. Throughout these years, she has worked on many great projects, including investing in Germany. This proves our strong bilateral relationship, not only Germans invest in Vietnam but Vietnamese people can also seek investment opportunities and do something for Germany. That's what make it meaningful.”"
             },
             {
-                "name": "Ngài Ratubasi Super Moloi - Đại sứ đặc mệnh toàn quyền Cộng hòa Nam Phi tại Việt Nam nhiệm kỳ 2009-2013", 
-                "words": "“Madam Liên là người dám nghĩ dám làm, cầu toàn và là một người phụ nữ cuốn hút. Madam có khả năng thuyết phục bất cứ ai khi tiếp xúc và đem lòng yêu đất nước Nam Phi. Tôi thật sự ấn tượng với phương pháp điều hành các công việc kinh doanh cũng như rất nhiều giải thưởng danh giá mà Bà được trao tặng. Chính phủ Nam Phi sẽ mãi cảm kích và biết ơn khi có được một Lãnh sự danh dự như Bà. Cá nhân tôi thực sự muốn chúc mừng và mong bà biết rằng chúng tôi luôn rất tự hào về Bà.”"
+                "name": "Mr. Ratubasi Super Moloi ", 
+                "position": "Ambassador Extraordinary and Plenipotentiary of the Republic of South Africa in Vietnam during 2009-2013",
+                "words": "“Madam Lien is an enterprising person, a perfectionist and an attractive woman. Madam has the ability to convince anyone who comes into contact with and falls in love with South Africa. I am really impressed with the method of running the businesses as well as the many prestigious awards for her. The South African government will forever appreciate and be grateful to have an Honorary Consul like her. Personally, I really want to congratulate her and let her know that we are always so proud of her.”"
             },
             {
-                "name": "Bà Kgomotso Ruth Magau - Cựu Đại sứ đặc mệnh toàn quyền Nam Phi tại Việt Nam (nhiệm kỳ 2013-2017)", 
-                "words": "“Tôi muốn nhấn mạnh sự đóng góp to lớn của Madam Liên trong việc tăng cường mối quan hệ song phương giữa Nam Phi và Việt Nam. Bà luôn sẵn lòng hỗ trợ các công việc của Đại sứ quán tại Hà Nội thông qua việc đảm bảo Đại sứ quán luôn được thông báo kịp thời các sự vụ cần được đặc biệt quan tâm, đồng thời thường xuyên hỗ trợ đội ngũ của Đại sứ quán trong quá trình giải quyết những sự vụ đó”."
+                "name": "Madam Kgomotso Ruth Magau", 
+                "position": "Former Ambassador Extraordinary and Plenipotentiary of South Africa to Vietnam (2013 - 2017)",
+                "words": "“I would like to emphasize Madam Lien's great contribution in strengthening the bilateral relationship between South Africa and Vietnam. She is always willing to support the work of the Embassy in Hanoi by ensuring that the Embassy is always promptly informed of cases that require special attention, and regularly supports the Embassy's team in the process of handling those cases.”"
             },
             {
-                "name": "Ngài Mpetjane Kgaogelo Lekgoro - Đương kim Đại sứ đặc mệnh toàn quyền Cộng hòa Nam Phi tại Việt Nam", 
-                "words": "“Với những đóng góp trong việc thúc đẩy mối quan hệ hợp tác giữa Cộng hòa Nam Phi và Việt Nam thông qua việc khởi xướng và tổ chức nhiều chương trình giao lưu, các hoạt động hỗ trợ, kết nối và xúc tiến thương mại giữa hai nước suốt 10 năm qua, Madam Đỗ Thị Kim Liên là Đại sứ hình ảnh của đất nước Nam Phi tại Việt Nam và Việt Nam tại Nam Phi”."
+                "name": "Mr. Mpetjane Kgaogelo Lekgoro", 
+                "position": "Current Ambassador Extraordinary and Plenipotentiary and Plenipotentiary of the Republic of South Africa in Vietnam",
+                "words": "“For her contribution in promoting the cooperative relationship between the Republic of South Africa and Vietnam through the initiation and organization of Organizing many exchange programs, supporting activities, connecting and promoting trade between the two countries over the past 10 years, Madam Do Thi Kim Lien is the Ambassador of South Africa in Vietnam and Vietnam in South Africa.”"
             }
         ],
         "btn-text-media" : "Read more at Media"
@@ -155,7 +165,8 @@
         "title-quotes2" : "inspirational quotes", 
         "btn-sharktank": "Quotes on Shark Tank Vietnam",
         "btn-goitinh": "Quotes from \"Lien and dong chay nghia tinh\"", 
-        "text-quotes": "\"If you dare to dream, then dream it big\"",
+        "text-quotes1": "\"If you dare to dream",
+        "text-quotes2": "then dream it big\"",
         "btn-sach": "Quotes about \"Goi tinh Shark Lien - Gui nghia dong bao\"",
         "quotes-sharktank-modal": {
             "quotes-1": "- We have to be proud to be Vietnamese first.", 
@@ -169,41 +180,41 @@
             "quotes-9":"- You must know how to spread to the younger generation to protect the environment and preserve their own living place."
         },
         "quotes-goitinh-modal": {
-            "quotes-1" : "- I write not to make money, but to write about my life, my experiences, stories, so that the next generation does not have to “pay the price\\\" for what the previous generation went through.",
-            "quotes-2" : "- “Lien & Dong chay nghia tinh\\\" marks a tragic historical peiod about the spirit of solidarity and resilience of the nation during the pandemic.",
-            "quotes-3" : "- When Sai Gon was under strict quarantine, in the midst of the Covid-19, we were the “chosen one\\\".",
+            "quotes-1" : "- I write not to make money, but to write about my life, my experiences, stories, so that the next generation does not have to “pay the price” for what the previous generation went through.",
+            "quotes-2" : "- “Lien & Dong chay nghia tinh” marks a tragic historical peiod about the spirit of solidarity and resilience of the nation during the pandemic.",
+            "quotes-3" : "- When Sai Gon was under strict quarantine, in the midst of the Covid-19, we were the “chosen one”.",
             "quotes-4" : "- The volunteers are the modern Kim Dong. If the hero of the past had to face falling bombs and stray bullets, today, you have to face the invisible enemy - the Covid-19 with the spirit of not giving up.",
             "quotes-5" : "- I did cry a lot when Vietnam buckled during the pandemic. I want to do something with my children. To be honest, doing charity is as tough as doing business.",
             "quotes-6" : "- I want “Lien & Dong chay nghia tinh” to continue to spark, spread and never stop.",
             "quotes-7" : "- Facing the pain of my compatriots, I could not stand still. It prompted me to do something immediately. ",
             "quotes-8" : "- I only contribute autobiographical lines. The rest is everyone's sharing of affection and spirit, which is wrapped up in the book.",
             "quotes-9" : "- The young writers in “Lien & Flow of Love” are modern Kim Dong. They went into the heart of the pandemic to help people and record historical stories.",
-            "quotes-10" : "- In less than a week, the program “Goi tinh Shark Lien, - Gui nghia dong bao\\\" has been deployed quickly, thanks to that, many people have been saved."
+            "quotes-10" : "- In less than a week, the program “Goi tinh Shark Lien, - Gui nghia dong bao” has been deployed quickly, thanks to that, many people have been saved."
         },
         "quotes-sach-modal": {
-            "quote-1" : "- When we love someone, seeing them hurt, we ourselves hurt twice as much. For me, Saigon is my flesh and blood.",
-            "quote-2" : "- From the bottom of my heart, a spring of water from the earth has surged. And like an unstoppable force of water, I will send all my heart, mind and energy to the cause of Saigon and to the compatriots.",
-            "quote-3" : "- Behind the names, there are many words “former”: Former Vice Chairman of the Ward Veterans Association, former Red Cross officer, etc. The word “former” because they are no longer in this world.",
-            "quote-4" : "- Somehow I believe that, as long as my feet are on my country, as long as a tree is rooted in the ground, I cannot die.",
-            "quote-5" : "- In Saigon, everything costs money. Only philanthropy is free.",
-            "quote-6" : "- The city brings strangers to meet each other. Then, for a living, each person left to new lands.",
-            "quote-7" : "- Like a dandelion seed, I fell in the heart of Saigon in a small inn by the canal and was watered by two loving strangers. Just like that, I was deeply rooted in this land, writing the history of my life in the following chapters.",
-            "quote-8" : "- Until now, when I eat a bowl of expensive porridge in a luxury restaurant, I still remember the bowl of perilla leaves porridge placed on the stool carried by the innkeeper and his wife over the day I was bedridden due to illness.",
-            "quote-9" : "- In the most difficult days, I was saved two innkeepers. And now, the whole neighborhood of workers, builders, workers... all lost their jobs and ran out of money. The whole neighborhood is hungry. Who will save whom?",
-            "quote-10" : "- In the past, even when I was engulfed in make-up stories, on days when my business failed, or when the stock market went red, I could calmly raise my knees. But this time, the photos of the family of five people in need of rice sent to the inbox, the strange dream the other night, the picture of the old man crouching under the Dien Bien Phu bridge... made my forehead wet despite the room temperature is 22 degrees Celsius.",
-            "quote-11" : "- Who knows, in the relief trip tomorrow, there will be an old benefactor of mine who will receive the “kindness package” prepared by me... To ease their worries, I am also at ease somehow.",
-            "quote-12" : "- The human body has a miraculous “self-healing” mechanism. When a part is injured, the remaining healthy cells will catch the signal, boosting nutrients to nourish the injured cells by a tightly connected capillary network. In the days of Saigon's serious injury, a similar mechanism was activated.",
-            "quote-13" : "- Perhaps Saigon people have never thought that the three words “receiving aid” are for this land.",
-            "quote-14" : "- Elderly people are susceptible to Covid-19 infection. Unfortunately, infection is betting life against death. However, among the thousands of cadres of residential groups, hamlets and neighborhoods across Saigon, most are elderly people.",
-            "quote-15" : "- My little Vu came back. He said, when our team enters, he saw the epidemiologist carrying the coffin out. He did not expect that the last to his phone this morning was the number of the unfortunate person in that coffin.",
-            "quote-16" : "- Every job requires competence. As for volunteer work, perhaps, the biggest ability is the enthusiasm - the strength to help you overcome your fear to enter the pandemic center.",
-            "quote-17" : "- Covid-19 is ravaging you in other ways. It takes away the childhood of running around, snatching from the arms of parents - and replacing it with cold, lifeless urns",
-            "quote-18" : "- We can sell, work, we just want to make money with our labor. It's just a common wish, why is it so difficult to fulfill?",
-            "quote-19" : "- Children are not allowed to study. Patients are not treated. Young people are not allowed to work. Old people have no food. The corrosive pandemic spares no one. Men and women, old and young, they can only rely on each other during the months of being stuck in the middle of Saigon.",
-            "quote-20" : "- At this point, a piece of paper to prove who you are is not as important as having money to send to your loved ones, having money to buy something to eat.",
-            "quote-21" : "- When my mother was still alive,she taught me, the practical way to pay filial piety to her mother is that I should study hard, and later grow up to be a good person and live a good life. Now that my mother has passed away, she has not yet seen her child grow up to be a human. But I think she would be happy if in heaven, she knows that I gave this support to someone else. So, if you love me, please accept my gratitude.",
-            "quote-22" : "- I had to helplessly bow my head in front of my compatriots writhing in the pain of death. But I dare not think. Sometimes. I have to witness it from my teammates. The young people day and night soothe the wounds of their relatives, now they also have deep wounds on their bodies.",
-            "quote-23" : "- Saigon 312 “fortress” of wards and communes, there are thousands to tens of thousands of patriarchs, vice-leaders, village chiefs... quietly clinging to the front line."
+            "quotes-1" : "- When we love someone, seeing them hurt, we ourselves hurt twice as much. For me, Saigon is my flesh and blood.",
+            "quotes-2" : "- From the bottom of my heart, a spring of water from the earth has surged. And like an unstoppable force of water, I will send all my heart, mind and energy to the cause of Saigon and to the compatriots.",
+            "quotes-3" : "- Behind the names, there are many words “former”: Former Vice Chairman of the Ward Veterans Association, former Red Cross officer, etc. The word “former” because they are no longer in this world.",
+            "quotes-4" : "- Somehow I believe that, as long as my feet are on my country, as long as a tree is rooted in the ground, I cannot die.",
+            "quotes-5" : "- In Saigon, everything costs money. Only philanthropy is free.",
+            "quotes-6" : "- The city brings strangers to meet each other. Then, for a living, each person left to new lands.",
+            "quotes-7" : "- Like a dandelion seed, I fell in the heart of Saigon in a small inn by the canal and was watered by two loving strangers. Just like that, I was deeply rooted in this land, writing the history of my life in the following chapters.",
+            "quotes-8" : "- Until now, when I eat a bowl of expensive porridge in a luxury restaurant, I still remember the bowl of perilla leaves porridge placed on the stool carried by the innkeeper and his wife over the day I was bedridden due to illness.",
+            "quotes-9" : "- In the most difficult days, I was saved two innkeepers. And now, the whole neighborhood of workers, builders, workers... all lost their jobs and ran out of money. The whole neighborhood is hungry. Who will save whom?",
+            "quotes-10" : "- In the past, even when I was engulfed in make-up stories, on days when my business failed, or when the stock market went red, I could calmly raise my knees. But this time, the photos of the family of five people in need of rice sent to the inbox, the strange dream the other night, the picture of the old man crouching under the Dien Bien Phu bridge... made my forehead wet despite the room temperature is 22 degrees Celsius.",
+            "quotes-11" : "- Who knows, in the relief trip tomorrow, there will be an old benefactor of mine who will receive the “kindness package” prepared by me... To ease their worries, I am also at ease somehow.",
+            "quotes-12" : "- The human body has a miraculous “self-healing” mechanism. When a part is injured, the remaining healthy cells will catch the signal, boosting nutrients to nourish the injured cells by a tightly connected capillary network. In the days of Saigon's serious injury, a similar mechanism was activated.",
+            "quotes-13" : "- Perhaps Saigon people have never thought that the three words “receiving aid” are for this land.",
+            "quotes-14" : "- Elderly people are susceptible to Covid-19 infection. Unfortunately, infection is betting life against death. However, among the thousands of cadres of residential groups, hamlets and neighborhoods across Saigon, most are elderly people.",
+            "quotes-15" : "- My little Vu came back. He said, when our team enters, he saw the epidemiologist carrying the coffin out. He did not expect that the last to his phone this morning was the number of the unfortunate person in that coffin.",
+            "quotes-16" : "- Every job requires competence. As for volunteer work, perhaps, the biggest ability is the enthusiasm - the strength to help you overcome your fear to enter the pandemic center.",
+            "quotes-17" : "- Covid-19 is ravaging you in other ways. It takes away the childhood of running around, snatching from the arms of parents - and replacing it with cold, lifeless urns",
+            "quotes-18" : "- We can sell, work, we just want to make money with our labor. It's just a common wish, why is it so difficult to fulfill?",
+            "quotes-19" : "- Children are not allowed to study. Patients are not treated. Young people are not allowed to work. Old people have no food. The corrosive pandemic spares no one. Men and women, old and young, they can only rely on each other during the months of being stuck in the middle of Saigon.",
+            "quotes-20" : "- At this point, a piece of paper to prove who you are is not as important as having money to send to your loved ones, having money to buy something to eat.",
+            "quotes-21" : "- When my mother was still alive,she taught me, the practical way to pay filial piety to her mother is that I should study hard, and later grow up to be a good person and live a good life. Now that my mother has passed away, she has not yet seen her child grow up to be a human. But I think she would be happy if in heaven, she knows that I gave this support to someone else. So, if you love me, please accept my gratitude.",
+            "quotes-22" : "- I had to helplessly bow my head in front of my compatriots writhing in the pain of death. But I dare not think. Sometimes. I have to witness it from my teammates. The young people day and night soothe the wounds of their relatives, now they also have deep wounds on their bodies.",
+            "quotes-23" : "- Saigon 312 “fortress” of wards and communes, there are thousands to tens of thousands of patriarchs, vice-leaders, village chiefs... quietly clinging to the front line."
         }
     },
     "media" : {
@@ -216,5 +227,12 @@
     "footer": {
         "sentences" : "This is the website for me - Do Lien and my business ecosystem, charity activities and orientation to inspire the community.", 
         "contact" : "Business contact: "
+    },
+    "lotus": {
+        "startup": "START-UP “GODMOTHER”",
+        "water": "CLEAN WATER",
+        "insurance": "INSURANCE",
+        "charity": "CHARITY",
+        "diplomacy": "DIPLOMACY"
     }
 }
