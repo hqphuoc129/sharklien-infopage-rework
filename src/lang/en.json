@@ -66,11 +66,16 @@
         "title-section-intro": "I am grateful for everything that happens in my life.",
         "intro-para" : "My name is Do Thi Kim Lien, born in Me Linh, Vinh Phuc. Coming from a family with a tradition in education, I was oriented to become a teacher from an early age. After graduating from the Faculty of Literature of Hanoi Pedagogical University II, I had taught for 3 years, then decided to leave this career behind and reside to the South to begin my new journey. With more than 30 years of experience in finance, operations and community activities, I always look forward to working with young founders and startups as both a strategic investor and an entrepreneur mentor.",
         "title-section-contribu" : "Because my mission is to create value for the community.", 
+        "title-baohiem": "Insurance",
+        "title-ncsach": "Clean water",
+        "title-bado": "Start-up “Godmother”",
+        "title-ng-tn": "Charity & Diplomacy",
         "baohiem": "Insurance is the most humane profession among the humane professions. I choose insurance to help people “Worry free - Manage risks” for uncertainties that may occur in life. Insurtech is my next mission.",
         "ncsach" : "In Vietnam, clean water sources are increasingly scarce. To ensure the health and improve the quality of life of the community, this is the resource that I focus on, invest in, and commit to bring the best value to my people.",
         "bado" : "My vision is to become a solid fulcrum for entrepreneurs with ambition and dedication to society, helping you become the leader of the current era. And towards building Vietnam as a dynamic and confident start-up country in the region and in the world.", 
         "thiennguyen-ngoaigiao": "“Giving is Happiness”. The more people give, the more blessings they receive! I want to be remembered as a kind woman, not a rich person. And as the Honorary Consul of the Republic of South Africa in Ho Chi Minh City, with my unremitting efforts over the past 10 years, I have made deep marks in promoting the friendship between the two countries. Vietnam and South Africa.",
-        "quotes" : "If you dare to dream, then dream it big",
+        "quotes-1" : "If you dare to dream, ",
+        "quotes-2" : "then dream it big",
         "title-testimonial" : "To go far, we always need people to support us.",
         "testimonial" : [
             {
@@ -119,7 +124,8 @@
     
     "tieusu-page" : {
         "title" : "BIOGRAPHY", 
-        "para1" : "My name is Do Thi Kim Lien, born in Me Linh, Vinh Phuc. Coming from a family with a tradition in education, I was oriented to become a teacher from an early age. After graduating from the Faculty of Literature of Hanoi Pedagogical University II, I had taught for 3 years, then decided to leave this career behind and reside to the South to begin my new journey.",
+        "para1" : "My name is Do Thi Kim Lien",
+        "para1-con":"Born in Me Linh, Vinh Phuc. Coming from a family with a tradition in education, I was oriented to become a teacher from an early age. After graduating from the Faculty of Literature of Hanoi Pedagogical University II, I had taught for 3 years, then decided to leave this career behind and reside to the South to begin my new journey.",
         "para2" : "With more than 30 years of experience in finance, operations and community activities, I always look forward to working with young founders and startups as both a strategic investor and an entrepreneur mentor.", 
         "para3" : "Some positions that I have been holding: Founder of LIAN Insurance Application (from 2018 to present); Chairman of Green Vietnam Fund (from 2016 to present); President of the College of Business Administration and Management  - CBAM (from 2016 to present); Chairman of the Board of Directors of AquaOne Group (from 2015 to present); Chairman of the Board of Directors of Duong River Surface Water Plant Joint Stock Company (from 2015 to present).",
         "para4" : "In addition, as an Honorary Consul of the Republic of South Africa in Ho Chi Minh City for more than 10 years, I have made unremitting contributions to promoting the friendship between the two countries Vietnam - South Africa; Building “business bridges” contributing to the economic development of the two countries.", 
@@ -199,6 +205,6 @@
     }, 
     "footer": {
         "sentences" : "This is the website for me - Do Lien and my business ecosystem, charity activities and orientation to inspire the community.", 
-        "contact" : "Business contact:"
+        "contact" : "Business contact: "
     }
 }

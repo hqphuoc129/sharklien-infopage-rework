@@ -5,20 +5,22 @@ import { Col } from 'react-bootstrap';
 import { Container } from 'react-bootstrap';
 import Section_Paragraph from '../Description/Section_Paragraph';
 import { Player } from 'video-react';
+
+import VietNam from '../../lang/vn.json';
+import {FormattedMessage, FormattedDate} from 'react-intl';
 import ReactPlayer from 'react-player'
 const BriefIntro = () => {
   return (
     <div className='brief-intro-image'>
       <Container fluid={'true'} className="brief-intro-container">
-        <h2 className="para-header">Tôi tri ân tất cả những điều xảy đến trong cuộc đời mình.</h2>
-        <HeaderDescription title={'Tôi tri ân tất cả những điều xảy đến trong cuộc đời mình.'} />
+        <h2 className="para-header">
+          <FormattedMessage id="home-page.title-section-intro" defaultMessage={VietNam['home-page']["title-section-intro"]}/>
+        </h2>
         <Row className='brief-intro-row'>
           <Col lg={true}>
-            <Section_Paragraph
-              content={
-                'Tôi là Đỗ Thị Kim Liên, sinh ra tại Mê Linh, Vĩnh Phúc. Xuất thân trong một gia đình có truyền thống làm giáo dục, tôi được định hướng trở thành một cô giáo ngay khi còn nhỏ. Sau khi tốt nghiệp Khoa Ngữ văn của Trường Đại học Sư phạm Hà Nội II, tôi đứng lớp giảng dạy 3 năm, rồi quyết tâm chia tay nghề để vào Nam lập nghiệp. Với hơn 30 năm kinh nghiệm trong lĩnh vực tài chính, điều hành và hoạt động vì cộng đồng, tôi luôn mong muốn được làm việc với những nhà sáng lập và khởi nghiệp trẻ với tư cách vừa là nhà đầu tư chiến lược, vừa là người cố vấn.'
-              }
-            />
+            <p className="para">
+            <FormattedMessage id="home-page.intro-para" defaultMessage={VietNam['home-page']["intro-para"]}/>
+            </p>
           </Col>
 
           <Col className='brief-intro-col' lg={true}>

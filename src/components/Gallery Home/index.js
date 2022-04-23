@@ -13,6 +13,9 @@ import Img3 from './assets/img3.png';
 import Img4 from './assets/img4.png';
 import Img5 from './assets/img5.png';
 
+import VietNam from '../../lang/vn.json';
+import {FormattedMessage, FormattedDate} from 'react-intl';
+
 function Gallery() {
     const {isActive, setIsActive} = useContext(webContext)
   return (
@@ -47,7 +50,7 @@ function Gallery() {
                     window.scrollTo(0,0);
                   }}
             >
-                <Button variant="outline-warning" style={{  fontFamily: "'Source Serif Pro',serif",backgroundColor:"white"}}>Xem thêm tại Media</Button>
+                <Button variant="outline-warning" style={{  fontFamily: "'Source Serif Pro',serif",backgroundColor:"white"}}><FormattedMessage id="home-page.btn-text-media" defaultMessage={VietNam['home-page']['btn-text-media']}/></Button>
             </Link>
         </div>
     </div>

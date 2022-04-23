@@ -4,6 +4,10 @@ import {webContext} from '../../App';
 import React, {useContext} from 'react'; 
 import {FaTiktok,FaYoutube,FaFacebook} from 'react-icons/fa';
 
+
+import VietNam from '../../lang/vn.json';
+import {FormattedMessage, FormattedDate} from 'react-intl';
+
 function Footer() {
   const {isActive, setIsActive} = useContext(webContext); 
   return (
@@ -22,10 +26,10 @@ function Footer() {
       </Link>
         <div className='footer_text-wrapper'>
           <p className="footer_text">
-          Đây là website giới thiệu về tôi - Đỗ Liên cùng hệ sinh thái kinh doanh, các hoạt động thiện nguyện và định hướng hỗ trợ cộng đồng của tôi
+          <FormattedMessage id="footer.sentences" defaultMessage={VietNam['footer']['sentences']}/>
           </p>
           <div className="contact-container">
-            <p style={{margin: "0px"}}>Liên hệ công việc: <span style={{fontWeight:"bold"}}>0832596395</span></p>
+            <p style={{margin: "0px"}}><FormattedMessage id="footer.contact" defaultMessage={VietNam['footer']['contact']}/><span style={{fontWeight:"bold"}}>0832596395</span></p>
             <div className="contact-icon-container">
               <a href="https://www.tiktok.com/@sharkdolien" className='contact-icon'><FaTiktok/></a>
               <a href="https://www.youtube.com/channel/UCTyHeMwx1x5u5EirSvqLtcw" className='contact-icon'><FaYoutube/></a>
