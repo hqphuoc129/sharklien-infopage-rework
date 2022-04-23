@@ -4,12 +4,16 @@ import Contribute_Descrpition from '../../components/Contrib Header/index';
 import HeaderDescription from '../../components/Description/Header_Description';
 import Section_Paragraph from '../../components/Description/Section_Paragraph';
 import Section_Paragraph_Item from 'components/Description/Section_Paragraph_Item';
+
+import VietNam from '../../lang/vn.json';
+import {FormattedMessage, FormattedDate} from 'react-intl';
+
 const Biography = () => {
   return (
     <>
-      <Contribute_Descrpition img={HeaderQuoteImg} title={'TIỂU SỬ'} lightText={false}/>{' '}
+      <Contribute_Descrpition img={HeaderQuoteImg} title={<FormattedMessage id="tieusu-page.title" defaultMessage={VietNam['tieusu-page']['title']}/>} lightText={false}/>{' '}
       <div className='bio-container'>
-        <HeaderDescription title={'Tôi là Đỗ Thị Kim Liên'} />{' '}
+        <HeaderDescription title={<FormattedMessage id="tieusu-page.para1" defaultMessage={VietNam['tieusu-page']['para1']}/>} />{' '}
         <div style={{ paddingTop: '2.5%', paddingBottom: '2.5%' }}>
           {' '}
           <div style={{width: '20vw', height: "0.5vh", backgroundColor:"#C69703", margin: 'auto'}} />

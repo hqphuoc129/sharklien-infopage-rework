@@ -63,11 +63,16 @@
         "title-section-intro": "Tôi tri ân tất cả những điều xảy đến trong cuộc đời mình.",
         "intro-para" : "Tôi là Đỗ Thị Kim Liên, sinh ra tại Mê Linh, Vĩnh Phúc. Xuất thân trong một gia đình có truyền thống làm giáo dục, tôi được định hướng trở thành một cô giáo ngay khi còn nhỏ. Sau khi tốt nghiệp Khoa Ngữ văn của Trường Đại học Sư phạm Hà Nội II, tôi đứng lớp giảng dạy 3 năm, rồi quyết tâm chia tay nghề để vào Nam lập nghiệp. Với hơn 30 năm kinh nghiệm trong lĩnh vực tài chính, điều hành và hoạt động vì cộng đồng, tôi luôn mong muốn được làm việc với những nhà sáng lập và khởi nghiệp trẻ với tư cách vừa là nhà đầu tư chiến lược, vừa là người cố vấn.",
         "title-section-contribu" : "Vì sứ mệnh của tôi là tạo ra giá trị cho cộng đồng.", 
+        "title-baohiem": "Bảo hiểm",
+        "title-ncsach": "Nước sạch",
+        "title-bado": "Bà đỡ Start up",
+        "title-ng-tn": "Thiện nguyện & Ngoại giao",
         "baohiem": "Bảo hiểm là là nghề nhân văn nhất trong các nghề nhân văn. Tôi chọn bảo hiểm để giúp người dân “An nỗi lo - Quản rủi ro” cho những bất trắc có thể xảy ra trong cuộc sống. Insurtech là sứ mệnh kế tiếp của tôi.",
         "ncsach" : "Tại Việt Nam, nguồn nước sạch ngày càng khan hiếm. Để đảm bảo sức khỏe và nâng cao chất lượng cuộc sống của cộng đồng, đây là nguồn tài nguyên mà tôi chú trọng, đầu tư sản xuất và cam kết mang lại giá trị tốt nhất cho người dân của mình.",
         "bado" : "Tôi mong muốn trở thành điểm tựa vững chắc cho những nhà khởi nghiệp với hoài bão và sự cống hiến cho xã hội, giúp các bạn trở thành người dẫn đầu kỷ nguyên hiện tại. Và hướng tới xây dựng Việt Nam là một quốc gia khởi nghiệp năng động, tự tin trong khu vực và trên thế giới.", 
         "thiennguyen-ngoaigiao": "“Cho đi là Hạnh phúc”. Người càng cho đi nhiều, càng nhận được phúc lành! Tôi muốn được nhớ đến là một người đàn bà tốt bụng, không phải một người giàu có. Và trên cương vị là Lãnh sự Danh dự Cộng hòa Nam Phi tại TP.HCM, bằng sự nỗ lực không ngừng nghỉ trong suốt 10 năm qua, tôi đã̃ tạo được những dấu ấn đậm nét trong việc thúc đẩy quan hệ hữu nghị giữa hai nước Việt Nam và Nam Phi.",
-        "quotes" : "Đã không mơ thì thôi, mơ thì phải mơ cho lớn",
+        "quotes-1" : "Đã không mơ thì thôi, ",
+        "quotes-2" : "mơ thì phải mơ cho lớn",
         "title-testimonial" : "Để đi xa, chúng ta luôn cần có những người ủng hộ mình.",
         "testimonial" : [
             {
@@ -116,7 +121,8 @@
     
     "tieusu-page" : {
         "title" : "TIỂU SỬ", 
-        "para1" : "Tôi là Đỗ Thị Kim Liên, sinh ra tại Mê Linh, Vĩnh Phúc. Xuất thân trong một gia đình có truyền thống làm giáo dục, tôi được định hướng trở thành một cô giáo ngay khi còn nhỏ. Sau khi tốt nghiệp Khoa Ngữ văn của Trường Đại học Sư phạm Hà Nội II, tôi đứng lớp giảng dạy 3 năm, rồi quyết tâm chia tay nghề để vào Nam lập nghiệp.",
+        "para1" : "Tôi là Đỗ Thị Kim Liên",
+        "para1-con": "Sinh ra tại Mê Linh, Vĩnh Phúc. Xuất thân trong một gia đình có truyền thống làm giáo dục, tôi được định hướng trở thành một cô giáo ngay khi còn nhỏ. Sau khi tốt nghiệp Khoa Ngữ văn của Trường Đại học Sư phạm Hà Nội II, tôi đứng lớp giảng dạy 3 năm, rồi quyết tâm chia tay nghề để vào Nam lập nghiệp.",
         "para2" : "Với hơn 30 năm kinh nghiệm trong lĩnh vực tài chính, điều hành và hoạt động vì cộng đồng, tôi luôn mong muốn được làm việc với những nhà sáng lập và khởi nghiệp trẻ với tư cách vừa là nhà đầu tư chiến lược, vừa là người cố vấn.", 
         "para3" : "Một số vị trí mà tôi đã, đang đảm nhiệm: Nhà sáng lập Ứng dụng bảo hiểm công nghệ LIAN (từ năm 2018 đến nay); Chủ tịch Quỹ Hỗ trợ xây dựng Môi trường Xanh Việt Nam (từ năm 2016 đến nay); Hiệu trưởng Trường Đào tạo Quản lý Doanh nghiệp – CBAM (từ năm 2016 đến nay); Chủ tịch Hội đồng quản trị Tập đoàn AquaOne (từ năm 2015 đến nay); Chủ tịch Hội đồng quản trị Công ty Cổ phần Nước mặt Sông Đuống (từ năm 2015 đến nay).",
         "para4" : "Ngoài ra, trên cương vị Lãnh sự Danh dự Cộng hòa Nam Phi tại TP.HCM suốt hơn 10 năm, tôi đã có những đóng góp không ngừng nghỉ thúc đẩy quan hệ hữu nghị giữa hai nước Việt Nam – Nam Phi; Xây những “chiếc cầu nối doanh nghiệp” góp phần phát triển nền kinh tế của hai quốc gia.", 
@@ -196,6 +202,6 @@
     }, 
     "footer": {
         "sentences" : "Đây là website giới thiệu về tôi - Đỗ Liên cùng hệ sinh thái kinh doanh, các hoạt động thiện nguyện và định hướng hỗ trợ cộng đồng của tôi", 
-        "contact" : "Liên hệ công việc:"
+        "contact" : "Liên hệ công việc: "
     }
 }
