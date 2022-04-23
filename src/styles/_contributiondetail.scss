@@ -381,6 +381,33 @@
 
   //==========================================================================================================
   //Phone - landscape 
+
+  @media only screen and (min-width: 1440px) and (max-width: 3000px) and (min-height: 1440) and (orientation: landscape) {
+    .not-change{
+      width: auto;
+      height: 66rem;
+    }
+    .containerdetail-text{
+      width: 82rem; 
+      height : 48rem; 
+    } 
+    .contribution-item-title-0 {
+      left: 46%;
+      font-size: 1.4rem;
+    }
+    .contribution-item-title-1 {
+      font-size: 1.4rem;
+    }
+    .contribution-item-title-2 {
+      font-size: 1.4rem;
+    }
+    .contribution-item-title-3 {
+      font-size: 1.4rem ;
+    }
+    .contribution-item-title-4 {
+      font-size: 1.4rem;
+    }
+  }
   @media only screen and (min-width: 667px) and (max-width:927px) and (orientation: landscape) {
     .not-change{
       width: auto;
@@ -434,7 +461,32 @@
   } 
   //======================================================================================================
   // Phone - portrait 
-  @media only screen and (min-width: 390px) and (max-width:500px) and (orientation: portrait) {
+  @media only screen and (min-width: 476px) and (max-width: 500px) and (orientation: portrait) {
+    .not-change{
+      width: auto;
+      height: 14rem;
+    }
+    .containerdetail-text{
+      width: 22rem; 
+      height : 9rem; 
+    }
+    .contribution-item-title-0 {
+      font-size : 6pt;
+    }
+    .contribution-item-title-1 {
+      font-size : 6pt;
+    }
+    .contribution-item-title-2 {
+      font-size : 6pt;
+    }
+    .contribution-item-title-3 {
+      font-size : 6pt;
+    }
+    .contribution-item-title-4 {
+      font-size : 6pt;
+    }
+  }
+  @media only screen and (min-width: 390px) and (max-width:475px) and (orientation: portrait) {
     .not-change{
       width: auto;
       height: 14rem;
@@ -444,19 +496,19 @@
       height : 9rem; 
     }
     .contribution-item-title-0 {
-      font-size : 7pt;
+      font-size : 5.5pt;
     }
     .contribution-item-title-1 {
-      font-size : 7pt;
+      font-size : 5.5pt;
     }
     .contribution-item-title-2 {
-      font-size : 7pt;
+      font-size : 5.56pt;
     }
     .contribution-item-title-3 {
-      font-size : 7pt;
+      font-size : 5.5pt;
     }
     .contribution-item-title-4 {
-      font-size : 7pt;
+      font-size : 5.5pt;
     }
   }
 
@@ -470,19 +522,19 @@
       height : 8.5rem; 
     }
     .contribution-item-title-0 {
-      font-size : 6pt;
+      font-size : 5pt;
     }
     .contribution-item-title-1 {
-      font-size : 6pt;
+      font-size : 5pt;
     }
     .contribution-item-title-2 {
-      font-size : 6pt;
+      font-size : 5pt;
     }
     .contribution-item-title-3 {
-      font-size : 6pt;
+      font-size : 5pt;
     }
     .contribution-item-title-4 {
-      font-size : 6pt;
+      font-size : 5pt;
     }
   }
 
@@ -509,19 +561,19 @@
     }
 
     .contribution-item-title-0 {
-      font-size : 6pt;
+      font-size : 5pt;
     }
     .contribution-item-title-1 {
-      font-size : 6pt;
+      font-size : 5pt;
     }
     .contribution-item-title-2 {
-      font-size : 6pt;
+      font-size : 5pt;
     }
     .contribution-item-title-3 {
-      font-size : 6pt;
+      font-size : 5pt;
     }
     .contribution-item-title-4 {
-      font-size : 6pt;
+      font-size : 5pt;
     }
   }
 
