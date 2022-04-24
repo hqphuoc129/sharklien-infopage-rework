@@ -4,7 +4,7 @@ import VietNam from '../../lang/vn.json';
 import English from '../../lang/en.json';
 import flatten from 'flat';
 
-const local = navigator.language; 
+const local = "vn"; 
 let lang;
 
 export const Context = createContext();
