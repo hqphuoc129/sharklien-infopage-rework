@@ -20,8 +20,8 @@
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 63rem; 
-  height: 30rem;
+  width: 79rem; 
+  height: 35rem;
 }
 
 .title-details {
@@ -35,7 +35,7 @@
 
 .not-change{
   width: auto;
-  height: 44rem;
+  height: 54rem;
 }
 
 .contribution-item-title-0 {
@@ -60,7 +60,7 @@
 .contribution-item-title-1 {
   position: absolute;
   top: 14%;
-  left: 10%;
+  left: 20%;
   font-weight: bold;
   cursor: pointer;
   font-family: 'Source Serif Pro',serif;
@@ -73,7 +73,7 @@
 .contribution-item-title-2 {
   position: absolute;
   top: 14%;
-  right: 10%;
+  right: 20%;
   cursor: pointer;
   font-size : 1.8rem;
   font-weight: bold;
@@ -84,7 +84,7 @@
 }
 .contribution-item-title-3 {
   position: absolute;
-  top: 44%;
+  top: 46%;
   right: 1%;
   cursor: pointer;
   font-size : 1.8rem;
@@ -382,7 +382,7 @@
   //==========================================================================================================
   //Phone - landscape 
 
-  @media only screen and (min-width: 1440px) and (max-width: 3000px) and (min-height: 1440) and (orientation: landscape) {
+  @media only screen and (min-width: 1440px) and (max-width: 3000px) and (min-height: 1440px) and (orientation: landscape) {
     .not-change{
       width: auto;
       height: 66rem;
