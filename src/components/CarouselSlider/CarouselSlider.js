@@ -4,7 +4,7 @@ import CarouselSliderImg1 from "components/CarouselSlider/assets/CarouselSliderI
 import CarouselSliderImg2 from "components/CarouselSlider/assets/CarouselSliderImg2.jpg";
 
 import CarouselSliderImg1en from "components/CarouselSlider/assets/CarouselSliderImg1-en.jpg";
-import CarouselSliderImg2en from "components/CarouselSlider/assets/CarouselSliderImg2-en.jpg";
+import CarouselSliderImg2en from "components/CarouselSlider/assets/CarouselSliderImg-2en.jpg";
 
 import CarouselSliderMobile from "components/CarouselSlider/assets/carousel-mobile.jpg"
 import CarouselSliderMobileen from "components/CarouselSlider/assets/carousel-mobile-en.jpg"
