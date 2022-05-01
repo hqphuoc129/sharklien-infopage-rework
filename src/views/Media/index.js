@@ -109,21 +109,23 @@ const Media = () => {
   const dispatch = useDispatch();
   //Test fetch by redux
   useEffect( () => {
-    dispatch(getData("http://js-post-api.herokuapp.com/api/posts?_limit=10&_page=1")); 
+    dispatch(getData("https://sharklien-backend.herokuapp.com/api/media/get-all-media-collection/image")); 
      
         }
   ,[])
 
   
   const data = useSelector(state => state.fetch);
-  //{console.log(data)} 
+  {console.log(data)} 
 
   return (
     <>
       <div>
         <Contribute_Descrpition img={HeaderQuoteImg} title={'MEDIA'} lightText={true} /> 
         <CustomSlider/>
-        <div className="media-news-title news-spacecing"><FormattedMessage id="media.title-baochi" defaultMessage={VietNam['media']['title-baochi']}/></div>
+        <div className="media-news-title news-spacecing">
+            <FormattedMessage id="media.title-baochi" defaultMessage={VietNam['media']['title-baochi']}/>
+        </div>
         <News/>
         <CarouselSlideContainer vidlist={vid} linkClass={"carousel-media"} title={<div className='media-news-title'><FormattedMessage id="media.title-vid" defaultMessage={VietNam['media']['title-vid']}/></div>} totalNum={3}/>
       </div>
