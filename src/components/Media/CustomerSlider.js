@@ -1,51 +1,41 @@
-import React, { Component } from "react";
+import React, {useEffect } from "react";
 import Slider from "react-slick";
 
+//Test fetch api 
+import {getData} from "../../actions/index"; 
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import {Carousel} from 'react-responsive-carousel';
+import {useDispatch,useSelector}from 'react-redux';
 
 
 const CustomSlider = (props) => {
-    const settings = {
-        customPaging: function(i) {
-          return (
-            <div >
-            <a >
-              <img  className="media-center-image" src={require(`../../views/Media/assets/${i + 1}.png`)} />
-            </a>
-            </div>
-          );
-        },
-        dots: true,
-        dotsClass: "slick-dots-style slick-thumb" ,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1
-      };
+
+  const dispatch = useDispatch();
+  //Test fetch by redux
+  useEffect( () => {
+    dispatch(getData("https://sharklien-backend.herokuapp.com/api/media/get-all-media-collection/image")); 
+     
+        }
+  ,[])
+
+  
+  const data = useSelector(state => state.fetch);
+
+  {console.log(data.data)}      
 
       return (
-        <div className="media-slider-container">
-        <Slider {...settings}>
-        <div>
-            <img className="media-slider-image" src={require("../../views/Media/assets/1.png")} />
+        <Carousel infiniteLoop autoPlay width="60%" centerMode stopOnHover>
+          {
+          data.data?.map((items) => (
+          <div key= {items.id} className="img_container" >
+            <img className="img_caur" src= {items.mediaList[0]} alt= {items.collectionName} />
+            <div className="div-hover">
+              <h2 className="title-collection">{items.collectionName}</h2>
+              <h2 className="numimg-collection">+ {items.mediaList.length}</h2>
+            </div>
           </div>
-          <div>
-            <img className="media-slider-image" src={require("../../views/Media/assets/2.png")} />
-          </div>
-          <div>
-             <img className="media-slider-image" src={require("../../views/Media/assets/3.png")} />
-          </div>
-          <div>
-            <img className="media-slider-image" src={require("../../views/Media/assets/4.png")} />
-          </div>
-          <div>
-            <img className="media-slider-image" src={require("../../views/Media/assets/5.png")} />
-          </div>
-          <div>
-            <img className="media-slider-image" src={require("../../views/Media/assets/6.png")} />
-          </div>
-
-        </Slider>
-      </div>
+      ))}
+        </Carousel>
       )
 
 }

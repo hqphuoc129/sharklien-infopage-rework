@@ -5,7 +5,7 @@ export const setData = (data) =>
 export const getData = (url) => {
     return (dispatch) => {
         axios.get(url)
-        .then((res) => { console.log(res.data) })
+        .then((res) => { dispatch(setData(res.data))})
         .catch ((error) => {
             console.log(error)
             })

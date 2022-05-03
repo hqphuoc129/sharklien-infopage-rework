@@ -106,17 +106,17 @@ const Media = () => {
       isOpen: false,
   })
 
-  const dispatch = useDispatch();
+  //const dispatch = useDispatch();
   //Test fetch by redux
-  useEffect( () => {
-    dispatch(getData("https://sharklien-backend.herokuapp.com/api/media/get-all-media-collection/image")); 
+  //useEffect( () => {
+  //  dispatch(getData("https://sharklien-backend.herokuapp.com/api/media/get-all-media-collection/image")); 
      
-        }
-  ,[])
+  //      }
+  //,[])
 
   
-  const data = useSelector(state => state.fetch);
-  {console.log(data)} 
+  //const data = useSelector(state => state.fetch);
+  //{console.log(data)} 
 
   return (
     <>
