@@ -5,6 +5,7 @@ import { HashRouter  } from 'react-router-dom';
 import { createStore,applyMiddleware } from 'redux'; 
 import allReducers from 'reducers/index';
 import { Provider } from 'react-redux';
+import SimpleReactLightbox from 'simple-react-lightbox';
 import thunk from 'redux-thunk'; 
 import Wrapper from 'components/Language';
 
@@ -14,9 +15,11 @@ ReactDOM.render(
   <React.StrictMode>
     <HashRouter >
       <Provider store={store}>
-        <Wrapper>
-          <App />
-        </Wrapper>
+        <SimpleReactLightbox>
+          <Wrapper>
+            <App />
+          </Wrapper>
+        </SimpleReactLightbox>
       </Provider>
     </HashRouter >
   </React.StrictMode>,
