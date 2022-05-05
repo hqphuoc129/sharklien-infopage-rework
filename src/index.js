@@ -5,9 +5,9 @@ import { HashRouter  } from 'react-router-dom';
 import { createStore,applyMiddleware } from 'redux'; 
 import allReducers from 'reducers/index';
 import { Provider } from 'react-redux';
-import SimpleReactLightbox from 'simple-react-lightbox';
 import thunk from 'redux-thunk'; 
 import Wrapper from 'components/Language';
+import {LightgalleryProvider} from 'react-lightgallery';
 
 
 const store = createStore(allReducers,applyMiddleware(thunk))
@@ -15,11 +15,11 @@ ReactDOM.render(
   <React.StrictMode>
     <HashRouter >
       <Provider store={store}>
-        <SimpleReactLightbox>
+        <LightgalleryProvider>
           <Wrapper>
             <App />
           </Wrapper>
-        </SimpleReactLightbox>
+          </LightgalleryProvider>
       </Provider>
     </HashRouter >
   </React.StrictMode>,

@@ -1,28 +1,13 @@
-import { SRLWrapper } from "simple-react-lightbox";
+import React from 'react';
+import {LightgalleryItem} from 'react-lightgallery';
 
-import React, {useEffect} from "react";
-
-const GalleryImage = (props) => {
-    const options = {
-    thumbnails: {
-        showThumbnails: true,
-    }
-}
-
-    useEffect(() => {
-
-    },[props.data])
+const GalleryImage = ({image, thumb, group}) => {
     return (
-        <SRLWrapper options ={options}>
-            {
-            props.data.data?.filter(
-                (link) => 
-             link.collectionName === props.collectionName
-            ).map(filtereditem => filtereditem.mediaList.map(item => (
-                <img src={item} alt={item}/>
-            )))
-            }
-        </SRLWrapper>
+    <div style={{ maxWidth: "250px", width: "200px", padding: "5px" }}>
+    <LightgalleryItem group={group} src={image} thumb={thumb}>
+      <img src={image} style={{ width: "100%" }} />
+    </LightgalleryItem>
+    </div>
     )
 }
 
