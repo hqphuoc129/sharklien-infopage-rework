@@ -1,6 +1,6 @@
-const fetchReducers = (state=[], action) => {
+const fetchNewReducers = (state=[], action) => {
     switch( action.type){
-        case 'SET_DATA': 
+        case 'SET_DATA_NEW': 
             return (state = action.data); 
         default: 
             return state;
@@ -8,4 +8,4 @@ const fetchReducers = (state=[], action) => {
 }
 
 
-export default fetchReducers; 
+export default fetchNewReducers; 

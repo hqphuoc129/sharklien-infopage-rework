@@ -1,8 +1,11 @@
 import { combineReducers } from "redux";
-import fetchReducers from '../reducers/fetch';
+import fetchNewReducers from "../reducers/fetchnew";
+import fetchImgReducers from '../reducers/fetchimg';
+
 
 const allReducers  = combineReducers({
-    fetch : fetchReducers,
+    fetchImg : fetchImgReducers,
+    fetchNew : fetchNewReducers,
 })
 
 

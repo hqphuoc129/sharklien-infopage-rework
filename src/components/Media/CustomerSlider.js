@@ -2,7 +2,7 @@ import React, {useEffect,useState,createContext} from "react";
 import Slider from "react-slick";
 
 //Test fetch api 
-import {getData} from "../../actions/index"; 
+import {getData_Image} from "../../actions/index"; 
 
 
 import "lightgallery.js/dist/css/lightgallery.css";
@@ -21,29 +21,29 @@ export const Context = createContext()
 
 const CustomSlider = (props) => {
 
-  const [collect , setCollect] = useState("")
+  const [collect , setCollect] = useState("");
   const { openGallery } =useLightgallery();
   const dispatch = useDispatch();
   //Test fetch by redux
   useEffect( () => {
-    dispatch(getData("https://sharklien-backend.herokuapp.com/api/media/get-all-media-collection/image"));  
+    dispatch(getData_Image("https://sharklien-backend.herokuapp.com/api/media/get-all-media-collection/image"));  
         }
   ,[])
 
 
-  const data = useSelector(state => state.fetch);
+  const data = useSelector(state => state.fetchImg);
   
   const the_data = data
 
-  //{console.log(data.data)}      
+  {console.log(data.data)}      
 
       return (
         <>
         <Context.Provider value={{collect, setCollect}}>
-        <Carousel infiniteLoop autoPlay width="70%" centerMode stopOnHover >
+        <Carousel  showIndicators={false} infiniteLoop autoPlay width="80%" centerMode stopOnHover >
           {
-          the_data.data?.map((items) => (
-          <div key= {items.id} className="img_container" >
+          data.data?.map((items) => (
+          <div key= {items.id} className="img_container">
             <img className="img_caur" src= {items.mediaList[0]} alt= {items.collectionName} />
             {console.log(collect)}
             <div className="div-hover" onClick={() => ( openGallery(items.collectionName), setCollect(items.collectionName))}>
@@ -55,7 +55,7 @@ const CustomSlider = (props) => {
           }
         </Carousel>
         <div style={{ display:"none" }}>
-           {the_data.data?.map( filtered => 
+           {data.data?.map( filtered => 
                 (filtered.mediaList.map((l, i) => 
                     <GalleryImage key ={i} image={l} thumb={l} group={filtered.collectionName} />
                 ))
